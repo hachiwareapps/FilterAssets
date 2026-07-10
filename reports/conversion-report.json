@@ -1,0 +1,691 @@
+{
+  "detailedReportsDirectory" : "reports\/blockerkit",
+  "generatedAt" : "2026-07-10T06:57:08Z",
+  "reports" : [
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_adservers.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "skippedLineCount" : 144,
+      "sourceFileName" : "adservers.txt",
+      "unsupportedRuleCount" : 43,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_adservers_firstparty.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers_firstparty.json",
+      "skippedLineCount" : 9,
+      "sourceFileName" : "adservers_firstparty.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_allowlist.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "skippedLineCount" : 7258,
+      "sourceFileName" : "allowlist.txt",
+      "unsupportedRuleCount" : 76,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_allowlist_stealth.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "skippedLineCount" : 1605,
+      "sourceFileName" : "allowlist_stealth.txt",
+      "unsupportedRuleCount" : 11,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 14,
+      "outputFileNames" : [
+        "adguard_base_antiadblock_chunk_001.json",
+        "adguard_base_antiadblock_chunk_002.json",
+        "adguard_base_antiadblock_chunk_003.json",
+        "adguard_base_antiadblock_chunk_004.json",
+        "adguard_base_antiadblock_chunk_005.json",
+        "adguard_base_antiadblock_chunk_006.json",
+        "adguard_base_antiadblock_chunk_007.json",
+        "adguard_base_antiadblock_chunk_008.json",
+        "adguard_base_antiadblock_chunk_009.json",
+        "adguard_base_antiadblock_chunk_010.json",
+        "adguard_base_antiadblock_chunk_011.json",
+        "adguard_base_antiadblock_chunk_012.json",
+        "adguard_base_antiadblock_chunk_013.json",
+        "adguard_base_antiadblock_chunk_014.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_antiadblock.json",
+      "skippedLineCount" : 5169,
+      "sourceFileName" : "antiadblock.txt",
+      "unsupportedRuleCount" : 1,
+      "webKitValidationSkippedRuleCount" : 6
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_banner_sizes.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_banner_sizes.json",
+      "skippedLineCount" : 42,
+      "sourceFileName" : "banner_sizes.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_content_blocker.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_content_blocker.json",
+      "skippedLineCount" : 650,
+      "sourceFileName" : "content_blocker.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_cryptominers.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_cryptominers.json",
+      "skippedLineCount" : 25,
+      "sourceFileName" : "cryptominers.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 12,
+      "outputFileNames" : [
+        "adguard_base_foreign_chunk_001.json",
+        "adguard_base_foreign_chunk_002.json",
+        "adguard_base_foreign_chunk_003.json",
+        "adguard_base_foreign_chunk_004.json",
+        "adguard_base_foreign_chunk_005.json",
+        "adguard_base_foreign_chunk_006.json",
+        "adguard_base_foreign_chunk_007.json",
+        "adguard_base_foreign_chunk_008.json",
+        "adguard_base_foreign_chunk_009.json",
+        "adguard_base_foreign_chunk_010.json",
+        "adguard_base_foreign_chunk_011.json",
+        "adguard_base_foreign_chunk_012.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "skippedLineCount" : 4808,
+      "sourceFileName" : "foreign.txt",
+      "unsupportedRuleCount" : 11,
+      "webKitValidationSkippedRuleCount" : 1
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_general_elemhide.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_elemhide.json",
+      "skippedLineCount" : 245,
+      "sourceFileName" : "general_elemhide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_general_extensions.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "skippedLineCount" : 2090,
+      "sourceFileName" : "general_extensions.txt",
+      "unsupportedRuleCount" : 8,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 8,
+      "outputFileNames" : [
+        "adguard_base_general_url_chunk_001.json",
+        "adguard_base_general_url_chunk_002.json",
+        "adguard_base_general_url_chunk_003.json",
+        "adguard_base_general_url_chunk_004.json",
+        "adguard_base_general_url_chunk_005.json",
+        "adguard_base_general_url_chunk_006.json",
+        "adguard_base_general_url_chunk_007.json",
+        "adguard_base_general_url_chunk_008.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "skippedLineCount" : 156,
+      "sourceFileName" : "general_url.txt",
+      "unsupportedRuleCount" : 23,
+      "webKitValidationSkippedRuleCount" : 1
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_base_replace.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_replace.json",
+      "skippedLineCount" : 124,
+      "sourceFileName" : "replace.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 47,
+      "outputFileNames" : [
+        "adguard_base_specific_chunk_001.json",
+        "adguard_base_specific_chunk_002.json",
+        "adguard_base_specific_chunk_003.json",
+        "adguard_base_specific_chunk_004.json",
+        "adguard_base_specific_chunk_005.json",
+        "adguard_base_specific_chunk_006.json",
+        "adguard_base_specific_chunk_007.json",
+        "adguard_base_specific_chunk_008.json",
+        "adguard_base_specific_chunk_009.json",
+        "adguard_base_specific_chunk_010.json",
+        "adguard_base_specific_chunk_011.json",
+        "adguard_base_specific_chunk_012.json",
+        "adguard_base_specific_chunk_013.json",
+        "adguard_base_specific_chunk_014.json",
+        "adguard_base_specific_chunk_015.json",
+        "adguard_base_specific_chunk_016.json",
+        "adguard_base_specific_chunk_017.json",
+        "adguard_base_specific_chunk_018.json",
+        "adguard_base_specific_chunk_019.json",
+        "adguard_base_specific_chunk_020.json",
+        "adguard_base_specific_chunk_021.json",
+        "adguard_base_specific_chunk_022.json",
+        "adguard_base_specific_chunk_023.json",
+        "adguard_base_specific_chunk_024.json",
+        "adguard_base_specific_chunk_025.json",
+        "adguard_base_specific_chunk_026.json",
+        "adguard_base_specific_chunk_027.json",
+        "adguard_base_specific_chunk_028.json",
+        "adguard_base_specific_chunk_029.json",
+        "adguard_base_specific_chunk_030.json",
+        "adguard_base_specific_chunk_031.json",
+        "adguard_base_specific_chunk_032.json",
+        "adguard_base_specific_chunk_033.json",
+        "adguard_base_specific_chunk_034.json",
+        "adguard_base_specific_chunk_035.json",
+        "adguard_base_specific_chunk_036.json",
+        "adguard_base_specific_chunk_037.json",
+        "adguard_base_specific_chunk_038.json",
+        "adguard_base_specific_chunk_039.json",
+        "adguard_base_specific_chunk_040.json",
+        "adguard_base_specific_chunk_041.json",
+        "adguard_base_specific_chunk_042.json",
+        "adguard_base_specific_chunk_043.json",
+        "adguard_base_specific_chunk_044.json",
+        "adguard_base_specific_chunk_045.json",
+        "adguard_base_specific_chunk_046.json",
+        "adguard_base_specific_chunk_047.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "skippedLineCount" : 1568,
+      "sourceFileName" : "specific.txt",
+      "unsupportedRuleCount" : 60,
+      "webKitValidationSkippedRuleCount" : 17
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_adservers.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_adservers.json",
+      "skippedLineCount" : 23,
+      "sourceFileName" : "adservers.txt",
+      "unsupportedRuleCount" : 1,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_adservers_firstparty.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_adservers_firstparty.json",
+      "skippedLineCount" : 9,
+      "sourceFileName" : "adservers_firstparty.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_allowlist.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_allowlist.json",
+      "skippedLineCount" : 217,
+      "sourceFileName" : "allowlist.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_antiadblock.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_antiadblock.json",
+      "skippedLineCount" : 226,
+      "sourceFileName" : "antiadblock.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_general_elemhide.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_elemhide.json",
+      "skippedLineCount" : 17,
+      "sourceFileName" : "general_elemhide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "adguard_japanese_general_extensions.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_extensions.json",
+      "skippedLineCount" : 195,
+      "sourceFileName" : "general_extensions.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 29,
+      "outputFileNames" : [
+        "adguard_japanese_general_url_chunk_001.json",
+        "adguard_japanese_general_url_chunk_002.json",
+        "adguard_japanese_general_url_chunk_003.json",
+        "adguard_japanese_general_url_chunk_004.json",
+        "adguard_japanese_general_url_chunk_005.json",
+        "adguard_japanese_general_url_chunk_006.json",
+        "adguard_japanese_general_url_chunk_007.json",
+        "adguard_japanese_general_url_chunk_008.json",
+        "adguard_japanese_general_url_chunk_009.json",
+        "adguard_japanese_general_url_chunk_010.json",
+        "adguard_japanese_general_url_chunk_011.json",
+        "adguard_japanese_general_url_chunk_012.json",
+        "adguard_japanese_general_url_chunk_013.json",
+        "adguard_japanese_general_url_chunk_014.json",
+        "adguard_japanese_general_url_chunk_015.json",
+        "adguard_japanese_general_url_chunk_016.json",
+        "adguard_japanese_general_url_chunk_017.json",
+        "adguard_japanese_general_url_chunk_018.json",
+        "adguard_japanese_general_url_chunk_019.json",
+        "adguard_japanese_general_url_chunk_020.json",
+        "adguard_japanese_general_url_chunk_021.json",
+        "adguard_japanese_general_url_chunk_022.json",
+        "adguard_japanese_general_url_chunk_023.json",
+        "adguard_japanese_general_url_chunk_024.json",
+        "adguard_japanese_general_url_chunk_025.json",
+        "adguard_japanese_general_url_chunk_026.json",
+        "adguard_japanese_general_url_chunk_027.json",
+        "adguard_japanese_general_url_chunk_028.json",
+        "adguard_japanese_general_url_chunk_029.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "skippedLineCount" : 29,
+      "sourceFileName" : "general_url.txt",
+      "unsupportedRuleCount" : 7,
+      "webKitValidationSkippedRuleCount" : 13
+    },
+    {
+      "outputFileCount" : 26,
+      "outputFileNames" : [
+        "adguard_japanese_specific_chunk_001.json",
+        "adguard_japanese_specific_chunk_002.json",
+        "adguard_japanese_specific_chunk_003.json",
+        "adguard_japanese_specific_chunk_004.json",
+        "adguard_japanese_specific_chunk_005.json",
+        "adguard_japanese_specific_chunk_006.json",
+        "adguard_japanese_specific_chunk_007.json",
+        "adguard_japanese_specific_chunk_008.json",
+        "adguard_japanese_specific_chunk_009.json",
+        "adguard_japanese_specific_chunk_010.json",
+        "adguard_japanese_specific_chunk_011.json",
+        "adguard_japanese_specific_chunk_012.json",
+        "adguard_japanese_specific_chunk_013.json",
+        "adguard_japanese_specific_chunk_014.json",
+        "adguard_japanese_specific_chunk_015.json",
+        "adguard_japanese_specific_chunk_016.json",
+        "adguard_japanese_specific_chunk_017.json",
+        "adguard_japanese_specific_chunk_018.json",
+        "adguard_japanese_specific_chunk_019.json",
+        "adguard_japanese_specific_chunk_020.json",
+        "adguard_japanese_specific_chunk_021.json",
+        "adguard_japanese_specific_chunk_022.json",
+        "adguard_japanese_specific_chunk_023.json",
+        "adguard_japanese_specific_chunk_024.json",
+        "adguard_japanese_specific_chunk_025.json",
+        "adguard_japanese_specific_chunk_026.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_specific.json",
+      "skippedLineCount" : 147,
+      "sourceFileName" : "specific.txt",
+      "unsupportedRuleCount" : 2,
+      "webKitValidationSkippedRuleCount" : 2
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_adservers.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_adservers.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "adult_adservers.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_adservers_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_adservers_popup.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "adult_adservers_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_allowlist.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_allowlist.json",
+      "skippedLineCount" : 3,
+      "sourceFileName" : "adult_allowlist.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 0,
+      "outputFileNames" : [
+
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_allowlist_popup.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "adult_allowlist_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_specific_block.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "skippedLineCount" : 7,
+      "sourceFileName" : "adult_specific_block.txt",
+      "unsupportedRuleCount" : 5,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_specific_block_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block_popup.json",
+      "skippedLineCount" : 3,
+      "sourceFileName" : "adult_specific_block_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_specific_hide.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_hide.json",
+      "skippedLineCount" : 6,
+      "sourceFileName" : "adult_specific_hide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_thirdparty.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_thirdparty.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "adult_thirdparty.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_adult_adult_thirdparty_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_thirdparty_popup.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "adult_thirdparty_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 16,
+      "outputFileNames" : [
+        "easylist_easylist_adservers_chunk_001.json",
+        "easylist_easylist_adservers_chunk_002.json",
+        "easylist_easylist_adservers_chunk_003.json",
+        "easylist_easylist_adservers_chunk_004.json",
+        "easylist_easylist_adservers_chunk_005.json",
+        "easylist_easylist_adservers_chunk_006.json",
+        "easylist_easylist_adservers_chunk_007.json",
+        "easylist_easylist_adservers_chunk_008.json",
+        "easylist_easylist_adservers_chunk_009.json",
+        "easylist_easylist_adservers_chunk_010.json",
+        "easylist_easylist_adservers_chunk_011.json",
+        "easylist_easylist_adservers_chunk_012.json",
+        "easylist_easylist_adservers_chunk_013.json",
+        "easylist_easylist_adservers_chunk_014.json",
+        "easylist_easylist_adservers_chunk_015.json",
+        "easylist_easylist_adservers_chunk_016.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "skippedLineCount" : 15,
+      "sourceFileName" : "easylist_adservers.txt",
+      "unsupportedRuleCount" : 10,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 10,
+      "outputFileNames" : [
+        "easylist_easylist_adservers_popup_chunk_001.json",
+        "easylist_easylist_adservers_popup_chunk_002.json",
+        "easylist_easylist_adservers_popup_chunk_003.json",
+        "easylist_easylist_adservers_popup_chunk_004.json",
+        "easylist_easylist_adservers_popup_chunk_005.json",
+        "easylist_easylist_adservers_popup_chunk_006.json",
+        "easylist_easylist_adservers_popup_chunk_007.json",
+        "easylist_easylist_adservers_popup_chunk_008.json",
+        "easylist_easylist_adservers_popup_chunk_009.json",
+        "easylist_easylist_adservers_popup_chunk_010.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers_popup.json",
+      "skippedLineCount" : 4,
+      "sourceFileName" : "easylist_adservers_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 3
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_allowlist.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_allowlist.json",
+      "skippedLineCount" : 45,
+      "sourceFileName" : "easylist_allowlist.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_allowlist_dimensions.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_allowlist_dimensions.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "easylist_allowlist_dimensions.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 0,
+      "outputFileNames" : [
+
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_allowlist_general_hide.json",
+      "skippedLineCount" : 7,
+      "sourceFileName" : "easylist_allowlist_general_hide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_allowlist_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_allowlist_popup.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "easylist_allowlist_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_general_block.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_general_block.json",
+      "skippedLineCount" : 30,
+      "sourceFileName" : "easylist_general_block.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_general_block_dimensions.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_general_block_dimensions.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "easylist_general_block_dimensions.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_general_block_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_general_block_popup.json",
+      "skippedLineCount" : 3,
+      "sourceFileName" : "easylist_general_block_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 5,
+      "outputFileNames" : [
+        "easylist_easylist_general_hide_chunk_001.json",
+        "easylist_easylist_general_hide_chunk_002.json",
+        "easylist_easylist_general_hide_chunk_003.json",
+        "easylist_easylist_general_hide_chunk_004.json",
+        "easylist_easylist_general_hide_chunk_005.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_general_hide.json",
+      "skippedLineCount" : 54,
+      "sourceFileName" : "easylist_general_hide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_specific_block.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "skippedLineCount" : 18,
+      "sourceFileName" : "easylist_specific_block.txt",
+      "unsupportedRuleCount" : 6,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_specific_block_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block_popup.json",
+      "skippedLineCount" : 6,
+      "sourceFileName" : "easylist_specific_block_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 3,
+      "outputFileNames" : [
+        "easylist_easylist_specific_hide_chunk_001.json",
+        "easylist_easylist_specific_hide_chunk_002.json",
+        "easylist_easylist_specific_hide_chunk_003.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_hide.json",
+      "skippedLineCount" : 29,
+      "sourceFileName" : "easylist_specific_hide.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_specific_hide_abp.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_hide_abp.json",
+      "skippedLineCount" : 4,
+      "sourceFileName" : "easylist_specific_hide_abp.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_thirdparty.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_thirdparty.json",
+      "skippedLineCount" : 9,
+      "sourceFileName" : "easylist_thirdparty.txt",
+      "unsupportedRuleCount" : 1,
+      "webKitValidationSkippedRuleCount" : 0
+    },
+    {
+      "outputFileCount" : 1,
+      "outputFileNames" : [
+        "easylist_easylist_thirdparty_popup.json"
+      ],
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_thirdparty_popup.json",
+      "skippedLineCount" : 1,
+      "sourceFileName" : "easylist_thirdparty_popup.txt",
+      "unsupportedRuleCount" : 0,
+      "webKitValidationSkippedRuleCount" : 0
+    }
+  ],
+  "schemaVersion" : 1,
+  "summary" : {
+    "inputReportCount" : 47,
+    "outputResourceCount" : 205,
+    "skippedLineCount" : 25008,
+    "unsupportedRuleCount" : 265,
+    "webKitValidationSkippedRuleCount" : 43
+  }
+}
