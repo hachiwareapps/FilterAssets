@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-10T04:53:58Z",
+  "package": "FilterAssets",
+  "license": "GPL-3.0-only",
+  "sources": [
+    {
+      "id": "adguard_filters",
+      "name": "AdGuard Filters",
+      "upstreamURL": "https://github.com/AdguardTeam/AdguardFilters",
+      "gitURL": "https://github.com/AdguardTeam/AdguardFilters.git",
+      "ref": "refs/heads/master",
+      "commit": "d39891819f266ffb17d31a1329d0b323dac6ee53",
+      "archiveURL": "https://github.com/AdguardTeam/AdguardFilters/archive/d39891819f266ffb17d31a1329d0b323dac6ee53.zip",
+      "retrievedAt": "2026-07-10T04:53:52Z",
+      "license": "GPL-3.0-only",
+      "includedDirectories": [
+        {
+          "path": "BaseFilter/sections",
+          "outputPrefix": "adguard_base"
+        },
+        {
+          "path": "JapaneseFilter/sections",
+          "outputPrefix": "adguard_japanese"
+        }
+      ]
+    },
+    {
+      "id": "easylist",
+      "name": "EasyList",
+      "upstreamURL": "https://github.com/easylist/easylist",
+      "gitURL": "https://github.com/easylist/easylist.git",
+      "ref": "refs/heads/master",
+      "commit": "b7173ca046a51d253065b98266a44ada287f583b",
+      "archiveURL": "https://github.com/easylist/easylist/archive/b7173ca046a51d253065b98266a44ada287f583b.zip",
+      "retrievedAt": "2026-07-10T04:53:54Z",
+      "license": "GPL-3.0-only",
+      "licenseSelection": "The EasyList repository is dual licensed; this package uses the GPLv3 option.",
+      "includedDirectories": [
+        {
+          "path": "easylist",
+          "outputPrefix": "easylist"
+        },
+        {
+          "path": "easylist_adult",
+          "outputPrefix": "easylist_adult"
+        }
+      ]
+    }
+  ],
+  "excludedPackages": [
+    {
+      "name": "FilterPrivateAssets",
+      "reason": "First-party private rules are published separately and are not included in the GPL third-party FilterAssets package."
+    }
+  ]
+}
