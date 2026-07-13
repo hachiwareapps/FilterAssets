@@ -1,0 +1,3121 @@
+{
+  "outputFileNames" : [
+    "easylist_easylist_specific_hide_abp.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 1,
+        "source" : "dev.to##.crayons-card:has(.sponsorship-dropdown)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 2,
+        "source" : "2fa.live#?#p:has-text(Advertising)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 3,
+        "source" : "404media.co#?#.post__content > p:has-text(This segment is a paid ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 4,
+        "source" : "acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 5,
+        "source" : "agoda.com#?#.PropertyCardItem:has(div:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 6,
+        "source" : "alibaba.com#?#.J-offer-wrapper:has-text(Top sponsor listing)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 7,
+        "source" : "amusingplanet.com#?#.blockTitle:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 8,
+        "source" : "androidauthority.com#?#div[class=\"e_Qi\"]:has-text(Trending Tech Deals)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 9,
+        "source" : "androidauthority.com#?#div[class=\"e_Rc e_d\"]:has-text(Affiliate links on Android Authority may earn us a commission)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 10,
+        "source" : "androidauthority.com#?#div[class=\"e_ei\"]:has-text(Trending Tech Deals)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 11,
+        "source" : "androidauthority.com#?#div[class=\"e_ic e_d\"]:has-text(Affiliate links on Android Authority may earn us a commission)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "anfieldindex.com#?#aside[data-animation-event]:has-text(PARTNERS)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 13,
+        "source" : "animalfunfacts.net#?#center:has-text(ADVERT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "app.daily.dev#?#article:has-text(Promoted)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "appleinsider.com#?#div.main-art:has-text(Sponsored Content)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "argos.co.uk#?#.ds-c-grid-item:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "argos.co.uk#?#[data-test^=\"component-slider-slide-\"]:has-text(SPONSORED)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:has-text(\/Sponsorisé|Sponsored\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid=\"card\"]:has-text(sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "autoevolution.com#?#.mgtop_20.nxart:has-text(#ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "autotrader.co.uk#?#[data-testid=\"desktop-search\"] li:has(span:has-text(Ad))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "autotrader.com#?#.inventory-listing:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "autotrader.com#?#[data-cmp=\"PremiumSpotlightContainer\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "autotrader.com#?#[data-cmp=\"delayedImpressionWaypoint\"]:has-text(SPONSORED)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "backpack.tf,backpacktf.com#?#.panel:has-text(createAd)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "bayequest.com#?#.elementor-section:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com#?#.mb32.b-gray300:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com#?#.b-gray300:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "beincrypto.com#?#.before-author-block-bio:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 31,
+        "source" : "belloflostsouls.net#?#span.text-secondary:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "bestbuy.com#?#.plp-ninja-carousel:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 33,
+        "source" : "bestbuy.com#?#div[data-testid=\"Row_testID\"]:has(span:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "bitchute.com#?#.row.justify-center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "bitcoinsensus.com#?#.e-con-inner:has-text(Our Favourite Trading Platforms)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "bjs.com#?#[data-cnstrc-recommendations]:has-text(Sponsored Products)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "bleepingcomputer.com#?#.cz-line-heading:has-text(Sponsor Posts)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 38,
+        "source" : "bleepingcomputer.com#?#.cz-line-heading:has-text(Sponsor Posts) + ul[style=\"padding-top:5px;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "bleepingcomputer.com#?#.post_wrap:has-text(AdBot)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "bleepingcomputer.com#?#ul#bc-home-news-main-wrap > li:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 41,
+        "source" : "blockchair.com#?#.fs-sm.flow:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "boatnews.com#?#div.p:has-text(Advertising)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 43,
+        "source" : "bolnews.com#?#[style*=\"center\"]:has-text(Ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "booking.com#?#div[data-testid=\"property-card\"]:has(span:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 45,
+        "source" : "boots.com#?#.oct-listers-hits__item:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(News & insights from our commercial partners)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 47,
+        "source" : "capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*=\"&aem_p4p_detail=\"] div[class*=\"cards--image--\"] > div[class*=\"multi--ax--\"]:has-text(\/^(?:AD|An[uú]ncio|광고|広告)$\/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*=\"&aem_p4p_detail=\"]))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 49,
+        "source" : "china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "cleantechnica.com#?#.zox-side-widget:has-text(\/^Advertis\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 51,
+        "source" : "coincarp.com#?#.border-bottom:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\\:justify-normal.lg\\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:has-text(Sponsored by))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 53,
+        "source" : "cointelegraph.com#?#li.group-\\[\\.inline\\]\\:mb-8:has-text(Ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "coles.com.au#?#.list-item[role=\"presentation\"]:has([data-testid=\"product-tile\"]:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 56,
+        "source" : "comfig.app#?#.card:has-text(Partnered)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "coolors.co#?#a:has(div:last-child:has-text(Hide))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:has(> h4.block-title > span:has-text(Visit Our Sponsors))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 59,
+        "source" : "costco.com#?#[data-testid=\"shoppable-list-container\"]:has-text(Spons)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "cruisecritic.co.uk,cruisecritic.com#?#div[role=\"group\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 61,
+        "source" : "cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "cvs.com#?#div[class*=\"flex-col\"]:has(>h2:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 63,
+        "source" : "deccanherald.com#?#div#container-text:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "deccanherald.com#?#span.container-text:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "decrypt.co#?#span:has-text(AD)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 66,
+        "source" : "defkey.com#?#.visible-lg:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "dev.to#?#div[data-display-unit]:has(span:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 68,
+        "source" : "dexscreener.com#?#.chakra-link:has-text(Advertise)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "dictionary.com,thesaurus.com#?#[class] > p:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "digg.com#?#article.relative:has(div:has-text(SPONSORED))"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "deccanherald.com##div:has(> div > .ad-background)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "qz.com##div[class^=\"sc-\"]:has(> div[class=\"ad-unit\"])"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 73,
+        "source" : "qz.com##div[class^=\"sc-\"]:has(> div[is=\"bulbs-dfp\"])"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : "deccanherald.com##div[style^=\"min-height\"]:has(> div > div[id*=\"-ad-separator\"])"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "docs.openwebui.com#?#.markdown > .w-full:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "docs.openwebui.com#?#.pb-4 > .mb-2:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 77,
+        "source" : "dotesports.com#?#.wp-block-gamurs-article-tile:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "downforeveryoneorjustme.com#?#.relative.bg-white:has-text(PolyBuzz)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 79,
+        "source" : "downornot.net#?#.border-blue-500\\\/20:has-text(Special offer)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "dropstab.com#?#.bg-slate-100:has-text(Ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 81,
+        "source" : "dropstab.com#?#.bottom-0.gap-2:has-text(\/Stake Now|Invest Now\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "engadget.com#?#.justify-center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "english.mathrubhumi.com#?#.psd\\:px-0.px-\\[10px\\]:has-text(To advertise here)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "etherscan.io#?#section.container-xxl > .py-4:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : "euronews.com#?#.m-object:has(.m-object__quote:has-text(\/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "euronews.com#?#.the-media-object--has-sponsored:has-text(\/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 87,
+        "source" : "eztv.tf,eztv.yt#?#tbody:has-text(WARNING! Use a)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "filehippo.com#?#article.card-article:has(span.card-article__author:has-text(Sponsored Content))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 89,
+        "source" : "fiverr.com#?#.gig-card-layout:has-text(Ad by)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : "flipkart.com#?#.fWi7J_:has-text(Brands In Spotlight)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 91,
+        "source" : "flipkart.com#?#.grid-formation:has(div:has-text(AD))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 92,
+        "source" : "foobar2000.org#?#caption:has-text(advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 93,
+        "source" : "foodlion.com#?#.product-grid-cell:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 94,
+        "source" : "freshdirect.com#?#.swiper-slide:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 95,
+        "source" : "fxempire.com#?#span[display=\"inline-block\"]:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "gamepadla.com#?#.pMain:has-text(Partner)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 97,
+        "source" : "gamersnexus.net#?#.moduleContent:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "ganjapreneur.com#?#.has-background:has-text(Featured whitepaper)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 99,
+        "source" : "giantfood.com,giantfoodstores.com,martinsfoods.com#?#.pdl-generic-content_full:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 100,
+        "source" : "giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "globalchinaev.com#?#p.content-center:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 102,
+        "source" : "hannaford.com#?#.header-2:has-text(Sponsored Suggestions)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 103,
+        "source" : "haveibeenpwned.com#?#.card-glow:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "source" : "health.harvard.edu#?#.border-t:has-text(You might also be interested in)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "heb.com#?#div:has(> div > div[class^=\"Carousel_wrapper\"]:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "heb.com#?#div:has(> div > div[class^=\"ModuleSet_moduleSetContainer\"]:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "heb.com#?#div[class^=\"sc-\"]:has(> div[data-qe-id=\"productCard\"]:has-text(Promoted))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "historic-uk.com#?#.article-sidebar:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "infographicjournal.com#?#.et_pb_module:has-text(Partners)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "infographicjournal.com#?#.et_pb_module:has-text(Partners) + .et_pb_module"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "infographicjournal.com#?#.et_pb_widget:has-text(Partners)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : "instagram.com#?#div[style=\"max-height: inherit; max-width: inherit; display: none !important;\"]:has(span:has-text(Paid partnership with ))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "instagram.com#?#div[style=\"max-height: inherit; max-width: inherit; display: none !important;\"]:has(span:has-text(Paid partnership))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 114,
+        "source" : "instagram.com#?#div[style=\"max-height: inherit; max-width: inherit;\"]:has(span:has-text(Paid partnership with ))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "kids-in-mind.com#?#.et_pb_code_inner:has-text(advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 116,
+        "source" : "kijiji.ca#?#[data-testid^=\"listing-card-list-item-\"]:has-text(TOP AD)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 117,
+        "source" : "kogan.com#?#._2EeeR:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 118,
+        "source" : "kogan.com#?#.rs-infinite-scroll > div:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "source" : "kogan.com#?#.slider-slide:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "kohls.com#?#[component-export=\"KmnMarqueeBannerWrapper\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "source" : "kohls.com#?#[id^=\"kmn-leaderboard-\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:has-text(Sponsored Articles)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 123,
+        "source" : "leadership.ng#?#.jeg_postblock:has-text(SPONSORED)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "source" : "linkedin.com#?#.msg-overlay-list-bubble__conversations-list:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "source" : "linkedin.com#?#[componentkey*=\"MAIN_FEED_RECENT\"] > [data-display-contents]:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "source" : "linkedin.com#?#[componentkey*=\"MAIN_FEED_RELEVANCE\"] > [data-display-contents]:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "source" : "linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__description:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__sub-description--tla:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 129,
+        "source" : "linkedin.com#?#div.feed-shared-update-v2:has(span.update-components-actor__sub-description:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "linkedin.com#?#div[data-testid=\"mainFeed\"] > div[data-display-contents=\"true\"]:has(p:has-text(\/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "loblaws.ca#?#[data-testid=\"product-grid\"]>div:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : "loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:has-text(Featured Items)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "lovenovels.net#?#center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "lyngsat.com#?#font > [href] > font:has-text(Advertisements)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "magazine.raspberrypi.com#?#.bg-rpi-grey-100:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 136,
+        "source" : "mapchart.net#?#.row:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 137,
+        "source" : "mapquest.co.uk#?#.z-10.justify-center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "mobalytics.gg#?#aside > [class]:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 139,
+        "source" : "motortrend.com#?#.lg\\:p-8.p-6:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "moviebite.cc#?#.transition-all.overflow-hidden.w-full:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 141,
+        "source" : "neowin.net#?#.ipsColumns_collapsePhone.classes:has-text(Our Sponsors)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "nerdwallet.com#?#._3JhNDX:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 143,
+        "source" : "netflixjunkie.com#?#[style=\"text-align:center\"]:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : "newegg.com#?#.product-banner:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 145,
+        "source" : "news.yahoo.com#?#div.md\\:block:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "nextdoor.com#?#[data-v3-view-type=\"V3Wrapper\"]:has(> [data-testid=\"feed-item-visibility-tracker\"]:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 147,
+        "source" : "nextdoor.com#?#div[data-testid=\"feed-item-card\"]:has(span[class^=\"reset_\"]:has-text(А⁠d))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "noelleeming.co.nz#?#div.product-tile:has(span:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "noon.com#?#.swiper-slide:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 150,
+        "source" : "noon.com#?#span[class*=\"productContaine\"]:has(div:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 151,
+        "source" : "nordstrom.com#?#article:has(.Yw5es:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "nordstrom.com#?#ul[style^=\"padding: 0px; position: relative;\"] > li[class]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 153,
+        "source" : "nzherald.co.nz#?#section.section-chain--triple-image:has-text(Property news from OneRoof)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "nzherald.co.nz#?#section:has-text(Partner content)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "perplexity.ai#?#.py-sm.group:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "pexels.com#?#[data-testid=\"column\"] [data-testid=\"item\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "producthunt.com#?#.cursor-pointer:has-text(Promoted)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "producthunt.com#?#.text-12:has-text(Promoted)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "producthunt.com#?#div[class=\"flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4\"]:has-text(Promoted)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "property24.com#?#.p24_tileContainer:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "provigo.ca#?#.css-1nhzth8:has-text(\/sponsorisé|sponsored\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "psprices.com#?#.creative:has-text(remove advertising)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 163,
+        "source" : "pushsquare.com#?#span:has-text(or Subscribe)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "winaero.com#?##qcihrbv5 > p:has-text(Tip)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "qvc.com#?#.qModule:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "rclone.org#?#.card:has(.card-header:has-text(Sponsor))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "regex101.com#?#div > header + div > div + div:has-text(Sponsors)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "rome2rio.com#?#[data-testid=\"hotel-list-item\"]:has-text(Ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 169,
+        "source" : "rome2rio.com#?#div[aria-labelledby=\"schedules-header\"] > div > div:has-text(Ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "sainsburys.co.uk#?#.pt-grid-item:has([data-testid=\"citrus-label\"]:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 171,
+        "source" : "sainsburys.co.uk#?#section header[data-test=\"c006-container-wrapper\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "sainsburys.co.uk#?#section[class=\"ln-o-section ln-u-hard-bottom ln-u-margin-top*2\"]:has-text(Sponsored) + section[class=\"ln-o-section ln-u-hard-bottom ln-u-margin-top*2\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 173,
+        "source" : "salon.com#?#.title:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "samsclub.com#?#li[data-slide]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 175,
+        "source" : "scamwarners.com#?#center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "sciencenews.org#?#p:has-text(Sponsor Message)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : "search.yahoo.com#?#div.mb-28:has(span:has-text(Ads))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "seattleweekly.com#?#.marketplace-row:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : "semafor.com#?#.suppress-rss:has(:has-text(Supported by))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "sephora.com#?#div[class^=\"css-\"]:has(>a:has(span:has-text(Sponsored)))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 181,
+        "source" : "sfyimby.com#?#.textwidget:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "shipt.com#?#div.swiper-slide:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 183,
+        "source" : "shipt.com#?#li[class]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "shopee.sg#?#.shopee-header-section:has(> .shopee-header-section__content:has-text(Ad))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "shopee.sg#?#div[class=\"N_YeYe\"]:has(> .shopee_ic:has-text(Ad))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "shopee.sg#?#div[class=\"oMSmr0\"]:has(> .shopee_ic:has-text(Ad))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 187,
+        "source" : "slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "slashdot.org#?#.grid_24:has-text(Featured Content)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "songbpm.com#?#div.mb-6:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "spigotmc.org#?#[style=\"text-align: center\"]:has-text(sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "sprouts.com#?#li.product-wrapper:has(span:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsored products:))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 195,
+        "source" : "stocktwits.com#?#.is-visible:has-text(Remove ads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "stocktwits.com#?#.leading-\\[16px\\]:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "gsmarena.com#?##subHeader3:has-text(daily deals)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "target.com#?#.ProductRecsLink-sc-4mw94v-0:has(p:has-text(sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 199,
+        "source" : "target.com#?#.styles_ndsCarouselItem__dnUkr:has(p.h-text-sm:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "target.com#?#[class*=\"styledCarouselItem\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "target.com#?#[data-test=\"ProductCardVariantRecommendation\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "target.com#?#[data-test=\"productCardVariantRecommendation\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "target.com#?#div[class^=\"styles_productCardVariantMiniWrapper_\"]:has(div.h-text-sm:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "target.com#?#div[data-test=\"@web\/ProductCard\/ProductCardVariantAisle\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "target.com#?#div[data-test=\"@web\/site-top-of-funnel\/ProductCardWrapper\"]:has-text(sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "target.com#?#div[data-test=\"addToCartSuccessModalRecommendationsTile\"]:has(p.h-text-xs:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "techonthenet.com#?#div[class] > p:has-text(Advertisements)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "telugupeople.com#?#table:has(> tbody > tr > td > a:has-text(Advertisements))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 209,
+        "source" : "temu.com#?#.EKDT7a3v:has-text(AD)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "temu.com#?#.goods-container:has-text(AD)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 211,
+        "source" : "temu.com#?#.splide__slide:has-text(AD)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "theblock.co#?#.py-4.my-6:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 213,
+        "source" : "thedailywtf.com#?#.article-body > div:has-text([Advertisement])"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "source" : "thingiverse.com#?#.item-card-container:has-text(\/^Ad$\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 215,
+        "source" : "timesofindia.indiatimes.com#?#div[data-type=\"in_view\"]:has(> div > span:has-text(Tired of too many ads?))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "tlgrm.eu#?#.cfeed-card:has-text(Promoted post)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "tossinggames.com#?#tbody:has-text(Please visit our below advertisers)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "tripadvisor.com#?#.cAWGu:has(a:has-text(Similar Sponsored Properties))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 219,
+        "source" : "tripadvisor.com#?#.tkvEM:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 220,
+        "source" : "tripadvisor.com#?#[aria-label=\"Map marker\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "tripadvisor.com#?#[data-test=\"SL_list_item\"]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 222,
+        "source" : "tumlook.com#?#article:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "twitter.com,x.com#?#h2[role=\"heading\"]:has-text(\/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 224,
+        "source" : "ulta.com#?#li.ProductListingResults__productCard:has(.ProductCard__badge:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 225,
+        "source" : "vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "weather.com#?#.bg-gray-100:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "wings.io#?#.form-group center:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "wltreport.com#?#.code-block:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "woot.com#?#[dir=\"auto\"]:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "www.yahoo.com#?#.uppercase.text-xs:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "yahoo.com#?#.leading-3:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "yahoo.com#?#.md\\:block.dark\\:bg-ramones:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "yahoo.com#?#div.md\\:block.pb-5:has-text(Advertisement)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "yourstory.com#?#[width]:has-text(ADVERTISEMENT)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "bing.com#?#.ta_c:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "bing.com#?#li.b_algo:has(.rms_img[src*=\"id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F\"]):has(.tptt:has-text(\/^([Aa]mazon(\\.[acdefinps][aeglnorst]m?\\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\\.com|eBay|eDreams|Lenovo US|Trip\\.com|Tripadvisor|Walmart)$\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 241,
+        "source" : "kaufland.*#?#.recommender-wrapper:has-text(Gesponsert)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "manomano.*#?#.Ssfiu-:has-text(\/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "manomano.*#?#[data-testid=\"productCardListing\"]:has-text(\/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "modivo.*#?#.banner:has-text(\/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "modivo.*#?#.product:has-text(\/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 246,
+        "source" : "tripadvisor.*#?#.AaFRW:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "tripadvisor.*#?#[data-automation=\"crossSellShelf\"] div:has(> span:has-text(Sponsored))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "tripadvisor.*#?#[data-automation=\"relatedStories\"] div > div:has(a:has-text(SPONSORED))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 249,
+        "source" : "tripadvisor.*#?#div[class=\"JYrkj w\"]:has(span:has-text(In partnership with))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "tripadvisor.*#?#div[class=\"JYrkj w\"]:has(span:has-text(Sponsored by))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "walmart.*#?#div > div[io-id]:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "walmart.*#?#div[role=\"group\"]:has(div:has-text(\/Sponsored|Commandité\/))"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "yelp.*#?#main[class^=\"searchResultsContainer\"] li h2:has-text(Sponsored)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "yts.*#?#.bbj:has-text(Warning)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "yts.*#?#.col-lg-12:has-text(\/Please enable|indirirken\/)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 257,
+        "source" : "6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com,abcotvs.net##.nav.sticky {top:0px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "abcnews.com,abcnews.go.com##.navigation--has-subnav {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "benzinga.com##.cUDaEv {margin-top:162px !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "benzinga.com##.gZyLpV .mobile-header {margin-top:0 !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "benzinga.com##.iOxiqE .mobile-header {margin-top:0 !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,hulldailymail.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk##.sticky ~ header {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "dailystar.co.uk##[data-testid=\"commercial-above-header-box-1\"] {remove:true;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "datanodes.to##.bg-white\\\/50.border.p-8 {visibility:hidden !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 265,
+        "source" : "distrowatch.com##.TablesTitle > div:not([style=\"padding\"]) {width:100%;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 266,
+        "source" : "euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 267,
+        "source" : "hindustantimes.com##body {padding-top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "iflscience.com###Billboard {height:0px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "ilmeteo.it###banner-mnz-topleft {height:80px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "metoffice.gov.uk##.header {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "metoffice.gov.uk##.map {top:52px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "mindbodygreen.com##aside {background:transparent;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "mirror.co.uk##.sticky ~ header {top:0px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "praxistipps.chip.de,praxistipps.focus.de,netmoms.de###G32 {grid-template-rows:unset;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "read.amazon.*###readerChromeOverlayBottom.readerChromeOverlayBottom-banner-desktop {bottom:0 !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 276,
+        "source" : "sneakernews.com##.site-header {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "taste.com.au##.main-header {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "tribuna.com##body {overflow:auto;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "twitch.tv##.video-player--stream-display-ad_lower-third {height:100% !important;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "velo.outsideonline.com##main {margin-top:10px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 281,
+        "source" : "w3schools.com###tryitLeaderboard ~ #container {top:48px;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "w3schools.com##.trytopnav {top:0;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 283,
+        "source" : "wunderground.com##.content-wrap #inner-wrap {height:100vh;}"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "yourdictionary.com##.header {top:0;}"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 33,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 33,
+      "parsedRules" : 281,
+      "skippedLines" : 4,
+      "totalLines" : 285,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 248
+    }
+  },
+  "sourceFileName" : "easylist_specific_hide_abp.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
