@@ -1,0 +1,1822 @@
+{
+  "outputFileNames" : [
+    "adguard_base_replace.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 10,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||abs.twimg.com\/responsive-web\/client-web\/main.$script,replace=\/t\\.isTrue\\(\"rweb_home_jot_context_enabled\"\\)\/false\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 12,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||dynamic-manifest.hulustream.com\/hulu*playlist.m3u8$replace=\/#EXT-X-DATERANGE:ID=\".*?ad\".*?\\n[\\s\\S]*?(?=#EXT-X-DATERANGE:ID=)\/\/,domain=hulu.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 17,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||saracroche.org\/|$replace=\/(<!doctype html><html><head><meta content=\"0; url=https:\\\/\\\/.+\" http-equiv=refresh>)\\$\/\\$1<\\\/head><\\\/html>\/,document"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 25,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||marketjs.cdn.start.gg\/*\/v*\/game.js$replace=\/this\\['rewardedVideoResult'\\]\\(!0x1\\);\/this['rewardedVideoResult'](!0x0);\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 29,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||4khd.com\/content\/$replace=\/^((?!<style>)[\\s\\S])*<\\\/style>\\n<style\/<style\/,document"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 32,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||disqus.com\/recommendations.js$replace=\/\\.width=\"calc\\(100% - 310px\\)\":\/.width=\"100%\":\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 37,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||giphy.com^$replace=\/\"hasTopLeaderboardAd\\\\\":true\/\"hasTopLeaderboardAd\\\\\":false\/,document"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 40,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||players.brightcove.net\/*\/default_default\/index.min.js$replace=\/if\\(.\\.getPlugin\\(\"ssai\"\\)\\)\/if(!0)\/,domain=nhl.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 44,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||transfermarkt.com.tr^$replace=\/<tm-consent[\\s\\S]*?<\\\/tm-consent>(<!DOCTYPE html>)\/\\$1\/,document"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 46,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||nbalpng.akamaized.net\/vod-pz\/a\/hls-wvpr\/*.m3u8$replace=\/#EXT-X-DATERANGE:ID=\"AD-BREAK:[\\s\\S]*?(\\.googlevideo\\\/|fwmrm\\.net)[\\s\\S]*?#EXT-X-DISCONTINUITY\/\/,domain=nba.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 48,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||10.com.au\/js\/ShowsIndex.compiled.js$replace=\/=this\\.props\\.disableAds\\|\\|this\\._noAds\/=true\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 49,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||10play.com.au\/js\/ShowsIndex.compiled.js$replace=\/=this\\.props\\.disableAds\\|\\|this\\._noAds\/=true\/"
+      },
+      {
+        "code" : "jsonprune-runtime-approximation",
+        "lineNumber" : 52,
+        "message" : "$jsonprune can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreak.*"
+      },
+      {
+        "code" : "jsonprune-runtime-approximation",
+        "lineNumber" : 53,
+        "message" : "$jsonprune can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreaks.*"
+      },
+      {
+        "code" : "jsonprune-runtime-approximation",
+        "lineNumber" : 54,
+        "message" : "$jsonprune can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreakLocations.*"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 56,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||swarm.video\/uhdstream.js$replace=\/_wm\\.format\\.popunder\/a\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 64,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/ondemand\/*\/content\/*\/vid\/*\/streams\/*\/manifest.mpd$replace=\/<Period id=\"(pre|mid|post)-roll-.-ad-[\\s\\S]*?>[\\s\\S]*?<\\\/Period>\/\/,domain=cbs.com|paramountplus.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 67,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||registry.api.cnn.io\/bundles\/fave\/latest-*.x\/js$replace=\/prod:{clips:{enabled:!0\/prod:{clips:{enabled:!1\/,domain=cnn.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 72,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||independent.co.uk\/_build\/main.*.js$replace=\/(checkAdBlocker[\\s\\S]*?:..=).\\.sent\/\\$1true\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 78,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||app.easycontent.com\/css\/app.css$replace=\/(\\.block-ads-wrapper)\/\\$1_\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 79,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||app.easycontent.com\/css\/app.css$replace=\/(\\.block\\.-ads\\{)[\\s\\S]*?\\}\/\\$1display:none;}\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 87,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||popcornflix-prod.cloud.seachange.com\/playback\/popcornflix\/playback\/ticket$replace=\/\"adEnabled\":true\/\"adEnabled\":false\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 90,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||dnf.qq.com\/*\/js\/act_nav.js$replace=\/var _style=document\\.getElementsByTagName\\(\"style\"\\)\\[0\\];\/var _style=document.querySelector(\"head > style:not([nonce])\");\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 92,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||chinesepod.com\/home\/js\/app.*.js$replace=\/(showAds:function\\(\\)\\{return)\"free\"===this\\.userInfo\\.access\\}\/\\$1 false}\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 98,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||seamless.mtvnservices.com\/api\/*\/playlist.m3u8$replace=\/http:\\\/\\\/seamless.mtvnservices.com\\\/\\\/media\\\/\\?beaconUrl=.*.ts%3FisAd%3Dtrue\/\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 100,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=heraldsun.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 102,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=couriermail.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 104,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaiplayback.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=dailytelegraph.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 106,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||webtech-web-grn-assets.pluto.tv\/assets\/bundle\/webapp-*.js$replace=\/\\{adBreak:.\\}\/{adBreak:undefined}\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 116,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||fwlive.crackle.com\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=crackle.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 118,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=taste.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 120,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=news.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 122,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=9now.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 124,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/gampad\/ads?*nhl_*video&*&output=xml_vmap*&url=https%3A%2F%2Fwww.nhl.com$replace=\/(<vmap:VMAP[\\s\\S]*?>)[\\s\\S]*<\\\/vmap:VMAP>\/\\$1<\\\/vmap:VMAP>\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 126,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.ca$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 127,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.com$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 128,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.tv$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 130,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaiplayback.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=news.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 131,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||ssaiplayback.*.boltdns.net\/playback\/once\/v*\/hls\/*.m3u8$replace=\/(#EXT-X-TARGETDURATION:[\\S]*?)\\n[\\s\\S]*?#EXT-X-DISCONTINUITY\/\\$1\/,domain=news.com.au"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 133,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||pornhub.*\/view_video.php?viewkey=$replace=\/vastXml\/_vastXml\/,important,~third-party"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 135,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||7plus.com.au\/js\/app.*.js$replace=\/t\\.sevenCatalog\\.adChoice=\"ssaibeacon\"\/t\\.sevenCatalog\\.adChoice=\"csai\"\/,domain=7plus.com.au"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 155,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||uplynk.com\/*.m3u8$replace=\/#UPLYNK-SEGMENT: \\S*\\\\,ad\\s[\\s\\S]+?((#UPLYNK-SEGMENT: \\S+\\\\,segment)|(#EXT-X-ENDLIST))\/\\$1\/,domain=hgtv.com|diynetwork.com|abc11.com|abc7.com|abc7news.com|abc13.com|6abc.com|abc7chicago.com|discovery.com|fox.com|investigationdiscovery.com|sciencechannel.com|motortrend.com|tlc.com|abc7ny.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 157,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||api.discovery.com\/v*\/streaming\/video\/$replace=\/\\{\"ads\":\\{\"breaks\":[\\s\\S]*?\"playURL\":\/{\"playURL\":\/,domain=diynetwork.com|discovery.com|sciencechannel.com|motortrend.com|tlc.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 162,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||cxm-api.fifa.com\/fifaplusweb\/api\/video\/GetVerizonPreplayParameters?*&prerollAds$replace=\/\"adPreroll\":true\/\"adPreroll\":false\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 163,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||cxm-api.fifa.com\/fifaplusweb\/api\/video\/GetVerizonPreplayParameters?*&adPostroll$replace=\/\"adPostroll\":true\/\"adPostroll\":false\/"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 165,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=abc.go.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 167,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=funimation.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 169,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||fwlive.sonycrackle.com\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=sonycrackle.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 171,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||content.uplynk.com\/api\/v*\/preplay\/*.json$replace=\/\\{\"boundaries\": \\[\\{\"[\\s\\S]*?\"content_type\": \"ad\"[\\s\\S]*?\"ads\": \\{\"breaks\":[\\s\\S]*?\"playURL\":\/{\"playURL\":\/,domain=cwtv.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 173,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||manifest.*.theplatform.com\/*\/*.meta*referer=$replace=\/#EXT-X-VMAP-AD-BREAK[\\s\\S]*?#EXT-X-ENDLIST\/#EXT-X-ENDLIST\/,domain=player.theplatform.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 174,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||manifest.*.theplatform.com\/*\/*.m3u8?*referer=$replace=\/(#EXTINF:.*\\n.*tvessaiprod\\.nbcuni\\.com\\\/video\\\/[\\s\\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\\n.*nbcuadops-vh.akamaihd.net\\\/i\\\/ads\\\/.*\\n)\/\/,domain=player.theplatform.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 176,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||manifest.theplatform.com\/*\/*.m3u8?$replace=\/(#EXTINF:.*\\n.*tvessaiprod\\.nbcuni\\.com\\\/video\\\/[\\s\\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\\n.*nbcuadops-vh.akamaihd.net\\\/i\\\/ads\\\/.*\\n)\/\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 177,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||manifest.theplatform.com\/*\/*.meta$replace=\/#EXT-X-VMAP-AD-BREAK[\\s\\S]*?#EXT-X-ENDLIST\/#EXT-X-ENDLIST\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 179,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=play.tv3.lt,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 181,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=tv3sport.dk,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 183,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\]\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=viafree.se,important"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 186,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||hgc-cf-cache-1.svonm.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 191,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||goal.com\/static\/js?files=$replace=\/taboolaSlide:\\d\\d\/taboolaSlide:99\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 196,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||accuradio.com\/sweeper\/json\/fetch\/?c=sweeper$replace=\/\\{[\\s\\S]*\\}\/{\"status\": \"ok\"}\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 197,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||accuradio.com\/spots\/check-ad-free\/$replace=\/\"ad_free\": false\/\"ad_free\": true\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 199,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||rojadirecta.me$replace=\/it.rojadirecta.eu\\\/goto\\\/\/\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 201,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "hentai-id.tv$replace=\/http:\\\/\\\/[s\\S]*s=http:\\\/\\\/www.hentai-id.tv\\\/\/http:\\\/\\\/www.hentai-id.tv\\\/\/,~third-party,~stylesheet,~script,~xmlhttprequest,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 203,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||speedtest.net^*\/speedtest-config.php?x=$replace=\/(<override>)[\\s\\S]*<\\\/override>\/\\$1<\\\/override>\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 204,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||speedtest.net^*\/speedtest-config.php?x=$replace=\/(<override>)[\\s\\S]*<\\\/override>\/\\$1<\\\/override>\/"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 207,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||laola1.tv\/server\/homadconfig-laola1tv.json$replace=\/\"enabled\":true\\,\/\"enabled\":false\\,\/i,important"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 209,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=laola1.tv,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 211,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "|http*:\/\/*.v.fwmrm.net\/ad\/p\/1?$replace=\/(<adResponse[\\s\\S]*?>)[\\s\\S]*<\\\/adResponse>\/\\$1<\\\/adResponse>\/,domain=theplatform.com,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 212,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "|http*:\/\/*.v.fwmrm.net\/ad\/p\/1?$replace=\/(<adResponse[\\s\\S]*?>)[\\s\\S]*<\\\/adResponse>\/\\$1<\\\/adResponse>\/,domain=theplatform.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 214,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "iview.abc.net.au\/programs$replace=\/(\"type\"\\:\"preroll\")[\\s\\S]*(\"type\")\/\"type\"\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 215,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "iview.abc.net.au\/programs$replace=\/(\"type\"\\:\"preroll\")[\\s\\S]*(\"type\")\/\"type\"\/"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 218,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||amazonaws.com\/www.ani-stream.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 220,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||dailymotion.com\/ac\/video\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 221,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||dailymotion.com\/ac\/video\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 224,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||amazonaws.com\/www.clubic.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=clubic.com,important"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 227,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||cdn.videoplaza.tv\/contrib\/no-vg\/svm\/homadConfigVideoplaza-vgtv.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 229,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,important"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 231,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||homad-global-configs.schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      }
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 10,
+        "severity" : "warning",
+        "source" : "||abs.twimg.com\/responsive-web\/client-web\/main.$script,replace=\/t\\.isTrue\\(\"rweb_home_jot_context_enabled\"\\)\/false\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 12,
+        "severity" : "warning",
+        "source" : "||dynamic-manifest.hulustream.com\/hulu*playlist.m3u8$replace=\/#EXT-X-DATERANGE:ID=\".*?ad\".*?\\n[\\s\\S]*?(?=#EXT-X-DATERANGE:ID=)\/\/,domain=hulu.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 17,
+        "severity" : "warning",
+        "source" : "||saracroche.org\/|$replace=\/(<!doctype html><html><head><meta content=\"0; url=https:\\\/\\\/.+\" http-equiv=refresh>)\\$\/\\$1<\\\/head><\\\/html>\/,document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "$replace=\/head>\/head><meta charset=\"utf-8\">\/,document,to=podhale24.pl|copycenter.online|nec-solutioninnovators.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 25,
+        "severity" : "warning",
+        "source" : "||marketjs.cdn.start.gg\/*\/v*\/game.js$replace=\/this\\['rewardedVideoResult'\\]\\(!0x1\\);\/this['rewardedVideoResult'](!0x0);\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 29,
+        "severity" : "warning",
+        "source" : "||4khd.com\/content\/$replace=\/^((?!<style>)[\\s\\S])*<\\\/style>\\n<style\/<style\/,document"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 32,
+        "severity" : "warning",
+        "source" : "||disqus.com\/recommendations.js$replace=\/\\.width=\"calc\\(100% - 310px\\)\":\/.width=\"100%\":\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "||giphy.com^$replace=\/\"htlAds\\\\\":\\[\\\\\".{1\\,5}\\\\\".*?\\]\/\"htlAds\\\\\":\\[\\]\/,document"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 37,
+        "severity" : "warning",
+        "source" : "||giphy.com^$replace=\/\"hasTopLeaderboardAd\\\\\":true\/\"hasTopLeaderboardAd\\\\\":false\/,document"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 40,
+        "severity" : "warning",
+        "source" : "||players.brightcove.net\/*\/default_default\/index.min.js$replace=\/if\\(.\\.getPlugin\\(\"ssai\"\\)\\)\/if(!0)\/,domain=nhl.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 44,
+        "severity" : "warning",
+        "source" : "||transfermarkt.com.tr^$replace=\/<tm-consent[\\s\\S]*?<\\\/tm-consent>(<!DOCTYPE html>)\/\\$1\/,document"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 46,
+        "severity" : "warning",
+        "source" : "||nbalpng.akamaized.net\/vod-pz\/a\/hls-wvpr\/*.m3u8$replace=\/#EXT-X-DATERANGE:ID=\"AD-BREAK:[\\s\\S]*?(\\.googlevideo\\\/|fwmrm\\.net)[\\s\\S]*?#EXT-X-DISCONTINUITY\/\/,domain=nba.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 48,
+        "severity" : "warning",
+        "source" : "||10.com.au\/js\/ShowsIndex.compiled.js$replace=\/=this\\.props\\.disableAds\\|\\|this\\._noAds\/=true\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 49,
+        "severity" : "warning",
+        "source" : "||10play.com.au\/js\/ShowsIndex.compiled.js$replace=\/=this\\.props\\.disableAds\\|\\|this\\._noAds\/=true\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 51,
+        "source" : "||pluto.tv\/*\/dash\/*\/*.mpd$replace=\/<Period.{1\\,100}?><BaseURL>.{1\\,100}\\.plutotv\\.net\\\/.{1\\,50}_ad\\\/.*?<\\\/BaseURL>[\\s\\S]*?<\\\/Period>\/\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "jsonprune-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 52,
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreak.*"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "jsonprune-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 53,
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreaks.*"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "jsonprune-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 54,
+        "severity" : "warning",
+        "source" : "||pluto.tv\/*\/session.json$jsonprune=\\$.adBreakLocations.*"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 56,
+        "severity" : "warning",
+        "source" : "||swarm.video\/uhdstream.js$replace=\/_wm\\.format\\.popunder\/a\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "||assets.msn.com\/service\/news\/feed\/pages\/winfullpage$replace=\/{\"id\":\"nativead-.*?\"type\":\"nativead\".*?}\\,{\/{\/,domain=microsoftstart.msn.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 64,
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/ondemand\/*\/content\/*\/vid\/*\/streams\/*\/manifest.mpd$replace=\/<Period id=\"(pre|mid|post)-roll-.-ad-[\\s\\S]*?>[\\s\\S]*?<\\\/Period>\/\/,domain=cbs.com|paramountplus.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "||pubads.g.doubleclick.net\/ondemand\/hls\/*.m3u8$replace=\/#EXTINF:(\\d|\\d\\.\\d+)\\,\\nhttps:\\\/\\\/redirector\\.googlevideo\\.com\\\/videoplayback\\?[\\s\\S]*?&source=dclk_video_ads&[\\s\\S]*?\\n\/\/,domain=paramountplus.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 67,
+        "severity" : "warning",
+        "source" : "||registry.api.cnn.io\/bundles\/fave\/latest-*.x\/js$replace=\/prod:{clips:{enabled:!0\/prod:{clips:{enabled:!1\/,domain=cnn.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "||imgur.com\/*-assets\/js\/main.*.js$replace=\/(\"hasSeenUploadRewardVideo\"\\,)!1\/\\$1true\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 72,
+        "severity" : "warning",
+        "source" : "||independent.co.uk\/_build\/main.*.js$replace=\/(checkAdBlocker[\\s\\S]*?:..=).\\.sent\/\\$1true\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3_dai.js$replace=\/(function ..\\(a\\,b\\,c\\){)return a\\+\"\\\/\"\\+b\\+\"\\\/vid\\\/\"\\+c\\+\"\\\/streams\"}\/\\$1}\/,domain=sbs.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 78,
+        "severity" : "warning",
+        "source" : "||app.easycontent.com\/css\/app.css$replace=\/(\\.block-ads-wrapper)\/\\$1_\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 79,
+        "severity" : "warning",
+        "source" : "||app.easycontent.com\/css\/app.css$replace=\/(\\.block\\.-ads\\{)[\\s\\S]*?\\}\/\\$1display:none;}\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : "||sonyliv.com\/App.*.chunk.js$replace=\/\\,\\{url:\"https:\\\/\\\/imasdk\\.googleapis\\.com\\\/js\\\/sdkloader\\\/ima3\\.js\"\\,type:\"script\"\\}\/\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 87,
+        "severity" : "warning",
+        "source" : "||popcornflix-prod.cloud.seachange.com\/playback\/popcornflix\/playback\/ticket$replace=\/\"adEnabled\":true\/\"adEnabled\":false\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 90,
+        "severity" : "warning",
+        "source" : "||dnf.qq.com\/*\/js\/act_nav.js$replace=\/var _style=document\\.getElementsByTagName\\(\"style\"\\)\\[0\\];\/var _style=document.querySelector(\"head > style:not([nonce])\");\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 92,
+        "severity" : "warning",
+        "source" : "||chinesepod.com\/home\/js\/app.*.js$replace=\/(showAds:function\\(\\)\\{return)\"free\"===this\\.userInfo\\.access\\}\/\\$1 false}\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "||dai.google.com\/ondemand\/hls\/*.m3u8$replace=\/#EXTINF:(\\d|\\d\\.\\d+)\\,\\nhttps:\\\/\\\/redirector\\.googlevideo\\.com\\\/videoplayback\\?[\\s\\S]*?&source=dclk_video_ads&[\\s\\S]*?\\n\/\/,domain=sbs.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 98,
+        "severity" : "warning",
+        "source" : "||seamless.mtvnservices.com\/api\/*\/playlist.m3u8$replace=\/http:\\\/\\\/seamless.mtvnservices.com\\\/\\\/media\\\/\\?beaconUrl=.*.ts%3FisAd%3Dtrue\/\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 100,
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=heraldsun.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 102,
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=couriermail.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 104,
+        "severity" : "warning",
+        "source" : "||ssaiplayback.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=dailytelegraph.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 106,
+        "severity" : "warning",
+        "source" : "||webtech-web-grn-assets.pluto.tv\/assets\/bundle\/webapp-*.js$replace=\/\\{adBreak:.\\}\/{adBreak:undefined}\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*\/session.json$replace=\/(\"(adBreak)\":\\{)[\\s\\S]*?(\\}\\,\"streamInfo\")\/\\$1\\$3\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*\/session.json$replace=\/(\"(adBreakLocations)\":\\[)[\\s\\S]*?(\\]\\,)\/\\$1\\$3\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*\/session.json$replace=\/(\"(adBreaks)\":\\[)[\\s\\S]*?(\\]\\,\"deltaFromClient\")\/\\$1\\$3\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*\/session.json$replace=\/(\"(adBreak)\":\\{)[\\s\\S]*?(\\}\\,\"version\")\/\\$1\\$3\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*stitch\/hls\/*\/playlist.m3u8$replace=\/(#EXTINF:\\d\\,\\nhttps:\\\/\\\/[\\S]*?\\.plutotv\\.net\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n|#EXT-X-KEY:METHOD=[\\S]*?\\,URI=\"https:\\\/\\\/[\\S]*?\\.plutotv\\.net\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n|#EXTINF:\\d\\.\\d[\\S]*?\\,\\nhttps:\\\/\\\/[\\S]*?\\.plutotv\\.net\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n)\/\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : "||service-stitcher*.clusters.pluto.tv\/*stitch\/hls\/*\/playlist.m3u8$replace=\/(#EXTINF:\\d\\,\\nhttps:\\\/\\\/[\\S]*?\\.pluto\\.tv\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n|#EXT-X-KEY:METHOD=[\\S]*?\\,URI=\"https:\\\/\\\/[\\S]*?\\.pluto\\.tv\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n|#EXTINF:\\d\\.\\d[\\S]*?\\,\\nhttps:\\\/\\\/[\\S]*?\\.pluto\\.tv\\\/[\\S]*?_ad\\\/creative\\\/[\\S]*?\\n)\/\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 114,
+        "source" : "||7news.com.au\/static\/js\/*-content-Video-providers-SwmPlayerProvider_*.js$replace=\/(\\,.=\")ssaibeacon\";\/\\$1csai\";\/,domain=7news.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 116,
+        "severity" : "warning",
+        "source" : "||fwlive.crackle.com\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=crackle.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 118,
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=taste.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 120,
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=news.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 122,
+        "severity" : "warning",
+        "source" : "||ssaimanifest.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=9now.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 124,
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/gampad\/ads?*nhl_*video&*&output=xml_vmap*&url=https%3A%2F%2Fwww.nhl.com$replace=\/(<vmap:VMAP[\\s\\S]*?>)[\\s\\S]*<\\\/vmap:VMAP>\/\\$1<\\\/vmap:VMAP>\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 126,
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.ca$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 127,
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.com$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 128,
+        "severity" : "warning",
+        "source" : "||vid.springserve.com\/vast\/*einthusan.tv$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 130,
+        "severity" : "warning",
+        "source" : "||ssaiplayback.prod.boltdns.net\/playback\/once\/v*\/vmap\/hls\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,domain=news.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 131,
+        "severity" : "warning",
+        "source" : "||ssaiplayback.*.boltdns.net\/playback\/once\/v*\/hls\/*.m3u8$replace=\/(#EXT-X-TARGETDURATION:[\\S]*?)\\n[\\s\\S]*?#EXT-X-DISCONTINUITY\/\\$1\/,domain=news.com.au"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 133,
+        "severity" : "warning",
+        "source" : "||pornhub.*\/view_video.php?viewkey=$replace=\/vastXml\/_vastXml\/,important,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 135,
+        "severity" : "warning",
+        "source" : "||7plus.com.au\/js\/app.*.js$replace=\/t\\.sevenCatalog\\.adChoice=\"ssaibeacon\"\/t\\.sevenCatalog\\.adChoice=\"csai\"\/,domain=7plus.com.au"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 155,
+        "severity" : "warning",
+        "source" : "||uplynk.com\/*.m3u8$replace=\/#UPLYNK-SEGMENT: \\S*\\\\,ad\\s[\\s\\S]+?((#UPLYNK-SEGMENT: \\S+\\\\,segment)|(#EXT-X-ENDLIST))\/\\$1\/,domain=hgtv.com|diynetwork.com|abc11.com|abc7.com|abc7news.com|abc13.com|6abc.com|abc7chicago.com|discovery.com|fox.com|investigationdiscovery.com|sciencechannel.com|motortrend.com|tlc.com|abc7ny.com,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "||api.discovery.com\/v*\/streaming\/video\/$replace=\/(\\,\"ads\":\\{)\"breaks\":[\\s\\S]*?(\\}\\,\"videoView\":)\/\\$1\\$2\/,domain=hgtv.com|investigationdiscovery.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 157,
+        "severity" : "warning",
+        "source" : "||api.discovery.com\/v*\/streaming\/video\/$replace=\/\\{\"ads\":\\{\"breaks\":[\\s\\S]*?\"playURL\":\/{\"playURL\":\/,domain=diynetwork.com|discovery.com|sciencechannel.com|motortrend.com|tlc.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "||content-fox.uplynk.com\/preplay\/*.json$replace=\/(\"ads\": {\"breaks\": \\[)[\\s\\S]*?(\\, \"playURL\":)\/\\$1]}\\$2\/,domain=fox.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "||content.uplynk.com\/preplay\/*.json?$replace=\/(\"ads\": {\"breaks\": \\[)[\\s\\S]*?(\\]\\}\\\\, \"prefix\":)\/\\$1\\$2\/,domain=fox.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "||content.uplynk.com\/api\/*\/preplay\/*.json?$replace=\/(\"ads\": {\"breaks\": \\[)[\\s\\S]*?(\\]\\}\\\\, \"prefix\":)\/\\$1\\$2\/,domain=abc7chicago.com|abc7ny.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 162,
+        "severity" : "warning",
+        "source" : "||cxm-api.fifa.com\/fifaplusweb\/api\/video\/GetVerizonPreplayParameters?*&prerollAds$replace=\/\"adPreroll\":true\/\"adPreroll\":false\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 163,
+        "severity" : "warning",
+        "source" : "||cxm-api.fifa.com\/fifaplusweb\/api\/video\/GetVerizonPreplayParameters?*&adPostroll$replace=\/\"adPostroll\":true\/\"adPostroll\":false\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 165,
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=abc.go.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 167,
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=funimation.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 169,
+        "severity" : "warning",
+        "source" : "||fwlive.sonycrackle.com\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=sonycrackle.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 171,
+        "severity" : "warning",
+        "source" : "||content.uplynk.com\/api\/v*\/preplay\/*.json$replace=\/\\{\"boundaries\": \\[\\{\"[\\s\\S]*?\"content_type\": \"ad\"[\\s\\S]*?\"ads\": \\{\"breaks\":[\\s\\S]*?\"playURL\":\/{\"playURL\":\/,domain=cwtv.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 173,
+        "severity" : "warning",
+        "source" : "||manifest.*.theplatform.com\/*\/*.meta*referer=$replace=\/#EXT-X-VMAP-AD-BREAK[\\s\\S]*?#EXT-X-ENDLIST\/#EXT-X-ENDLIST\/,domain=player.theplatform.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 174,
+        "severity" : "warning",
+        "source" : "||manifest.*.theplatform.com\/*\/*.m3u8?*referer=$replace=\/(#EXTINF:.*\\n.*tvessaiprod\\.nbcuni\\.com\\\/video\\\/[\\s\\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\\n.*nbcuadops-vh.akamaihd.net\\\/i\\\/ads\\\/.*\\n)\/\/,domain=player.theplatform.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 176,
+        "severity" : "warning",
+        "source" : "||manifest.theplatform.com\/*\/*.m3u8?$replace=\/(#EXTINF:.*\\n.*tvessaiprod\\.nbcuni\\.com\\\/video\\\/[\\s\\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\\n.*nbcuadops-vh.akamaihd.net\\\/i\\\/ads\\\/.*\\n)\/\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 177,
+        "severity" : "warning",
+        "source" : "||manifest.theplatform.com\/*\/*.meta$replace=\/#EXT-X-VMAP-AD-BREAK[\\s\\S]*?#EXT-X-ENDLIST\/#EXT-X-ENDLIST\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 179,
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=play.tv3.lt,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 181,
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\][\\s\\S]*?\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=tv3sport.dk,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 183,
+        "severity" : "warning",
+        "source" : "||v.fwmrm.net\/ad\/g\/1?$replace=\/(tv\\.freewheel\\.SDK\\._instanceQueue\\['Context_[\\s\\S]*?'\\]\\.requestComplete\\(\\{)[\\s\\S]*\\}\\);\/\\$1\\}\\);\/,domain=viafree.se,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "||hgc-cf-cache-1.svonm.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 186,
+        "severity" : "warning",
+        "source" : "||hgc-cf-cache-1.svonm.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "||gamezhero.com\/get-game-code\/$replace=\/(config\\.set\\(EmbedApiConfig\\.APP_ADS\\,[\\s\\S]*?)true\\);\/\\$1false\\);\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 191,
+        "severity" : "warning",
+        "source" : "||goal.com\/static\/js?files=$replace=\/taboolaSlide:\\d\\d\/taboolaSlide:99\/,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : ":\/\/widgets.spklw.com\/v1\/data\/?*&widget-id=$replace=\/(?<=\\[)(\\{\"image\":\\{\"url\":\"[\\s\\S]*?\"type\":\"ad\"[\\s\\S]*?\\,\"service_version\":\"[\\s\\S]*?\"\\}(\\,)?)+|(\\,)?\\{\"image\":\\{\"url\":\"[\\s\\S]*?\"type\":\"ad\"[\\s\\S]*?\\,\"service_version\":\"[\\s\\S]*?\"\\}\/\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 196,
+        "severity" : "warning",
+        "source" : "||accuradio.com\/sweeper\/json\/fetch\/?c=sweeper$replace=\/\\{[\\s\\S]*\\}\/{\"status\": \"ok\"}\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 197,
+        "severity" : "warning",
+        "source" : "||accuradio.com\/spots\/check-ad-free\/$replace=\/\"ad_free\": false\/\"ad_free\": true\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 199,
+        "severity" : "warning",
+        "source" : "||rojadirecta.me$replace=\/it.rojadirecta.eu\\\/goto\\\/\/\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 201,
+        "severity" : "warning",
+        "source" : "hentai-id.tv$replace=\/http:\\\/\\\/[s\\S]*s=http:\\\/\\\/www.hentai-id.tv\\\/\/http:\\\/\\\/www.hentai-id.tv\\\/\/,~third-party,~stylesheet,~script,~xmlhttprequest,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 203,
+        "severity" : "warning",
+        "source" : "||speedtest.net^*\/speedtest-config.php?x=$replace=\/(<override>)[\\s\\S]*<\\\/override>\/\\$1<\\\/override>\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 204,
+        "severity" : "warning",
+        "source" : "||speedtest.net^*\/speedtest-config.php?x=$replace=\/(<override>)[\\s\\S]*<\\\/override>\/\\$1<\\\/override>\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "||laola1.tv\/server\/homadconfig-laola1tv.json$replace=\/\"enabled\":true\\,\/\"enabled\":false\\,\/i"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 207,
+        "severity" : "warning",
+        "source" : "||laola1.tv\/server\/homadconfig-laola1tv.json$replace=\/\"enabled\":true\\,\/\"enabled\":false\\,\/i,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "||schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=laola1.tv"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 209,
+        "severity" : "warning",
+        "source" : "||schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=laola1.tv,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 211,
+        "severity" : "warning",
+        "source" : "|http*:\/\/*.v.fwmrm.net\/ad\/p\/1?$replace=\/(<adResponse[\\s\\S]*?>)[\\s\\S]*<\\\/adResponse>\/\\$1<\\\/adResponse>\/,domain=theplatform.com,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 212,
+        "severity" : "warning",
+        "source" : "|http*:\/\/*.v.fwmrm.net\/ad\/p\/1?$replace=\/(<adResponse[\\s\\S]*?>)[\\s\\S]*<\\\/adResponse>\/\\$1<\\\/adResponse>\/,domain=theplatform.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 214,
+        "severity" : "warning",
+        "source" : "iview.abc.net.au\/programs$replace=\/(\"type\"\\:\"preroll\")[\\s\\S]*(\"type\")\/\"type\"\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 215,
+        "severity" : "warning",
+        "source" : "iview.abc.net.au\/programs$replace=\/(\"type\"\\:\"preroll\")[\\s\\S]*(\"type\")\/\"type\"\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "||amazonaws.com\/www.ani-stream.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 218,
+        "severity" : "warning",
+        "source" : "||amazonaws.com\/www.ani-stream.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 220,
+        "severity" : "warning",
+        "source" : "||dailymotion.com\/ac\/video\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 221,
+        "severity" : "warning",
+        "source" : "||dailymotion.com\/ac\/video\/$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "||amazonaws.com\/www.clubic.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=clubic.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 224,
+        "severity" : "warning",
+        "source" : "||amazonaws.com\/www.clubic.com\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=clubic.com,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "||cdn.videoplaza.tv\/contrib\/no-vg\/svm\/homadConfigVideoplaza-vgtv.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 227,
+        "severity" : "warning",
+        "source" : "||cdn.videoplaza.tv\/contrib\/no-vg\/svm\/homadConfigVideoplaza-vgtv.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 229,
+        "severity" : "warning",
+        "source" : "||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com\/www.vgtv.no\/config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "||homad-global-configs.schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 231,
+        "severity" : "warning",
+        "source" : "||homad-global-configs.schneevonmorgen.com.s3.amazonaws.com\/global_config.json$replace=\/\"enabled\": true\\,\/\"enabled\": false\\,\/i,domain=vgtv.no,important"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 77,
+      "generatedContentRuleCount" : 39,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 39,
+      "parsedRules" : 107,
+      "skippedLines" : 125,
+      "totalLines" : 232,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "replace.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
