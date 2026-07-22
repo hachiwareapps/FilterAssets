@@ -1,0 +1,2282 @@
+{
+  "detailedReportsDirectory" : "reports\/blockerkit",
+  "entries" : [
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 85,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "||103.179.189.35^$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 340,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "107.148.45.21$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 345,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "198.23.198.110$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 346,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "185.216.143.121$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 485,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "185.149.120.173$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 486,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^139\\.45\\.197\\.2(4[0-9]|5[0-4]):\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 494,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "157.90.183.248$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1001,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "154.199.255.184$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1009,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "||88.208.46.222^$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1022,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "103.224.182.210$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1024,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^94\\.242\\.247\\.(2[0-9]|3[0-2]):\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1029,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^23\\.109\\.170\\.(18[7-9]|19[0-2])$\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1031,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^23\\.109\\.73\\.\\d{3}\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1032,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^188\\.42\\.84\\.\\d{1,3}\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1037,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^139\\.45\\.19[5-7]\\.\\d{1,3}\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1041,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "193.200.64.30$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1042,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "193.200.64.31$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1043,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "193.200.65.61$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1044,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.201$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1045,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.202$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1046,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.210$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1047,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.211$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1048,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.212$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1049,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "212.117.190.213$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1052,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "91.204.226.224$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1055,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "57.128.71.215$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1059,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "172.240.108.68$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1060,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "172.240.108.76$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1061,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "172.240.108.84$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1062,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "172.240.127.234$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1063,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "172.240.253.132$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1064,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "185.246.188.124$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1065,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "185.246.188.125$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1066,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "192.243.59.12$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1067,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "192.243.59.13$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1068,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "192.243.59.20$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1069,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "192.243.61.225$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1070,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "192.243.61.227$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1071,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "194.63.140.103$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1072,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "194.63.143.61$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1073,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "194.63.143.96$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1076,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "\/^142\\.91\\.159\\.(1[5-9]\\d|2[0-4]\\d|250):(80|443)$\/$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1080,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_adservers.json",
+      "source" : "188.72.219.36^$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 33,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||trip.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 45,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@178.248.233.239$network",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 65,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||claude.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 85,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@:\/\/www.bet365.com\/|$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 123,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||pricematrix.nltg.com\/*\/markup\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 171,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||bing.com\/VisualSystem\/AudioConsentInfo$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 187,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||copilot.microsoft.com\/?ncedge=$elemhide,jsinject,extension,content",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 201,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||radar.cloudflare.com^$elemhide,extension,content",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 253,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||edgeservices.bing.com^$elemhide,jsinject,extension,content",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 263,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||cdpn.io\/freeCodeCamp\/$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 739,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||uin-sports.pt^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 745,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||iplark.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 945,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@127.0.0.1:10111$network",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 951,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||lamoda.ru^$elemhide,jsinject,extension,content,header=Set-Cookie:\/qrator_jsr=\/",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1117,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ebok.gkpge.pl^$jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1149,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||tickets.nickelodeonadventure.co.uk^$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1169,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||tailwindcss.com^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1221,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||captcha-delivery.com^$subdocument,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1257,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||mygrad.app.io^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1567,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||diamant.ua\/*\/search$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1577,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||turramusic.com.au^$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1627,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||waap.ru$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1771,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||static*.nytimes.com\/newsgraphics\/*\/_assets\/graphics\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1837,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||devicebind.ebay.*\/signin\/sub\/tt.html$elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2043,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||faas-fe-prd-ext.prd.aws-cb.nl\/api\/product-reviews\/view$xmlhttprequest,elemhide,jsinject,extension,domain=consumentenbond.nl",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2049,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ebank.bsstarozreby.pl^$elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2073,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||vpnconnect.ru$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2093,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||live.streamtheworld.com\/*\/playlist.m3u8$elemhide,jsinject,extension,content",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2161,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||sso.adperfect.com\/client_authentication\/?$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2171,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||b24-*.bitrix24.ru^$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2509,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||simkl.com^$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2569,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||dell.com\/support\/components\/$xmlhttprequest,jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2603,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ensonhaber.com\/assets\/html\/*.html$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2633,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ebay.*\/bfl\/placebid\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2635,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ebay.*\/sio\/buyer\/reviewSellersOffer\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2637,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ebay.*\/*promote$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2739,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||ov-chipkaart.nl^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2793,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||doka.guide\/html^$elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2861,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||amazonaws.com\/*\/ui-service\/wagenreihung-de.html$elemhide,jsinject,extension,xmlhttprequest,domain=reiseauskunft.bahn.de",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2927,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2939,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||applet.danid.dk\/launcher\/$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2955,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||cloud.189.cn^$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2965,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||sankakucomplex.com\/*\/post\/index.content?next=$xmlhttprequest,jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2967,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||sankakucomplex.com\/post\/index.content?next=*&page=$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2977,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/pornstars\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2981,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/profiles\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2985,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/*-channels\/*\/videos\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2989,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/models\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2993,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/channels\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2997,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xvideos.*\/amateur-channels\/$elemhide,jsinject,extension,xmlhttprequest",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3025,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||leclercdrive.fr\/_res\/release\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3031,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||static.mega.co.nz\/*\/html\/pdf$extension,jsinject,elemhide,content",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3325,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||prod.pandateacher.com\/web-fos\/app\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3653,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||beaconx.com\/index.html$elemhide,jsinject,content,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3697,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xnxx.com\/porn-maker\/$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3805,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||orion-http.gw.postman.co\/v*\/request$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3867,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||app.freeinvoicebuilder.com\/*\/index.php$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3995,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||xnxx.com\/pornstar\/$xmlhttprequest,jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4223,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||getuikit.com\/docs\/pages\/*.md$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4349,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||titlestorage.xboxlive.com\/json\/*\/data\/Ads\/$app=Solitaire.exe",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4471,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||airbnb.com\/book?$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4491,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||teambition.com^$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4737,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||gls-group.eu^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 4751,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||app.plex.tv^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 5653,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||odc.officeapps.live.com\/odc\/$elemhide,jsinject,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 5685,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||shikimori.*\/comments\/*\/edit$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 6149,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||stacksnippets.net^$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 6785,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||wsr.pearsonvue.com^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 6963,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@.pexcard.com^$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 6969,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||app.impact.com^$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7115,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||konto.play.pl^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7203,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||hbogo.pl^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7683,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||admin.mailchimp.com^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7687,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||portal.newdaycards.com^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7925,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||testufo.com\/*.html$jsinject,elemhide,extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 8069,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist.json",
+      "source" : "@@||messenger.com^$extension",
+      "sourceFileName" : "allowlist.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 602,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@*$app=com.kakao.talk,stealth=dpi",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 1914,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@||om-apis.sk-pay.co.kr^$stealth=3p-auth,app=com.elevenst",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2357,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@||izifilm.net^$stealth=useragent,app=Kinoplay.exe",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2848,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@||youtube.com\/$stealth=useragent,app=MicrosoftEdgeCP.exe",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3127,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@212.103.68.8:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3128,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@185.88.236.76:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3129,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@185.88.236.77:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3130,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@5.148.189.205:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3131,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@5.148.189.204:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3132,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@5.148.189.203:443$network",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 3607,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_allowlist_stealth.json",
+      "source" : "@@*$app=viva.republica.toss,stealth=dpi",
+      "sourceFileName" : "allowlist_stealth.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 11390,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\S in url-filter regex. url-filter: ^https?:\\\/\\\/anonymousemail\\.me\\\/[\\S]{3,10}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_antiadblock.json",
+      "source" : "\/^https?:\\\/\\\/anonymousemail\\.me\\\/[\\S]{3,10}\\.js$\/$important,domain=anonymousemail.me",
+      "sourceFileName" : "antiadblock.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 608,
+      "message" : "Unsupported network action modifiers: csp.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "||deloplen.com^$csp=script-src 'none'",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 799,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^http(s?):\\\/\\\/[A-Za-z0-9]{6}\\.[A-Za-z0-9]{3}\\\/[A-Za-z0-9]{30,}\\.php$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "\/^http(s?):\\\/\\\/[A-Za-z0-9]{6}\\.[A-Za-z0-9]{3}\\\/[A-Za-z0-9]{30,}\\.php$\/$script,third-party,domain=metbuat.az",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 2494,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: sport.cz\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{3,}\\\/[-_a-zA-Z0-9]{20,}.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "\/sport.cz\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{3,}\\\/[-_a-zA-Z0-9]{20,}.\/$image,domain=sport.cz",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 2511,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: idnes.cz\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "\/idnes.cz\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}\\\/[-_a-zA-Z0-9]{20,}\/$subdocument,image,important",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 2591,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: aktualne.cz\\\/[-_a-zA-Z0-9]{20,}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "\/aktualne.cz\\\/[-_a-zA-Z0-9]{20,}\/$domain=aktualne.cz,image",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2901,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "@@||pilet.elron.ee^$extension",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 7022,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "@@||nettavisen.no\/api\/mnemonic\/v*\/render\/pluss.nettavisen.no\/*dashboard.youplay.se*frontwidget$extension",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 9364,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "@@||helios.pl\/*\/*\/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 10383,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "@@||trojmiasto.pl^$elemhide,jsinject,content,extension,~script,~stylesheet",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 10702,
+      "message" : "Unsupported network condition modifiers: extension.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "@@||wfirma.pl\/*\/add\/*?_=$xmlhttprequest,elemhide,jsinject,extension",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 11767,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_foreign.json",
+      "source" : "||wp.pl^$replace=\/(<VAST[\\s\\S]*?>)[\\s\\S]*<\\\/VAST>\/\\$1<\\\/VAST>\/,xmlhttprequest,other,~script,app=~pl.videostar",
+      "sourceFileName" : "foreign.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 64,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "104.155.51.226:443$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 106,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "139.45.197.151$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 107,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "139.45.197.152$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 108,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "139.45.197.153$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 109,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "139.45.197.154$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 110,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "\/139.45.197.24\\d\/$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2991,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "54.229.21.199:3480$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 2992,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_extensions.json",
+      "source" : "54.246.248.134:3480$network",
+      "sourceFileName" : "general_extensions.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 42,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,16}\\.(?:club|fun|hair|info|work|xyz)\\\/[0-9a-zA-Z%]{170,400}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{8,16}\\.(?:club|fun|hair|info|work|xyz)\\\/[0-9a-zA-Z%]{170,400}$\/$script,third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 97,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 98,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party,redirect=noopjs",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 104,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\.goplay\\.su\\\/[a-z][0-9A-Za-z]{10,}\\\/\\d{3,6}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/\\.goplay\\.su\\\/[a-z][0-9A-Za-z]{10,}\\\/\\d{3,6}$\/$xmlhttprequest,match-case",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 115,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{10,12}\\.com\\\/[a-z\\\/]{2,}\\?id=[12]\\d{6}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{10,12}\\.com\\\/[a-z\\\/]{2,}\\?id=[12]\\d{6}$\/$script,third-party,match-case",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 117,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[0-9a-z]{5,}\\.[a-z]{2,3}\\\/z-[5-9]\\d{6}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[0-9a-z]{5,}\\.[a-z]{2,3}\\\/z-[5-9]\\d{6}$\/$script,~third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 119,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=popads-node",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 120,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=link:\/adsco\\.re\\\/>;rel=preconnect\/",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 121,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=popads-node",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 122,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=popads-node",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 123,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/css\/$script,third-party,header=popads-node",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 124,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=popads-node",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 125,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 126,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 127,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 128,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 147,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z]{3,}\\.[a-z]{2,11}\\.?[a-z]{0,7}\\\/(?:[0-9a-z]{6,10}\\\/)?\\\/?(?:article\\d{4}\\.doc)?\\?(?:cid=[0-9a-z]+&)?[ou]=[0-9a-z]{7}(?:&t=\\d+)?&[ou]=[0-9a-z]{7}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z]{3,}\\.[a-z]{2,11}\\.?[a-z]{0,7}\\\/(?:[0-9a-z]{6,10}\\\/)?\\\/?(?:article\\d{4}\\.doc)?\\?(?:cid=[0-9a-z]+&)?[ou]=[0-9a-z]{7}(?:&t=\\d+)?&[ou]=[0-9a-z]{7}\/$document,match-case",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 212,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[-a-z]{8,}\\.com\\\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\\\/[0-9A-Za-z][-\\\/0-9A-Z_a-z]{115,132}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[-a-z]{8,}\\.com\\\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\\\/[0-9A-Za-z][-\\\/0-9A-Z_a-z]{115,132}$\/$script,xmlhttprequest,match-case,third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 214,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,xmlhttprequest,third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 215,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,third-party,redirect=noopjs",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 266,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,12}\\.com\\\/en\\\/(?:[a-z]{2,10}\\\/){0,2}[a-z]{2,}\\?(?:[a-z]+=[^&=?\\s]*?&)*?id=[12]\\d{6}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{8,12}\\.com\\\/en\\\/(?:[a-z]{2,10}\\\/){0,2}[a-z]{2,}\\?(?:[a-z]+=[^&=?\\s]*?&)*?id=[12]\\d{6}\/$script,third-party,match-case",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 295,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[0-9a-z-]{5,15}\\.(?:com|net|tv|xyz)\\\/(?:40[01]|50?0?)\\\/\\d{6,8}\\??\\S*$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "\/^https:\\\/\\\/[0-9a-z-]{5,15}\\.(?:com|net|tv|xyz)\\\/(?:40[01]|50?0?)\\\/\\d{6,8}\\??\\S*$\/$script,xmlhttprequest,third-party",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 538,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_general_url.json",
+      "source" : "||workers.dev^$header=x-target-domain:pagead2.googlesyndication.com",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 104,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{3,4}\\.[a-z]{8,16}\\.com\\\/loader\\.min\\.js$\/$script,third-party,match-case,header=etag:\/^W\\\/\"[0-9a-f]{32}-\\d{13}\"$\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 105,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/d[0-9a-z]{12,13}\\.cloudfront\\.net\\\/loader\\.min\\.js$\/$script,third-party,match-case,header=etag:\/^W\\\/\"[0-9a-f]{32}\"$\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 107,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/(?:[a-z]{3,4}\\.)?[0-9a-z-]{6,}\\.com\\\/script\\\/(?=[0-9a-z]{0,29}[A-Z])[0-9A-Za-z]{10,30}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/(?:[a-z]{3,4}\\.)?[0-9a-z-]{6,}\\.com\\\/script\\\/(?=[0-9a-z]{0,29}[A-Z])[0-9A-Za-z]{10,30}\\.js$\/$script,third-party,match-case",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 108,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/www\\.[0-9a-z-]{6,}\\.xyz\\\/script\\\/[-.0-9A-Za-z]+\\.[A-Za-z-]{2,30}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/www\\.[0-9a-z-]{6,}\\.xyz\\\/script\\\/[-.0-9A-Za-z]+\\.[A-Za-z-]{2,30}\\.js$\/$script,third-party,match-case",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 190,
+      "message" : "Unsupported network action modifiers: csp.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "*$document,csp=script-src-attr 'none',domain=cruciverba.it|motscroises.fr|palabr.as|word-grabber.com|wort-suchen.de|lamire.jp|picrew.me|badmouth1.com|jin115.com|gloria.hr|etnews.com|sportsseoul.com|hoyme.jp|heraldm.com|tbsradio.jp|nextchessmove.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 741,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||playinfo.gomlab.com^$app=GOM.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 742,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||cdn*.gomlab.com\/gretech\/player\/banner\/$app=GOM.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 744,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||bing.com\/api\/$app=Skype.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 746,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||video.rainberrytv.com^$app=msedgewebview2.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 749,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||bt.co\/adzerk\/$app=utorrentie.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 750,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||ad.bench.utorrent.com^$app=uTorrent.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 755,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||api.mixpanel.com^$app=com.viber.osx",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 756,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||s-bid.rmp.rakuten.com^$app=com.viber.osx|Viber.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 760,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||gamessumo.com^$app=backiee.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 761,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||api.taboola.com^$app=Mahjong.exe|Solitaire.exe|Microsoft.Msn.News.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 784,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "@@||audio-*.scdn.co\/audio\/$redirect=noopmp4-1s,app=com.apple.Safari",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 785,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "@@||spotifycdn.com\/audio\/$redirect=noopmp4-1s,app=com.apple.Safari",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 800,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||cf.adxcel.com^$media,~xmlhttprequest,redirect=noopmp4-1s,app=Spotify.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 801,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||audio-*.scdn.co\/audio\/$media,redirect=noopmp4-1s,app=Spotify.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 802,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||creativeservice-production.scdn.co\/mp3-ad\/*.mp3$media,~xmlhttprequest,redirect=noopmp4-1s,app=Spotify.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 803,
+      "message" : "Unsupported network condition modifiers: app.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||audio-ak*-*.akamaized.net\/audio\/$media,~xmlhttprequest,redirect=noopmp4-1s,app=Spotify.exe",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 824,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\\/[a-z]{4,}\\\/(?!holly7|siksik7)[0-9a-z]{3,}\\d\\.\\d{1,2}\\.\\d{1,2}\\.[0-9a-f]{32}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/\\\/[a-z]{4,}\\\/(?!holly7|siksik7)[0-9a-z]{3,}\\d\\.\\d{1,2}\\.\\d{1,2}\\.[0-9a-f]{32}\\.js$\/$script,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|shemalez.tube|sss.xxx|thegay.com|thegay.tube|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|txxxporn.tube|upornia.com|upornia.tube|vjav.com|vjav.tube|voyeurhit.com|vxxx.com|bigdick.tube|voyeurhit.tube|hotmovs.tube|in-porn.com|manysex.com|pornclassic.tube|manysex.tube|aniporn.com|abxxx.com|gaytxxx.com|xjav.tube|abjav.com|transtxxx.com|pornl.tube|desi-porn.tube|desi-porn.xyz|ourgay.tube|fuxxx.com|lesbigo.com|uanal.com|pornuse.com|abbdsm.com|abgay.tube|abmilf.com|abtranny.com|teen21.com|peporn.com|porn-latina.com|keporn.com|boobse.com|gfthai.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 839,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: (toonget|kickassanime|watchanime|(the)?watchcartoons?online|readcomiconline|kimcartoon|kiss-anime|9anime|gogoanimes?|toonova|animeflv|animeplus|goodanime|animewow|animenova|animetoon|mangapanda|memecenter|mangareader|mangafreak)\\.[a-z]{2,4}\\\/[s\\S]*\\\/[-_a-zA-Z0-9]{22,}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/(toonget|kickassanime|watchanime|(the)?watchcartoons?online|readcomiconline|kimcartoon|kiss-anime|9anime|gogoanimes?|toonova|animeflv|animeplus|goodanime|animewow|animenova|animetoon|mangapanda|memecenter|mangareader|mangafreak)\\.[a-z]{2,4}\\\/[s\\S]*\\\/[-_a-zA-Z0-9]{22,}\/$script,domain=animeflv.net",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 843,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: (readcomiconline|kimcartoon|kiss-anime|9anime|gogoanime|toonova|animeflv|animeplus|goodanime|animewow|animenova|animetoon|mangapanda|memecenter|mangareader)\\.[a-z]{2,4}\\\/[-_a-zA-Z0-9]{3,}\\\/[-_a-zA-Z0-9]{20,}.(gif|jpg|png)",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/(readcomiconline|kimcartoon|kiss-anime|9anime|gogoanime|toonova|animeflv|animeplus|goodanime|animewow|animenova|animetoon|mangapanda|memecenter|mangareader)\\.[a-z]{2,4}\\\/[-_a-zA-Z0-9]{3,}\\\/[-_a-zA-Z0-9]{20,}.(gif|jpg|png)\/$domain=animeflv.net",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 874,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[a-z-]{6,}\\.(?:com?|pro|info|xyz)\\\/[a-d][-\\.\\\/_A-Za-z][DHWXm][-\\.\\\/_A-Za-z][59FVZ][-\\.\\\/_A-Za-z][6swyz][-\\.\\\/_A-Za-z][-\\\/_0-9a-zA-Z][-\\.\\\/_A-Za-z][-\\\/_0-9a-zA-Z]{22,162}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/[a-z-]{6,}\\.(?:com?|pro|info|xyz)\\\/[a-d][-\\.\\\/_A-Za-z][DHWXm][-\\.\\\/_A-Za-z][59FVZ][-\\.\\\/_A-Za-z][6swyz][-\\.\\\/_A-Za-z][-\\\/_0-9a-zA-Z][-\\.\\\/_A-Za-z][-\\\/_0-9a-zA-Z]{22,162}$\/$script,xmlhttprequest,third-party,match-case",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 905,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : ".com\/watch?$xmlhttprequest,jsonprune=\\$..[adPlacements\\, adSlots\\, playerAds],domain=youtubekids.com|youtube-nocookie.com|youtube.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 907,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/youtubei\/v*\/get_watch?$jsonprune=\\$..[adPlacements\\, adSlots\\, playerAds],domain=m.youtube.com|youtubekids.com|youtube-nocookie.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 908,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/youtubei\/v*\/player?$jsonprune=\\$..[adPlacements\\, adSlots\\, playerAds],domain=youtubekids.com|youtube-nocookie.com|youtube.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 909,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : ".com\/playlist?list=$jsonprune=\\$..[adPlacements\\, adSlots\\, playerAds],domain=youtubekids.com|youtube-nocookie.com|youtube.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 910,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/youtubei\/v*\/reel\/reel_watch$jsonprune=\\$.entries[?(has \"\\$..command.reelWatchEndpoint.adClientParams.isAd\")],domain=youtube.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 1094,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\\\/\\\/|\\.)vk\\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|ko-fi.com|wsimg.com|sharethis.com|utteranc.es|cloudflareinsights.com|tailwindcss.com|capo6play.com|alicdn.com|(\\\/\\\/|\\.)x\\.com)).*$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\\\/\\\/|\\.)vk\\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|ko-fi.com|wsimg.com|sharethis.com|utteranc.es|cloudflareinsights.com|tailwindcss.com|capo6play.com|alicdn.com|(\\\/\\\/|\\.)x\\.com)).*$\/$third-party,script,_____,domain=fapfappy.com|onestream.xyz|123movieshd.*|sportsonline.*|dlhd.*|ducumon.click|klto9.com|f2movies.to|xx0day.com|sextb.date|sextb.net|alexsports.site|xxxymovies.com|javhdo.net|daft.sex|tv.puresoul.live|veryfreeporn.com|linkebr.com|bitfly.io|exe.app|gplinks.co|miklpro.com|rexdlfile.com|downloadhub.ink|skidrowcodex.co|adcorto.xyz|cuturl.in|skidrowcodex.net|illink.net|300mbplus.*|shrinkme.in|iir.ai|stfly.me|bolssc.com|canyoublockit.com|aii.sh|oncehelp.com|kshow123.net|dlapk4all.com|putlocker.digital|pimpandhost.com|pornpapa.com|xxxfiles.com|pornone.com|rawdex.net|hiperdex.com|ask4movie.co|animekayo.com|xorgasmo.com|mitly.us|xtits.com|vjav.com|area51deportiva.com|mixdrop.to|allporncomic.com|animepahe.com|gosexpod.com|kropic.com|kaplog.com|homemoviestube.com|zeenite.com|clk.ink|push.bdnewsx.com|uptomega.me|tumanga.net|123moviesfree.*|123unblock.*|shieldmanga.*|ccurl.net|beinmatch.*|movie8k.*|sports24.*|downloadpirate.com|payskip.org|themoviesflix.co|hentaitube.online|link1s.*|exe.app|10convert.com|fc.lc|mypornstarbook.net|strims.*|cpmlink.net|bigtitslust.com|holymanga.net|links.mflixblog.xyz|skidrowreloaded.com|kissanimes.cc|anupama.*|kiryuu.co|forex-trnd.com|userupload.net|freeadultcomix.com|ruvideos.net|srsone.top|otakufr.co|jujmanga.com|amlijatt.in|123movies.*|lewdweb.net|flixtv.club|promo-visits.site|simplyfaucet.xyz|fzmovies.*|tny.so|1mlsbd.com|knaben.ru|streamtape.*|dramacool.*|123movies-hd.online|latestmanga.net|hexupload.net|sukidesuost.info|cocomanga.com|rawkuma.com|erogarga.com|mixdrop.sx|kabegamipuloh.web.app|japscan.ws|bluemediafiles.*|films5k.com|zetporn.com|watchmalcolminthemiddle.com|reddit.tube|outletpic.com|la123movies.com|streamingworld.club|gomo.to|yesmovies.sx|xtits.xxx|y2mate.com|weloma.art|pornvideos4k.com|4kpornmovs.com|up-load.io|insuranceblog.xyz|leaknudes.com|beingtek.com|fmovies.app|hentaiblue.com|yifysubtitles.vip|anonymz.com|torrentgalaxy.to|fmoviesto.cc|mixdrop.*|go-stream.site|eztv.unblockedsites.net|crackdj.com|aileen-novel.online|porncomixonline.net|wuxiarealm.com|mangahub.io|dvdplay.*|readcomiconline.li|mangaraw.org|rawmanga.top|hacamchicac.com|streamadblockplus.com|silverpic.com|apkmody.io|imgsto.com|nikaraw.com|subdl.com|crackpoint.club|torrentgalaxy.to|javct.net|haho.moe|4anime.gg|sportssoccer.club|extrafreetv.com|1337x.unblockit.cat|yourporngod.com|watchjavonline.com|picyield.com|bluemediafile.*|pornrabbit.com|stream2watch.be|worldstreams.watch|worldstreams.click|milfzr.com|gameshdlive.xyz|gamerarcades.com|asiangaylove.com|yurineko.net|animepahe.ru|0123movie.site|ufcfight.online|biggamez.xyz|trannyteca.com|lilymanga.net|bestporncomix.com|zinchanmanga.com|yaoimangaonline.com|zoechip.cc|zoechip.com|oxy.st|backfirstwo.com|3dporndude.com|thepiratebay.zone|mmsbee24.com|dofusports.xyz|1tamilblasters.*|gaystream.pw|hog.mobi|pahe.me|rawinu.com|nicomanga.com|youtube4kdownloader.com|soccerinhd.com|eztvx.to|bunkr.*|bunkr.ci|bunkr.ph|indiangaysite.com|nativesurge.info|readcomiconline.li|luciferdonghua.in|hawtcelebs.com|file-zz40pd56-embed.com|bunkr-albums.io|pubjav.com|game3rb.com|boyfuck.me|mgeko.cc|9tsu.cc|nukibooks.com|porn4fans.com|pastemode.com|playmogo.com|miixdrop.net|flickystream.ru|vidzee.wtf|mahitimanch.in|miiiiixdrop.net|amigosporn.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 5018,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||api.pixai.art\/graphql$jsonprune=\\$.data.publicDynamicConfig.campaign.feed.*..[?(key-eq \"\\$.isAd\" true)]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 5624,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: www\\.[a-z]{5,}\\.com\\\/[A-Za-z]{2,}\\\/[a-z-]{5,}[\\s\\S]*\\.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/www\\.[a-z]{5,}\\.com\\\/[A-Za-z]{2,}\\\/[a-z-]{5,}[\\s\\S]*\\.js\/$domain=miztv.shop",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 6073,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: [a-z]{12,}\\.com\\\/",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/[a-z]{12,}\\.com\\\/\/$script,third-party,domain=swiftload.io",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 7482,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: [a-z0-9]{8,}.[a-z]{3,}",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/[a-z0-9]{8,}.[a-z]{3,}\/$xmlhttprequest,third-party,domain=tapeantiads.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 8575,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||api.plebmasters.de\/v*\/search$jsonprune=\\$.results..[?(has adTitle)]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 8576,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||api.plebmasters.de\/v*\/dlcs\/$jsonprune=\\$..results..[?(has adTitle)]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 8960,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^(?!.*(swarm.video|alexsports.store|googleusercontent.com)).*$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^(?!.*(swarm.video|alexsports.store|googleusercontent.com)).*$\/$third-party,xmlhttprequest,script,domain=alexsports.site",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 9404,
+      "message" : "Unsupported network action modifiers: removeheader.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||go.goasrv.com^$removeheader=location",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 9410,
+      "message" : "Unsupported network action modifiers: removeheader.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||go.xlivrdr.com^$removeheader=location",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 10682,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\.com\\\/[0-9a-z]{12,}\\\/[0-9a-z]{12,}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/\\.com\\\/[0-9a-z]{12,}\\\/[0-9a-z]{12,}\\.js$\/$script,~third-party,domain=tube-teen-18.com|teen-hd-sex.com|xxx-asian-tube.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 11247,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/s3\\.us-east-1\\.amazonaws\\.com\\\/[0-9a-f]{50,}\\\/[0-9a-f]{10}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/s3\\.us-east-1\\.amazonaws\\.com\\\/[0-9a-f]{50,}\\\/[0-9a-f]{10}$\/$xmlhttprequest,third-party",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 11248,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[0-9a-f]{50,}\\.s3\\.amazonaws\\.com\\\/[0-9a-f]{10}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/[0-9a-f]{50,}\\.s3\\.amazonaws\\.com\\\/[0-9a-f]{10}$\/$xmlhttprequest,third-party",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 12332,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\.com\\\/[A-Za-z]{9,}\\\/[A-Za-z]{9,}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/\\.com\\\/[A-Za-z]{9,}\\\/[A-Za-z]{9,}\\.js$\/$script,~third-party,domain=zetporn.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 14167,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: newser.com\\\/[a-zA-Z]{5,}\\\/[a-zA-Z]{3,}\\\/[a-zA-Z]{5,}.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/newser.com\\\/[a-zA-Z]{5,}\\\/[a-zA-Z]{3,}\\\/[a-zA-Z]{5,}.js\/$domain=newser.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 15719,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/(www\\.)?lesbianexpert\\.com\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/(www\\.)?lesbianexpert\\.com\\\/[a-z\\d]+\\.js$\/$domain=lesbianexpert.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 16011,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: [a-z0-9]{32,}.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/[a-z0-9]{32,}.js\/$domain=biqle.ru",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 16220,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/ftopx\\.com\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/ftopx\\.com\\\/[a-z\\d]+\\.js$\/$domain=ftopx.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 16362,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/(www\\.)?bunnylust\\.com\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/(www\\.)?bunnylust\\.com\\\/[a-z\\d]+\\.js$\/$domain=bunnylust.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 16593,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/(www\\.)?pornhd\\.com\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/(www\\.)?pornhd\\.com\\\/[a-z\\d]+\\.js$\/$domain=pornhd.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 16643,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/hentaigo\\.com\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/hentaigo\\.com\\\/[a-z\\d]+\\.js$\/$domain=hentaigo.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 16927,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ancensored.com\\\/js\\\/[-_a-zA-Z0-9]{12,}.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/ancensored.com\\\/js\\\/[-_a-zA-Z0-9]{12,}.js\/$domain=ancensored.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 17030,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: simply-hentai.com\\\/javascripts\\\/[_-a-zA-Z0-9]{5,}.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/simply-hentai.com\\\/javascripts\\\/[_-a-zA-Z0-9]{5,}.js\/$domain=simply-hentai.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 17133,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/xxximage\\.org\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/xxximage\\.org\\\/[a-z\\d]+\\.js$\/$domain=xxximage.org",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 17134,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/imageboom\\.net\\\/[a-z\\d]+\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/imageboom\\.net\\\/[a-z\\d]+\\.js$\/$domain=imageboom.net",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 17151,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/chyoa\\.com\\\/[a-zA-Z\\d]{1,15}\\\/[a-zA-Z\\d]{1,15}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/chyoa\\.com\\\/[a-zA-Z\\d]{1,15}\\\/[a-zA-Z\\d]{1,15}\\.js$\/$domain=chyoa.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 17773,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: doseofporn.com\\\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\\S]*.js",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/doseofporn.com\\\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\\S]*.js\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 18110,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/picturelol\\.com\\\/[a-z\\d]+\\.(js)$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/picturelol\\.com\\\/[a-z\\d]+\\.(js)$\/$domain=picturelol.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 18111,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\d in url-filter regex. url-filter: ^https?:\\\/\\\/zoomgirls\\.net\\\/[a-z\\d]+\\.(js)$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https?:\\\/\\\/zoomgirls\\.net\\\/[a-z\\d]+\\.(js)$\/$domain=zoomgirls.net",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 21663,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: devfiles.pages.dev\\\/img\\\/[a-zA-Z0-9]{8,}.jpeg",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/devfiles.pages.dev\\\/img\\\/[a-zA-Z0-9]{8,}.jpeg\/$domain=djxmaza.in",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 22655,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z-]{5,13}\\.[a-z]{2,6}\\\/[a-z0-9]{1,20}\\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/[a-z-]{5,13}\\.[a-z]{2,6}\\\/[a-z0-9]{1,20}\\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$\/$xmlhttprequest,third-party,match-case",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 22710,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/https?:\\\/\\\/[a-z]{10,15}\\.com\\\/[0-9a-zA-Z]{5,20}\\\/[0-9]{1,10}$\/$script,match-case,header=set-cookie:\/^GL_UI4=\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 22711,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/https?:\\\/\\\/[a-z]{2}\\.[a-z]{10,15}\\.com\\\/[0-9a-zA-Z]{5,20}\\\/[0-9a-zA-Z]{1,5}$\/$script,match-case,header=set-cookie:\/^GL_UI4=\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 22712,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/https?:\\\/\\\/[a-z]{2}\\.[a-z]{10,15}\\.com\\\/[0-9a-zA-Z]{1,5}\\\/\\d{1,5}\\?[a-z]{1,5}=.{700,1200}$\/$script,match-case,header=set-cookie:\/^GL_UI4=\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 22721,
+      "message" : "Unsupported network action modifiers: header.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/https?:\\\/\\\/[a-z0-9]{10,25}\\.[a-z0-9]{10,20}\\.cfd\\\/[a-zA-Z0-9]{10,25}\\\/[a-zA-Z0-9]{1,5}$\/$script,match-case,header=set-cookie:\/^GL_UI4=\/",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 22725,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\\/[A-Z]{1,3}\\\/[-0-9a-z]{5,}\\.com\\\/\\d{1,3}\\\/\\d+$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/\\\/[A-Z]{1,3}\\\/[-0-9a-z]{5,}\\.com\\\/\\d{1,3}\\\/\\d+$\/$script,~third-party,match-case,domain=bflix.to",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 22726,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\\/[A-Z]{1,3}\\\/[-0-9a-z]{5,}\\.com\\\/(?:[0-9a-f]{2}\\\/){3}[0-9a-f]{32}\\.js$",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/\\\/[A-Z]{1,3}\\\/[-0-9a-z]{5,}\\.com\\\/(?:[0-9a-f]{2}\\\/){3}[0-9a-f]{32}\\.js$\/$script,~third-party,match-case,domain=mcloud.to|vizcloud.*|vizcloud2.*|bflix.to",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 22738,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{6,}\\.[a-z]{12,}\\.(?:cfd|cyou)\\\/[a-z0-9]{1,2}\\\/[a-zA-Z0-9]{6,}\\?[a-z0-9]{2,3}=ey",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/^https:\\\/\\\/[a-z]{6,}\\.[a-z]{12,}\\.(?:cfd|cyou)\\\/[a-z0-9]{1,2}\\\/[a-zA-Z0-9]{6,}\\?[a-z0-9]{2,3}=ey\/$xmlhttprequest,third-party,match-case",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23655,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/i\/api\/graphql\/*\/HomeLatestTimeline$jsonprune=\\$.data.home.home_timeline_urt.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')],domain=twitter.com|x.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23656,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/i\/api\/graphql\/*\/HomeTimeline$jsonprune=\\$.data.home.home_timeline_urt.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')],domain=twitter.com|x.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23658,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/i\/api\/graphql\/*\/TweetDetail$jsonprune=\\$.data.threaded_conversation_with_injections_v2.instructions..entries.[?(has \"\\$.content.items..item.itemContent.promotedMetadata.advertiser_results\")],domain=twitter.com|x.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23660,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "\/i\/api\/graphql\/*\/ImmersiveMedia$jsonprune=\\$.data.immersiveMedia.timeline.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')],domain=twitter.com|x.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23691,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||assets.msn.com\/service\/news\/feed\/pages\/$jsonprune=\\$.sections..subSections..cards..[?(key-substr 'type' 'nativead')]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23693,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||assets.msn.com\/serviceak\/news\/feed\/pages\/viewspage$jsonprune=\\$.sections..cards..[?(key-substr 'type' 'PartnerUpsell')]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23697,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||msn.com\/resolver\/api\/resolve\/$jsonprune=\\$.configs[\"ConsumptionPage\/gallery_default\"].properties.componentConfigs.slideshowConfigs..interstitialNativeAds",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23698,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||msn.com\/resolver\/api\/resolve\/$jsonprune=\\$.configs['GalleryPage\/ntpmsn'].properties.slideshowWCSettings.interstitialNativeAds",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23699,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||msn.com\/resolver\/api\/resolve\/$jsonprune=\\$.configs['GalleryPage\/ntpmsn'].properties.fullScreenSlideshowSettings.interstitialNativeAds",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23700,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||msn.com\/resolver\/api\/resolve\/$jsonprune=\\$.configs['SlideShow\/ntpmsn'].properties.additionalChildExperiences..children..childExperienceConfigInfo.configRef[?(key-substr '\\$' 'NativeAd')]",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-jsonprune-path",
+      "lineNumber" : 23702,
+      "message" : "$jsonprune path uses syntax that the runtime cannot evaluate safely.",
+      "reportFile" : "reports\/blockerkit\/adguard_base_specific.json",
+      "source" : "||assets.msn.com\/periconfigs\/feature-configs\/consumptionpage\/gallery_default\/config.json$jsonprune=\\$.properties.componentConfigs.slideshowConfigs..interstitialNativeAds",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-condition",
+      "lineNumber" : 402,
+      "message" : "Unsupported network condition modifiers: network.",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_adservers.json",
+      "source" : "94.130.167.163$network",
+      "sourceFileName" : "adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 226,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\.com\\\/(?:[a-z]{2,}-)+p-\\d{4,6}\\.html\\?(?:page_source|prevRef|re[fl])=",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/\\.com\\\/(?:[a-z]{2,}-)+p-\\d{4,6}\\.html\\?(?:page_source|prevRef|re[fl])=\/$document,match-case",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 227,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/(?:(?!www)[a-z]{3,}\\.)?[0-9a-z\\-]{3,}\\.(?:com|net|org)\\\/index\\.php\\?main_page=product_info(&stl=\\d)?&(?:cPath|products_id)=",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https:\\\/\\\/(?:(?!www)[a-z]{3,}\\.)?[0-9a-z\\-]{3,}\\.(?:com|net|org)\\\/index\\.php\\?main_page=product_info(&stl=\\d)?&(?:cPath|products_id)=\/$document",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 318,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:[-0-9a-z]{3,}\\.)?[a-z]{5,}\\.[a-z]{3,7}\\\/product\\\/\\d{4,7}(\\.html)?$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:[-0-9a-z]{3,}\\.)?[a-z]{5,}\\.[a-z]{3,7}\\\/product\\\/\\d{4,7}(\\.html)?$\/$document,domain=baby|blog|bond|cam|casa|club|fun|homes|online|rest|sbs|shop|surf|top|website|yoga",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 319,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:[-0-9a-z]{4,}\\.)?[a-z]{5,}\\.org\\\/product\\\/\\d{4,7}(\\.html)?$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:[-0-9a-z]{4,}\\.)?[a-z]{5,}\\.org\\\/product\\\/\\d{4,7}(\\.html)?$\/$document,domain=~openfoodfacts.org",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 371,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:[-0-9a-z]{3,}\\.)?[a-z]{5,}\\.[a-z]{3,7}\\\/product\\\/\\d{4,7}(\\.html)?$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:[-0-9a-z]{3,}\\.)?[a-z]{5,}\\.[a-z]{3,7}\\\/product\\\/\\d{4,7}(\\.html)?$\/$document,to=baby|blog|bond|cam|casa|club|fun|homes|online|rest|sbs|shop|surf|top|website|yoga",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 372,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:[-0-9a-z]{4,}\\.)?[a-z]{5,}\\.org\\\/product\\\/\\d{4,7}(\\.html)?$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https?:\\\/\\\/(?:[-0-9a-z]{4,}\\.)?[a-z]{5,}\\.org\\\/product\\\/\\d{4,7}(\\.html)?$\/$document,to=~openfoodfacts.org",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 383,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/([a-vx-z][a-z]{2,}\\.)?[0-9a-z-]{3,}\\.(com|net|org)\\\/index\\.php\\?main_page=product_info(&stl=\\d)?&(cPath|products_id)=",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_general_url.json",
+      "source" : "\/^https:\\\/\\\/([a-vx-z][a-z]{2,}\\.)?[0-9a-z-]{3,}\\.(com|net|org)\\\/index\\.php\\?main_page=product_info(&stl=\\d)?&(cPath|products_id)=\/$document",
+      "sourceFileName" : "general_url.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 11,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\\\/\\\/|\\.)vk\\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|alicdn.com|(\\\/\\\/|\\.)x\\.com)).*$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_specific.json",
+      "source" : "\/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\\\/\\\/|\\.)vk\\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|alicdn.com|(\\\/\\\/|\\.)x\\.com)).*$\/$third-party,script,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "webkit-url-filter-disjunction",
+      "lineNumber" : 7387,
+      "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: dcms_media\\\/image\\\/(?:bownow|[%_0-9A-Z]{30,})\\.(?:png|jpg)$",
+      "reportFile" : "reports\/blockerkit\/adguard_japanese_specific.json",
+      "source" : "\/dcms_media\\\/image\\\/(?:bownow|[%_0-9A-Z]{30,})\\.(?:png|jpg)$\/$image,~third-party,match-case,domain=logistics.jp",
+      "sourceFileName" : "specific.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 73,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "source" : "||aucdn.net\/library\/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com",
+      "sourceFileName" : "adult_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 121,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "source" : "||cdn.miohentai.com\/partners\/$rewrite=abp-resource:blank-mp4,domain=miohentai.com",
+      "sourceFileName" : "adult_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 125,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "source" : "||cfgr3.com\/videos\/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com",
+      "sourceFileName" : "adult_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 638,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "source" : "||youjizz.com\/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com",
+      "sourceFileName" : "adult_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 671,
+      "message" : "Unsupported network action modifiers: csp.",
+      "reportFile" : "reports\/blockerkit\/easylist_adult_adult_specific_block.json",
+      "source" : "||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https:\/\/thegay.com https:\/\/tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:",
+      "sourceFileName" : "adult_specific_block.txt"
+    },
+    {
+      "code" : "webkit-url-filter-character-class-shorthand",
+      "lineNumber" : 48853,
+      "message" : "WKContentRuleListStore rejects character class shorthand \\w in url-filter regex. url-filter: (https?:\\\/\\\/)\\w{30,}\\.me\\\/\\w{30,}\\.",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)\\w{30,}\\.me\\\/\\w{30,}\\.\/$script,third-party",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48855,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)104\\.154\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)104\\.154\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48856,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)104\\.197\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)104\\.197\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48857,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)104\\.198\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)104\\.198\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48858,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)130\\.211\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)130\\.211\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48859,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)142\\.91\\.159\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)142\\.91\\.159\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48860,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)213\\.32\\.115\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)213\\.32\\.115\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48861,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)216\\.21\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)216\\.21\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48862,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)217\\.182\\.11\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)217\\.182\\.11\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 48863,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: (https?:\\\/\\\/)51\\.195\\.31\\..{100,}",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_adservers.json",
+      "source" : "\/(https?:\\\/\\\/)51\\.195\\.31\\..{100,}\/",
+      "sourceFileName" : "easylist_adservers.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 7,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "||2mdn.net\/videoplayback\/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 312,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "||googlevideo.com\/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 808,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[0-9a-z]{5,}\\.com\\\/.*",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "\/^https?:\\\/\\\/[0-9a-z]{5,}\\.com\\\/.*\/$script,third-party,xmlhttprequest,domain=1cloudfile.com|745mingiestblissfully.com|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|anonymz.com|antiadtape.com|bowfile.com|clickndownload.click|clicknupload.space|cloudvideo.tv|daddylivehd.sx|dailyuploads.net|databasegdriveplayer.xyz|deltabit.co|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dramacool.sr|drivebuzz.icu|ds2play.com|embedplayer.site|embedsb.com|embedsito.com|embedstream.me|engvideo.net|enjoy4k.xyz|eplayvid.net|evoload.io|filemoon.sx|files.im|flexy.stream|fmovies.ps|gaybeeg.info|gdriveplayer.pro|gettapeads.com|givemenbastreams.com|gogoanimes.org|gomo.to|hexload.com|imgtraffic.com|kesini.in|kickasstorrents.to|linkhub.icu|lookmyimg.com|mangareader.to|membed.net|mirrorace.org|mixdrop.ag|mixdrop.click|mixdrop.club|mixdrp.co|movies2watch.tv|mp4upload.com|nelion.me|noblocktape.com|nsw2u.org|ovagames.com|pcgamestorrents.com|putlocker-website.com|reputationsheriffkennethsand.com|rintor.space|rojadirecta1.site|scloud.online|shavetape.cash|skidrowcodex.net|smallencode.me|stapadblockuser.art|stapadblockuser.click|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamta.site|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strikeout.ws|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|supervideo.cc|supervideo.tv|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapenoads.com|tapepops.com|tapewithadblock.com|tapewithadblock.org|thepiratebay0.org|thepiratebay10.xyz|theproxy.ws|thevideome.com|toxitabellaeatrebates306.com|un-block-voe.net|upbam.org|upload.do|upstream.to|userscloud.com|v-o-e-unblock.com|vido.lol|vidsrc.me|vidsrc.stream|vipleague.im|vipleague.pm|voe-unblock.net|voe.sx|vudeo.io|vudeo.net|yesmovies.mn|youtube4kdownloader.com",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 809,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[0-9a-z]{8,}\\.xyz\\\/.*",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "\/^https?:\\\/\\\/[0-9a-z]{8,}\\.xyz\\\/.*\/$third-party,xmlhttprequest,domain=1link.club|apiyoutube.cc|bestmp3converter.com|dood.wf|lulustream.com|mp4upload.com|poscitech.com|sportcast.life|streamhub.to|streamvid.net|tokybook.com|uqload.io",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "unsupported-network-action",
+      "lineNumber" : 847,
+      "message" : "Unsupported network action modifiers: rewrite.",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "||innovid.com\/media\/encoded\/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 882,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/www\\.[0-9a-z]{8,}\\.com\\\/[0-9a-z]{1,4}\\.js$",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_specific_block.json",
+      "source" : "\/^https?:\\\/\\\/www\\.[0-9a-z]{8,}\\.com\\\/[0-9a-z]{1,4}\\.js$\/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws",
+      "sourceFileName" : "easylist_specific_block.txt"
+    },
+    {
+      "code" : "webkit-url-filter-counted-repetition",
+      "lineNumber" : 698,
+      "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/s3\\.*\\.amazonaws\\.com\\\/[a-f0-9]{45,}\\\/[a-f,0-9]{8,10}$",
+      "reportFile" : "reports\/blockerkit\/easylist_easylist_thirdparty.json",
+      "source" : "\/^https?:\\\/\\\/s3\\.*\\.amazonaws\\.com\\\/[a-f0-9]{45,}\\\/[a-f,0-9]{8,10}$\/$script,third-party,xmlhttprequest,domain=~amazon.com",
+      "sourceFileName" : "easylist_thirdparty.txt"
+    }
+  ],
+  "generatedAt" : "2026-07-22T15:58:32Z",
+  "schemaVersion" : 1,
+  "summary" : {
+    "unsupportedRuleCount" : 284
+  }
+}
