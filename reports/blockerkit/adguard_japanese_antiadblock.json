@@ -1,0 +1,5126 @@
+{
+  "outputFileNames" : [
+    "adguard_japanese_antiadblock.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 13,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=e-words.jp"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 176,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||in-jpn.com^$script,replace=\/function myFunc[\\s\\S\\n]+?doSakigake\\(\\);[\\s\\S\\n]+?\\}\/\/"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 196,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||local.adguard.org\/?type=content-script|$domain=wiki.yjsnpi.nu,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 197,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "@@||local.adguard.org^$redirect=noopjs,domain=wiki.yjsnpi.nu"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 228,
+        "message" : "Approximate network modifiers: important.",
+        "severity" : "warning",
+        "source" : "||daotag.com\/tag\/$script,domain=exploader.net,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 231,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||daotag.com^$image,redirect=32x32-transparent.png,domain=exploader.net"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 257,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=intaa.net"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 300,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=egotter.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 331,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||ad-stir.com\/js\/adstir.js$script,redirect-rule=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 332,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||adingo.jp\/p.js$script,redirect-rule=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 333,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||criteo.net\/js\/ld\/publishertag.js$script,redirect-rule=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 334,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||microad.net\/js\/compass.js$script,redirect-rule=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 396,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||tpc.googlesyndication.com^$image,redirect=1x1-transparent.gif,domain=rocketnews24.com|youpouch.com,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 403,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/$script,redirect=googlesyndication-adsbygoogle,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 406,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/safeframe\/$subdocument,redirect=noopframe,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 407,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||fundingchoicesmessages.google.com^$script,redirect-rule=noopjs,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 411,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||youpouch.com\/_static\/$replace=\/(!1|!0!)=?==SCO\\.imgLazyLoad\/1===1\/,script"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 412,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||rocketnews24.com\/_static\/$replace=\/(!1|!0!)=?==SCO\\.imgLazyLoad\/1===1\/,script"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 441,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=helpsupport.blog.fc2.com|gamemod.blog.fc2.com,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 468,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||i.imgur.com^$image,redirect=32x32-transparent.png,domain=syosetu.top"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 470,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=kakomonn.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 483,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=playai.nu,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 489,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=coolpan.net,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 499,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||ad-stir.com\/js\/adstir.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 500,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||i-mobile.co.jp\/script\/v1\/spot.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 501,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||nend.net\/js\/nendAdLoader.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 537,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=battlecats-db.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 553,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||googleads.g.doubleclick.net\/pagead\/ads?$subdocument,redirect=noopframe,domain=realtime-chart.info|sekai-kabuka.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 578,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=nihongo-pro.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 586,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=freemen.jp"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 612,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=ap-siken.com|db-siken.com|fe-siken.com|itpassportsiken.com|nw-siken.com|pm-siken.com|sc-siken.com|sg-siken.com|fp1-siken.com|fp2-siken.com|fp3-siken.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 648,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/gampad\/ads?*\/video.tv-tokyo.co.jp$redirect=nooptext,important,domain=video.tv-tokyo.co.jp"
+      }
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 13,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=e-words.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "e-words.jp###abmessage"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "soraraw.net#%#\/\/scriptlet('trusted-json-set-fetch-response', 'adBlockGuard', 'false', '', '\/config.json')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "soraraw.net#@#.ad-unit:not(.textads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "soraraw.net#@##AdBanner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "soraraw.net#$#.adguard-overlay { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "soraraw.net#$##__next > div[style] { filter: none !important; pointer-events: auto !important; user-select: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "mangaruu.com#@#.ad-unit:not(.textads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "mangaruu.com#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "mangaruu.com#$#body > .adsbygoogle.ad-unit[style] { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "mangaruu.com#$#.adguard-overlay { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "mangaruu.com#$##__next > div[style*=\"filter:\"] { filter: none !important; pointer-events: auto !important; user-select: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=mangaruu.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "\/yamiisoku-anti-adblock\/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "plus.fm-p.jp#@#.ad_overlay"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "spotvnow.jp#%#\/\/scriptlet('prevent-fetch', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=spotvnow.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=spotvnow.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "pc.moppy.jp#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 41,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=pc.moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 43,
+        "source" : "||si-coding.net\/block_ctn.php"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "si-coding.net#%#\/\/scriptlet('prevent-setTimeout', 'aswift_')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "catr.jp#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=catr.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "@@$generichide,domain=39news.net|3punchiebukuro.info|catheart.pet|davincinews.info|dogheart.pet|entame-news.info|entame-trendnews.info|ichi-oshi.info|lettuceclub.site|mainichigahakken.info|mamanote.info|point-thetv.jp|point-dengekihobby.jp|presslink.jp|tamahiyo.site|trend-news.fun|walkerplus.info"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "yomury.blog.jp,girlsvip-matome.com#%#\/\/scriptlet('prevent-setTimeout', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,domain=girlsvip-matome.com|yomury.blog.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "||googleads.g.doubleclick.net\/pagead\/id$xmlhttprequest,redirect=nooptext,domain=ib-game.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 59,
+        "source" : "@@||googleads.g.doubleclick.net\/pagead\/id$xmlhttprequest,domain=ib-game.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=ib-game.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "@@||j.microad.net\/js\/compass.js$domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "tver.jp#%#\/\/scriptlet('prevent-fetch', 'd.socdm.com')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "tver.jp#%#\/\/scriptlet('prevent-setTimeout', 'null===document.getElementById', '1000')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "@@||d.socdm.com\/adsv\/v1?posall=$xmlhttprequest,domain=tver.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "r326.com#%#\/\/scriptlet('prevent-setTimeout', 'intersa.aspx')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "r326.com#$##div_adtest { height: 30px !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "||gamekyukei.com\/wp-content\/themes\/cocoon-child-master\/assets\/js\/gkkdab.min.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : "shihiro.com#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=shihiro.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "||js.zeala.link\/adblock.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "niji-gazo.com#@#.banner-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "himachat.jp#%#\/\/scriptlet('prevent-fetch', '\/adm\\.shinobi\\.jp\\\/st\\\/t\\.js\/ method:HEAD mode:no-cors')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "||adm.shinobi.jp\/st\/t.js$xmlhttprequest,redirect=nooptext,domain=himachat.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : "@@||adm.shinobi.jp\/st\/t.js$xmlhttprequest,domain=himachat.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 87,
+        "source" : "pretravel.kawasaki-create.com#%#\/\/scriptlet('remove-node-text', 'script', 'detectAdBlocker')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "pretravel.kawasaki-create.com$$script:contains(detectAdBlocker)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : "@@||pretravel.kawasaki-create.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 92,
+        "source" : "@@||koken.nicovideo.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 94,
+        "source" : "||2ch.logpo.jp\/Scripts\/bab.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "||rkd3.dev\/dab.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 97,
+        "source" : "rkd3.dev#@#.adunit"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "rkd3.dev#%#\/\/scriptlet('set-constant', 'navigator.brave', 'undefined')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 99,
+        "source" : "rkd3.dev#%#\/\/scriptlet('prevent-fetch', 'adsbygoogle.js')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=rkd3.dev"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 103,
+        "source" : "||response.jp\/feature\/adb\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "tokyo-sports.co.jp#$#.tp-backdrop { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "tokyo-sports.co.jp#$#.tp-modal { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "tokyo-sports.co.jp#$#body.tp-modal-open { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "tokyo-sports.co.jp#$#html.tp-scroll-prevented { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "gigafile.nu#%#\/\/scriptlet('prevent-addEventListener', 'load', 'adBlockDetected')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "||gigafile.nu\/js\/guard.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "mtgames.jp#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "kujimap.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 116,
+        "source" : "kujimap.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 118,
+        "source" : "aimomo.net#%#\/\/scriptlet('set-constant', 'google_tag_manager', 'emptyObj')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "source" : "aimomo.net#%#\/\/scriptlet('set-constant', 'adsbygoogle.pageState', '1')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=aimomo.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "@@||googletagmanager.com\/gtm.js$domain=aimomo.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "source" : "||math-joy-life.com\/build\/assets\/detect-*.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "source" : "pokegonews.net#%#\/\/scriptlet('prevent-eval-if', '広告')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "pokegonews.net##body > [id][style^=\"display: block; width: 99\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "video.tv-tokyo.co.jp#$##detect.ad-container { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "video.tv-tokyo.co.jp#%#\/\/scriptlet('prevent-fetch', '\/pagead2\\.googlesyndication\\.com|metrics\\.streaks\\.jp|ads-twitter\\.com\/')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "video.tv-tokyo.co.jp##.ad-block-overlay-denied"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "@@||ads-twitter.com^$xmlhttprequest,domain=video.tv-tokyo.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=video.tv-tokyo.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "chobirich.com#$#.Enquete { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "toyokeizai.net###tpModal"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#$#.ad.ads.adsbygoogle.ad1.ad-space.adbox.imggif.ad-banner.amp_ad.file-display-area { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#.ad-space:not(.textads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 145,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#[class^=\"div-gpt-ad\"]:not([style^=\"width: 1px; height: 1px;\"], .div-gpt-ad_adblock_test)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#div[id^=\"div-gpt-\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 147,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#.div-gpt-ad:not([style^=\"width: 1px; height: 1px;\"])"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#[id^=\"div-gpt-ad\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#@#.amp_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "j-basketball.club##ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 153,
+        "source" : "best-hit.tv,h178.com,jukenbbs.com,j-baseball.club,j-basketball.club##body div[class^=\"substitute-\"][style=\"display: block !important;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "@@||shukatsubbs.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "@@||best-hit.tv^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "@@||h178.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "@@||j-baseball.club^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "@@||j-basketball.club^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "@@||j-rugby.club^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "@@||j-volleyball.club^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "@@||jukenbbs.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "shukatsubbs.com,localch.net,best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com#%#\/\/scriptlet('prevent-addEventListener', 'load', 'delayCheckA')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "lv73.net##div[id^=\"ad-blocker-\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "rxlife.net$$script:contains(detectAdBlock)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "rxlife.net#%#\/\/scriptlet('remove-node-text', 'script', 'detectAdBlock')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "rxlife.net#%#\/\/scriptlet('prevent-fetch', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=rxlife.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "bm.best-hit.tv#%#\/\/scriptlet('prevent-addEventListener', 'load', 'delayCheckAB')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 175,
+        "source" : "in-jpn.com,oninet.ne.jp,xth.jp#%#\/\/scriptlet('set-constant', 'myFunc', 'noopFunc')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 176,
+        "severity" : "warning",
+        "source" : "||in-jpn.com^$script,replace=\/function myFunc[\\s\\S\\n]+?doSakigake\\(\\);[\\s\\S\\n]+?\\}\/\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : "\/ad-check.js$domain=in-jpn.com|xth.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "\/sakigake-ad-$domain=www2.oninet.ne.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : "in-jpn.com##.sk-popup-window"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 181,
+        "source" : "||yourfones.net\/js\/adsb.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "yourfones.net#%#\/\/scriptlet('spoof-css', 'ins.adsbygoogle', 'display', 'block')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "mytry.jp#@#.ad_box:not(.text-ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "mytry.jp#$#body > #container { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "@@||imp-adedge.i-mobile.co.jp\/script\/v1\/spot.js$domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "@@||ssp-bidapi.i-mobile.co.jp\/api\/v1\/spot.ashx$domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "@@||spnativeapi-tls.i-mobile.co.jp\/api\/ad_spot.ashx$domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "wiki.yjsnpi.nu#@##mw-content-text > div.ad.top[style*=\"min-height:\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "wiki.yjsnpi.nu#@##mw-content-text > div[style*=\"min-height:\"]:has(> div[id^=\"im-\"] > script)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "wiki.yjsnpi.nu###mw-content-text > div > div[style^=\"position:fixed; bottom:0;left:0;right:0;width:100%;background:\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 196,
+        "severity" : "warning",
+        "source" : "||local.adguard.org\/?type=content-script|$domain=wiki.yjsnpi.nu,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 197,
+        "severity" : "warning",
+        "source" : "@@||local.adguard.org^$redirect=noopjs,domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 199,
+        "source" : "wiki.yjsnpi.nu#%#\/\/scriptlet('abort-on-stack-trace', 'Function.prototype.toString', '\/w\/load.php?lang=ja&modules=codex-search-styles%2Cjquery%2Coojs%2C&skin=vector-2022&version=L58hf')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "wiki.yjsnpi.nu#%#\/\/scriptlet(\"prevent-setTimeout\", \"()=>k(S(4\")"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "$script,~third-party,redirect-rule=noopjs,domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "wiki.yjsnpi.nu#%#\/\/scriptlet('spoof-css', '#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"])', 'font-size', '14px')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "wiki.yjsnpi.nu#%#\/\/scriptlet('spoof-css', '#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"]) img', 'height', '128px')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "wiki.yjsnpi.nu#$##mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"]) { font-size: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "wiki.yjsnpi.nu#$##mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"]) img { height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "||wiki.yjsnpi.nu\/comments\/$script,replace=\/(;\\}\\}function [A-Za-z]+\\([A-Za-z]?\\)\\{const [a-z]+=[A-Z]\\,(?:const )?[a-z]+=[A-Z]).{500\\,2000}\\]\\(\\);\\}\\}\/\\$1}\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "||wiki.yjsnpi.nu\/comments\/$script,replace=\/(\\);\\}\\}function [A-Za-z]+\\([A-Za-z]?\\)\\{const [a-z]+=[A-Z]\\,(?:const )?[a-z]+=[A-Z]).{500\\,2000}\\]\\(\\)\\)\\);\\}\/\\$1}\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "$subdocument,redirect-rule=noopframe,domain=wiki.yjsnpi.nu"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 211,
+        "source" : "@@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "@@||wiki.yjsnpi.nu^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "source" : "gunauc.net#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=gunauc.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "||kuji.xth.jp\/ad-x-check.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "||daotag.com\/tag\/$script,replace=\/[\\S\\s]+(\\,)[\\S\\s]+(\\$)[\\S\\s]+(1)[\\S\\s]+\/(()=>{let e=[];document.addEventListener(\"DOMContentLoaded\"\\$1(()=>{const t=document.querySelector(\"body script\").textContent.match(\\\/\"] = '(.*?)'\\\/g);if(!t)return;t.forEach((t=>{const r=t.replace(\\\/.*'(.*?)'\\\/\\$1\"\\$2\\$3\");e.push(r)}));const r=document.querySelector('.dl_button[href*=\"preview\"]').href.split(\"?\")[1];e.includes(r)&&(e=e.filter((e=>e!==r)));document.querySelectorAll(\".dl_button[href]\").forEach((t=>{let r=t.cloneNode(!0);r.href=t.href.replace(\\\/\\?.*\\\/\\$1`?\\$2{e[0]}`)\\$1t.after(r);let o=t.cloneNode(!0);o.href=t.href.replace(\\\/\\?.*\\\/\\$1`?\\$2{e[1]}`)\\$1t.after(o)}))}))})();\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "exploader.net#%#(()=>{let e=[];document.addEventListener(\"DOMContentLoaded\",(()=>{const t=document.querySelector(\"body script\").textContent.match(\/\"] = '(.*?)'\/g);if(!t)return;t.forEach((t=>{const r=t.replace(\/.*'(.*?)'\/,\"$1\");e.push(r)}));const r=document.querySelector('.dl_button[href*=\"preview\"]').href.split(\"?\")[1];e.includes(r)&&(e=e.filter((e=>e!==r)));document.querySelectorAll(\".dl_button[href]\").forEach((t=>{let r=t.cloneNode(!0);r.href=t.href.replace(\/\\?.*\/,`?${e[0]}`),t.after(r);let o=t.cloneNode(!0);o.href=t.href.replace(\/\\?.*\/,`?${e[1]}`),t.after(o)}))}))})();"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "exploader.net#%#\/\/scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'eval')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "exploader.net##article > div[style*=\"1120px\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 228,
+        "severity" : "warning",
+        "source" : "||daotag.com\/tag\/$script,domain=exploader.net,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "$image,redirect-rule=32x32-transparent.png,domain=exploader.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 231,
+        "severity" : "warning",
+        "source" : "||daotag.com^$image,redirect=32x32-transparent.png,domain=exploader.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "exploader.net#%#\/\/scriptlet('remove-attr', 'href', 'a[style*=\"display:\"][href^=\"https:\/\/al.dmm.co.jp\"]', 'stay')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "@@||daotag.com\/tag\/$script,domain=exploader.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "kotobank.jp#%#\/\/scriptlet('prevent-setTimeout', 'return')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 237,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads$xmlhttprequest,domain=kotobank.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=kotobank.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=kotobank.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "guitarmagazine.jp#$#.tp-backdrop { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "guitarmagazine.jp#$#.tp-modal { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "guitarmagazine.jp#$#body.tp-modal-open { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "guitarmagazine.jp#$#html.tp-scroll-prevented { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "tuyano.com#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "hatenablog.com#@##adframe:not(frameset)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "mx2b.nan-net.jp###adblock_guide_mask"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "mx2b.nan-net.jp##.adblock_guide_box"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "b.best-hit.tv#$#.ad.ads.adsbygoogle.ad1.ad-space.adbox.imggif.ad-banner.amp_ad.file-display-area { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "@@||b.best-hit.tv^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 257,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "success-corp.co.jp#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=success-corp.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "nieru.net#@#.ad-space"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "nieru.net#@#.adWidget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 267,
+        "source" : "jprime.jp#%#\/\/scriptlet('remove-attr', 'style', '.js-reward-target[style]', 'stay')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "jprime.jp#$?#.js-reward-modal { remove: true; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "jprime.jp#$?#.js-reward-gallery-modal { remove: true; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "jprime.jp#$#.image-area { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "jprime.jp#$#.js-article-wrap .article-body { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "blog.2nt.com#@#.AdSense"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "||nazology.kusuguru.co.jp\/wp-content\/themes\/*\/js\/adb\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "@@||shindanmaker.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "shindanmaker.com#$#div[id^=\"div-gpt-\"] { min-height: 1px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "qa.crefan.jp#%#\/\/scriptlet('abort-current-inline-script', 'onload', 'google_esf')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,domain=qa.crefan.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "tters.jp#$##check-ad { height: 10px !important; position: absolute !important; left: -3000px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 285,
+        "source" : "tters.jp#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "tters.jp#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 287,
+        "source" : "tters.jp#@#.ad-section"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 289,
+        "source" : "pointi.jp#%#\/\/scriptlet('abort-on-property-read', 'adBlockDetected')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "@@||pointi.jp\/js_new\/fuckadblock.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "||minorasu.basf.co.jp\/shared\/scripts\/vendor\/piano\/tag_prod.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "source" : "egotter.com#%#\/\/scriptlet('set-constant', 'adBlockerDetected', 'false')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "egotter.com#$#.adsense-container { height: 1px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 297,
+        "source" : "egotter.com#@#.adsense-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 298,
+        "source" : "egotter.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "egotter.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 300,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=egotter.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=egotter.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 304,
+        "source" : "puzzle-ch.com#$#ins.adsbygoogle { height: 5px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "puzzle-ch.com#@##adframe:not(frameset)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 306,
+        "source" : "puzzle-ch.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "puzzle-ch.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 309,
+        "source" : "memo.wiki,addchannel.net,beasoku.com,kakenhi.net,seesaa.net#%#\/\/scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'interstitialAd')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 311,
+        "source" : "memo.wiki,addchannel.net,beasoku.com,blog.housinkai.com,kakenhi.net,seesaa.net#@#body .interstitial-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 312,
+        "source" : "memo.wiki,addchannel.net,beasoku.com,blog.housinkai.com,kakenhi.net,seesaa.net#@#.interstitial-ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 314,
+        "source" : "||blog.seesaa.jp\/visual\/*\/common\/js\/footer.js"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 316,
+        "source" : "lemino.docomo.ne.jp#%#\/\/scriptlet('json-prune', 'ad_flg ad_url data.adData data.adTagUrl')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 317,
+        "source" : "lemino.docomo.ne.jp#%#\/\/scriptlet('prevent-xhr', 'doubleclick.net')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=lemino.docomo.ne.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 320,
+        "source" : "blog.2nt.com#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 322,
+        "source" : "inkbrushpainting.work,bridalgown.work,contents-group.work,heisei-housewarming.work,liquidfoundation.work,nailcolor.work,studioglass.work,tapestry.work,teaceremony.work,weddinghall.work#%#\/\/scriptlet('set-cookie', 'adset', 'off')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "inkbrushpainting.work,bridalgown.work,contents-group.work,heisei-housewarming.work,liquidfoundation.work,nailcolor.work,studioglass.work,tapestry.work,teaceremony.work,weddinghall.work#%#\/\/scriptlet('set-cookie', 'adset2', 'off')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 324,
+        "source" : "$script,third-party,redirect-rule=noopjs,domain=inkbrushpainting.work|bridalgown.work|contents-group.work|heisei-housewarming.work|liquidfoundation.work|nailcolor.work|studioglass.work|tapestry.work|teaceremony.work|weddinghall.work"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 326,
+        "source" : "@@||j.microad.net\/js\/compass.js$domain=contents-group.work"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "@@||pdn.adingo.jp\/p.js$domain=contents-group.work"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 328,
+        "source" : "@@||static.criteo.net^$domain=contents-group.work"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "@@||js.ad-stir.com\/js\/adstir.js$domain=contents-group.work"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 331,
+        "severity" : "warning",
+        "source" : "||ad-stir.com\/js\/adstir.js$script,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 332,
+        "severity" : "warning",
+        "source" : "||adingo.jp\/p.js$script,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 333,
+        "severity" : "warning",
+        "source" : "||criteo.net\/js\/ld\/publishertag.js$script,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 334,
+        "severity" : "warning",
+        "source" : "||microad.net\/js\/compass.js$script,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "@@||bridalgown.work^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 336,
+        "source" : "@@||contents-group.work^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 337,
+        "source" : "@@||heisei-housewarming.work^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 338,
+        "source" : "@@||liquidfoundation.work^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "@@||studioglass.work$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 340,
+        "source" : "@@||tapestry.work$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : "@@||teaceremony.work$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 342,
+        "source" : "@@||weddinghall.work$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : "@@||nailcolor.work^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : "bridalgown.work,contents-group.work,heisei-housewarming.work,liquidfoundation.work,nailcolor.work,studioglass.work,tapestry.work,teaceremony.work,weddinghall.work###pr_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 346,
+        "source" : "cad-data.com#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "520call.me,520cc.cc#%#\/\/scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : "@@||520cc.cc^*\/ad.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 350,
+        "source" : "@@||video.520cc.cc\/ad\/ads.php"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 352,
+        "source" : "tokyo-sports.co.jp#@#.adContent"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "tokyo-sports.co.jp#@#.adSense"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 354,
+        "source" : "tokyo-sports.co.jp#@#.ads-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 355,
+        "source" : "tokyo-sports.co.jp#@#.textad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 356,
+        "source" : "tokyo-sports.co.jp#@#.view_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 359,
+        "source" : "audio-sound-premium.com,tojav.net#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "audio-sound-premium.com,tojav.net##div[id][class^=\"popup\"][class$=\"wrap\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "asobeans.jp#@#.ad_block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 364,
+        "source" : "logworker.net#$##unblk { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 365,
+        "source" : "logworker.net#$#.entry-content { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "logworker.net#$#ins.adsbygoogle[data-ad-slot] { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 368,
+        "source" : "logworker.net#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 369,
+        "source" : "logworker.net#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 370,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=logworker.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 371,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/managed\/js\/adsense\/*\/show_ads_impl_fy2021.js$domain=logworker.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 374,
+        "source" : "o-dan.net#%#\/\/scriptlet('remove-class', 'visited', '#oRslt li a.visited', 'stay')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 375,
+        "source" : "o-dan.net#%#\/\/scriptlet('prevent-setTimeout', 'oAdChk')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 377,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=musmus.main.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 378,
+        "source" : "musmus.main.jp#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 379,
+        "source" : "musmus.main.jp#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 380,
+        "source" : "musmus.main.jp#$#div[class*=\"ad_\"] {  height: 1px !important; min-height: 1px !important; visibility: hidden !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 381,
+        "source" : "musmus.main.jp#$#div[id^=\"sub_ad\"] {  height: 1px !important; min-height: 1px !important; visibility: hidden !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "snrec.jp#$#.tp-backdrop { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 384,
+        "source" : "snrec.jp#$#.tp-modal { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 385,
+        "source" : "snrec.jp#$#body.tp-modal-open { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 386,
+        "source" : "snrec.jp#$#html.tp-scroll-prevented { overflow: visible !important; height: auto !important; touch-action: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 390,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('prevent-fetch', 'tpc.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 391,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('remove-attr', 'id', '#div-gpt-ad-sidebottom')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 392,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('remove-attr', 'id', '#div-gpt-ad-footer')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 393,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('remove-attr', 'id', '#div-gpt-ad-pagebottom')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 394,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('remove-attr', 'id', '#div-gpt-ad-relatedbottom-1')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 395,
+        "source" : "@@||tpc.googlesyndication.com\/simgad\/$xmlhttprequest,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 396,
+        "severity" : "warning",
+        "source" : "||tpc.googlesyndication.com^$image,redirect=1x1-transparent.gif,domain=rocketnews24.com|youpouch.com,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 397,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 398,
+        "source" : "||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,removeparam=\/^(cookie|ga_|u_)\/,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 399,
+        "source" : "@@||sst.rocketnews24.com\/gtm.js$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 400,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 401,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 402,
+        "source" : "@@||fundingchoicesmessages.google.com^$script,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 403,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/$script,redirect=googlesyndication-adsbygoogle,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 404,
+        "source" : "@@||youpouch.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 405,
+        "source" : "@@||rocketnews24.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 406,
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/safeframe\/$subdocument,redirect=noopframe,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 407,
+        "severity" : "warning",
+        "source" : "||fundingchoicesmessages.google.com^$script,redirect-rule=noopjs,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 409,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('remove-class', 'hidden_share', 'div[id^=\"post-\"]')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 410,
+        "source" : "rocketnews24.com,youpouch.com#%#\/\/scriptlet('abort-on-property-read', 'jQuery')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 411,
+        "severity" : "warning",
+        "source" : "||youpouch.com\/_static\/$replace=\/(!1|!0!)=?==SCO\\.imgLazyLoad\/1===1\/,script"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 412,
+        "severity" : "warning",
+        "source" : "||rocketnews24.com\/_static\/$replace=\/(!1|!0!)=?==SCO\\.imgLazyLoad\/1===1\/,script"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 413,
+        "source" : "youpouch.com,rocketnews24.com#%#\/\/scriptlet('set-attr', 'img[data-sco-src]', 'src', '[data-sco-src]')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 414,
+        "source" : "youpouch.com,rocketnews24.com#$#img[data-sco-src] { opacity: 1 !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 417,
+        "source" : "@@||openads-cdn.adsrvr.org\/openadsjs\/$domain=youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 418,
+        "source" : "@@||googlesyndication.com\/safeframe\/$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 419,
+        "source" : "@@||tpc.googlesyndication.com\/simgad\/$image,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 420,
+        "source" : "@@||adservice.google.com\/adsid\/integrator.js$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 421,
+        "source" : "@@||rocketnews24.com\/wp-content\/themes\/rocketnews\/js\/prebid.js$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 422,
+        "source" : "@@||adservice.google.*\/adsid\/integrator.js$domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 423,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/$script,domain=rocketnews24.com|youpouch.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 426,
+        "source" : "@@||tpc.googlesyndication.com\/simgad\/$image,domain=rocketnews24.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 429,
+        "source" : "blog-and-destroy.com###no-ads-msg"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 430,
+        "source" : "blog-and-destroy.com##.affiliate-card"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 431,
+        "source" : "blog-and-destroy.com#%#\/\/scriptlet(\"abort-current-inline-script\", \"onload\", \"adsCount\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 434,
+        "source" : "musenboya.com#%#\/\/scriptlet(\"abort-current-inline-script\", \"navigator.brave\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 436,
+        "source" : "gamemod.blog.fc2.com,helpsupport.blog.fc2.com#%#\/\/scriptlet('prevent-setTimeout', '\/adsbygoogle|clientHeight\/')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 437,
+        "source" : "gamemod.blog.fc2.com,helpsupport.blog.fc2.com#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com', 'true', 'cors')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 438,
+        "source" : "||fc2.com\/h\/e\/l\/helpsupport\/min-tc.js$domain=helpsupport.blog.fc2.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 439,
+        "source" : "gamemod.blog.fc2.com,helpsupport.blog.fc2.com###loading:empty"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 440,
+        "source" : "gamemod.blog.fc2.com,helpsupport.blog.fc2.com#@#.AdContainer"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 441,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=helpsupport.blog.fc2.com|gamemod.blog.fc2.com,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 442,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=helpsupport.blog.fc2.com|gamemod.blog.fc2.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 443,
+        "source" : "@@||gamemod.blog.fc2.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 444,
+        "source" : "@@||helpsupport.blog.fc2.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 447,
+        "source" : "kledgeb.blogspot.com#$#body > div[style=\"visibility: hidden;\"] { visibility: visible !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 448,
+        "source" : "kledgeb.blogspot.com#%#\/\/scriptlet(\"abort-current-inline-script\", \"document.getElementById\", \"_0x\")"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 449,
+        "source" : "@@||kledgeb.github.io\/UbuntuKledgeb\/JavaScript\/GoogleAnalytics.js$domain=kledgeb.blogspot.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 451,
+        "source" : "kledgeb.blogspot.com#%#\/\/scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 453,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$xmlhttprequest,domain=kledgeb.blogspot.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 455,
+        "source" : "blog-and-destroy.com#%#\/\/scriptlet('prevent-addEventListener', 'load', 'adsCount')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 457,
+        "source" : "manga1001.*#%#\/\/scriptlet('prevent-setTimeout', '_0x')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 458,
+        "source" : "manga1001.*#%#\/\/scriptlet('prevent-fetch', 'cdn.adschill.com')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 459,
+        "source" : "manga1001.*#%#\/\/scriptlet(\"abort-current-inline-script\", \"document.querySelector\", \"_0x\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 460,
+        "source" : "manga1001.*#@#.c-ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 461,
+        "source" : "manga1001.*#@#.body-top-ads"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 463,
+        "source" : "@@||cdn.adschill.com\/*\/unit\/*.js$domain=manga1001.*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 466,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=connectedgamestore.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 468,
+        "severity" : "warning",
+        "source" : "||i.imgur.com^$image,redirect=32x32-transparent.png,domain=syosetu.top"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 470,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=kakomonn.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 472,
+        "source" : "ma-bank.net#@#.ad_div"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 473,
+        "source" : "ma-bank.net#@##ad_area"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 475,
+        "source" : "fireembs.blog.jp,kansai-sanpo.com,friday.kodansha.co.jp#$#body { overflow: visible !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 476,
+        "source" : "fireembs.blog.jp,kansai-sanpo.com,friday.kodansha.co.jp#$#body div.fc-ab-root:not(#style_important) { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 478,
+        "source" : "@@||kansai-sanpo.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 479,
+        "source" : "@@||friday.kodansha.co.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 480,
+        "source" : "@@||fireembs.blog.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 483,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=playai.nu,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 484,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=playai.nu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 486,
+        "source" : "coolpan.net#%#\/\/scriptlet('prevent-addEventListener', 'error', 'adscript-error')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 487,
+        "source" : "coolpan.net#%#\/\/scriptlet('set-constant', 'flgDisplay', 'false')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 488,
+        "source" : "coolpan.net#@#.ad-area:not(.text-ad)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 489,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=coolpan.net,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 490,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,domain=coolpan.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 492,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=followcheck.itby.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 494,
+        "source" : "g-pc.info#%#\/\/scriptlet('set-constant', 'adsbygoogle.loaded', 'true')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 496,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=g-pc.info"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 499,
+        "severity" : "warning",
+        "source" : "||ad-stir.com\/js\/adstir.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 500,
+        "severity" : "warning",
+        "source" : "||i-mobile.co.jp\/script\/v1\/spot.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 501,
+        "severity" : "warning",
+        "source" : "||nend.net\/js\/nendAdLoader.js$script,redirect=noopjs,domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 502,
+        "source" : "@@||musenboya.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 503,
+        "source" : "musenboya.com##.widget_pc_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 504,
+        "source" : "musenboya.com#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'imp-adedge.i-mobile.co.jp')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 505,
+        "source" : "musenboya.com#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'js.ad-stir.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 507,
+        "source" : "@@||ad-stir.com\/js\/adstir.js$domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 508,
+        "source" : "@@||js1.nend.net\/js\/nendAdLoader.js$domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 509,
+        "source" : "@@||imp-adedge.i-mobile.co.jp\/script\/v1\/spot.js$domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 510,
+        "source" : "@@||ssp-bidapi.i-mobile.co.jp\/api\/v1\/spot.ashx?$domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 511,
+        "source" : "@@||spnativeapi-tls.i-mobile.co.jp\/api\/ad_spot.ashx?$domain=musenboya.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 514,
+        "source" : "||health.joyplot.com\/HealthWordsWiki\/skin\/foradblock."
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 516,
+        "source" : "@@||intaa.net^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 517,
+        "source" : "intaa.net#%#\/\/scriptlet('set-constant', 'gptScriptLoaded', 'true')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 518,
+        "source" : "intaa.net#$##adunit-10 { display: block !important; height: 51px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 519,
+        "source" : "intaa.net#$##adunit-11 { display: block !important; height: 51px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 520,
+        "source" : "intaa.net#$##adsidetop { display: block !important; height: 51px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 521,
+        "source" : "intaa.net#$##adstop { display: block !important; height: 51px !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 523,
+        "source" : "intaa.net##div[id^=\"adunit-\"]:not(#adunit-10):not(#adunit-11)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 524,
+        "source" : "@@||googletagservices.com\/tag\/js\/gpt.js$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 525,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 526,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 527,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 528,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=intaa.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 531,
+        "source" : "@@||yoshidakenkou.net^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 532,
+        "source" : "yoshidakenkou.net##.adsbygoogle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 534,
+        "source" : "battlecats-db.com#$#body { display: block!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 535,
+        "source" : "battlecats-db.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 536,
+        "source" : "battlecats-db.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 537,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=battlecats-db.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 539,
+        "source" : "battlecats-db.com#$#body[style=\"display: none;\"] { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 541,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/*\/show_ads_impl_$domain=battlecats-db.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 542,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=battlecats-db.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 545,
+        "source" : "@@||shopping-now.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 547,
+        "source" : "@@||dan-ball.jp\/javagame\/dgo\/data\/img.gif?"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 549,
+        "source" : "modalina.jp#%#\/\/scriptlet('abort-on-property-read', 'AdBlockLimitation')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 551,
+        "source" : "@@||realtime-chart.info^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 552,
+        "source" : "@@||sekai-kabuka.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 553,
+        "severity" : "warning",
+        "source" : "||googleads.g.doubleclick.net\/pagead\/ads?$subdocument,redirect=noopframe,domain=realtime-chart.info|sekai-kabuka.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 555,
+        "source" : "ouminews.net#$#.ad_unit.ad-unit.text-ad.text_ad.pub_300x250 { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 557,
+        "source" : "ouminews.net#@#.ad_unit"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 558,
+        "source" : "ouminews.net#@#.ad-unit:not(.textads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 559,
+        "source" : "ouminews.net#@#.text-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 560,
+        "source" : "ouminews.net#@#.text_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 561,
+        "source" : "ouminews.net#@#.pub_300x250"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 564,
+        "source" : "knshow.com#$#.ads { display: block!important;height: 1px!important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 566,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=knshow.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 567,
+        "source" : "knshow.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 568,
+        "source" : "knshow.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 571,
+        "source" : "crefan.jp#%#\/\/scriptlet('prevent-setTimeout', 'objDef.resolve')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 573,
+        "source" : "@@||googlesyndication.com\/pagead\/show_ads.js$domain=crefan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 574,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=crefan.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 577,
+        "source" : "nihongo-pro.com#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 578,
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=nihongo-pro.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 579,
+        "source" : "@@||googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,domain=nihongo-pro.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 581,
+        "source" : "@@\/assets\/scripts\/fab.js$domain=life-n.jp|point-news.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 583,
+        "source" : "||freemen.jp\/wp-content\/uploads\/yIOefayFENNZ\/$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 584,
+        "source" : "||freemen.jp\/wp-content\/uploads\/gftpkzd.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 585,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=freemen.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 586,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=freemen.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 588,
+        "source" : "@@||h-ken.net^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 589,
+        "source" : "h-ken.net#%#\/\/scriptlet('set-constant', 'adBlockDetected', 'noopFunc')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 591,
+        "source" : "@@||js.ad-stir.com\/js\/adstir.js$domain=h-ken.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 592,
+        "source" : "@@||ad.ad-stir.com\/ad$domain=h-ken.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 593,
+        "source" : "@@||js.ad-stir.com\/js\/adstir_magnify.js$domain=h-ken.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 596,
+        "source" : "@@||my0nio.seesaa.net^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 599,
+        "source" : "coron.tech#%#\/\/scriptlet('remove-attr', 'class', '.quigo', 'stay')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 600,
+        "source" : "connect.coron.tech#%#\/\/scriptlet('abort-current-inline-script', 'jQuery', 'decodeURIComponent')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 602,
+        "source" : "@@||ad.jp.ap.valuecommerce.com\/servlet\/jsbanner$domain=coron.tech"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 603,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=coron.tech"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 604,
+        "source" : "coron.tech#@#.quigo"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 605,
+        "source" : "coron.tech#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 606,
+        "source" : "coron.tech#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 609,
+        "source" : "@@||ad-contents.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 611,
+        "source" : "ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#$#.ad2 { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 612,
+        "severity" : "warning",
+        "source" : "||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=ap-siken.com|db-siken.com|fe-siken.com|itpassportsiken.com|nw-siken.com|pm-siken.com|sc-siken.com|sg-siken.com|fp1-siken.com|fp2-siken.com|fp3-siken.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 613,
+        "source" : "fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 614,
+        "source" : "fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#%#\/\/scriptlet('prevent-setTimeout', '_0x')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 616,
+        "source" : "fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#@#ins.adsbygoogle[data-ad-client]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 617,
+        "source" : "fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#@#ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 618,
+        "source" : "@@||fp1-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 619,
+        "source" : "@@||fp2-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 620,
+        "source" : "@@||fp3-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 621,
+        "source" : "@@||ap-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 622,
+        "source" : "@@||db-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 623,
+        "source" : "@@||fe-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 624,
+        "source" : "@@||itpassportsiken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 625,
+        "source" : "@@||nw-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 626,
+        "source" : "@@||pm-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 627,
+        "source" : "@@||sc-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 628,
+        "source" : "@@||sg-siken.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 629,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/managed\/js\/adsense\/*\/show_ads_impl_$script,domain=ap-siken.com|db-siken.com|fe-siken.com|itpassportsiken.com|nw-siken.com|pm-siken.com|sc-siken.com|sg-siken.com|fp1-siken.com|fp2-siken.com|fp3-siken.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 630,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=ap-siken.com|db-siken.com|fe-siken.com|itpassportsiken.com|nw-siken.com|pm-siken.com|sc-siken.com|sg-siken.com|fp1-siken.com|fp2-siken.com|fp3-siken.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 633,
+        "source" : "applion.jp#@#.ads-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 634,
+        "source" : "applion.jp#$##adcheck.ads-ad { display: block!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 637,
+        "source" : "@@||teachios.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 640,
+        "source" : "@@||ronron-blog.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 642,
+        "source" : "video.tv-tokyo.co.jp#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 643,
+        "source" : "video.tv-tokyo.co.jp#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 644,
+        "source" : "@@||video.tv-tokyo.co.jp\/common\/js\/pc\/ads.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 645,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=video.tv-tokyo.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 646,
+        "source" : "@@||pubads.g.doubleclick.net\/gampad\/ads?*\/video.tv-tokyo.co.jp$domain=video.tv-tokyo.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 648,
+        "severity" : "warning",
+        "source" : "||pubads.g.doubleclick.net\/gampad\/ads?*\/video.tv-tokyo.co.jp$redirect=nooptext,important,domain=video.tv-tokyo.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 650,
+        "source" : "380cc.cc#$##playertopads { height: 51px!important; position: absolute!important; left: -3000px!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 653,
+        "source" : "@@||d-navi004.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 656,
+        "source" : "@@||gagetmatome.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 659,
+        "source" : "@@||repeat-drama.info^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 662,
+        "source" : "@@||kyukyoku-matome.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 663,
+        "source" : "kyukyoku-matome.com##.widget_pc_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 665,
+        "source" : "@@||mushinavi.com^$generichide"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 32,
+      "generatedContentRuleCount" : 172,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 172,
+      "parsedRules" : 439,
+      "skippedLines" : 227,
+      "totalLines" : 666,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 274
+    }
+  },
+  "sourceFileName" : "antiadblock.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}

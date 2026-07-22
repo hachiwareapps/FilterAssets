@@ -1,0 +1,3811 @@
+{
+  "outputFileNames" : [
+    "adguard_japanese_allowlist.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 10,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=sp.nicovideo.jp"
+      },
+      {
+        "code" : "removeparam-runtime-approximation",
+        "lineNumber" : 62,
+        "message" : "$removeparam is handled by the WKWebView runtime for JavaScript-controlled requests and visible URL cleanup.",
+        "severity" : "warning",
+        "source" : "||nexon.com\/ngm\/?gm=$removeparam=gm"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 116,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=tver.jp,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 118,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=gd.gesoten.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 129,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||g.doubleclick.net\/tag\/js\/gpt.js$redirect=googletagservices-gpt,domain=phileweb.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 181,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||nend.net^$media,redirect=noopmp4-1s,domain=ordermaid.ai,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 188,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=vk.sportsbull.jp,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 195,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||g.doubleclick.net\/tag\/js\/gpt.js$script,redirect=googletagservices-gpt,domain=oricon.co.jp"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 393,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=real-sports.jp"
+      },
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 433,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "||sp.seiga.nicovideo.jp\/js\/illust\/illust.min.js$replace=\/if\\(h\\)\\{\/if(h){return;\/"
+      }
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 10,
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=sp.nicovideo.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=sp.nicovideo.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "solispia.com#@##adModal"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "solispia.com#@#.ad-title"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "@@||googlesyndication.com\/safeframe\/$domain=solispia.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=solispia.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=solispia.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=solispia.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "news.mynavi.jp#%#\/\/scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'registration_guide_modal')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "pc.moppy.jp#@#img[width=\"468\"][height=\"60\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "@@||click.linksynergy.com\/fs-bin\/$domain=pc.moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "@@||faq-widget.nakanohito.jp\/faqwidget.js$domain=keio-passport.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "@@||support-beacon.nakanohito.jp\/widget\/faqview$domain=keio-passport.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "@@||a8.net\/ad\/ad.js$domain=ba-goods-search.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "@@||i.daily.jp\/Koukoku\/Images\/ds_noimage.jpg$domain=daily.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "@@||js.mediams.mb.softbank.jp\/t\/$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 43,
+        "source" : "@@||mediamsmbsoftbank.genieesspv.jp\/yie\/ld\/nad$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "@@||cdn.taxel.jp\/*\/rw.js$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 45,
+        "source" : "@@||images.taxel.jp\/img\/$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "@@||images.taxel.jp\/images\/$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 47,
+        "source" : "@@||widgets.taxel.jp\/article.json$domain=www.ohk.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "www.ohk.co.jp#%#\/\/scriptlet('remove-attr', 'onmousedown', 'a[onmousedown^=\"this.href=\\\"\/\/widgets.taxel.jp\"]', 'stay')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 53,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=game.hiroba.dpoint.docomo.ne.jp|kantangame.com|game.pointmall.rakuten.net|chance.enjoy.point.auone.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/managed\/js\/adsense\/$script,domain=game.hiroba.dpoint.docomo.ne.jp|kantangame.com|game.pointmall.rakuten.net|chance.enjoy.point.auone.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "@@||g.doubleclick.net\/pagead\/ads?*&plat=$subdocument,domain=game.hiroba.dpoint.docomo.ne.jp|kantangame.com|game.pointmall.rakuten.net|chance.enjoy.point.auone.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 56,
+        "source" : "chance.enjoy.point.auone.jp,game.pointmall.rakuten.net,kantangame.com,game.hiroba.dpoint.docomo.ne.jp#@#.adsbygoogle-noablate"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "okazurand.net,nihon-bijo-zukan.com#%#\/\/scriptlet('href-sanitizer', 'a[href^=\"https:\/\/al.fanza.co.jp\/?lurl=\"]', '?lurl')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "drill-planet.kobun.co.jp#@#body[onbeforeunload=\"return myFunction()\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "removeparam-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 62,
+        "severity" : "warning",
+        "source" : "||nexon.com\/ngm\/?gm=$removeparam=gm"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "@@||bs.nakanohito.jp\/b3\/bi.js$domain=nexon.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 66,
+        "source" : "@@||s-ad.rmp.rakuten.co.jp\/ad$domain=24.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 68,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "@@||js.gsspcln.jp\/w\/ad_format\/reward\/gnsrwdmod.js$domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "@@||safeframe.googlesyndication.com^$subdocument,domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 73,
+        "source" : "@@||googletagservices.com\/tag\/js\/gpt.js$domain=rakuten.dreamchance.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "kojodan.jp#@#div[id^=\"div-gpt-\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "kojodan.jp#@#[id^=\"div-gpt-ad\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 77,
+        "source" : "kojodan.jp#%#\/\/scriptlet('remove-attr', 'height', 'iframe[id^=\"google_ads_iframe\"]', 'stay')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 79,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 81,
+        "source" : "@@||safeframe.googlesyndication.com^$subdocument,domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "@@||tpc.googlesyndication.com\/simgad\/$xmlhttprequest,domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "@@||tpc.googlesyndication.com\/pagead\/imgad?$xmlhttprequest,domain=kojodan.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "safeframe.googlesyndication.com#%#\/\/scriptlet('href-sanitizer', 'a[href^=\"https:\/\/adclick.g.doubleclick.net\/\"][href*=\"adurl=\"]', '?adurl')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "car-me.jp,paiza.jp,qa.weblio.jp,okinawatimes.co.jp,rank-king.jp,uwl.weblio.jp,chugoku-np.co.jp,minato-yamaguchi.co.jp,kyoto-np.co.jp,raysee.jp,j-cast.com,medicalnote.jp,kurashi-to-oshare.jp,ar-mag.jp,ben54.jp,anikore.jp#$#html[class*=\"loading\"] { visibility: visible !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "mobilegadget.jp#@#.header-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 91,
+        "source" : "h1g.jp#$#.mainbody > div[style=\"width:800px; height:400px; margin-top:30px;\"] { height: 600px !important; }"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "$script,redirect-rule=noopjs,domain=azukiazusa.dev"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=video-ac.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 99,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=video-ac.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 100,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=video-ac.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=video-ac.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 102,
+        "source" : "@@||safeframe.googlesyndication.com\/safeframe\/$domain=video-ac.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "source" : "@@||passnaviad.durasite.net\/A-affiliate2\/multiMobile?keywords=netApply_$domain=passnavi.obunsha.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "@@||cpt.geniee.jp\/hb\/*\/wrapper.min.js$domain=hoyme.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "@@||yads.c.yimg.jp\/js\/yads-async.js$domain=hoyme.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "pooh2rohhobby.blogspot.com#@##ad-target"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "nogizaka46-matome.jp#@##headerafficode"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "||taboola.com^$domain=pashplus.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "tver.jp#%#\/\/scriptlet('google-ima3')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 116,
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=tver.jp,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 118,
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=gd.gesoten.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=gd.gesoten.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "@@||goonews.jp\/common\/img\/sub\/right\/g0121_goonet_ryutsu_bnr_h.jpg"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "source" : "etude000.com#@#.top-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "source" : "tennisclassic.jp#@#.ad-sp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "phileweb.com#%#\/\/scriptlet('set-attr', 'span[class] img.lazyload[width]', 'src', '[data-src]')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 129,
+        "severity" : "warning",
+        "source" : "||g.doubleclick.net\/tag\/js\/gpt.js$redirect=googletagservices-gpt,domain=phileweb.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "fob.jp#@#.widget_swell_ad_widget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "famitsu.com#%#\/\/scriptlet('set-constant', 'TagProvider.cleanup', 'noopFunc')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "@@||impact-ad.jp\/fh\/showad_$script,domain=famitsu.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 137,
+        "source" : "@@||pagead2.googlesyndication.com\/gampad\/ads$domain=youpouch.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 139,
+        "source" : "rankingoo.net#@#.widget_swell_ad_widget"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "@@||i2i.jp\/view\/index.php$domain=erostopics.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "@@||cm-beacon.nakanohito.jp\/at\/ranking\/$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "@@||cm-widget.nakanohito.jp\/cm\/$script,stylesheet"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 150,
+        "source" : "@@||cm-beacon.nakanohito.jp\/cm\/comment_$xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "@@||nakanohito.jp^*\/bi.js$domain=kenko-tokina.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "@@||ratel-ad.com\/file\/box\/HuriwakeHeigu.js$domain=h1g.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=shindanmaker.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=shindanmaker.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "@@||yads.c.yimg.jp\/js\/yads.js$domain=eiga.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "@@||yads.c.yimg.jp\/js\/yads-async.js$domain=eiga.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "plaza.rakuten.co.jp#@#img[width=\"320\"][height=\"50\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "@@||fashionpost.jp\/article\/wp-content\/themes\/fashionpost\/assets\/php\/ads.php"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "ameblo.jp#@#img[width=\"240\"][height=\"400\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 169,
+        "source" : "@@||logly.co.jp\/lift$domain=mens-ex.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "@@||cdn.logly.co.jp^$image,domain=mens-ex.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "@@||band-aid.jp\/sites\/bandaid_jp\/files\/styles\/medium\/public\/product-images"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "@@||a.image.accesstrade.net\/m\/m_img\/*120$image,domain=wowgame.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 175,
+        "source" : "@@||a.image.accesstrade.net\/m\/m_img\/*\/File4.jpg$domain=wowgame.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "@@||h.accesstrade.net\/sp\/rr?rk=$image,domain=wowgame.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "@@||serving.stat-rock.com\/*\/placements\/$xmlhttprequest,domain=ordermaid.ai"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : "@@||vdapp.nend.net\/*\/video\/ad\/vast\/$xmlhttprequest,domain=ordermaid.ai"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "@@||nend.net^$media,domain=ordermaid.ai"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 181,
+        "severity" : "warning",
+        "source" : "||nend.net^$media,redirect=noopmp4-1s,domain=ordermaid.ai,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 183,
+        "source" : "@@||tumadouga.jp\/assets\/ads\/member$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "@@||tuma.jp\/gazou\/assets\/ads\/member.jpg$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 187,
+        "source" : "vk.sportsbull.jp#%#\/\/scriptlet('remove-class', 'hidden-by-ima', '#vid1_html5_api')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 188,
+        "severity" : "warning",
+        "source" : "||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$script,redirect=google-ima3,domain=vk.sportsbull.jp,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "@@||koshien-live.net\/*\/adtag.xml$xmlhttprequest,domain=vk.sportsbull.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "vk.sportsbull.jp#%#\/\/scriptlet('json-prune', 'data.adData')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "@@||pubads.g.doubleclick.net\/gampad\/ads?*&url=https%3A%2F%2Fvk.sportsbull.jp$domain=imasdk.googleapis.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 195,
+        "severity" : "warning",
+        "source" : "||g.doubleclick.net\/tag\/js\/gpt.js$script,redirect=googletagservices-gpt,domain=oricon.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=oricon.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=oricon.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "@@||jiji.com\/ad\/img\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "@@||rcm-fe.amazon-adsystem.com\/e\/cm?*&asins=$domain=doitsuiroiro.blog.fc2.com|haseakio.hatenablog.com|norimune.net|tottemoyasashiibitcoin.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "@@||rcm-jp.amazon.co.jp\/e\/cm?*&asins=$domain=disneymaniax.com|yayoi-meister.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "@@||ws-fe.assoc-amazon.com\/widgets\/cm?*&asins=$domain=disneymaniax.com|doitsuiroiro.blog.fc2.com|haseakio.hatenablog.com|norimune.net|tottemoyasashiibitcoin.net|yayoi-meister.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "@@||times-info.net\/bnr\/pibnr\/"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 209,
+        "source" : "panasonic.biz#@#.ad-result"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "@@||pdn.adingo.jp\/p.js$domain=dailynewsonline.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 213,
+        "source" : "@@||pdn.adingo.jp\/asset\/close-interstitial.svg$domain=dailynewsonline.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "@@||asahicom.jp\/ad\/js\/video\/ytpfp.js$domain=asahi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "@@||logly.co.jp\/lift$domain=www.asahi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 219,
+        "source" : "@@||ads.nicovideo.jp\/assets\/js\/ads2.js$domain=com.nicovideo.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "@@||hostlove.com\/adimg\/$domain=book.hostlove.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "@@||douga.tv-asahi.co.jp\/images\/exdio\/renewal\/gariben_daigaku\/ad\/banner_tiktok.webp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 225,
+        "source" : "@@||medicalonline.jp\/ad_img\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "@@||hamadasyuzou.co.jp\/wp\/wp-content\/themes\/hamadasyuzou\/common\/img2\/ad\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "hamadasyuzou.co.jp#@#.ad_bottom"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "hamadasyuzou.co.jp#@#.ad_box:not(.text-ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "hamadasyuzou.co.jp#@#.ad_contents"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "hamadasyuzou.co.jp#@#.ad_title"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "hamadasyuzou.co.jp#@#.ad_wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "asianoneta.blog.jp#@#.side_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "@@||couponad.marketplace.rakuten.co.jp\/api\/v1\/userSearch\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "lamire.jp#@#.ad-unit:not(.textads)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 241,
+        "source" : "mognavi.jp#@#.side_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "@@||img.cf.47news.jp\/public\/bannerAd\/$image"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "miitus.jp#@#.new-ad-box"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "matome.f-book.net#@#.section_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 249,
+        "source" : "@@||b0.yahoo.co.jp\/b$image,domain=nissan.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "app-story.net#@##AdBlock"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=kantangame.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "@@||speee-ad.akamaized.net^$domain=ampproject.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 257,
+        "source" : "@@||daikin.co.jp\/-\/media\/Project\/Daikin\/daikin_co_jp\/ad\/images\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "@@||es-navi.com\/img\/ads\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "@@||hbb.afl.rakuten.co.jp\/hgb\/*%3A%2F%2Fthumbnail.$image,domain=angelfish.jp|avianmedicine.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "@@||low-ya.com\/banners\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 265,
+        "source" : "@@||synapse.ne.jp\/ads\/$image,script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 267,
+        "source" : "@@||runnet.jp\/ad\/image\/$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "@@||advertimes.com\/wp-content\/themes\/advertimes-theme\/images\/logo-ad.svg"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "@@||pointmall.rakuten.co.jp\/public\/special\/img\/banners\/*_300x250.$image,domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "@@||g.doubleclick.net\/*\/pubads_impl$script,domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "@@||googlesyndication.com\/safeframe\/$subdocument,domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 276,
+        "source" : "@@||pointmall.rakuten.co.jp\/public\/special\/img\/banners\/*-300x250-$image,domain=pointmall.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "@@||pointmall.rakuten.co.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "news.merumo.ne.jp#@#.adBox"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 281,
+        "source" : "asahi-net.jp,au.com,eowebmail.eonet.jp,hwm.hi-ho.ne.jp,icloud.com,mail.google.com,mail.nifty.com,mail.smt.docomo.ne.jp,mail.yahoo.co.jp,msg.dream.jp,ocn.ne.jp,outlook.live.com,outlook.office.com,plala.or.jp,proton.me,so-net.ne.jp,tp1.jp,tutanota.com,wakwak.com,web.mail.goo.jp,webmail.gol.com,webmail.softbank.jp,wms.sso.biglobe.ne.jp#@#.wrapper_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "@@||image.ias.rakuten.co.jp\/dst\/ec\/$image,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "@@||g.doubleclick.net\/gpt\/pubads_impl_$script,domain=buhitter.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 285,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=buhitter.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "@@||googlesyndication.com\/safeframe\/$domain=buhitter.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 287,
+        "source" : "@@||googletagservices.com\/tag\/js\/gpt.js$domain=buhitter.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "@@||gsspcln.jp\/w\/ad_format\/reward\/gnsrwdmod.js$domain=buhitter.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "nijisenmon.work#@#.ad.widget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "nijisenmon.work#@#.st-h-ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "@@||tm.r-ad.ne.jp^$script,domain=hpdsp.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "source" : "@@||amazon-adsystem.com\/aax2\/apstag.js$domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 297,
+        "source" : "@@||g.doubleclick.net\/pagead\/managed\/js\/gpt\/*\/pubads_impl.js$domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 298,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "@@||googlesyndication.com\/pagead\/managed\/js\/adsense\/*\/show_ads_impl_$script,domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 300,
+        "source" : "@@||googlesyndication.com\/safeframe\/$subdocument,domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 301,
+        "source" : "@@||pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js$domain=nehannn.com|bihann.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 303,
+        "source" : "@@||eisys-bcs.jp\/data.json$domain=dlsite.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "@@||g.doubleclick.net\/tag\/js\/gpt.js$script,domain=nanpre.adg5.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 306,
+        "source" : "@@||g.doubleclick.net\/gpt\/pubads_impl_$script,domain=nanpre.adg5.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "@@||g.doubleclick.net\/gampad\/ads?$xmlhttprequest,domain=nanpre.adg5.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : "@@||safeframe.googlesyndication.com\/safeframe\/$subdocument,domain=nanpre.adg5.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 310,
+        "source" : "crefan.jp#@#.adspace"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 312,
+        "source" : "manpukunews.blog.jp#@#.ads01"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 316,
+        "source" : "@@||click.speee-ad.jp\/v1\/recwid?$script,domain=saitama-np.co.jp|htb.co.jp|oricon.co.jp|maidonanews.jp|reader.futabanet.jp|newsee-media.com|news.tv-aichi.co.jp|lisani.jp|yomuno.jp|webcartop.jp|kanaloco.jp|financial-field.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 317,
+        "source" : "@@||speee-ad.akamaized.net\/tag\/$script,domain=saitama-np.co.jp|htb.co.jp|oricon.co.jp|maidonanews.jp|reader.futabanet.jp|newsee-media.com|news.tv-aichi.co.jp|lisani.jp|yomuno.jp|webcartop.jp|kanaloco.jp|financial-field.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "@@||speee-ad.akamaized.net^$image,domain=saitama-np.co.jp|htb.co.jp|oricon.co.jp|reader.futabanet.jp|newsee-media.com|news.tv-aichi.co.jp|lisani.jp|yomuno.jp|webcartop.jp|kanaloco.jp|financial-field.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 320,
+        "source" : "hinative.com#@#.banner_header"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 322,
+        "source" : "otonary.net#@#.master-post-advert"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "@@||js.smac-ad.com^$domain=otonary.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 325,
+        "source" : "@@||azby.fmworld.net\/ad\/common\/css\/common.css"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "@@||kumin.news\/assets\/img\/ad\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "yama.minato-yamaguchi.co.jp#@##ad6"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 330,
+        "source" : "yama.minato-yamaguchi.co.jp#@#.sidead"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "jmd.co.jp#@#.widget-ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 334,
+        "source" : "@@||tm.r-ad.ne.jp\/*\/default.js$domain=jalan.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "@@||tm.r-ad.ne.jp\/cv?k=$domain=jalan.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 337,
+        "source" : "@@||biccamera.com\/*\/images\/bn\/$domain=biccamera.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "@@||gaming-city.com\/images\/ads\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : "@@||fujisan-whc.jp\/banner\/1\/banner_data_1.csv"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 342,
+        "source" : "@@||fujisan-whc.jp\/shared\/system\/js\/banner\/banner_rand_prev.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : "@@||torisetsu.biz\/img\/ads\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 345,
+        "source" : "torisetsu.biz#@#.ad_item"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 347,
+        "source" : "@@||yimg.jp\/images\/account\/nuxt\/activity\/*\/pages\/access\/ad\/index.$script,stylesheet,domain=accounts.yahoo.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : "@@||mmaaxx.com\/get_s2s_param\/s2s.js$domain=avokazu.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 350,
+        "source" : "avokazu.com#@#a[href^=\"http:\/\/click.dtiserv2.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "@@||lp.p.pia.jp\/feature\/rss\/ad.xml"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 355,
+        "source" : "magazine.jp.square-enix.com#@#a[href^=\"http:\/\/ad2.trafficgate.net\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 357,
+        "source" : "jj-jj.net#@#.ad_container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 358,
+        "source" : "jj-jj.net#@#.ad-rect"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "macaro-ni.jp#@#.rectangle__item"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "ign.com#@#.zad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 364,
+        "source" : "kaerudx.com#@#.adArea"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 365,
+        "source" : "kaerudx.com#@#.ad-center"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "teny.co.jp#@#.s-ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 369,
+        "source" : "@@||hpplus.jp\/ogp\/image\/ad\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 371,
+        "source" : "@@||r10s.jp\/img\/*\/468_60_$image,domain=rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 372,
+        "source" : "@@||rakuten-static.com\/*_468x60.$image,domain=rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 373,
+        "source" : "kana-ot.jp#@#.boxAds"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 375,
+        "source" : "minpo.jp#@#.ads970"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 377,
+        "source" : "osusume.mynavi.jp#@#.ad-widget"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 379,
+        "source" : "@@||img-baila.hpplus.jp\/*\/image\/ad\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 381,
+        "source" : "@@||ascii.jp\/img\/ad\/radeon\/logo.png"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "@@||cache.vector.co.jp\/img_cache\/*\/300x250."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 386,
+        "source" : "@@||ptj.jp\/*.cgi"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 388,
+        "source" : "@@||securepubads.g.doubleclick.net\/gpt\/pubads_impl_$domain=natgeo.nikkeibp.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 390,
+        "source" : "@@||adcdn.goo.ne.jp\/images\/pix\/$script,domain=nttdocomo.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 392,
+        "source" : "real-sports.jp#%#\/\/scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 393,
+        "severity" : "warning",
+        "source" : "||googlesyndication.com\/pagead\/js\/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=real-sports.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 395,
+        "source" : "@@||cxad.cxense.com\/adserver\/search$domain=gizmodo.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 397,
+        "source" : "@@||img.*.impact-ad.jp^$domain=tjapan.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 399,
+        "source" : "etude000.com#@#.thk_ps_widget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 401,
+        "source" : "honda.co.jp#@##footer-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 403,
+        "source" : "mitsubishi-motors.co.jp#@#.top-banners"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 405,
+        "source" : "natsume-anime.jp#@##topBanners"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 407,
+        "source" : "kichijo-joshi.jp#@#.sp_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 409,
+        "source" : "agonp.jp#@#.top-banners"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 411,
+        "source" : "matsuzaka-steak.com#@##footer-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 413,
+        "source" : "taiju-life.co.jp#@#.spLinks"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 415,
+        "source" : "yamaya.jp#@#.top-banners"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 417,
+        "source" : "@@||worldvision.jp\/img\/topSP\/topFootBana_ad.gif|"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 419,
+        "source" : "cookpad.com#@#.banner_header"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 421,
+        "source" : "hoken-all.co.jp#@#.bottom_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 423,
+        "source" : "gameranbu.jp#@#.side_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 425,
+        "source" : "minpo.jp#@#.ads300"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 427,
+        "source" : "maidonanews.jp#@#.module-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 429,
+        "source" : "webcartop.jp#@#.single-ads"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 431,
+        "source" : "@@||rmp.rakuten.co.jp\/js\/aa.js$domain=24.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 433,
+        "severity" : "warning",
+        "source" : "||sp.seiga.nicovideo.jp\/js\/illust\/illust.min.js$replace=\/if\\(h\\)\\{\/if(h){return;\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 434,
+        "source" : "@@||res.ads.nicovideo.jp\/assets\/js\/ads2.js$domain=sp.seiga.nicovideo.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 436,
+        "source" : "eromanga-school.com#@#.related-ad-area"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 438,
+        "source" : "@@||imasdk.googleapis.com\/js\/sdkloader\/ima3.js$domain=game.yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 440,
+        "source" : "@@||dxlive.com^$image,subdocument,script,domain=alivechat.tv|kanjukulive.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 442,
+        "source" : "@@||affiliate.dtiserv.com\/image\/$domain=xn--eckveb0l002pve5b.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 444,
+        "source" : "@@||vippers.jp\/settings\/ad.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 446,
+        "source" : "@@||hbb.afl.rakuten.co.jp\/hgb\/*%3A%2F%2Fthumbnail.*%3D128x128$image,domain=blog.livedoor.jp|seesaa.net"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 448,
+        "source" : "komachi.yomiuri.co.jp#@#._popIn_recommend_article_ad_reserved"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 450,
+        "source" : "@@||cdn.relaido.jp\/rplayer\/$script,domain=tv.golfnetwork.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 452,
+        "source" : "@@||hbb.afl.rakuten.co.jp^$image,domain=buy.livedoor.biz"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 454,
+        "source" : "@@||accesstrade.net\/m\/m_img\/$image,domain=mamastar.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 456,
+        "source" : "@@||rmp.rakuten.co.jp\/ads\/$domain=edy.rakuten.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 459,
+        "source" : "@@||anymind360.com\/js\/*\/ats.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 461,
+        "source" : "@@||proto2ad.durasite.net\/A-affiliate2\/mobile$script,domain=ok.goo-net.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 463,
+        "source" : "hs-exp.jp##ins.adsbygoogle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 464,
+        "source" : "@@||hs-exp.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 465,
+        "source" : "@@||hearthstone.exp.jp\/ads\/$image,domain=hs-exp.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 466,
+        "source" : "@@||hs-exp.jp\/ads\/$image,font,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 469,
+        "source" : "@@||cmnw.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 471,
+        "source" : "@@||static.rebates.jp\/img\/*_300x250."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 473,
+        "source" : "@@||order.shopping.yahoo.co.jp\/cgi-bin\/order-form$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 476,
+        "source" : "@@||moppy.jp^$~script,~image,~stylesheet,domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 478,
+        "source" : "@@||nazolog.com^$generichide"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 479,
+        "source" : "@@||dietnavi.com\/ad_images\/$image,domain=dietnavi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 480,
+        "source" : "@@||dietnavi.com^*\/img\/ad\/$image,domain=dietnavi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 483,
+        "source" : "@@||img.gpoint.co.jp\/www\/gpark\/game\/game\/300x250.png$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 484,
+        "source" : "@@||chobirich.com\/*_300x250_$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 485,
+        "source" : "@@||pointi.jp^$generichide"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 486,
+        "source" : "nikke-jp.com#@#.ad_content"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 487,
+        "source" : "point-g.rakuten.co.jp#@#.searchAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 488,
+        "source" : "netmile.co.jp#@#.ad-txt"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 489,
+        "source" : "@@||a8.net\/svt\/bgt$image,domain=chance.com|chobirich.com|dietnavi.com|ecnavi.jp|gamefactory.jp|gendama.jp|hiroba.dpoint.docomo.ne.jp|lifemedia.jp|moppy.jp|netmile.co.jp|point-g.rakuten.co.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.t-mall.tsite.jp|warau.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 490,
+        "source" : "@@||accesstrade.net^$image,domain=chance.com|chobirich.com|dietnavi.com|ecnavi.jp|gendama.jp|gpoint.co.jp|hapitas.jp|hiroba.dpoint.docomo.ne.jp|lifemedia.jp|moppy.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|t-mall.cmnw.jp|t-mall.tsite.jp|warau.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 491,
+        "source" : "@@||ad-track.jp^$image,domain=chobirich.com|dietnavi.com|gendama.jp|moppy.jp|pointi.jp|t-mall.cmnw.jp|t-mall.tsite.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 492,
+        "source" : "@@||advack.net\/p\/?ad=$image,domain=warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 493,
+        "source" : "@@||aeonshop.com\/assets\/file\/pages\/img\/AD\/$image,domain=point.i2i.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 494,
+        "source" : "@@||af-110.com\/banner\/$image,domain=chance.com|chobirich.com|dietnavi.com|ecnavi.jp|gendama.jp|gpoint.co.jp|lifemedia.jp|moppy.jp|netmile.co.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|warau.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 495,
+        "source" : "@@||aff.i-mobile.co.jp\/display_data.ashx?$image,domain=chobirich.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 496,
+        "source" : "@@||aff.valuecommerce.ne.jp\/ad\/displayBanner\/$image,domain=gendama.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 497,
+        "source" : "@@||affiliate-b.com\/upload_image\/$domain=ponta.gamefactory.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 498,
+        "source" : "@@||afi-b.com\/upload_image\/$domain=chobirich.com|dietnavi.com|gendama.jp|lifemedia.jp|moppy.jp|point.i2i.jp|pointi.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 499,
+        "source" : "@@||afl.rakuten.co.jp^$image,domain=chobirich.com|gendama.jp|lifemedia.jp|moppy.jp|netmile.co.jp|pointtown.com|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 500,
+        "source" : "@@||amazonaws.com\/adv-img.zucks.jp\/$image,domain=ecnavi.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 501,
+        "source" : "@@||amazonaws.com\/affiliate-img.docomo.ne.jp\/banner\/$image,domain=chobirich.com|moppy.jp|point.i2i.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 502,
+        "source" : "@@||amazonaws.com\/img.point.i2i.jp\/banner\/*\/300x250_$image,domain=point.i2i.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 503,
+        "source" : "@@||amazonaws.com\/img.point.i2i.jp\/banner\/*_300x250.$image,domain=point.i2i.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 504,
+        "source" : "@@||atown.jp^$image,domain=chobirich.com|dietnavi.com|ecnavi.jp|gendama.jp|hiroba.dpoint.docomo.ne.jp|moppy.jp|netmile.co.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|t-mall.tsite.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 505,
+        "source" : "@@||cf.smaad.net^$image,domain=chance.com|dietnavi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 506,
+        "source" : "@@||ci-labo.com\/*\/brand\/images\/300x250.jpg$domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 507,
+        "source" : "@@||cloudfront.net\/*_300x250$image,domain=chobirich.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 508,
+        "source" : "@@||cosmeland.jp\/affiliate\/$image,domain=ponta.gamefactory.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 509,
+        "source" : "@@||cross-a.net^$image,domain=chance.com|chobirich.com|dietnavi.com|gendama.jp|pointi.jp|ponta.gamefactory.jp|t-mall.cmnw.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 510,
+        "source" : "@@||dell.com\/images\/jp\/banners\/*_300x250.$image,domain=chobirich.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 511,
+        "source" : "@@||dinos.co.jp\/affiliate\/$image,domain=moppy.jp|t-mall.tsite.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 512,
+        "source" : "@@||ecnavi.jp\/global\/img\/bc_ecnavi_games_300x250.gif"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 513,
+        "source" : "@@||gpoint.co.jp\/images\/gpark\/bnr\/300_250_$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 514,
+        "source" : "@@||gpoint.co.jp\/images\/*_300x250.$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 515,
+        "source" : "@@||j-a-net.jp^$image,domain=chance.com|chobirich.com|ecnavi.jp|gendama.jp|gpoint.co.jp|hapitas.jp|lifemedia.jp|moppy.jp|netmile.co.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|t-mall.cmnw.jp|t-mall.tsite.jp|warau.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 516,
+        "source" : "@@||jal.co.jp\/affiliate\/$image,domain=warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 517,
+        "source" : "@@||linksynergy.com\/fs$image,domain=chance.com|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 518,
+        "source" : "@@||moppy.jp\/pub\/global\/pc\/banner\/gacha\/468x60.jpg$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 519,
+        "source" : "@@||pia.jp\/uploads5\/files\/*\/300_250.$image,domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 520,
+        "source" : "@@||point-g.rakuten.co.jp\/pg_assets\/item\/contets\/*\/300_250_$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 521,
+        "source" : "@@||point-g.rakuten.co.jp\/pg_assets\/item\/contets\/*_300x250$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 522,
+        "source" : "@@||presco.ai\/banner\/$image,domain=warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 523,
+        "source" : "@@||prf.hn\/source\/$image,domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 524,
+        "source" : "@@||r-ad.ne.jp^$subdocument,xmlhttprequest,domain=recruit.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 525,
+        "source" : "@@||ryuryumall.jp\/af\/ls\/logo\/300_250_$image,domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 526,
+        "source" : "@@||smart-c.jp\/i?$image,domain=gendama.jp|moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 527,
+        "source" : "@@||storage.aeonshop.com\/assets\/file\/pages\/img\/AD\/$domain=moppy.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 528,
+        "source" : "@@||tcs-asp.net\/imagesender$image,domain=chobirich.com|dietnavi.com|gendama.jp|lifemedia.jp|moppy.jp|ponta.gamefactory.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 529,
+        "source" : "@@||trafficgate.net\/t\/b\/$image,domain=chobirich.com|ecnavi.jp|gendama.jp|gpoint.co.jp|hapitas.jp|lifemedia.jp|moppy.jp|point-g.rakuten.co.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|t-mall.tsite.jp|warau.jp|yomipo.yomiuri.co.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 530,
+        "source" : "@@||valuecommerce.com^$image,domain=chobirich.com|dietnavi.com|ecnavi.jp|gendama.jp|gpoint.co.jp|hapitas.jp|hiroba.dpoint.docomo.ne.jp|lifemedia.jp|moppy.jp|netmile.co.jp|point.i2i.jp|pointi.jp|ponta.gamefactory.jp|t-mall.tsite.jp|yomipo.yomiuri.co.jp|warau.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 531,
+        "source" : "@@||virusbuster.jp\/aff\/banner\/$image,domain=chobirich.com|point.i2i.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 532,
+        "source" : "@@||wellness.nichirei.co.jp\/img\/ad\/$domain=t-mall.tsite.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 533,
+        "source" : "@@||wowma.net\/market\/linkshare\/$image,domain=chobirich.com|gendama.jp|moppy.jp|point.i2i.jp|t-mall.tsite.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 535,
+        "source" : "@@||afi-b.com\/assets\/dist\/img\/general\/top\/img\/ad\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 536,
+        "source" : "@@||afi-b.com\/assets\/img\/general\/common\/$image,domain=affiliate-b.com"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 538,
+        "source" : "1sshindo.com,akashi-kodomo-zaidan.jp,alps-beauty-salon.com,art-green.co.jp,ascon-blast.co.jp,bees-garden.jp,bellys.jp,betsukawa.co.jp,chuo-hp.jp,courier.co.jp,e-shinwa.com,echo-gr.co.jp,echo-kensetu.jp,ecsatonoie.jp,edel-support.com,ex-daito.jp,familykanko.co.jp,friends-animal.com,fuji-sho.jp,fukukanren.jp,fujiidera-gojokai.or.jp,ginga-clinic.com,ginganosato.com,gms.or.jp,guidepost.co.jp,hairplace-patio.com,hairsalon-duo.com,hakuaikai-kitakami.or.jp,hanamaki-fureai.jp,handinhandjp.com,harayamadai-kg.jp,heiseidensetsu.co.jp,hello-work.co.jp,hogaraka.gr.jp,hongakuji.jp,icd-connect.co.jp,ichinohe-hp.com,ikiiki.toyama.jp,ims-kt.co.jp,isawa-hp.com,isawabunso.com,iyasakaseitai.com,kaigowakouwa.jp,kekkangeka.com,ken6-fudousan.co.jp,kennan-crane.co.jp,kitakami-node.co.jp,kitakamicity.jp,kk-haruna.co.jp,kogane.or.jp,kumedakango.jp,kuramoto-sekizai.com,kyoyu-k.co.jp,marineworld-tanabe.com,media-pc.co.jp,mfutaba.jp,mitosan.co.jp,mizusawarikuso.com,modern-h.jp,momiki-express.co.jp,momokuri.co.jp,nisseijushi.co.jp,nittofunka.co.jp,okameshouten.jp,osanais.co.jp,porco-blu.com,rfj.co.jp,rokuhara.co.jp,sakitamas.com,sento-sakai.co.jp,sfv.co.jp,shikokuyanehan.sakura.ne.jp,shimura-geo.co.jp,shinko.main.jp,sinkyu-c.jp,site-jobyellnet.main.jp,skn-fc.jp,spec-com.co.jp,sugawa-mokko.jp,suzukireform.jp,syahokyo-saga.or.jp,t-suiko.jp,taiyo-valve.co.jp,takaidahoikuen.jp,takasaki-shika.com,takatagumi.co.jp,technobell.co.jp,tenmashatai.com,tiara-y.jp,tohoku-juken.co.jp,tohokuseimitsu.co.jp,totalsupport-kitakami.com,tsc.co.jp,twinklesnow.com,umenohisagi.jp,urban-karuizawa.co.jp,vook.vc,yagate1.co.jp,yamashitajari.com,yokosawa.jp,yonoyouchien.jp,yuhki-elec.co.jp,yuimarl-kids.jp,yumekoumuten.com#@##footer_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 539,
+        "source" : "3faithsdjschool.com,3plmnt.co.jp,abuto-kankou.co.jp,aigato.jp,akihabara-eye.com,alpenhaime.gr.jp,alpha-eng.jp,andocl.jp,anshinhome.co.jp,aoclinic.jp,appreco.com,biz-point.jp,btktool.co.jp,bodymake-onix.co.jp,carrier-agency.com,ch-matsumoto.jp,chikushi-410.com,co-nagayama.co.jp,cohaco.jp,dai2aikoen.jp,dw-clinic.jp,enemix.jp,enomoto-c.com,flair.co.jp,flexs.co.jp,foresight-1998.co.jp,fujimidai-hifuka.jp,fukamachitakkyu.com,goro-bei.com,gozamisaki.com,herb-teien.com,higashin-ls.co.jp,himawari-clinic.com,hkcg.co.jp,hokkaido-nomad.co.jp,htk-kobechuo.jp,iida-dent.jp,integration.ne.jp,itawarinoyu.jp,iwasaki-clinic.jp,izumi3.com,j-sonic.co.jp,japan-quartzclub.com,jashoteltakayama.jp,jdc-kaigyousien.jp,kaidentalclinic.jp,kakiemon.co.jp,kameman.co.jp,katekin.com,kenbunkai-yamaguchi.jp,kitaoku.jp,kiyotaclinic.or.jp,kobayashi-eyeclinic.jp,kotoridc.jp,kouden-s.jp,kusatsu-law.jp,kyoai.or.jp,kyowa-tekko.jp,lanai-beauty.com,m-publicgolf.com,m-shika.jp,maff.go.jp,magome-eye.jp,manaao-kitchen.but.jp,manaao-kitchen.com,manabe-ortho.or.jp,marineplaza.co.jp,marushime21.jp,me-cell.jp,metal-model.com,mikawapropeller.co.jp,mikielectric.co.jp,minami-ise.jp,miyazu-matsukaze.jp,mizuiwa-un.co.jp,mj-pro.jp,mkc6.com,mohara-clinic.jp,nakaod.com,nakase-dc.jp,nanjyoen.com,nikunotoriko.co.jp,nnbs.co.jp,nousui-shop.com,okamoto-fdc.jp,okayamanavi.jp,okudaganka.jp,omoiyari-edu.jp,onsinkai.jp,picring.co.jp,plateck.jp,rikkyo-dps.com,rousai-kenkyujyo.co.jp,ruhe-mental.jp,s-gp.co.jp,s-shizai.jp,saipri.com,saizenji.or.jp,sakataengei.jp,sakoken.co.jp,sanadayamashika.jp,sanagawa-dental.com,sanchang.co.jp,sapporocity-law.jp,satsumacon.co.jp,sec-architects.com,seinankaihatsu.co.jp,shibusaki.co.jp,shineiengineer.co.jp,shinritsu.com,shizuokakenro.jp,sosus.jp,southluck.co.jp,sweet-nurse.ne.jp,t-mclinic.jp,t-u-advance.jp,tairyouen.com,takara-pd.co.jp,takei-kogyo.jp,talknet.jp,tnk-koei.co.jp,tokyowest-ah.jp,tonakbuque.co.jp,tousyo-k.co.jp,tsurukawadai.jp,ug-home.co.jp,vario.jp,volleyball-u.jp,w-dc.jp,wazumi.jp,wic-life.com,yaizuminsho.com,yamadakaki.jp,yamahana-ds.com,yamanogaku.com,yokohama-kenshu.jp,yokoyamaseikotsuin.jp,yotsuba-sapporo.com,yuukaen.jp#@#.footer_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 540,
+        "source" : "takaidahoikuen.jp#@##top_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 541,
+        "source" : "kininaru-geinou-m.blog.jp#@#.ads01"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 542,
+        "source" : "echo-gr.co.jp,echo-kensetu.jp,fujiidera-gojokai.or.jp,fet.co.jp,takken-k.co.jp,zanmai.co.jp#@#.ad_box:not(.text-ad)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 543,
+        "source" : "pcinformation.info#@#a[href^=\"https:\/\/click.linksynergy.com\/fs-bin\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 544,
+        "source" : "mamastar.jp#@#.adstop"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 545,
+        "source" : "ironsaga-msoku.xyz,takushoku.info#@#.ad.widget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 546,
+        "source" : "ringo-no-mori.jp#@#.ad-bnr"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 547,
+        "source" : "arukikata.co.jp#@#.ad_btn"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 548,
+        "source" : "25news.jp,xn--0et88ccz6awh1a.biz#@#.has-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 549,
+        "source" : "cotoro.net,favoriteslibrary-books.com,hakenreco.com,shellbys.com,tipstour.net#@#.bottom_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 550,
+        "source" : "920ryu.blog.fc2.com#@##scroll_ad"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 554,
+        "source" : "@@||h1g.jp\/img\/ad\/ad_heigu.html$~third-party"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 10,
+      "generatedContentRuleCount" : 232,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 230,
+      "parsedRules" : 336,
+      "skippedLines" : 219,
+      "totalLines" : 555,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 109
+    }
+  },
+  "sourceFileName" : "allowlist.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}

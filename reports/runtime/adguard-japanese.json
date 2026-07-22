@@ -1,0 +1,29 @@
+{
+  "artifact" : {
+    "byteCount" : 354258,
+    "contentWorld" : "page",
+    "fileName" : "BlockerKitUserScript-adguard-japanese.js",
+    "forMainFrameOnly" : false,
+    "injectionTime" : "documentStart",
+    "sha256" : "97eb87dab7d7aa085a0f8bc4fae11fa44ebb1f2e4268f354964f94b6f4384343"
+  },
+  "inputConfigFiles" : [
+    "adguard_japanese_adservers.runtime-config.json",
+    "adguard_japanese_adservers_firstparty.runtime-config.json",
+    "adguard_japanese_allowlist.runtime-config.json",
+    "adguard_japanese_antiadblock.runtime-config.json",
+    "adguard_japanese_general_elemhide.runtime-config.json",
+    "adguard_japanese_general_extensions.runtime-config.json",
+    "adguard_japanese_general_url.runtime-config.json",
+    "adguard_japanese_specific.runtime-config.json"
+  ],
+  "profileID" : "adguard-japanese",
+  "ruleCounts" : {
+    "cosmetic" : 1073,
+    "cssInjection" : 382,
+    "network" : 21,
+    "scriptlet" : 224,
+    "total" : 1700
+  },
+  "schemaVersion" : 1
+}
