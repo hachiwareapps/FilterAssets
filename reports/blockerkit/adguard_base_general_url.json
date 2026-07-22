@@ -1,0 +1,4763 @@
+{
+  "outputFileNames" : [
+    "adguard_base_general_url_chunk_001.json",
+    "adguard_base_general_url_chunk_002.json",
+    "adguard_base_general_url_chunk_003.json",
+    "adguard_base_general_url_chunk_004.json",
+    "adguard_base_general_url_chunk_005.json",
+    "adguard_base_general_url_chunk_006.json",
+    "adguard_base_general_url_chunk_007.json",
+    "adguard_base_general_url_chunk_008.json",
+    "adguard_base_general_url_chunk_009.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+      {
+        "code" : "replace-runtime-approximation",
+        "lineNumber" : 12,
+        "message" : "$replace can only be approximated for JavaScript-controlled response reads.",
+        "severity" : "warning",
+        "source" : "\/getjs?nadipdata$third-party,replace=\/[\\s\\S]+openOriginalUrl[\\s\\S]+\/openOriginalUrl()\/"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 42,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,16}\\.(?:club|fun|hair|info|work|xyz)\\\/[0-9a-zA-Z%]{170,400}$",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,16}\\.(?:club|fun|hair|info|work|xyz)\\\/[0-9a-zA-Z%]{170,400}$\/$script,third-party"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 97,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 98,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party,redirect=noopjs"
+      },
+      {
+        "code" : "approximate-network-modifier",
+        "lineNumber" : 101,
+        "message" : "Approximate network modifiers: method, to.",
+        "severity" : "warning",
+        "source" : "\/^https?:\\\/\\\/[a-z]{8,15}\\.xyz\\\/$\/$xmlhttprequest,third-party,method=head,to=xyz"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 104,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: \\.goplay\\.su\\\/[a-z][0-9A-Za-z]{10,}\\\/\\d{3,6}$",
+        "severity" : "unsupported",
+        "source" : "\/\\.goplay\\.su\\\/[a-z][0-9A-Za-z]{10,}\\\/\\d{3,6}$\/$xmlhttprequest,match-case"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 115,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{10,12}\\.com\\\/[a-z\\\/]{2,}\\?id=[12]\\d{6}$",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{10,12}\\.com\\\/[a-z\\\/]{2,}\\?id=[12]\\d{6}$\/$script,third-party,match-case"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 117,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[0-9a-z]{5,}\\.[a-z]{2,3}\\\/z-[5-9]\\d{6}$",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[0-9a-z]{5,}\\.[a-z]{2,3}\\\/z-[5-9]\\d{6}$\/$script,~third-party"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 119,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=popads-node"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 120,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 121,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=popads-node"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 122,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=popads-node"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 123,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/css\/$script,third-party,header=popads-node"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 124,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=popads-node"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 125,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 126,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 127,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 128,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 147,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z]{3,}\\.[a-z]{2,11}\\.?[a-z]{0,7}\\\/(?:[0-9a-z]{6,10}\\\/)?\\\/?(?:article\\d{4}\\.doc)?\\?(?:cid=[0-9a-z]+&)?[ou]=[0-9a-z]{7}(?:&t=\\d+)?&[ou]=[0-9a-z]{7}",
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z]{3,}\\.[a-z]{2,11}\\.?[a-z]{0,7}\\\/(?:[0-9a-z]{6,10}\\\/)?\\\/?(?:article\\d{4}\\.doc)?\\?(?:cid=[0-9a-z]+&)?[ou]=[0-9a-z]{7}(?:&t=\\d+)?&[ou]=[0-9a-z]{7}\/$document,match-case"
+      },
+      {
+        "code" : "removeparam-runtime-approximation",
+        "lineNumber" : 206,
+        "message" : "$removeparam is handled by the WKWebView runtime for JavaScript-controlled requests and visible URL cleanup.",
+        "severity" : "warning",
+        "source" : "&siteid=*&adid=$removeparam"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 212,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[-a-z]{8,}\\.com\\\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\\\/[0-9A-Za-z][-\\\/0-9A-Z_a-z]{115,132}$",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[-a-z]{8,}\\.com\\\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\\\/[0-9A-Za-z][-\\\/0-9A-Z_a-z]{115,132}$\/$script,xmlhttprequest,match-case,third-party"
+      },
+      {
+        "code" : "webkit-url-filter-disjunction",
+        "lineNumber" : 214,
+        "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js",
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,xmlhttprequest,third-party"
+      },
+      {
+        "code" : "webkit-url-filter-disjunction",
+        "lineNumber" : 215,
+        "message" : "WKContentRuleListStore rejects disjunctions in url-filter regex. url-filter: ^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js",
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,third-party,redirect=noopjs"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 266,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[a-z]{8,12}\\.com\\\/en\\\/(?:[a-z]{2,10}\\\/){0,2}[a-z]{2,}\\?(?:[a-z]+=[^&=?\\s]*?&)*?id=[12]\\d{6}",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,12}\\.com\\\/en\\\/(?:[a-z]{2,10}\\\/){0,2}[a-z]{2,}\\?(?:[a-z]+=[^&=?\\s]*?&)*?id=[12]\\d{6}\/$script,third-party,match-case"
+      },
+      {
+        "code" : "webkit-url-filter-counted-repetition",
+        "lineNumber" : 295,
+        "message" : "WKContentRuleListStore rejects counted repetitions in url-filter regex. url-filter: ^https:\\\/\\\/[0-9a-z-]{5,15}\\.(?:com|net|tv|xyz)\\\/(?:40[01]|50?0?)\\\/\\d{6,8}\\??\\S*$",
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[0-9a-z-]{5,15}\\.(?:com|net|tv|xyz)\\\/(?:40[01]|50?0?)\\\/\\d{6,8}\\??\\S*$\/$script,xmlhttprequest,third-party"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 415,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "\/?oo=1&aab=1|$script,third-party,xmlhttprequest,redirect=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 422,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "\/\\\/[0-9a-f]{32}\\\/invoke\\.js\/$script,third-party,redirect-rule=noopjs"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 423,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : ".com\/invoke.js$script,third-party,redirect-rule=noopjs"
+      },
+      {
+        "code" : "unsupported-network-action",
+        "lineNumber" : 538,
+        "message" : "Unsupported network action modifiers: header.",
+        "severity" : "unsupported",
+        "source" : "||workers.dev^$header=x-target-domain:pagead2.googlesyndication.com"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 545,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : ".com\/?zoneid=*&xref=*&uuid=$redirect=nooptext,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 548,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "&tid=*&red=1&abt=$redirect=nooptext,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 549,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "?tid=*&red=1&*&abt=$redirect=nooptext,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 550,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "\/?&pid=*&subid=$redirect=nooptext,important"
+      },
+      {
+        "code" : "redirect-runtime-approximation",
+        "lineNumber" : 551,
+        "message" : "$redirect can only be approximated for JavaScript-controlled response reads or native resource blocking.",
+        "severity" : "warning",
+        "source" : "\/?&subid=*&pid=$redirect=nooptext,important"
+      }
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "replace-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 12,
+        "severity" : "warning",
+        "source" : "\/getjs?nadipdata$third-party,replace=\/[\\s\\S]+openOriginalUrl[\\s\\S]+\/openOriginalUrl()\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "\/asset\/angular.min.js?t=$xmlhttprequest,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "\/asset\/jquery\/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "\/^https:\\\/\\\/[0-9a-z]{6,12}\\.in(?:\\\/[a-z]{2,10}){1,3}$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "\/l\/DMP_picture_captcha?$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : ".tech\/c\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "\/?pub_id=*&key=*&site_id=*&data=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "||my-redirect-bucket-unique-*.s3.ap-northeast-1.amazonaws.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "||call_domainname_here.$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "\/^https:\\\/\\\/[0-9a-z-]{4,7}\\.(?:com|click|icu|net|shop)\\\/js\\\/responsive\\.js$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "\/^https:\\\/\\\/[0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-]?[0-9a-z-]?[0-9a-z-]?\\.(com|click|icu|net|shop)\\\/js\\\/responsive\\.js$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,16}\\.(?:club|fun|hair|info|work|xyz)\\\/[0-9a-zA-Z%]{170,400}$\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "&bemobdata=c%$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 45,
+        "source" : "?bemobdata=c%$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 47,
+        "source" : "&modver=*&appver=$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "&appver=*&modver=$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "||l.cdn-fileserver.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 51,
+        "source" : "||search-nowglobal.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "\/assets\/js\/eaCtrl.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "\/video-js\/nuevo.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "\/prize-*\/assets\/main.js$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "\/prize-*\/assets\/modules.js$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "\/partytown\/partytown-sw.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "\/affiliates\/vast\/?campaign="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 63,
+        "source" : "\/vast.php?*&tags=exoxvideostargetting"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "\/vast.php?idzone="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "?qtag=*&x_pm_click=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "\/banner.go?spaceid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "\/captha\/cap\/|$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : ".cfd\/*?s=*&q=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : ".cfd\/getdom.php?g=$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 79,
+        "source" : "\/^https:\\\/\\\/[a-z]{6,13}\\.(cloud|xyz)\\\/[A-Za-z0-9_-]{48}[A-Z]{3}$\/$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 81,
+        "source" : "\/billing?_ts=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "\/player\/html.php?aid=*&video_id=*&referer="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : ".xyz\/lander\/$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : ".xyz\/landers\/$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 87,
+        "source" : ".php?key=*&clickid=*&sub1=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : ".net\/ads.js?api_key=*000&header=*&p=*&file="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 93,
+        "source" : "\/sm\/getcode?apiKey="
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 97,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,15}\\.(?:(com|net)\\\/(?:\\d{1,3}\\\/)?tag\\.min\\.js$)\/$script,third-party,redirect=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "approximate-network-modifier"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 101,
+        "severity" : "warning",
+        "source" : "\/^https?:\\\/\\\/[a-z]{8,15}\\.xyz\\\/$\/$xmlhttprequest,third-party,method=head,to=xyz"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "severity" : "unsupported",
+        "source" : "\/\\.goplay\\.su\\\/[a-z][0-9A-Za-z]{10,}\\\/\\d{3,6}$\/$xmlhttprequest,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "\/^https:\\\/\\\/[a-z]{3,5}\\.[a-z]{10,14}\\.top\\\/[a-z]{10,16}\\\/[a-z]{5,6}(?:\\?d=\\d)?$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "\/\\.goplay\\.su\\\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\\\/[0-9][0-9][0-9][0-9]?[0-9]?[0-9]?$\/$xmlhttprequest,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "\/^https:\\\/\\\/[a-z][a-z][a-z][a-z]?[a-z]?\\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?\\.top\\\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\\\/[a-z][a-z][a-z][a-z][a-z][a-z]?(\\?d=[0-9])?$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "\/?siteId=*&performerName=*&subAffId=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : ".click\/?token=*&sessionUser=*&amzId=*&tilTime=*&s=|$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : ".cfd\/?siteId=*&sessionId=*&cookiesValue=$all"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{10,12}\\.com\\\/[a-z\\\/]{2,}\\?id=[12]\\d{6}$\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 117,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[0-9a-z]{5,}\\.[a-z]{2,3}\\\/z-[5-9]\\d{6}$\/$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=popads-node"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/www\\.[a-z]{8,16}\\.com\\\/(?:[A-Za-z]+\\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$\/$script,third-party,match-case,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=popads-node"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=popads-node"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 123,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/css\/$script,third-party,header=popads-node"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=popads-node"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/*.css|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com*\/images\/*.min.js|$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "severity" : "unsupported",
+        "source" : ":\/\/www.*.com\/js\/css\/$script,third-party,header=link:\/adsco\\.re\\\/>;rel=preconnect\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "\/tds\/ae?*&clickid=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : ".com\/api\/users*^in=false&token=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : ".com\/api\/users*^pii=&in=false^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : ".com\/api\/users*^in=false&pii=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : ":\/\/trk.*.run^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "?aff_pg=PPU&aff_id=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 139,
+        "source" : "?subPublisher=popunder:$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 141,
+        "source" : "\/?clck=*&sid=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "\/?pl=*&sm=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : ".live\/web\/?sid=t*~$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "\/?u1=*&o1=*&sid=t*~$document"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 147,
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z]{3,}\\.[a-z]{2,11}\\.?[a-z]{0,7}\\\/(?:[0-9a-z]{6,10}\\\/)?\\\/?(?:article\\d{4}\\.doc)?\\?(?:cid=[0-9a-z]+&)?[ou]=[0-9a-z]{7}(?:&t=\\d+)?&[ou]=[0-9a-z]{7}\/$document,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "\/^https?:\\\/\\\/[0-9a-z]*\\.?[-0-9a-z][-0-9a-z][-0-9a-z]+\\.[a-z][a-z]+\\.?[a-z]*\\\/([0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]+\\\/)?\\\/?(article[0-9][0-9][0-9][0-9]\\.doc)?\\?(cid=[0-9a-z]+&)?[ou]=[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z](&t=[0-9]+)?&[ou]=[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\/$document,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "\/wp-content\/plugins\/admin-bar-customizer\/abc-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "\/wp-content\/plugins\/advanced-user-manager\/aum-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "\/wp-content\/plugins\/advanced-widget-manage\/awm-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "\/wp-content\/plugins\/content-blocker\/cb-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "\/wp-content\/plugins\/custom-css-injector\/cci-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "\/wp-content\/plugins\/custom-footer-generator\/cfg-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "\/wp-content\/plugins\/custom-login-styler\/cls-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "\/wp-content\/plugins\/dynamic-sidebar-manager\/dsm-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "\/wp-content\/plugins\/easy-themes-manager\/script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 163,
+        "source" : "\/wp-content\/plugins\/form-builder-pro\/fbp-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "\/wp-content\/plugins\/quick-cache-cleaner\/qcc-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "\/wp-content\/plugins\/responsive-menu-builder\/rmb-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "\/wp-content\/plugins\/seo-optimizer-pro\/sop-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "\/wp-content\/plugins\/simple-post-enhancer\/spe-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "\/wp-content\/plugins\/social-media-integrator\/smi-script.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 171,
+        "source" : ".com\/*=3&*,1|$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : ".com\/*=3&*,0|$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 173,
+        "source" : ".com\/*=e3&*,1|$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : ".com\/*=e3&*,0|$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : ".com\/1?z=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : ".com\/2?z=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : ".net\/1?z=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : ".net\/2?z=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "\/pub?id=$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 181,
+        "source" : "\/in\/p\/?spot_id=$subdocument,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "&request_ab*&zoneid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 183,
+        "source" : "&campid=*&did=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "&zoneid=*&request_ab$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "\/?l=*&campid=*&ymid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "\/loadmez\/com\/coldvain\/*.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "\/loadme\/com\/coldvain\/*.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "\/loadme\/com\/lazymolecule\/*.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "\/heyboy\/com\/lazymolecule\/*.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "\/script\/suv5.js|$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "\/script\/q91a.js|$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 195,
+        "source" : "\/script\/frustration.js|$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "\/d3.php?*=s*&*&sadbl="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "\/deity.php?*=s*&*&sadbl="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "\/script\/pop_packcpm.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : ".com\/ablck\/250-300\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "&type=dynamic_banner$subdocument,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "\/?tm=1&subid4=*&kw=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "\/page\/bouncy.php?&bpae=*&redirectType=js&inIframe=$all"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "removeparam-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 206,
+        "severity" : "warning",
+        "source" : "&siteid=*&adid=$removeparam"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "\/mellowpresence.com^$script"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[-a-z]{8,}\\.com\\\/[f-j](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\\\/[0-9A-Za-z][-\\\/0-9A-Z_a-z]{115,132}$\/$script,xmlhttprequest,match-case,third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-disjunction"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-disjunction"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 215,
+        "severity" : "unsupported",
+        "source" : "\/^https?:\\\/\\\/(?:www\\.|[a-z0-9]{7,10}\\.)?[a-z0-9-]{5,}\\.(?:com|org)\\\/\\\/?(?:[a-z0-9]{2}\\\/){2,3}[a-f0-9]{32}\\.js\/$script,third-party,redirect=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "\/\\\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\\\/invoke\\.js\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "\/^https:\\\/\\\/[0-9a-f]{10}\\.[0-9a-f]{10}\\.com\\\/[0-9a-f]{32}\\.js$\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "\/^https:\\\/\\\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\\.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\\.[co][or][gm]\\\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\\.js$\/$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "\/^https:\\\/\\\/[0-9a-f]{10}\\.[0-9a-f]{10}\\.com\\\/[a-f0-9]+\\\/\\d+\\?version_name=\\w&domain=\/$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "\/assets\/jquery\/api.js?type=adult$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "\/assets\/jquery\/api.js?type=mainstream$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "\/assets\/jquery\/static.js?type=mainstream$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "\/assets\/jquery\/app100.js?type=$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "\/assets\/jquery\/api100.js?type=$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "\/assets\/jquery\/adult100.js?v=$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "\/assets\/jquery\/main100.js?v=$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "\/assets\/jquery\/jquery-1.4.1.min.js?v=2&type=adult"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 237,
+        "source" : "\/assets\/jquery\/jquery-1.4.2.min.js?v=2&type=adult"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "\/assets\/jquery\/jquery-1.4.3.min.js?v=2&type=adult"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "\/assets\/jquery\/jquery-2.4.3.min.js?v=2&type=adult"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 240,
+        "source" : "\/assets\/jquery\/jquery-3.2.min.js?v=2&type=adult"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "\/click.php?key=*&creative_id=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "\/click.php?key=*&click_id=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "\/click.php?key=*&zone_id=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "\/?z=*&syncedCookie=true&rhd=false$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 246,
+        "source" : "errx01USAHTML\/?bcda=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "&js_build=iclick-$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "&js_build=iclick-"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 249,
+        "source" : "&subAffId={SUBAFFID}^$script,subdocument,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "&subAffId=tall^$script,subdocument,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "\/?rb=*&zoneid=$all,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "&rb=*&zoneid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "&zoneid=*&rb=$all,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "\/?request_ab*&zoneid=*&rb=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "\/avo\/includes\/js\/jquery.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 256,
+        "source" : "\/?uclick=*&uclickhash=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 257,
+        "source" : ".com\/click\/?ct=*&cu=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "\/prepare\/ads^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "_clickunder&pb=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "\/contents\/images-banners\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "\/go\/*?ident=*&id_site=$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "%3Faf_prt%3D*%26af_siteid%3D1*%26clickid%3D$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "\/rtb\/r\/?token=$script"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 266,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[a-z]{8,12}\\.com\\\/en\\\/(?:[a-z]{2,10}\\\/){0,2}[a-z]{2,}\\?(?:[a-z]+=[^&=?\\s]*?&)*?id=[12]\\d{6}\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "\/^https:\\\/\\\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\\.com\\\/en\\\/([a-z][a-z]+\\\/)?([a-z][a-z]+\\\/)?[a-z][a-z]+\\?([a-z]+=[^&=? ]*&)*id=[12][0-9][0-9][0-9][0-9][0-9][0-9]\/$script,third-party,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "?zoneid=*&ab=1|$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "\/get\/*?zoneid=*&jp=$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "\/c-hive.min.js$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "\/shrinker\/js\/ionqsnwx1.js$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "\/shrinker\/js\/ionqsnwx2.js$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "\/assets\/jwplayer-*\/vast.js$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "\/azazaz7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "\/vlado7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "\/exort7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 281,
+        "source" : "\/duayn7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "\/howone7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 283,
+        "source" : "\/ytrek7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "\/lemon7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 285,
+        "source" : "\/teo7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "\/nofa7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 287,
+        "source" : "\/afon7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "\/rass7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 289,
+        "source" : "\/huyass7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "\/kzdh7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "\/klesd7.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "webkit-url-filter-counted-repetition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "severity" : "unsupported",
+        "source" : "\/^https:\\\/\\\/[0-9a-z-]{5,15}\\.(?:com|net|tv|xyz)\\\/(?:40[01]|50?0?)\\\/\\d{6,8}\\??\\S*$\/$script,xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "\/\\\/t\\\/[0-9]{3}\\\/[0-9]{3}\\\/a[0-9]{4,9}\\.js$\/$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "\/^https?:\\\/\\\/[0-9a-z]{13,14}\\.cloudfront\\.net\\\/\\?[a-z]{3,5}=\\d{6,7}$\/$script,xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 304,
+        "source" : "\/js\/fpu3\/pu4.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "\/cb\/cb.ta.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 306,
+        "source" : "\/cb\/cb.xb.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "\/ab\/thejsfile.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : ".xyz\/1clkn\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 309,
+        "source" : ".club\/1clkn\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 311,
+        "source" : "\/\\\/[0-9][0-9][0-9][0-9][0-9]\\?version_name=[a-z]$\/$xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 314,
+        "source" : ".adriver.$domain=~adriver.co"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 316,
+        "source" : ".com\/*?*&refer=*fmovies.*&adb=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : ".com\/*?*&refer=*fmovies.*&adb="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 321,
+        "source" : ".com\/s?cid=*&iuid=*&ts=*&ps=*&pw=*&pl=*&r="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "\/s\/s\/js\/m\/custom.js?"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 324,
+        "source" : "\/s\/s\/js\/m\/custom_advanced.js?"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 325,
+        "source" : "\/s\/s\/js\/ssu.v2."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 326,
+        "source" : "\/_xa\/ads_batch?ads=$xmlhttprequest,script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "\/a\/ipn\/js\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 328,
+        "source" : "\/a\/pop\/js\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "\/s\/s\/supc.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 330,
+        "source" : "\/s\/su.php?t="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 331,
+        "source" : "\/s\/js\/ssu.v2.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "\/xvideo.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 334,
+        "source" : "\/_a_ta\/s\/s\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "\/local_p.js^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 336,
+        "source" : "\/local_su.js?t="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 337,
+        "source" : "\/ab-a.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 338,
+        "source" : "\/local_ssu.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "\/s\/s\/suo.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : ".pro\/v1\/a\/*.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 342,
+        "source" : ".pro\/v1\/a\/*\/js?subid=awn|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : ".pro\/v1\/a\/*\/js?container="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : ".pro\/v2\/a\/ban\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 347,
+        "source" : "\/?scontext_r=*&nrb=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "&pbsubid=*&noads=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : ".com\/script\/utils.js|$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 350,
+        "source" : ".icu\/*?zoneid=*&visitor_id=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 351,
+        "source" : "\/?pid=*&subid=*&clickid=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 352,
+        "source" : "\/?tag=*&clickid=*&subid=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "\/pu\/?psid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 356,
+        "source" : ".com\/watch?key="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 358,
+        "source" : ".click\/?ip=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "porn*.me\/bees.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 361,
+        "source" : "porn*.com\/bees.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "porn*.net\/bees.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 365,
+        "source" : "\/phpbb_ads\/*$~xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "_ad_content."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 369,
+        "source" : "\/getAditem"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 371,
+        "source" : "\/getMultiAdsStrategy"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 373,
+        "source" : "\/getStartPageAds"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 375,
+        "source" : "\/getads?"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 377,
+        "source" : "\/tghr.js$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 379,
+        "source" : "\/wp-content\/plugins\/1shortlink\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 380,
+        "source" : "\/link.php?cat=&idzone=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 381,
+        "source" : "\/embed\/*?c=object_container*&psid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 382,
+        "source" : ".go?pid=*&spaceid=*&ctrlid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "\/vast.php?*&idzone="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 384,
+        "source" : "&ag_custom_vlmspot="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 385,
+        "source" : "\/in\/p\/?spot_id=$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 386,
+        "source" : "\/server-side\/amsweb.php?$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 387,
+        "source" : ".php?key=*&camp_id=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 388,
+        "source" : "\/click?key=*CPA&$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 389,
+        "source" : "\/wp-content\/plugins\/catfish-advert-banner\/catjs.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 390,
+        "source" : "&p_rid=*&userId=$xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 391,
+        "source" : "\/api\/users\/*&ev=$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 392,
+        "source" : "click?pid=*&sub2=Clickunder$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 393,
+        "source" : "\/aclib.js^$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 394,
+        "source" : "\/embed-1\/e-1\/banners|$xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 395,
+        "source" : "\/embed-1\/ajax\/e-1\/banners|$xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 396,
+        "source" : "\/in\/show\/?tag_ab=*&site_id="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 397,
+        "source" : ".com\/in\/multy|$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 398,
+        "source" : "&stamat=*&chmob="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 399,
+        "source" : ":\/\/sat.*.net\/*\/script.min.js?sub_1="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 400,
+        "source" : "\/dynamic-pop-comb.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 401,
+        "source" : "\/cuid\/?f=https%$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 402,
+        "source" : "\/submit.min.js?abvar=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 403,
+        "source" : "\/dupa.gif?z="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 404,
+        "source" : "?ab=*&rl=1|$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 405,
+        "source" : "?dovr=true|$document,popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 406,
+        "source" : "%3C?php%20echo%20substr(md5(microtime())$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 407,
+        "source" : ".com\/C.ashx|$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 408,
+        "source" : "\/zone\/*?frame=0&ancestorOrigins=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 409,
+        "source" : "\/direct-link?pubid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 410,
+        "source" : ".com\/redirect-zone\/$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 411,
+        "source" : ".com\/afu.php?zoneid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 412,
+        "source" : ":\/\/creative.*\/widgets\/Spot\/lib.js$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 413,
+        "source" : ":\/\/creative.*\/widgets\/v4\/Universal?$subdocument,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 414,
+        "source" : "\/?oo=1&aab=1|$script,third-party,xmlhttprequest"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList",
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 415,
+        "severity" : "warning",
+        "source" : "\/?oo=1&aab=1|$script,third-party,xmlhttprequest,redirect=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 416,
+        "source" : "\/images\/static\/github-org-members.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 417,
+        "source" : ".com\/sha512.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 418,
+        "source" : "\/api\/imagine.min.js$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 419,
+        "source" : ".doc?t=popunder$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 420,
+        "source" : "\/?t=popunder&$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 421,
+        "source" : ".doc?f=1&sid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 422,
+        "severity" : "warning",
+        "source" : "\/\\\/[0-9a-f]{32}\\\/invoke\\.js\/$script,third-party,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 423,
+        "severity" : "warning",
+        "source" : ".com\/invoke.js$script,third-party,redirect-rule=noopjs"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 424,
+        "source" : "\/api\/ipv4check?$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 425,
+        "source" : "\/api\/senddata?$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 426,
+        "source" : "\/ads\/300.html"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 427,
+        "source" : ".com\/aS\/feedclick?s=$all,match-case"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 428,
+        "source" : "\/js\/re-ads-"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 429,
+        "source" : "\/_xa\/ads_"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 430,
+        "source" : "\/image\/affiliate\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 431,
+        "source" : "\/_adslot\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 432,
+        "source" : "\/ad-provider."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 433,
+        "source" : "\/sdk\/push_web\/?zid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 434,
+        "source" : ".com\/api\/senddata\/*&format=iosSystemMessage-modal-"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 435,
+        "source" : "\/?publisherId=*&hostId=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 436,
+        "source" : "\/systemerror-mac\/?$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 437,
+        "source" : "\/s\/s\/js\/m\/im.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 438,
+        "source" : "\/s\/s\/js\/i-top.js?v="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 439,
+        "source" : ".online\/*\/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat\/$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 440,
+        "source" : "\/Win0xixm07\/?phone=$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 441,
+        "source" : "\/attractivebuilt.com\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 442,
+        "source" : "\/rndskittytor.com\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 443,
+        "source" : "\/itespurrom.com\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 444,
+        "source" : "\/pioneersuspectedjury.com\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 445,
+        "source" : "\/theologicalpresentation.com\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 446,
+        "source" : "\/asdfghjkl.tech\/index.html$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 447,
+        "source" : "\/mooncars\/rover\/chasra*\/index.php$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 448,
+        "source" : "\/W*ity0*00Er00*\/index.$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 449,
+        "source" : "\/merrx01\/^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 450,
+        "source" : "\/werrx01\/^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 451,
+        "source" : "_dating3\/index.html?aref=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 452,
+        "source" : "\/nb\/thejsfile.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 453,
+        "source" : "?adl=1&id=$subdocument,script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 454,
+        "source" : "\/common-js\/exit\/om2.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 455,
+        "source" : "\/vppdzdrw.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 456,
+        "source" : "\/push\/p.js?u=$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 457,
+        "source" : "\/grgfbigo.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 458,
+        "source" : "\/nbk\/frnd_ld.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 459,
+        "source" : "\/pwafeeds\/amazon_$subdocument"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 460,
+        "source" : "\/uthnafrwy.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 461,
+        "source" : "\/fret\/meow4\/*$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 462,
+        "source" : "\/display\/items.php?$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 463,
+        "source" : "\/s\/s\/sum.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 464,
+        "source" : "\/vhdpoppingmodels\/*$script"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 465,
+        "source" : ".popup_im."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 466,
+        "source" : "\/728xx90.jpg?sid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 467,
+        "source" : "\/?c=propeller&lpid=$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 468,
+        "source" : "\/xstat\/ppjs?"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 469,
+        "source" : "\/hillpop.php|$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 470,
+        "source" : "\/eroclick.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 471,
+        "source" : "\/ts.php?q=$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 472,
+        "source" : "\/ts.php?z=$xmlhttprequest,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 473,
+        "source" : "\/rtbfeed.php?$image,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 474,
+        "source" : "\/gofd_fl.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 475,
+        "source" : "\/j\/m\/qqqq.js?"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 476,
+        "source" : "\/script\/su.js$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 477,
+        "source" : "\/javascript\/fropo.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 478,
+        "source" : "\/pub\/js_min.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 479,
+        "source" : "\/askrej\/*$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 480,
+        "source" : "\/nb\/f_ls.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 481,
+        "source" : "\/askdrej\/*$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 482,
+        "source" : "\/bannerpop\/uploads\/*"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 483,
+        "source" : "\/xxx.js|$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 484,
+        "source" : "\/ld\/ifk?zoneid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 485,
+        "source" : "\/asset\/default\/player\/plugins\/vast-*.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 486,
+        "source" : ".com\/1clkn\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 487,
+        "source" : ".php?*&v=direct&siteId=*&minBid=*&popundersPerIP="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 488,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*ssp.zryydi.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 489,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*d27x580xb9ao1l.cloudfront.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 490,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*.popmajor.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 491,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*.mgid.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 492,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*party-vqgdyvoycc.now.sh"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 493,
+        "source" : "\/static\/js\/amvn.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 494,
+        "source" : ":\/\/*.*.biz\/*?*!&bid=$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 495,
+        "source" : "\/phantomPopunder.js|"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 496,
+        "source" : ".com\/ad_js\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 497,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*syndication.exoclick.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 498,
+        "source" : "\/js\/popunderjs\/init.js^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 499,
+        "source" : ".space\/?tid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 500,
+        "source" : ".baidu.com\/cpro\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 501,
+        "source" : ".baidu.com\/ecom"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 502,
+        "source" : ".baidu.com\/h."
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 503,
+        "source" : ".baidu.com\/union\/"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 504,
+        "source" : "\/?track=ad:$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 505,
+        "source" : "\/_ra_lib.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 506,
+        "source" : "\/_ra_lib.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 507,
+        "source" : "\/abdetect.min.js^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 508,
+        "source" : "\/ads.criteo.com.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 509,
+        "source" : "\/adsadclient"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 510,
+        "source" : "\/adsen.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 511,
+        "source" : "\/adwolf.$domain=~adwolf.ru"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 512,
+        "source" : "\/anti-ad-buster.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 513,
+        "source" : "\/banners*swf"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 514,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*cdn.plopx.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 515,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*securepubads.g.doubleclick.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 516,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*bontent.powvideo.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 517,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*dacash.powvideo.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 518,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*.poptm.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 519,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*cpmstar.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 520,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=*prscripts.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 521,
+        "source" : "\/cdn-cgi\/pe\/bag2?r[]=http%3A%2F%2Fhilltopads.net"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 522,
+        "source" : "\/cu.php?s=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 523,
+        "source" : "\/di3asdadasdadas.di3asdsa.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 524,
+        "source" : "\/fiets-banner_"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 525,
+        "source" : "\/filejoker.$image"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 526,
+        "source" : "\/hitfile_730_90.png"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 527,
+        "source" : "\/im\/im.js?sk="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 528,
+        "source" : "\/index.php?op=ad_click"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 529,
+        "source" : "\/mobiquo\/smartbanner\/ads.js^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 530,
+        "source" : "\/player_embed_cu.php?s=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 531,
+        "source" : "\/redirect-ads.php"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 532,
+        "source" : "\/tc-under.min.js"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 533,
+        "source" : "_200x250.png"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 534,
+        "source" : "Banner468x60"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 535,
+        "source" : "http:\/\/www.ads.$third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-action"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 538,
+        "severity" : "unsupported",
+        "source" : "||workers.dev^$header=x-target-domain:pagead2.googlesyndication.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 540,
+        "source" : "\/file?type=script&n=1&k=*&int=60&cl=$script"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 545,
+        "severity" : "warning",
+        "source" : ".com\/?zoneid=*&xref=*&uuid=$redirect=nooptext,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 547,
+        "source" : "&abt=0&red=1*&tid="
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 548,
+        "severity" : "warning",
+        "source" : "&tid=*&red=1&abt=$redirect=nooptext,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 549,
+        "severity" : "warning",
+        "source" : "?tid=*&red=1&*&abt=$redirect=nooptext,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 550,
+        "severity" : "warning",
+        "source" : "\/?&pid=*&subid=$redirect=nooptext,important"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+          "redirect-runtime-approximation"
+        ],
+        "isApproximate" : true,
+        "lineNumber" : 551,
+        "severity" : "warning",
+        "source" : "\/?&subid=*&pid=$redirect=nooptext,important"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 553,
+        "source" : "&tid=*&red=1&abt="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 555,
+        "source" : "?tid=*&red=1&*&abt="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 557,
+        "source" : "\/?&pid=*&subid="
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 559,
+        "source" : "\/?&subid=*&pid="
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 11,
+      "generatedContentRuleCount" : 392,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 383,
+      "parsedRules" : 404,
+      "skippedLines" : 156,
+      "totalLines" : 560,
+      "unsupportedRuleCount" : 23,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 5
+    }
+  },
+  "sourceFileName" : "general_url.txt",
+  "webKitValidationSkippedRuleCount" : 1,
+  "webKitValidationSkippedRules" : [
+    {
+      "contentRuleJSON" : "[{\"trigger\":{\"load-type\":[\"third-party\"],\"resource-type\":[\"script\"],\"url-filter\":\"^https:\\\\\\\/\\\\\\\/[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\\\\.in(?:\\\\\\\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?))?)?$\",\"url-filter-is-case-sensitive\":true},\"action\":{\"type\":\"block\"}}]",
+      "errorDescription" : "The operation couldn’t be completed. (WKErrorDomain error 6.)",
+      "validationIdentifier" : "adguard_base_general_url-validation-0-0-0-0-0-0-0-0-1-1"
+    }
+  ]
+}

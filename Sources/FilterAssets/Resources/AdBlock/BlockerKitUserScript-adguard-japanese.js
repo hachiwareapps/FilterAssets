@@ -1,0 +1,1803 @@
+(() => {
+  "use strict";
+  if (window.__blockerKitRuntimeInstalled) return;
+  Object.defineProperty(window, "__blockerKitRuntimeInstalled", { value: true });
+
+  const config = {"cosmeticRules":[{"domains":{"excludeDomains":[],"includeDomains":["solispia.com"]},"kind":"exception","selector":"#adModal"},{"domains":{"excludeDomains":[],"includeDomains":["solispia.com"]},"kind":"exception","selector":".ad-title"},{"domains":{"excludeDomains":[],"includeDomains":["pc.moppy.jp"]},"kind":"exception","selector":"img[width=\"468\"][height=\"60\"]"},{"domains":{"excludeDomains":[],"includeDomains":["chance.enjoy.point.auone.jp","game.hiroba.dpoint.docomo.ne.jp","game.pointmall.rakuten.net","kantangame.com"]},"kind":"exception","selector":".adsbygoogle-noablate"},{"domains":{"excludeDomains":[],"includeDomains":["drill-planet.kobun.co.jp"]},"kind":"exception","selector":"body[onbeforeunload=\"return myFunction()\"]"},{"domains":{"excludeDomains":[],"includeDomains":["kojodan.jp"]},"kind":"exception","selector":"div[id^=\"div-gpt-\"]"},{"domains":{"excludeDomains":[],"includeDomains":["kojodan.jp"]},"kind":"exception","selector":"[id^=\"div-gpt-ad\"]"},{"domains":{"excludeDomains":[],"includeDomains":["mobilegadget.jp"]},"kind":"exception","selector":".header-ad"},{"domains":{"excludeDomains":[],"includeDomains":["pooh2rohhobby.blogspot.com"]},"kind":"exception","selector":"#ad-target"},{"domains":{"excludeDomains":[],"includeDomains":["nogizaka46-matome.jp"]},"kind":"exception","selector":"#headerafficode"},{"domains":{"excludeDomains":[],"includeDomains":["etude000.com"]},"kind":"exception","selector":".top-ad"},{"domains":{"excludeDomains":[],"includeDomains":["tennisclassic.jp"]},"kind":"exception","selector":".ad-sp"},{"domains":{"excludeDomains":[],"includeDomains":["fob.jp"]},"kind":"exception","selector":".widget_swell_ad_widget"},{"domains":{"excludeDomains":[],"includeDomains":["rankingoo.net"]},"kind":"exception","selector":".widget_swell_ad_widget"},{"domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"kind":"exception","selector":"img[width=\"320\"][height=\"50\"]"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"exception","selector":"img[width=\"240\"][height=\"400\"]"},{"domains":{"excludeDomains":[],"includeDomains":["panasonic.biz"]},"kind":"exception","selector":".ad-result"},{"domains":{"excludeDomains":[],"includeDomains":["hamadasyuzou.co.jp"]},"kind":"exception","selector":".ad_bottom"},{"domains":{"excludeDomains":[],"includeDomains":["hamadasyuzou.co.jp"]},"kind":"exception","selector":".ad_box:not(.text-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["hamadasyuzou.co.jp"]},"kind":"exception","selector":".ad_contents"},{"domains":{"excludeDomains":[],"includeDomains":["hamadasyuzou.co.jp"]},"kind":"exception","selector":".ad_title"},{"domains":{"excludeDomains":[],"includeDomains":["hamadasyuzou.co.jp"]},"kind":"exception","selector":".ad_wrapper"},{"domains":{"excludeDomains":[],"includeDomains":["asianoneta.blog.jp"]},"kind":"exception","selector":".side_ad"},{"domains":{"excludeDomains":[],"includeDomains":["lamire.jp"]},"kind":"exception","selector":".ad-unit:not(.textads)"},{"domains":{"excludeDomains":[],"includeDomains":["mognavi.jp"]},"kind":"exception","selector":".side_ad"},{"domains":{"excludeDomains":[],"includeDomains":["miitus.jp"]},"kind":"exception","selector":".new-ad-box"},{"domains":{"excludeDomains":[],"includeDomains":["matome.f-book.net"]},"kind":"exception","selector":".section_ad"},{"domains":{"excludeDomains":[],"includeDomains":["app-story.net"]},"kind":"exception","selector":"#AdBlock"},{"domains":{"excludeDomains":[],"includeDomains":["pointmall.rakuten.co.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["news.merumo.ne.jp"]},"kind":"exception","selector":".adBox"},{"domains":{"excludeDomains":[],"includeDomains":["asahi-net.jp","au.com","eowebmail.eonet.jp","hwm.hi-ho.ne.jp","icloud.com","mail.google.com","mail.nifty.com","mail.smt.docomo.ne.jp","mail.yahoo.co.jp","msg.dream.jp","ocn.ne.jp","outlook.live.com","outlook.office.com","plala.or.jp","proton.me","so-net.ne.jp","tp1.jp","tutanota.com","wakwak.com","web.mail.goo.jp","webmail.gol.com","webmail.softbank.jp","wms.sso.biglobe.ne.jp"]},"kind":"exception","selector":".wrapper_ad"},{"domains":{"excludeDomains":[],"includeDomains":["nijisenmon.work"]},"kind":"exception","selector":".ad.widget"},{"domains":{"excludeDomains":[],"includeDomains":["nijisenmon.work"]},"kind":"exception","selector":".st-h-ad"},{"domains":{"excludeDomains":[],"includeDomains":["crefan.jp"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["manpukunews.blog.jp"]},"kind":"exception","selector":".ads01"},{"domains":{"excludeDomains":[],"includeDomains":["hinative.com"]},"kind":"exception","selector":".banner_header"},{"domains":{"excludeDomains":[],"includeDomains":["otonary.net"]},"kind":"exception","selector":".master-post-advert"},{"domains":{"excludeDomains":[],"includeDomains":["yama.minato-yamaguchi.co.jp"]},"kind":"exception","selector":"#ad6"},{"domains":{"excludeDomains":[],"includeDomains":["yama.minato-yamaguchi.co.jp"]},"kind":"exception","selector":".sidead"},{"domains":{"excludeDomains":[],"includeDomains":["jmd.co.jp"]},"kind":"exception","selector":".widget-ad"},{"domains":{"excludeDomains":[],"includeDomains":["torisetsu.biz"]},"kind":"exception","selector":".ad_item"},{"domains":{"excludeDomains":[],"includeDomains":["avokazu.com"]},"kind":"exception","selector":"a[href^=\"http:\/\/click.dtiserv2.com\/\"]"},{"domains":{"excludeDomains":[],"includeDomains":["magazine.jp.square-enix.com"]},"kind":"exception","selector":"a[href^=\"http:\/\/ad2.trafficgate.net\/\"]"},{"domains":{"excludeDomains":[],"includeDomains":["jj-jj.net"]},"kind":"exception","selector":".ad_container"},{"domains":{"excludeDomains":[],"includeDomains":["jj-jj.net"]},"kind":"exception","selector":".ad-rect"},{"domains":{"excludeDomains":[],"includeDomains":["macaro-ni.jp"]},"kind":"exception","selector":".rectangle__item"},{"domains":{"excludeDomains":[],"includeDomains":["ign.com"]},"kind":"exception","selector":".zad"},{"domains":{"excludeDomains":[],"includeDomains":["kaerudx.com"]},"kind":"exception","selector":".adArea"},{"domains":{"excludeDomains":[],"includeDomains":["kaerudx.com"]},"kind":"exception","selector":".ad-center"},{"domains":{"excludeDomains":[],"includeDomains":["teny.co.jp"]},"kind":"exception","selector":".s-ad"},{"domains":{"excludeDomains":[],"includeDomains":["kana-ot.jp"]},"kind":"exception","selector":".boxAds"},{"domains":{"excludeDomains":[],"includeDomains":["minpo.jp"]},"kind":"exception","selector":".ads970"},{"domains":{"excludeDomains":[],"includeDomains":["osusume.mynavi.jp"]},"kind":"exception","selector":".ad-widget"},{"domains":{"excludeDomains":[],"includeDomains":["etude000.com"]},"kind":"exception","selector":".thk_ps_widget"},{"domains":{"excludeDomains":[],"includeDomains":["honda.co.jp"]},"kind":"exception","selector":"#footer-banner"},{"domains":{"excludeDomains":[],"includeDomains":["mitsubishi-motors.co.jp"]},"kind":"exception","selector":".top-banners"},{"domains":{"excludeDomains":[],"includeDomains":["natsume-anime.jp"]},"kind":"exception","selector":"#topBanners"},{"domains":{"excludeDomains":[],"includeDomains":["kichijo-joshi.jp"]},"kind":"exception","selector":".sp_ad"},{"domains":{"excludeDomains":[],"includeDomains":["agonp.jp"]},"kind":"exception","selector":".top-banners"},{"domains":{"excludeDomains":[],"includeDomains":["matsuzaka-steak.com"]},"kind":"exception","selector":"#footer-banner"},{"domains":{"excludeDomains":[],"includeDomains":["taiju-life.co.jp"]},"kind":"exception","selector":".spLinks"},{"domains":{"excludeDomains":[],"includeDomains":["yamaya.jp"]},"kind":"exception","selector":".top-banners"},{"domains":{"excludeDomains":[],"includeDomains":["cookpad.com"]},"kind":"exception","selector":".banner_header"},{"domains":{"excludeDomains":[],"includeDomains":["hoken-all.co.jp"]},"kind":"exception","selector":".bottom_ad"},{"domains":{"excludeDomains":[],"includeDomains":["gameranbu.jp"]},"kind":"exception","selector":".side_ad"},{"domains":{"excludeDomains":[],"includeDomains":["minpo.jp"]},"kind":"exception","selector":".ads300"},{"domains":{"excludeDomains":[],"includeDomains":["maidonanews.jp"]},"kind":"exception","selector":".module-ad"},{"domains":{"excludeDomains":[],"includeDomains":["webcartop.jp"]},"kind":"exception","selector":".single-ads"},{"domains":{"excludeDomains":[],"includeDomains":["eromanga-school.com"]},"kind":"exception","selector":".related-ad-area"},{"domains":{"excludeDomains":[],"includeDomains":["komachi.yomiuri.co.jp"]},"kind":"exception","selector":"._popIn_recommend_article_ad_reserved"},{"domains":{"excludeDomains":[],"includeDomains":["hs-exp.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["cmnw.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["nazolog.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["pointi.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["nikke-jp.com"]},"kind":"exception","selector":".ad_content"},{"domains":{"excludeDomains":[],"includeDomains":["point-g.rakuten.co.jp"]},"kind":"exception","selector":".searchAd"},{"domains":{"excludeDomains":[],"includeDomains":["netmile.co.jp"]},"kind":"exception","selector":".ad-txt"},{"domains":{"excludeDomains":[],"includeDomains":["1sshindo.com","akashi-kodomo-zaidan.jp","alps-beauty-salon.com","art-green.co.jp","ascon-blast.co.jp","bees-garden.jp","bellys.jp","betsukawa.co.jp","chuo-hp.jp","courier.co.jp","e-shinwa.com","echo-gr.co.jp","echo-kensetu.jp","ecsatonoie.jp","edel-support.com","ex-daito.jp","familykanko.co.jp","friends-animal.com","fuji-sho.jp","fujiidera-gojokai.or.jp","fukukanren.jp","ginga-clinic.com","ginganosato.com","gms.or.jp","guidepost.co.jp","hairplace-patio.com","hairsalon-duo.com","hakuaikai-kitakami.or.jp","hanamaki-fureai.jp","handinhandjp.com","harayamadai-kg.jp","heiseidensetsu.co.jp","hello-work.co.jp","hogaraka.gr.jp","hongakuji.jp","icd-connect.co.jp","ichinohe-hp.com","ikiiki.toyama.jp","ims-kt.co.jp","isawa-hp.com","isawabunso.com","iyasakaseitai.com","kaigowakouwa.jp","kekkangeka.com","ken6-fudousan.co.jp","kennan-crane.co.jp","kitakami-node.co.jp","kitakamicity.jp","kk-haruna.co.jp","kogane.or.jp","kumedakango.jp","kuramoto-sekizai.com","kyoyu-k.co.jp","marineworld-tanabe.com","media-pc.co.jp","mfutaba.jp","mitosan.co.jp","mizusawarikuso.com","modern-h.jp","momiki-express.co.jp","momokuri.co.jp","nisseijushi.co.jp","nittofunka.co.jp","okameshouten.jp","osanais.co.jp","porco-blu.com","rfj.co.jp","rokuhara.co.jp","sakitamas.com","sento-sakai.co.jp","sfv.co.jp","shikokuyanehan.sakura.ne.jp","shimura-geo.co.jp","shinko.main.jp","sinkyu-c.jp","site-jobyellnet.main.jp","skn-fc.jp","spec-com.co.jp","sugawa-mokko.jp","suzukireform.jp","syahokyo-saga.or.jp","t-suiko.jp","taiyo-valve.co.jp","takaidahoikuen.jp","takasaki-shika.com","takatagumi.co.jp","technobell.co.jp","tenmashatai.com","tiara-y.jp","tohoku-juken.co.jp","tohokuseimitsu.co.jp","totalsupport-kitakami.com","tsc.co.jp","twinklesnow.com","umenohisagi.jp","urban-karuizawa.co.jp","vook.vc","yagate1.co.jp","yamashitajari.com","yokosawa.jp","yonoyouchien.jp","yuhki-elec.co.jp","yuimarl-kids.jp","yumekoumuten.com"]},"kind":"exception","selector":"#footer_ad"},{"domains":{"excludeDomains":[],"includeDomains":["3faithsdjschool.com","3plmnt.co.jp","abuto-kankou.co.jp","aigato.jp","akihabara-eye.com","alpenhaime.gr.jp","alpha-eng.jp","andocl.jp","anshinhome.co.jp","aoclinic.jp","appreco.com","biz-point.jp","bodymake-onix.co.jp","btktool.co.jp","carrier-agency.com","ch-matsumoto.jp","chikushi-410.com","co-nagayama.co.jp","cohaco.jp","dai2aikoen.jp","dw-clinic.jp","enemix.jp","enomoto-c.com","flair.co.jp","flexs.co.jp","foresight-1998.co.jp","fujimidai-hifuka.jp","fukamachitakkyu.com","goro-bei.com","gozamisaki.com","herb-teien.com","higashin-ls.co.jp","himawari-clinic.com","hkcg.co.jp","hokkaido-nomad.co.jp","htk-kobechuo.jp","iida-dent.jp","integration.ne.jp","itawarinoyu.jp","iwasaki-clinic.jp","izumi3.com","j-sonic.co.jp","japan-quartzclub.com","jashoteltakayama.jp","jdc-kaigyousien.jp","kaidentalclinic.jp","kakiemon.co.jp","kameman.co.jp","katekin.com","kenbunkai-yamaguchi.jp","kitaoku.jp","kiyotaclinic.or.jp","kobayashi-eyeclinic.jp","kotoridc.jp","kouden-s.jp","kusatsu-law.jp","kyoai.or.jp","kyowa-tekko.jp","lanai-beauty.com","m-publicgolf.com","m-shika.jp","maff.go.jp","magome-eye.jp","manaao-kitchen.but.jp","manaao-kitchen.com","manabe-ortho.or.jp","marineplaza.co.jp","marushime21.jp","me-cell.jp","metal-model.com","mikawapropeller.co.jp","mikielectric.co.jp","minami-ise.jp","miyazu-matsukaze.jp","mizuiwa-un.co.jp","mj-pro.jp","mkc6.com","mohara-clinic.jp","nakaod.com","nakase-dc.jp","nanjyoen.com","nikunotoriko.co.jp","nnbs.co.jp","nousui-shop.com","okamoto-fdc.jp","okayamanavi.jp","okudaganka.jp","omoiyari-edu.jp","onsinkai.jp","picring.co.jp","plateck.jp","rikkyo-dps.com","rousai-kenkyujyo.co.jp","ruhe-mental.jp","s-gp.co.jp","s-shizai.jp","saipri.com","saizenji.or.jp","sakataengei.jp","sakoken.co.jp","sanadayamashika.jp","sanagawa-dental.com","sanchang.co.jp","sapporocity-law.jp","satsumacon.co.jp","sec-architects.com","seinankaihatsu.co.jp","shibusaki.co.jp","shineiengineer.co.jp","shinritsu.com","shizuokakenro.jp","sosus.jp","southluck.co.jp","sweet-nurse.ne.jp","t-mclinic.jp","t-u-advance.jp","tairyouen.com","takara-pd.co.jp","takei-kogyo.jp","talknet.jp","tnk-koei.co.jp","tokyowest-ah.jp","tonakbuque.co.jp","tousyo-k.co.jp","tsurukawadai.jp","ug-home.co.jp","vario.jp","volleyball-u.jp","w-dc.jp","wazumi.jp","wic-life.com","yaizuminsho.com","yamadakaki.jp","yamahana-ds.com","yamanogaku.com","yokohama-kenshu.jp","yokoyamaseikotsuin.jp","yotsuba-sapporo.com","yuukaen.jp"]},"kind":"exception","selector":".footer_ad"},{"domains":{"excludeDomains":[],"includeDomains":["takaidahoikuen.jp"]},"kind":"exception","selector":"#top_ad"},{"domains":{"excludeDomains":[],"includeDomains":["kininaru-geinou-m.blog.jp"]},"kind":"exception","selector":".ads01"},{"domains":{"excludeDomains":[],"includeDomains":["echo-gr.co.jp","echo-kensetu.jp","fet.co.jp","fujiidera-gojokai.or.jp","takken-k.co.jp","zanmai.co.jp"]},"kind":"exception","selector":".ad_box:not(.text-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["pcinformation.info"]},"kind":"exception","selector":"a[href^=\"https:\/\/click.linksynergy.com\/fs-bin\/\"]"},{"domains":{"excludeDomains":[],"includeDomains":["mamastar.jp"]},"kind":"exception","selector":".adstop"},{"domains":{"excludeDomains":[],"includeDomains":["ironsaga-msoku.xyz","takushoku.info"]},"kind":"exception","selector":".ad.widget"},{"domains":{"excludeDomains":[],"includeDomains":["ringo-no-mori.jp"]},"kind":"exception","selector":".ad-bnr"},{"domains":{"excludeDomains":[],"includeDomains":["arukikata.co.jp"]},"kind":"exception","selector":".ad_btn"},{"domains":{"excludeDomains":[],"includeDomains":["25news.jp","xn--0et88ccz6awh1a.biz"]},"kind":"exception","selector":".has-ad"},{"domains":{"excludeDomains":[],"includeDomains":["cotoro.net","favoriteslibrary-books.com","hakenreco.com","shellbys.com","tipstour.net"]},"kind":"exception","selector":".bottom_ad"},{"domains":{"excludeDomains":[],"includeDomains":["920ryu.blog.fc2.com"]},"kind":"exception","selector":"#scroll_ad"},{"domains":{"excludeDomains":[],"includeDomains":["soraraw.net"]},"kind":"exception","selector":".ad-unit:not(.textads)"},{"domains":{"excludeDomains":[],"includeDomains":["soraraw.net"]},"kind":"exception","selector":"#AdBanner"},{"domains":{"excludeDomains":[],"includeDomains":["mangaruu.com"]},"kind":"exception","selector":".ad-unit:not(.textads)"},{"domains":{"excludeDomains":[],"includeDomains":["plus.fm-p.jp"]},"kind":"exception","selector":".ad_overlay"},{"domains":{"excludeDomains":[],"includeDomains":["niji-gazo.com"]},"kind":"exception","selector":".banner-ad"},{"domains":{"excludeDomains":[],"includeDomains":["pretravel.kawasaki-create.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["koken.nicovideo.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["rkd3.dev"]},"kind":"exception","selector":".adunit"},{"domains":{"excludeDomains":[],"includeDomains":["mtgames.jp"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["kujimap.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["kujimap.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":".ad-space:not(.textads)"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":"[class^=\"div-gpt-ad\"]:not([style^=\"width: 1px; height: 1px;\"], .div-gpt-ad_adblock_test)"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":"div[id^=\"div-gpt-\"]"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":".div-gpt-ad:not([style^=\"width: 1px; height: 1px;\"])"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":"[id^=\"div-gpt-ad\"]"},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"kind":"exception","selector":".amp_ad"},{"domains":{"excludeDomains":[],"includeDomains":["shukatsubbs.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["h178.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["j-baseball.club"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["j-basketball.club"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["j-rugby.club"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["j-volleyball.club"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["jukenbbs.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["mytry.jp"]},"kind":"exception","selector":".ad_box:not(.text-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"kind":"exception","selector":"#mw-content-text > div.ad.top[style*=\"min-height:\"]"},{"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"kind":"exception","selector":"#mw-content-text > div[style*=\"min-height:\"]:has(> div[id^=\"im-\"] > script)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["tuyano.com"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["hatenablog.com"]},"kind":"exception","selector":"#adframe:not(frameset)"},{"domains":{"excludeDomains":[],"includeDomains":["b.best-hit.tv"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["nieru.net"]},"kind":"exception","selector":".ad-space"},{"domains":{"excludeDomains":[],"includeDomains":["nieru.net"]},"kind":"exception","selector":".adWidget"},{"domains":{"excludeDomains":[],"includeDomains":["blog.2nt.com"]},"kind":"exception","selector":".AdSense"},{"domains":{"excludeDomains":[],"includeDomains":["shindanmaker.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["tters.jp"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["tters.jp"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["tters.jp"]},"kind":"exception","selector":".ad-section"},{"domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"kind":"exception","selector":".adsense-container"},{"domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["puzzle-ch.com"]},"kind":"exception","selector":"#adframe:not(frameset)"},{"domains":{"excludeDomains":[],"includeDomains":["puzzle-ch.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["puzzle-ch.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["addchannel.net","beasoku.com","blog.housinkai.com","kakenhi.net","memo.wiki","seesaa.net"]},"kind":"exception","selector":"body .interstitial-ad"},{"domains":{"excludeDomains":[],"includeDomains":["addchannel.net","beasoku.com","blog.housinkai.com","kakenhi.net","memo.wiki","seesaa.net"]},"kind":"exception","selector":".interstitial-ad"},{"domains":{"excludeDomains":[],"includeDomains":["blog.2nt.com"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["bridalgown.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["contents-group.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["heisei-housewarming.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["liquidfoundation.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["studioglass.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["tapestry.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["teaceremony.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["weddinghall.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["nailcolor.work"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["cad-data.com"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"exception","selector":".adContent"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"exception","selector":".adSense"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"exception","selector":".ads-banner"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"exception","selector":".textad"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"exception","selector":".view_ad"},{"domains":{"excludeDomains":[],"includeDomains":["asobeans.jp"]},"kind":"exception","selector":".ad_block"},{"domains":{"excludeDomains":[],"includeDomains":["logworker.net"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["logworker.net"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["musmus.main.jp"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["musmus.main.jp"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["youpouch.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["gamemod.blog.fc2.com","helpsupport.blog.fc2.com"]},"kind":"exception","selector":".AdContainer"},{"domains":{"excludeDomains":[],"includeDomains":["gamemod.blog.fc2.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["helpsupport.blog.fc2.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["manga1001.*"]},"kind":"exception","selector":".c-ads"},{"domains":{"excludeDomains":[],"includeDomains":["manga1001.*"]},"kind":"exception","selector":".body-top-ads"},{"domains":{"excludeDomains":[],"includeDomains":["ma-bank.net"]},"kind":"exception","selector":".ad_div"},{"domains":{"excludeDomains":[],"includeDomains":["ma-bank.net"]},"kind":"exception","selector":"#ad_area"},{"domains":{"excludeDomains":[],"includeDomains":["kansai-sanpo.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["friday.kodansha.co.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["fireembs.blog.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["coolpan.net"]},"kind":"exception","selector":".ad-area:not(.text-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["yoshidakenkou.net"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["shopping-now.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["realtime-chart.info"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["sekai-kabuka.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"exception","selector":".ad_unit"},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"exception","selector":".ad-unit:not(.textads)"},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"exception","selector":".text-ad"},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"exception","selector":".text_ad"},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"exception","selector":".pub_300x250"},{"domains":{"excludeDomains":[],"includeDomains":["knshow.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["knshow.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["h-ken.net"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["my0nio.seesaa.net"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"kind":"exception","selector":".quigo"},{"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["ad-contents.jp"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","fp1-siken.com","fp2-siken.com","fp3-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-client]"},{"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","fp1-siken.com","fp2-siken.com","fp3-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"kind":"exception","selector":"ins.adsbygoogle[data-ad-slot]"},{"domains":{"excludeDomains":[],"includeDomains":["fp1-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["fp2-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["fp3-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["db-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["fe-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["itpassportsiken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["nw-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["pm-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["sc-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["sg-siken.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["applion.jp"]},"kind":"exception","selector":".ads-ad"},{"domains":{"excludeDomains":[],"includeDomains":["teachios.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["ronron-blog.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"kind":"exception","selector":".adspace"},{"domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"kind":"exception","selector":".ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)"},{"domains":{"excludeDomains":[],"includeDomains":["d-navi004.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["gagetmatome.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["repeat-drama.info"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["kyukyoku-matome.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["mushinavi.com"]},"kind":"genericHideException","selector":""},{"domains":{"excludeDomains":[],"includeDomains":["jikayosha.jp"]},"kind":"extended","selector":".wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-bottom:matches-media((min-width: 641px)):style(bottom: 0 !important;)"},{"domains":{"excludeDomains":[],"includeDomains":["chunichi.co.jp"]},"kind":"extended","selector":".cmp-hdg005:has(> h2.hdg:contains(【PR】企画特集))"},{"domains":{"excludeDomains":[],"includeDomains":["xn--dkqp0gri91r38rn1wmlurtz.com"]},"kind":"extended","selector":".first-article > h3[style=\"margin: 0px 0px 15px; padding: 0px 0px 0px 10px; font-size: 24px; background-color: #B674A2; color: white; font-family: Helvetica, Verdana, sans-serif;\"]:contains(宣伝)"},{"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"kind":"extended","selector":"div[class^=\"ArticleDetail_articleMainFooter_\"]:has(> div[class^=\"CommonParts_commonPartsContainer_\"] h2:contains(（PR）))"},{"domains":{"excludeDomains":[],"includeDomains":["arakawa-story.com"]},"kind":"extended","selector":".araka- center:contains(スポンサーリンク):not(:has(iframe[style=\"width: 260px; height: 60px; position: static; visibility: visible;\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["ilovetrend.hatenablog.com","mpc.momoyorozu.net"]},"kind":"extended","selector":".entry-header-html > p:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["mobilegadget.jp"]},"kind":"extended","selector":"#main > .page_navi ~ .content > h3.plg3_header:contains(Sponsored Link)"},{"domains":{"excludeDomains":[],"includeDomains":["fc2db.com"]},"kind":"extended","selector":".section__title-wrapper:has(> div.section__title > h2:contains(Live Cams))"},{"domains":{"excludeDomains":[],"includeDomains":["ascii2d.net"]},"kind":"extended","selector":".item-box:has(> div.p-t-1 > h5:contains(広告))"},{"domains":{"excludeDomains":[],"includeDomains":["c-ute.doorblog.jp"]},"kind":"extended","selector":"div[class^=\"article-body\"] > div[class^=\"title\"]:has(> p:contains(Amazon))"},{"domains":{"excludeDomains":[],"includeDomains":["gazlog.jp"]},"kind":"extended","selector":".swell-block-capbox:has(> div.cap_box_ttl:contains(\/^関連商品$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["nantuka.blog119.fc2.com"]},"kind":"extended","selector":".menu_title:contains(amazon)"},{"domains":{"excludeDomains":[],"includeDomains":["chunichi.co.jp"]},"kind":"extended","selector":".sub-container > div[class^=\"cmp-hdg\"]:has(> h2:contains(【PR】))"},{"domains":{"excludeDomains":[],"includeDomains":["lettuceclub.net"]},"kind":"extended","selector":"#pro-message ~ div.section:has(> div.w-full > h2:contains(PR))"},{"domains":{"excludeDomains":[],"includeDomains":["cowboy.blog.jp"]},"kind":"extended","selector":".column-inner-2 > center:contains(Sponsored)"},{"domains":{"excludeDomains":[],"includeDomains":["lps-web.co.jp"]},"kind":"extended","selector":".is-style-icon_announce:has(> a:contains(【PR】))"},{"domains":{"excludeDomains":[],"includeDomains":["contents-group.work"]},"kind":"extended","selector":"div[align=\"center\"][style=\"margin: 20px 0px;\"]:contains(\/^- PR -$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["deneblog.jp"]},"kind":"extended","selector":".plugin1_outline:contains(スポンサーバナー)"},{"domains":{"excludeDomains":[],"includeDomains":["matomecup.com"]},"kind":"extended","selector":"#left > div.plugin1_outline:has(> div.plugin1_title:contains(ＰＲ))"},{"domains":{"excludeDomains":[],"includeDomains":["app.oshioki24.com"]},"kind":"extended","selector":".v-list-item.thd-enter-to[tabindex=\"-1\"]:first-child:contains(\/^ad\\s+$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["gazyekichi96.com"]},"kind":"extended","selector":"h2[id^=\"outline\"]:has(> span[style] > em > strong:contains(\/^PR\\)\/))"},{"domains":{"excludeDomains":[],"includeDomains":["ddd-smart.net"]},"kind":"extended","selector":"aside > h4.card-panel:contains(ライブ配信)"},{"domains":{"excludeDomains":[],"includeDomains":["natuero-dougakan.com"]},"kind":"extended","selector":".side-menu:has(> h4:contains(\/^PR\/))"},{"domains":{"excludeDomains":[],"includeDomains":["chichi-pui.com"]},"kind":"extended","selector":".image-posts-detail > div.l-section-container > section:has(> h2.c-section-title:contains(Amazon))"},{"domains":{"excludeDomains":[],"includeDomains":["adult-video.tokyo"]},"kind":"extended","selector":".entry-content > p:nth-of-type(2) > a:first-of-type > img:xpath(\/\/div[contains(@class, \"entry-content \")]\/\/a[@target=\"_blank\" and contains(@rel, \"noopener\") and not(@href=ancestor::div[contains(@class, \"entry-content \")]\/p[2]\/a[1]\/@href)]\/img)"},{"domains":{"excludeDomains":[],"includeDomains":["shipping.jp"]},"kind":"extended","selector":".sub_box > h4:contains(\/^広告$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["baynews.blog.jp"]},"kind":"extended","selector":"div[class$=\"t-column-inner\"] > center:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":"#cmsBody > div.inner > h2.format--crosshead:contains(\/売れ筋ランキング|聴き放題！|楽天ポイント|」最新ランキングも\/)"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":"#cmsBody > div.inner > h2.format--crosshead:contains(\/売れ筋ランキング|聴き放題！|楽天ポイント|」最新ランキングも\/) + div.cmsButtonLink"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":"#cmsBody > div.inner > h2.format--crosshead:contains(\/売れ筋ランキング|聴き放題！|楽天ポイント|」最新ランキングも\/) + div.cmsButtonLink + div.cmsButtonLink"},{"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"kind":"extended","selector":"div[class^=\"ArticleDetailBody_articleBody_\"] a.article_detail_button_ec_amazon:contains(関連商品を)"},{"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"kind":"extended","selector":"div[class^=\"ArticleDetailBody_articleBody_\"] a.article_detail_button_ec_rakuten:contains(関連商品を)"},{"domains":{"excludeDomains":[],"includeDomains":["shiroino.com"]},"kind":"extended","selector":"#contents > .label:contains(\/ランキング$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["kimamamatome.doorblog.jp"]},"kind":"extended","selector":"#sidebar-inner > div.plugin3_title:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["shinmai.co.jp"]},"kind":"extended","selector":".items-center > .flex-col.pb-8:has(> h3:contains(あわせて読みたい))"},{"domains":{"excludeDomains":[],"includeDomains":["g-soku.blog.jp"]},"kind":"extended","selector":"#more > b:has(> a[href^=\"https:\/\/www.amazon.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["g-soku.blog.jp"]},"kind":"extended","selector":"#more > div.t_b:has(> div.ninja-recommend-block)"},{"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"kind":"extended","selector":"div[class] > div.l-contents-block:has(> div.heading > a[href=\"\/ranking\/amazon\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["urapic.com"]},"kind":"extended","selector":".side-body:has(> div.plugin-freearea > div[id^=\"im-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["urapic.com"]},"kind":"extended","selector":".side-title:has(+ .side-body > div.plugin-freearea > div[id^=\"im-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["aya0205.smart-douga.mobi"]},"kind":"extended","selector":"#more > div[style^=\"background-color: rgb(88, 140, 115)\"]:has(+ p + br + div > span[style=\"font-size: medium;\"] > strong)"},{"domains":{"excludeDomains":[],"includeDomains":["aya0205.smart-douga.mobi"]},"kind":"extended","selector":".plg3_body > div[align=\"left\"] > .plugin-freearea:has(> a[href^=\"https:\/\/al.dmm.co\"])"},{"domains":{"excludeDomains":[],"includeDomains":["livedoor.blog"]},"kind":"extended","selector":".plugin-memo:has(> div.side > div[style=\"margin:0;padding:5px;font-size:14px;word-break: break-all;\"] > a[href^=\"https:\/\/al.dmm.co\"][rel=\"nofollow\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["motimoti3d.jp"]},"kind":"extended","selector":"dl.sidemenu_body:has(dt.plg_title:contains(スポンサー))"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockSide > div.blockWrapper:has(> div.blockBody > div#eroterest_mgs_rec_parts)"},{"domains":{"excludeDomains":[],"includeDomains":["hugkum.sho.jp"]},"kind":"extended","selector":".custom-html-widget > div.p-archive-header.mt-5:has(+ div[id^=\"logly-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hitoikigame.com"]},"kind":"extended","selector":".p1_outline > .p1_title:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["hitoikigame.com"]},"kind":"extended","selector":"#first > .p1_outline:has(> .p1_title:contains(人気ゲームランキング))"},{"domains":{"excludeDomains":[],"includeDomains":["hitoikigame.com"]},"kind":"extended","selector":".plugin-freearea td:has(ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["seikeidouga.blog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div[id^=\"blz_lock\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["kamikouryaku.com"]},"kind":"extended","selector":"h2.left:has(+ #left_ads)"},{"domains":{"excludeDomains":[],"includeDomains":["yjgames.gamedistribution.com"]},"kind":"extended","selector":".MuiPaper-elevation.MuiPaper-rounded:has(> div[class^=\"css-\"] > div[id^=\"idhb-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["todaishimbun.org"]},"kind":"extended","selector":".dfad:not(:has(> a[href^=\"https:\/\/www.todaishimbun.org\"])):not(:has(> a[href^=\"https:\/\/forms.gle\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["minkou.jp"]},"kind":"extended","selector":".mod-section > h2.mod-title1:has(+ .tx-ac > a[target=\"_blank\"])"},{"domains":{"excludeDomains":[],"includeDomains":["tekoki-fuzoku-joho.com"]},"kind":"extended","selector":".article-single-content > div > div:has(> div[style] > div > span:contains(【PR】))"},{"domains":{"excludeDomains":[],"includeDomains":["anigenavi.com"]},"kind":"extended","selector":"#box2-inner > div.hatena-module-html:has(> div.hatena-module-body > div.AMvertical)"},{"domains":{"excludeDomains":[],"includeDomains":["soredoko.jp"]},"kind":"extended","selector":".hatena-module-html:has(> div.hatena-module-body > div.srdk-rectangle-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["chat-station.net"]},"kind":"extended","selector":"aside > div[id^=\"custom_html-\"]:has(> .textwidget > div:is(.ads-flexbox, #preafBanner_wrapper, .ninja-recommend-block))"},{"domains":{"excludeDomains":[],"includeDomains":["yamatogokoro.jp"]},"kind":"extended","selector":"div.sd_bnr01:has(> a:not([href*=\"\/\/\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["webcartop.jp"]},"kind":"extended","selector":".wct-recommend-posts li:has(div[data-uz-url])"},{"domains":{"excludeDomains":[],"includeDomains":["chimolog.co"]},"kind":"extended","selector":".sidebar > div.widget_text:has(> div.textwidget > a[target=\"_blank\"][href^=\"https:\/\/px.a8.net\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["tcg-bloglife.com"]},"kind":"extended","selector":".hatena-module-html > div > a[href^=\"https:\/\/affiliate.suruga-ya.jp\"][rel=\"nofollow\"]"},{"domains":{"excludeDomains":[],"includeDomains":["ddnavi.com"]},"kind":"extended","selector":".ranking-list > ul > li[class*=\"_\"]:has(> div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ellegirl.jp"]},"kind":"extended","selector":"section[data-vars-block-curation] > div[class*=\" \"]:has(> .ad-container)"},{"domains":{"excludeDomains":[],"includeDomains":["25ans.jp"]},"kind":"extended","selector":"main > section > div:has(> div.ad-container)"},{"domains":{"excludeDomains":[],"includeDomains":["allabout.co.jp"]},"kind":"extended","selector":".aa_swipe-content > div.aa_box-center:has(> div.ad-bnr)"},{"domains":{"excludeDomains":[],"includeDomains":["coindeskjapan.com"]},"kind":"extended","selector":"body > div.mx-10px.py-60px:has(> div.flex > div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["coindeskjapan.com"]},"kind":"extended","selector":"body > div.mx-10px > div.border-b:has(>  div.flex > div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockAreaMainMiddle > div.blockWrapper > .blockBody > h2 + div[style=\"padding:10px;\"] > a[href^=\"https:\/\/al.dmm.co.jp\"][target=\"_blank\"] > img[style=\"border-radius:15px;border:5px solid #dedede;\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["khb-tv.co.jp"]},"kind":"extended","selector":"ul[class^=\"list\"][class$=\"__list\"] > li:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ryukyushimpo.jp"]},"kind":"extended","selector":"article ~ .flex-col:has(div[id^=\"gpt-\"][style^=\"min-width:\"])"},{"domains":{"excludeDomains":[],"includeDomains":["comedydouga.com"]},"kind":"extended","selector":".entry-letterbody > blockquote.gazou:has(> p > a[rel=\"noopener noreferrer\"])"},{"domains":{"excludeDomains":[],"includeDomains":["patanouchi.com"]},"kind":"extended","selector":"td[valign=\"top\"] > table[border=\"0\"][cellspacing=\"0\"] > tbody > tr > td > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gamenv.net"]},"kind":"extended","selector":"#mainEntity > div.clearfix > div.wp-block-group-is-layout-constrained:has(> .wp-block-group__inner-container > h2.wp-block-heading + div.yyi-rinker-contents)"},{"domains":{"excludeDomains":[],"includeDomains":["betweenjpandkr.blog"]},"kind":"extended","selector":"#mainEntity > div.clearfix > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["hoge5ch.info"]},"kind":"extended","selector":"#more > p:has(> span[style=\"font-size:150%;\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hoge5ch.info"]},"kind":"extended","selector":".plugin-memo > div.side > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["times.abema.tv"]},"kind":"extended","selector":".c-article-footer-title:contains(\/^関連(記事|動画)\/)"},{"domains":{"excludeDomains":[],"includeDomains":["yuki0918kw.com"]},"kind":"extended","selector":"#block-106 ~ div.widget_block.fix_sidebar:has(> center > a)"},{"domains":{"excludeDomains":[],"includeDomains":["city.nishitokyo.lg.jp"]},"kind":"extended","selector":".top_sec03_r_box:has(> div > script[src=\"\/js\/banner.js\"])"},{"domains":{"excludeDomains":[],"includeDomains":["danna-shine.com"]},"kind":"extended","selector":".page-content > div[style^=\"margin-top:\"]:has(> div.a-single + br)"},{"domains":{"excludeDomains":[],"includeDomains":["gamerch.com"]},"kind":"extended","selector":".thread__body > ul > li:not([class], [id]):has(> div[id]:empty:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["gamerch.com"]},"kind":"extended","selector":".thread__body > ul > li:not([class], [id]):has(> div[id^=\"div-gpt-\"]:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["anime-cosplay.com","bangalog.com","bijual.com","futatsutomoe.com","indiesj.com","or-hell.com","satsumablog.com"]},"kind":"extended","selector":".article1 #ninja-blog-inactive:upward(.article1)"},{"domains":{"excludeDomains":[],"includeDomains":["atgj.net","darumasangakoronda.com","manga-cosplay.com"]},"kind":"extended","selector":"h2.entryTitle:has(> a[href=\"\"])"},{"domains":{"excludeDomains":[],"includeDomains":["blog.shinobi.jp","fukuwarai.net","ryorika.com","sakeblog.net"]},"kind":"extended","selector":"#main-column > div.EntryBlock:has(#ninja-blog-inactive)"},{"domains":{"excludeDomains":[],"includeDomains":["ldblog.jp"]},"kind":"extended","selector":".plugin-memo:has(> div.side > a[name=\"amazletlink\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ldblog.jp"]},"kind":"extended","selector":".plugin-memo:has(> div.side > center > a[name=\"amazletlink\"])"},{"domains":{"excludeDomains":[],"includeDomains":["adult.contents.fc2.com"]},"kind":"extended","selector":".list_wrapper:has(> p[class=\"promotion_tag_spn\"])"},{"domains":{"excludeDomains":[],"includeDomains":["rakukan.net"]},"kind":"extended","selector":".article__content > a[href^=\"https:\/\/amzn.to\"][target=\"_blank\"]:contains(【PR】Amazon)"},{"domains":{"excludeDomains":[],"includeDomains":["rakukan.net"]},"kind":"extended","selector":".article__content > a[href^=\"https:\/\/amzn.to\"][target=\"_blank\"]:contains(【PR】Amazon) + b"},{"domains":{"excludeDomains":[],"includeDomains":["ibarakinews.jp"]},"kind":"extended","selector":".post-image:has(> section.clear + figcaption:contains(【AD】))"},{"domains":{"excludeDomains":[],"includeDomains":["leaked.jp"]},"kind":"extended","selector":"a:matches-attr(href=\"\/^https:\/\/leaked.jp\\\/(?:d\\d{6}(?:p\\d)?|[a-z]\\d{3}[0-9a-z][a-z]{3}[0-9a-z]\\d{5}|[a-z]{3,5}(\\d{3}|\\d{5})|\\d[0-9a-z][a-z]{3,4}\\d{4,5}|1\\d{2}[a-z]\\d{5}(?:[a-z]{2})?)$\/\")"},{"domains":{"excludeDomains":[],"includeDomains":["leaked.jp"]},"kind":"extended","selector":".kanren > dl.clearfix:contains(【PR】)"},{"domains":{"excludeDomains":[],"includeDomains":["maidonanews.jp"]},"kind":"extended","selector":".module-ad:has(> div.module-ad__item > div[id^=\"mn\"])"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":".format--crosshead:contains(\/^そのほかAmazonで人気の\/)"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":".format--crosshead:contains(\/^そのほかAmazonで人気の\/) ~ div.cmsAmazonWrap"},{"domains":{"excludeDomains":[],"includeDomains":["itmedia.co.jp"]},"kind":"extended","selector":".format--crosshead:contains(\/^そのほかAmazonで人気の\/) ~ div.cmsAmazonWrap + div.cmsButtonLink"},{"domains":{"excludeDomains":[],"includeDomains":["hochi.news"]},"kind":"extended","selector":"main > div.sub__head:has(> h3.sub-head__title:contains(報知求人情報))"},{"domains":{"excludeDomains":[],"includeDomains":["eroangle.club"]},"kind":"extended","selector":".article > h3.frontTitle:contains(お勧めサイト[PR])"},{"domains":{"excludeDomains":[],"includeDomains":["nijie.info"]},"kind":"extended","selector":"#center_column > .left_column:has(> div.tieup_rand_block)"},{"domains":{"excludeDomains":[],"includeDomains":["nijie.info"]},"kind":"extended","selector":".left_column > h2:contains(おすすめのDL) ~ div.tieup_rand_block"},{"domains":{"excludeDomains":[],"includeDomains":["nijie.info"]},"kind":"extended","selector":".left_column > h2:contains(おすすめのDL)"},{"domains":{"excludeDomains":[],"includeDomains":["geinoukame.com"]},"kind":"extended","selector":".menu_title:contains(\/スポンサードリンク|記事|【PR】\/)"},{"domains":{"excludeDomains":[],"includeDomains":["hosyusokuhou.jp"]},"kind":"extended","selector":".entrybody > p > a[target=\"_blank\"][rel]:contains(【PR】)"},{"domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"kind":"extended","selector":".stickyfill tr:has(> td > div[class^=\"gmossp_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"kind":"extended","selector":".block-sub-recommend li:has(> a > div.pr)"},{"domains":{"excludeDomains":[],"includeDomains":["nlab.itmedia.co.jp"]},"kind":"extended","selector":"#cmsBody > div.inner > p:last-of-type:has(> * > a[href^=\"https:\/\/twitter.com\/\"][target=\"_blank\"]):contains(作品提供) ~ div.cmsAmazonWrap"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":"#right_menu > h1:first-child:contains(\/^Information$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":"#wiki_menu.left_side > h2:only-of-type:contains(\/^管理者のススメ$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":"#wiki_menu.left_side > p > a[href^=\"https:\/\/www.amazon.co.jp\/gp\/\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":"#wiki_menu.left_side > p > a[href^=\"https:\/\/www.powera.com\/\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":"#wiki_menu.left_side > p > a[href^=\"http:\/\/www.sekaimon.com\/\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["wiki3.jp"]},"kind":"extended","selector":".sidebar > p > a[href^=\"https:\/\/www.amazon.co.jp\/ref=assoc_\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["4k8ktv.jp","entameclip.com","shareblog.info"]},"kind":"extended","selector":".widget_text > div > p > ins.adsbygoogle:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["entameclip.com"]},"kind":"extended","selector":".widget_text > div > div[id^=\"logly\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["otakumix.doorblog.jp"]},"kind":"extended","selector":"#sidebar > div.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(\/ad\/))"},{"domains":{"excludeDomains":[],"includeDomains":["suzukikenichi.com"]},"kind":"extended","selector":"#side > div > .widget-wrap > h3:contains(\/^Ads$\/):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["suzukikenichi.com"]},"kind":"extended","selector":".entry-footer > p[style]:contains([Ads & Featured Articles])"},{"domains":{"excludeDomains":[],"includeDomains":["heim.jp"]},"kind":"extended","selector":".l-section > div.u-alignCenter > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["smart-flash.jp"]},"kind":"extended","selector":".section > h3:contains(今、あなたにおすすめの記事)"},{"domains":{"excludeDomains":[],"includeDomains":["animanch.com"]},"kind":"extended","selector":".sidewrapper.widget_text > .sidebody > .textwidget > div[id] > script:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["matomecup.com"]},"kind":"extended","selector":".menuTabLight:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["taxtax.hatenablog.jp"]},"kind":"extended","selector":"#box2-inner > div.hatena-module:has(> div.hatena-module-title:contains([AD]))"},{"domains":{"excludeDomains":[],"includeDomains":["ghibli-tosidensetu.com"]},"kind":"extended","selector":".article > h3:contains(他にこんな記事も)"},{"domains":{"excludeDomains":[],"includeDomains":["oreteki-design.com"]},"kind":"extended","selector":"div[class=\"add\"] > div[id^=\"text-6\"]:has(> h4 > span:contains(おすすめ関連記事))"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":"#left_wrapper > div.area01 > p[style=\"”font-size:5pt;\"] + center:has-text(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"https:\/\/i-section\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".plugin-memo > div.side > center > script[src$=\"ziyu.net\/js\/dqnplus.js\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["lionmaru.blog"]},"kind":"extended","selector":".entry-content > p + h2:contains(【PR】)"},{"domains":{"excludeDomains":[],"includeDomains":["s8a.jp"]},"kind":"extended","selector":"article > div > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["kankomie.or.jp"]},"kind":"extended","selector":".prBanner > ul > li > ins.adsbygoogle:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["st.benesse.ne.jp"]},"kind":"extended","selector":"#new_article_alltop > li > div[id^=\"logly\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["medibang.com"]},"kind":"extended","selector":".mdModal div.mdbnViewer__ad:upward(.mdModal)"},{"domains":{"excludeDomains":[],"includeDomains":["pointmall.rakuten.co.jp"]},"kind":"extended","selector":".side-box > div[id^=\"rdn-adspot\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["enuchi.jp"]},"kind":"extended","selector":"li > div.related-ad > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".plugin2_outline > div.plugin2_body > div.plugin-freearea > iframe[src^=\"http:\/\/customize.dtiserv\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["ac-illust.com"]},"kind":"extended","selector":".ac-mb-3.text-center > div[id^=\"div-gpt-ad-side\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ac-illust.com"]},"kind":"extended","selector":".ac-p-2.bg-e6e6e6.donation-box-right:has(> .ad-center)"},{"domains":{"excludeDomains":[],"includeDomains":["photo-ac.com"]},"kind":"extended","selector":".noads-link:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp","blog.livedoor.jp","doorblog.jp","livedoor.blog"]},"kind":"extended","selector":".plugin-memo > div.side > script[src*=\"\/\/adm.shinobi.jp\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp","doorblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"\/\/j.microad.net\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".plugin-memo > div.side > p.gad:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["2chcopipe.com","blog.jp","blog.livedoor.jp","eroduma.com","itaishinja.com","livedoor.biz","news109.com"]},"kind":"extended","selector":".plugin-memo > div.side > script[src*=\"i-mobile.co.jp\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["nofootynolife.net"]},"kind":"extended","selector":"#side_r > div[class^=\"plugin\"]:has(a[name=\"amazletlink\"])"},{"domains":{"excludeDomains":[],"includeDomains":["2chblog.jp","blog.jp","blog.livedoor.jp","doorblog.jp","livedoor.biz","youblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div[id^=\"i2i\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["football-2ch.com"]},"kind":"extended","selector":"#article-options > div[style=\"width: 100%;\"] + h3:contains(楽天)"},{"domains":{"excludeDomains":[],"includeDomains":["football-2ch.com"]},"kind":"extended","selector":".plugin-memo > div.side > script[src*=\"i2i.jp\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["w.atwiki.jp"]},"kind":"extended","selector":"#body_footer:has(> a[href^=\"https:\/\/www.amazon.co.jp\/\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["akb48rompen.com","baseballstats2011.jp","blog.jp","blog.livedoor.jp","burusoku-vip.com","crx7601.com","doorblog.jp","dreamlog.jp","gootore.xyz","ldblog.jp","squallchannel.com","taikankyohou.com","tsuisoku.com"]},"kind":"extended","selector":".plugin-memo > div.side:nth-last-child(2) > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["fireflyframer.blog.jp"]},"kind":"extended","selector":".article-body-inner > div:last-child > div:has(> a[href^=\"https:\/\/ck.jp.ap.valuecommerce.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["bokuslog.com"]},"kind":"extended","selector":".readmoreWrap > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["bokuslog.com"]},"kind":"extended","selector":".widget_text ins.adsbygoogle:upward(.widget_text)"},{"domains":{"excludeDomains":[],"includeDomains":["bokuslog.com"]},"kind":"extended","selector":".widget_text script[src*=\"zucks.net\"]:upward(.widget_text)"},{"domains":{"excludeDomains":[],"includeDomains":["douga100ka.jp"]},"kind":"extended","selector":".contents_ad01:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["matomecup.com"]},"kind":"extended","selector":".plugin1_outline > div.plugin1_title:contains(PR):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["matomecup.com"]},"kind":"extended","selector":".plugin3_body > div.ta_center > div.plugin-freearea:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["mail.yahoo.co.jp"]},"kind":"extended","selector":"#tagYadsDetail:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mail.yahoo.co.jp"]},"kind":"extended","selector":"#tagYadsSideColumn:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mail.yahoo.co.jp"]},"kind":"extended","selector":"#tagYadsListTop:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["esportsnewsjapan.jp"]},"kind":"extended","selector":".bg--deep a[class*=\"gtm-ad\"]:upward(.bg--deep)"},{"domains":{"excludeDomains":[],"includeDomains":["gadget2ch.com"]},"kind":"extended","selector":".posts-inner:contains(\/スポンサードリンク|関連コンテンツ|最新記事\/)"},{"domains":{"excludeDomains":[],"includeDomains":["2ch-c.net"]},"kind":"extended","selector":".nend_text_ad:upward(li)"},{"domains":{"excludeDomains":[],"includeDomains":["hibiki-radio.jp"]},"kind":"extended","selector":".ng-isolate-scope > li.ng-scope ins.adsbygoogle:upward(li)"},{"domains":{"excludeDomains":[],"includeDomains":["geartics.com"]},"kind":"extended","selector":".mt-12:has(> div.ads-double)"},{"domains":{"excludeDomains":[],"includeDomains":["geartics.com"]},"kind":"extended","selector":".my-8:has(> div.ads-double)"},{"domains":{"excludeDomains":[],"includeDomains":["geartics.com"]},"kind":"extended","selector":".white:has(+ .my-8 > div.ads-double) > hr:last-child"},{"domains":{"excludeDomains":[],"includeDomains":["kabumatome.doorblog.jp"]},"kind":"extended","selector":"blockquote:has(a[href^=\"https:\/\/www.amazon.co.\"])"},{"domains":{"excludeDomains":[],"includeDomains":["sp.oshaburi.net"]},"kind":"extended","selector":"#dmm_ranking_pc_more ~ h2:contains(ランキング)"},{"domains":{"excludeDomains":[],"includeDomains":["morekorea.net"]},"kind":"extended","selector":".menu_div > center > ins.contents_ad_main:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["news.so-net.ne.jp"]},"kind":"extended","selector":".MuiCard-root > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["its-mo.com"]},"kind":"extended","selector":".panel:last-child > p.panel-heading:contains(PR情報):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["aucfree.com"]},"kind":"extended","selector":".results_bid > td[colspan=\"5\"] > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["ffsagami.com","tamaliver.jp"]},"kind":"extended","selector":".entry .aposted[href=\"\"]:upward(.entry)"},{"domains":{"excludeDomains":[],"includeDomains":["miyachan.cc","niiblo.jp","osakazine.net","tamaliver.jp","ti-da.net"]},"kind":"extended","selector":".blogbody > a[name=\"\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["osakazine.net"]},"kind":"extended","selector":".entry #SPREAD_VIDEO_PLAYER:upward(.entry)"},{"domains":{"excludeDomains":[],"includeDomains":["sagafan.jp"]},"kind":"extended","selector":"a[name=\"\"] + h2.title:contains(スポンサーサイト)"},{"domains":{"excludeDomains":[],"includeDomains":["gemmed.ghc-j.com"]},"kind":"extended","selector":".article_box_item > div.pcBanner_category:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gemmed.ghc-j.com"]},"kind":"extended","selector":".list_item > div.pcBanner_index:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["tsuiran.jp"]},"kind":"extended","selector":"#pickup-box > article div.ad-ranking:upward(article)"},{"domains":{"excludeDomains":[],"includeDomains":["city.niigata.lg.jp"]},"kind":"extended","selector":".container05 > div.t_kokoku_title:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gameranbu.jp"]},"kind":"extended","selector":"#taboola-below-article-thumbnails-pcxrr:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["buzzap.jp"]},"kind":"extended","selector":".entry-content > div#a8rakutenadrank_pc:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["vogue.co.jp"]},"kind":"extended","selector":"div[data-test-id=\"TeaserFourUpCol\"] > div > div[id^=\"ad-\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["npodb.info"]},"kind":"extended","selector":".text-center > small:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["stats-japan.com"]},"kind":"extended","selector":".title_right_top:contains(SPONSORED)"},{"domains":{"excludeDomains":[],"includeDomains":["iyuto.com"]},"kind":"extended","selector":".widget-sidebar script[src$=\"\/show_ads.js\"]:upward(.widget-sidebar)"},{"domains":{"excludeDomains":[],"includeDomains":["mfujin.blog.jp"]},"kind":"extended","selector":"#more > div[align=\"center\"]:has(> table table a[rel*=\"sponsored\"])"},{"domains":{"excludeDomains":[],"includeDomains":["angel-bbs.com"]},"kind":"extended","selector":"table[width=\"95%\"][bgcolor=\"#CCFFCC\"] div[align=\"center\"] > iframe[src*=\"mmaaxx.com\"]:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["angel-bbs.com"]},"kind":"extended","selector":"table[width=\"95%\"][bgcolor=\"#EFEFEF\"] div[align=\"center\"] > iframe[src*=\"\/koukoku_\"]:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["angel-bbs.com"]},"kind":"extended","selector":"table[width=\"95%\"][bgcolor=\"#EFEFEF\"] td[colspan=\"3\"] > iframe[src*=\"\/koukoku_\"]:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".right > div.plugin-memo > div.side > p:last-of-type > a[href*=\"amazon.\"]:first-of-type:upward(.plugin-memo)"},{"domains":{"excludeDomains":[],"includeDomains":["jbpress.ismedia.jp"]},"kind":"extended","selector":".--wid.m-article-3colm:last-child:has(> div.m-article-3colm-list > div.ad-block)"},{"domains":{"excludeDomains":[],"includeDomains":["astage-ent.com"]},"kind":"extended","selector":".entry > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["fashion-press.net"]},"kind":"extended","selector":".pc_only.fp_list_each > div.pc_only_ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["moviecollection.jp"]},"kind":"extended","selector":".list-object__item > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mangalog.com"]},"kind":"extended","selector":".EntryInnerBlock #ninja-blog-inactive:upward(.EntryInnerBlock)"},{"domains":{"excludeDomains":[],"includeDomains":["mangalog.com"]},"kind":"extended","selector":".entry_header:first-child > span.entry_title > a[href=\"\"]:contains([PR]):upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["mangalog.com"]},"kind":"extended","selector":".entry_text > #ninja-blog-inactive:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mangalog.com"]},"kind":"extended","selector":".entry_text:nth-child(2):has(> #ninja-blog-inactive) + .entry_footer"},{"domains":{"excludeDomains":[],"includeDomains":["carview.yahoo.co.jp"]},"kind":"extended","selector":"#yjSub > div.cmnBnr > div#ydn-mr:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["carview.yahoo.co.jp"]},"kind":"extended","selector":"#yjSub > div.nav > div[id^=\"ydn-right-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["nijifeti.com"]},"kind":"extended","selector":".wppwrap > div.ts10box:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["keokeoblog.net"]},"kind":"extended","selector":".plugin_item ins.adsbygoogle:upward(.plugin_item)"},{"domains":{"excludeDomains":[],"includeDomains":["free.foto.ne.jp"]},"kind":"extended","selector":".list_base_nom > li > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["supersolenoid.blog.fc2.com","supersolenoid.jp"]},"kind":"extended","selector":".menuBlock:has(div.plugin-freearea > div[style^=\"overflow:hidden\"] > div.wboxlink)"},{"domains":{"excludeDomains":[],"includeDomains":["with2.net"]},"kind":"extended","selector":"#rank li > iframe[src^=\"\/ad_frame.\"]:upward(li)"},{"domains":{"excludeDomains":[],"includeDomains":["wackwack.net"]},"kind":"extended","selector":".archive-entry > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.skeg.jp"]},"kind":"extended","selector":".pt-10 > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["fx-koryaku.com"]},"kind":"extended","selector":"#sidebar > div.widget_custom_html:has(center > a[rel^=\"nofollow\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["nurse-senka.jp"]},"kind":"extended","selector":"#side > div.mb-4.p-3 div.global-ad-info:upward(.p-3)"},{"domains":{"excludeDomains":[],"includeDomains":["yoheim.net"]},"kind":"extended","selector":".box-onetag-rec:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["frequ.jp"]},"kind":"extended","selector":".post-item > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["frequ.jp"]},"kind":"extended","selector":".related-post-item > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["utamap.com"]},"kind":"extended","selector":"center > table[width=\"85%\"]:first-child > tbody > tr > td[align=center] > script[src^=\"\/\/pagead2\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["kanjitisiki.com"]},"kind":"extended","selector":"#main > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["zekamashi.net"]},"kind":"extended","selector":"#secondary > div.widget_text a[href^=\"https:\/\/al.dmm.com\/\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["zekamashi.net"]},"kind":"extended","selector":"#secondary > div.widget_text a[href^=\"https:\/\/amzn\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["d.hatena.ne.jp"]},"kind":"extended","selector":"div[class^=\"sc-\"]:only-child > div:first-child > div[id^=\"rectangle_main_\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["kanaloco.jp"]},"kind":"extended","selector":"#recommendations > li > div[class^=\"ad\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["detail.chiebukuro.yahoo.co.jp"]},"kind":"extended","selector":"aside[class^=\"ClapLv3SubList_Chie-SubList__ListItem__\"] > div.infdAd:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["butti15.com","complesso.jp","disney-fun.xyz","fragrantica-japan.com","gadgerba.com","nilcollection.net","taisy0.com","xn--zcka7aza6gyb9jd.net"]},"kind":"extended","selector":".cardtype__article > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["trafficnews.jp"]},"kind":"extended","selector":"#slider_list span.title-text:has-text(おすすめPR):upward(#slider_list)"},{"domains":{"excludeDomains":[],"includeDomains":["da-te.jp"]},"kind":"extended","selector":".article center > div#SPREAD_VIDEO_PLAYER:upward(.article)"},{"domains":{"excludeDomains":[],"includeDomains":["da-te.jp"]},"kind":"extended","selector":".blogbody center > div#SPREAD_VIDEO_PLAYER:upward(.blogbody)"},{"domains":{"excludeDomains":[],"includeDomains":["mainichi.jp"]},"kind":"extended","selector":"section[id^=\"oblist\"] > div.OUTBRAIN:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ribbon.to"]},"kind":"extended","selector":"p a[href^=\"\/\/ck.jp.ap.\"]:upward(p)"},{"domains":{"excludeDomains":[],"includeDomains":["ribbon.to"]},"kind":"extended","selector":"p a[href^=\"https:\/\/px.\"]:upward(p)"},{"domains":{"excludeDomains":[],"includeDomains":["news.livedoor.com"]},"kind":"extended","selector":".subSec:first-child > div[id^=\"div-gpt-ad\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".l-main > div[class^=\"_\"] > div > ul > li > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".content > h2.widget-header:contains(あなたにおススメの記事)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div.yms-user-ad-side:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["otakomu.jp"]},"kind":"extended","selector":"div[class^=\"article-body\"] > center:has( > a[target=\"_blank\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["otakomu.jp"]},"kind":"extended","selector":".sidetitlebody > div.sidetitle:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["417ena.net"]},"kind":"extended","selector":".archive__item > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["jpopblog.com","jpzipblog.com"]},"kind":"extended","selector":".sidebar_list > li#widget_text:has(> div.textwidget > center > a[target=\"_blank\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["irodorich.com"]},"kind":"extended","selector":".side-amazon:upward(.ad)"},{"domains":{"excludeDomains":[],"includeDomains":["erozon.jp"]},"kind":"extended","selector":".cMovieboxC > div.cPabox.babg:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["doope.jp"]},"kind":"extended","selector":"div[class^=\"side_1cbox_\"] > div[class^=\"amazon_sbox\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["iza.ne.jp"]},"kind":"extended","selector":".simple-header:contains(\/izaスペシャル|あなたにオススメ\/)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents > div > div > div:matches-css(min-height: 150px):has(div[id^=\"ad_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents-body ~ div > div > div:matches-css(min-height: 150px):has(div[id^=\"ad_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents-body ~ div > div > div > div:has(> div[class]:matches-css(min-height: 111px) > div[id^=\"ad_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents + div > div > div > div[class]:has(> div > div[id^=\"ad_\"]):matches-css(padding-right: 12px)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents + div > div[class^=\"wP-\"]:has(> div[class]:only-child > div[id^=\"ad_\"]):matches-css(width: 300px)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"div > div > div[class^=\"_\"] > div[class] > div[class*=\"_\"] > div[class]:has(> div[id^=\"ad_\"]):matches-css(min-height: \/217px|42px\/)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"div > div[class^=\"wP-\"] div[class]:matches-css(min-height: 250px)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"div > div[class] > div[class*=\"_\"] > div[class]:has(> div[id^=\"ad_\"]):matches-css(min-height: 200px)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"div > #mainAdTop:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["finance.yahoo.co.jp"]},"kind":"extended","selector":"#contents > div[class^=\"_\"] > div[class^=\"_\"] > div[class*=\"_\"]:matches-css(min-height: 250px)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.shinobi.jp"]},"kind":"extended","selector":"div.EntryTitle:has(a[href=\"\"]:contains([PR]))"},{"domains":{"excludeDomains":[],"includeDomains":["fightingirl.com"]},"kind":"extended","selector":".NormalList > li:has(h3 > a[href] > p:contains(PR))"},{"domains":{"excludeDomains":[],"includeDomains":["moeimg.net"]},"kind":"extended","selector":"#main-2 > .post:has(> .pc_ad:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["sankei.com"]},"kind":"extended","selector":".row:has(div[id^=\"div-gpt-ad-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["xtech.nikkei.com"]},"kind":"extended","selector":".l-section > .c-iconAd + ul.p-articleList > .p-articleList_item > div[id^=\"div-gpt-ad\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["xtech.nikkei.com"]},"kind":"extended","selector":".l-main_primary > section[class=\"l-section\"]:has(> div.c-iconAd)"},{"domains":{"excludeDomains":[],"includeDomains":["solomon-review.net"]},"kind":"extended","selector":"#right_folder > div.textwidget:has(ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["solomon-review.net"]},"kind":"extended","selector":"#right_folder > div.textwidget:has(> a[rel^=\"nofollow\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":"#SubInner > div[class]:has(> div.Pr)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":"#SubInner > div[class]:has(> div.Ad)"},{"domains":{"excludeDomains":[],"includeDomains":["fod.fujitv.co.jp"]},"kind":"extended","selector":"#video_container > div[style*=\"position: absolute; overflow: hidden;\"]:has(> img[src=\"\/plus7\/web\/imgs\/animation_spinner.gif\"])"},{"domains":{"excludeDomains":[],"includeDomains":["himasoku.com"]},"kind":"extended","selector":".article-body > center:has(> a[href^=\"https:\/\/wu.\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["hosyusokuhou.jp"]},"kind":"extended","selector":"#side > div.sidewrapper:has(> div.sidetitle:contains(★スポンサー))"},{"domains":{"excludeDomains":[],"includeDomains":["appllio.com"]},"kind":"extended","selector":"#main-content > #content > .block.odd:has(aside[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["appllio.com"]},"kind":"extended","selector":".sidebar > .region-inner > .block.odd:has(div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["fiveslot777.com"]},"kind":"extended","selector":".article-body > span[style^=\"font-size:\"] + table:has(> tbody > tr > td > a[href^=\"https:\/\/www.amazon.co.jp\/gp\/product\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["purelovers.com"]},"kind":"extended","selector":".k_leftColumnCommon > .k_mt-6:has(.k_text:contains(AD))"},{"domains":{"excludeDomains":[],"includeDomains":["thedigestweb.com"]},"kind":"extended","selector":".c-list__item > div[id^=\"_popIn_infeed\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["designstoriesinc.com"]},"kind":"extended","selector":".topstoriestxt > p > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["gpc-check.com"]},"kind":"extended","selector":".loop-entry > span.memo:first-child ~ ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["lettuceclub.net"]},"kind":"extended","selector":".type_button > a[target=\"_blank\"]:not(:contains(読む))"},{"domains":{"excludeDomains":[],"includeDomains":["lettuceclub.net"]},"kind":"extended","selector":".l-contents > div > div.p-ad:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["pokemon-matome.net"]},"kind":"extended","selector":".blogparts_freeArea:has(a[href^=\"https:\/\/www.amazon.co.jp\/exec\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["seiyufan.livedoor.biz"]},"kind":"extended","selector":"aside.section-box:has(> div.plugin-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["753ya.net","chiebiyori.com","cidresweet.com","coco2i.com","favoriteslibrary-books.com","gowomengo.press"]},"kind":"extended","selector":".grid_post-box > div.post-box-contents > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["markezine.jp"]},"kind":"extended","selector":".l-sidebar_inner > div.c-secondarysection:has(> div.c-secondarysection_header > p.c-secondarysection_heading:contains(スポンサーサイト))"},{"domains":{"excludeDomains":[],"includeDomains":["enrichoneslife.com"]},"kind":"extended","selector":".widget_custom_html a[href^=\"https:\/\/app.seedapp.jp\"]:upward(.widget_custom_html)"},{"domains":{"excludeDomains":[],"includeDomains":["portal.auone.jp"]},"kind":"extended","selector":".news__item > div.news__item--ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["javbus.com"]},"kind":"extended","selector":".container > div.row:has(> div.text-center > script[src^=\"https:\/\/poweredby.jads.co\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ikaclo.jp"]},"kind":"extended","selector":".brick:last-child:has(> div.items-scrolling > ul.items-goods > li > p > a.ga-buy)"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":"body > div[style]:has(> table[border] > tbody > tr > td[height] > div[id^=\"criteo_slot_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":".jbbsCustomHeader > table[width=\"95%\"] #tokuwari:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":".jbbsCustomHeader > table[width=\"95%\"] td > a[href^=\"http:\/\/seesaawiki.\"]:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":".jbbsCustomHeader > table[width=\"95%\"] a[href=\"http:\/\/wiki.livedoor.jp\/fuzokuwiki\/\"]:upward(table[width=\"95%\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":"body table[width=\"640\"] > tbody:has(> tr > td > a[href^=\"http:\/\/www.amazon.\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbbs.shitaraba.net"]},"kind":"extended","selector":"td > div[align=\"left\"]:has(> a[href^=\"http:\/\/www.amazon.\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jugem.jp"]},"kind":"extended","selector":".side_content > dl div#jgSideAdContainer:upward(dl)"},{"domains":{"excludeDomains":[],"includeDomains":["jugem.jp"]},"kind":"extended","selector":"#entry .entry_title:contains(スポンサーサイト):upward(#entry)"},{"domains":{"excludeDomains":[],"includeDomains":["jugem.jp"]},"kind":"extended","selector":".entry .entry_title:contains(スポンサーサイト):upward(.entry)"},{"domains":{"excludeDomains":[],"includeDomains":["jugem.jp"]},"kind":"extended","selector":".entry > h2:contains(スポンサーサイト):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["jugem.jp"]},"kind":"extended","selector":".entry_area > h2:contains(スポンサーサイト):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["medley.life"]},"kind":"extended","selector":".c-search-item > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["medicalnote.jp"]},"kind":"extended","selector":".c-glo-section > div[id^=\"logly\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["medicalnote.jp"]},"kind":"extended","selector":".c-glo-section > aside.l-post-aside > div[id^=\"logly-\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["wws-channel.com"]},"kind":"extended","selector":".single_container > div[class=\"\"]:contains(【あなたにオススメ記事】)"},{"domains":{"excludeDomains":[],"includeDomains":["toremaga.com"]},"kind":"extended","selector":"#ar_w300px > div.cont > ul.tab:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["iwate-np.co.jp"]},"kind":"extended","selector":"li[id^=\"top-news-article-\"] > a.article-ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["iwate-np.co.jp"]},"kind":"extended","selector":".article-list > li > script[src^=\"\/\/yads.\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["douga-getter.com"]},"kind":"extended","selector":".section > div > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["douga-getter.com"]},"kind":"extended","selector":".section > div.container >  div.row > div > ins.adsbygoogle:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["chiebukuro.yahoo.co.jp"]},"kind":"extended","selector":"#lsc div[class^=\"ClapLv3SearchList_Chie-SearchList__Item__\"]:has(> div > div[class*=\"__Information__\"] > div[class*=\"__InformationIcon__\"] > div[class*=\"__InformationText__\"]:contains(広告))"},{"domains":{"excludeDomains":[],"includeDomains":["map.yahoo.co.jp"]},"kind":"extended","selector":".SS__list:has(span.Badge--ad)"},{"domains":{"excludeDomains":[],"includeDomains":["sponichi.co.jp"]},"kind":"extended","selector":".mb30:has(> div > script[src*=\"rakuten\"])"},{"domains":{"excludeDomains":[],"includeDomains":["sponichi.co.jp"]},"kind":"extended","selector":".mb30 > h2:contains(スペシャルコンテンツ)"},{"domains":{"excludeDomains":[],"includeDomains":["sponichi.co.jp"]},"kind":"extended","selector":".mb40:has(> div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["matomame.jp"]},"kind":"extended","selector":"#col_content > div.footer_content:has(> div.ads)"},{"domains":{"excludeDomains":[],"includeDomains":["masterwiki.net"]},"kind":"extended","selector":"#content > center:has(> script[src=\"http:\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\"])"},{"domains":{"excludeDomains":[],"includeDomains":["nishinippon.co.jp"]},"kind":"extended","selector":".l-section-side h2.c-heading-side-h2--otherStyle__text:upward(.l-section-side)"},{"domains":{"excludeDomains":[],"includeDomains":["ascii2d.net"]},"kind":"extended","selector":".col-lg-4 > .p-t-1:has(> h5:contains(広告))"},{"domains":{"excludeDomains":[],"includeDomains":["news.tennis365.net"]},"kind":"extended","selector":"#cntAreaR > div[style*=\"padding:\"]:has(div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["shikaku-fan.net"]},"kind":"extended","selector":"div[align=\"center\"]:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["stds.jp"]},"kind":"extended","selector":".content > .obj_centering:has(ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["gadgets.evolves.biz"]},"kind":"extended","selector":".entry-content > div.widget_custom_html:has(div.google-ads)"},{"domains":{"excludeDomains":[],"includeDomains":["scp-jp.wikidot.com"]},"kind":"extended","selector":"#page-content > h2#toc3:has(> span:contains(\/^広告$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["scp-jp.wikidot.com"]},"kind":"extended","selector":"#page-content > h2#toc3:has(> span:contains(\/^広告$\/)) ~ div.scp-image-block[style=\"width:300px;\"]"},{"domains":{"excludeDomains":[],"includeDomains":["beastmodeblock.blog.fc2.com"]},"kind":"extended","selector":".sidemenu_body:has(> dd.plg_body > div.plugin-freearea > div.dmmr18)"},{"domains":{"excludeDomains":[],"includeDomains":["elog-ch.net"]},"kind":"extended","selector":".caption1:contains(関連DUGA動画)"},{"domains":{"excludeDomains":[],"includeDomains":["sponichi.co.jp"]},"kind":"extended","selector":".article_list > li:has(> div > div[id^=\"div-gpt-ad-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ppvdatabank.com"]},"kind":"extended","selector":"#side > .content_area:contains(広告)"},{"domains":{"excludeDomains":[],"includeDomains":["ldblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > script[src$=\"\/show_ads.js\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["peko-step.com"]},"kind":"extended","selector":".links-left > div.side_headline60:contains(スポンサード リンク)"},{"domains":{"excludeDomains":[],"includeDomains":["peko-step.com"]},"kind":"extended","selector":".links > div.side_headline20:contains(スポンサード リンク)"},{"domains":{"excludeDomains":[],"includeDomains":["scienceplus2ch.com"]},"kind":"extended","selector":".sidetitlebody:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["app-ranking.net"]},"kind":"extended","selector":".ranklist table:not([class]) > tbody > tr > td[colspan=\"3\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["blogspot.com"]},"kind":"extended","selector":".HTML > div.widget-content > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":"#main_contents > div.entry > div.entry_body > div[style=\"text-align:center;margin-bottom:10px;\"] + div[style=\"font-size:8px;\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".sidemenu_content > div.plg_body > div.plugin-freearea > script[src*=\"\/\/adm.shinobi.jp\/\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".sidemenu_content > div.plg_body > div.plugin-freearea > div#scroll script[src^=\"https:\/\/adm.shinobi.jp\/\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".plugin_third > div.plg_body > div.plugin-freearea > a[href^=\"https:\/\/cnt.affiliate.fc2.com\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["uma-log.net"]},"kind":"extended","selector":"#content >  div.widget_text:has(a[href=\"https:\/\/neetrio.jp\/umalogdb\/\"][target=\"_blank\"])"},{"domains":{"excludeDomains":[],"includeDomains":["gfoodd.com"]},"kind":"extended","selector":"#related-entries ~ .singleh4:contains(amazon)"},{"domains":{"excludeDomains":[],"includeDomains":["bocek.co.jp"]},"kind":"extended","selector":".l-wrapper > div.l-sidebar:has(> aside > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["crefan.jp"]},"kind":"extended","selector":"div[align=\"center\"] > .badge-success:contains(スポンサード リンク)"},{"domains":{"excludeDomains":[],"includeDomains":["2-d.jp"]},"kind":"extended","selector":"div[align=\"center\"] > center > table[border=\"1\"]:has(> tbody > tr > td > p > iframe[src^=\"http:\/\/rcm-jp.amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["blog.2nt.com"]},"kind":"extended","selector":".entry_box > div.entry_side + div.entry_main > div.entry_main_in > div.entry_body > div[style=\"text-align:center;margin-bottom:10px;\"] + div[style=\"font-size:8px;\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["mabui-onna.com"]},"kind":"extended","selector":".plugin_first:has(> div > div.plugin-freearea[style=\"text-align:left\"])"},{"domains":{"excludeDomains":[],"includeDomains":["oppao.blog.jp"]},"kind":"extended","selector":".plugin-memo:has(> .side > .dmm_ranking)"},{"domains":{"excludeDomains":[],"includeDomains":["web.fc2.com"]},"kind":"extended","selector":"body > table[width=\"150\"][border=\"0\"][cellspacing=\"0\"][cellpadding=\"3\"]:has(table[width=\"100%\"][border=\"1\"][cellpadding=\"5\"] a[href^=\"http:\/\/click.t2z.jp\/zzz\/\"][target=\"_blank\"])"},{"domains":{"excludeDomains":[],"includeDomains":["yuchrszk.blogspot.com"]},"kind":"extended","selector":"#side-section > div.HTML:has(> div.widget-content > div.separator > a[href*=\"?utm_source\"])"},{"domains":{"excludeDomains":[],"includeDomains":["manababy.jp"]},"kind":"extended","selector":".recommend_list > ul > li.cf:has(i.pr)"},{"domains":{"excludeDomains":[],"includeDomains":["precious.jp"]},"kind":"extended","selector":"#recommend-column > div.thum_list_small > div.column:has(> div[id^=\"logly-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["brightdays.jp"]},"kind":"extended","selector":".widget_sell_entry:has(> div.showCF > div#showRank)"},{"domains":{"excludeDomains":[],"includeDomains":["scoopersokuhou.com"]},"kind":"extended","selector":".plugin1_outline:has(> div > div.plugin-freearea > div > a[href^=\"https:\/\/www.amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hnalady.com"]},"kind":"extended","selector":"#sidemenu_right > div.plugin-freearea:has(> div.sidemenu_body > a[href^=\"https:\/\/al.dmm.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peepxx.com"]},"kind":"extended","selector":".widget:has(> a[href^=\"https:\/\/subyshare.com\/affiliate\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["cocokara-next.com"]},"kind":"extended","selector":".txtBox > p:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["bannerkoubou.com"]},"kind":"extended","selector":"body > div.container-fluid:has(> div.row > div.adsense-photoeditor-header-wrapper)"},{"domains":{"excludeDomains":[],"includeDomains":["bannerkoubou.com"]},"kind":"extended","selector":"main > div.row:has(> div[id] > script[src^=\"\/\/ads.themoneytizer.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["coordisnap.com"]},"kind":"extended","selector":".post-loop-wrap:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["cinema.ne.jp"]},"kind":"extended","selector":".sticky-height > section.article-list:contains(SPONSORD)"},{"domains":{"excludeDomains":[],"includeDomains":["e-kodate.com"]},"kind":"extended","selector":"h3.gap:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kodate-ru.com","sumu-log.com"]},"kind":"extended","selector":"#sidebar1 h4.widgettitle:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["pashplus.jp"]},"kind":"extended","selector":".content_right > div > span[style^=\"display: block; font-size: 30px\"]:has(+ div#taboola-below-article-thumbnails-1)"},{"domains":{"excludeDomains":[],"includeDomains":["rakukan.net"]},"kind":"extended","selector":".side--right > section.module--free:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["pakutaso.com"]},"kind":"extended","selector":".is-12 > div.block__content:has(> div ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["picrew.me"]},"kind":"extended","selector":".st-Related_Title:contains(おすすめ画像メーカー)"},{"domains":{"excludeDomains":[],"includeDomains":["kyoko-np.net"]},"kind":"extended","selector":".tomonokai + section:has(> div > div > a[href^=\"http:\/\/www.amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["sakigake.jp"]},"kind":"extended","selector":".p-newslist__item > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["buzzap.jp"]},"kind":"extended","selector":"#thirdary > div.widget-block:has(> div[id^=\"div-gpt-ad\"])"},{"domains":{"excludeDomains":[],"includeDomains":["forestofbreast.com"]},"kind":"extended","selector":".side-sp:contains(注目の巨乳アイドル)"},{"domains":{"excludeDomains":[],"includeDomains":["city.owariasahi.lg.jp"]},"kind":"extended","selector":".top_banner5_wrap:contains(広告欄)"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockAreaMainFooter > div.blockWrapper > div.blockBody > div.eroterest_partsv2:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockSide > div.blockWrapper > div.blockBody > div > a[href^=\"https:\/\/click.duga.jp\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["laboradian.com"]},"kind":"extended","selector":".entry-content > p > a[href^=\"https:\/\/px.a8.net\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["newmatoan.com"]},"kind":"extended","selector":".kensakubu + div:has(> a[href^=\"https:\/\/amzn.to\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li > div.panel-default:has(> div.panel-body > center > a[href^=\"https:\/\/digirevo.liberty-net.jp\/\"][target=\"_blank\"] > img[src^=\"https:\/\/digirevo.liberty-net.jp\/bana\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li > div.panel-default:has(> div.panel-body a[href^=\"\/\/www.pcolle.com\/product\/detail\/?\"][href*=\"&af_id\"][target=\"_blank\"] > img[width^=\"2\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li > div.panel-default:has(> div.panel-body a[href^=\"https:\/\/gcolle.net\/product_info.\"][href*=\"\/affiliate_banner_id\"][target=\"_blank\"] > img[width^=\"2\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li > div.panel-default:has(> div.panel-body a[href^=\"https:\/\/pancolle-movie.jp\/track?aid\"] > img[width^=\"2\"])"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li:has(> div.panel-default > div > center > table td > a[href^=\"http:\/\/www.dmm.co.jp\/\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["peta2.jp"]},"kind":"extended","selector":".col-xs-3[class$=\"tColumn\"] > ul > li > div.panel-default > div.panel-heading:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["screen-multimedia.com"]},"kind":"extended","selector":"#main > aside:has(> div.ads-flexbox)"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com"]},"kind":"extended","selector":"table[cellpadding=\"3\"]:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com"]},"kind":"extended","selector":"table[width=\"100%\"][cellpadding=\"0\"][cellspacing=\"8\"]:contains(出会い特集)"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com","zatsubitown.com"]},"kind":"extended","selector":"body > font[color=\"green\"]:contains(\/初心者|セフレ|出会い|女装子|ニューハーフと遊\/)"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com","zatsubitown.com"]},"kind":"extended","selector":"body > font[color=\"green\"]:contains(\/初心者|セフレ|出会い|女装子|ニューハーフと遊\/) + br + br + a[target=\"_blank\"]"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com","zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["life-gogo.com","zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + img"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"body > hr[size=\"1\"] + center:has(> a[href^=\"https:\/\/ac.cross-system.com\"] + br + br + table[width=\"95%\"][cellpadding=\"0\"][bgcolor=\"purple\"])"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + a[target=\"_blank\"]"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + a[target=\"_blank\"] + b"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + a[target=\"_blank\"] + b + font"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + img + b"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + img + b + font"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[cellpadding=\"4\"]:contains([PR]) + br + img + b + font + br + font[size=\"2\"]"},{"domains":{"excludeDomains":[],"includeDomains":["zatsubitown.com"]},"kind":"extended","selector":"table[width=\"100%\"][cellpadding=\"0\"][cellspacing=\"8\"]:contains(\/と出会えそうな予感|顔出しオナニー素人のライブチャット|出会い特集|テレクラ特集|マゾ男向けのSM特集|男と男が出会いを探せる場所|が夢中に男を探し始めた！|素人女子のオナ声に癒されたい\/)"},{"domains":{"excludeDomains":[],"includeDomains":["yaruo18book.com"]},"kind":"extended","selector":".menu_title3:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["yaruo18book.com"]},"kind":"extended","selector":".article > div[style=\"margin:0;padding:5px;font-size:12px;word-break: break-all;\"]:has(> a[href^=\"https:\/\/al.dmm.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["namae-yurai.net"]},"kind":"extended","selector":"#content > p:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["city.soja.okayama.jp"]},"kind":"extended","selector":".wb-contents > .topaside:has(> tbody > tr > td > table.bnrtitle)"},{"domains":{"excludeDomains":[],"includeDomains":["ddnavi.com"]},"kind":"extended","selector":"#serial-index > .box:has(> div[id^=\"div-gpt-\"]:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":"#app > div[class^=\"_\"] > div[class^=\"_\"] > div[class^=\"_\"] > div[class^=\"_\"] > div[class^=\"_\"]:has( + div[id^=\"div-gpt-\"]:empty)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":"#entryBody > div[style^=\"margin:10px 5px;padding:15px;word-break:break-all;color:#333;box-shadow:1px 1px 2px rgba(0,0,100,0.3);background:url\"]:last-child:has(> div[style=\"background:rgba(255,255,255,0.85);padding:5px;border-radius:1px;\"] > div[style=\"border:4px double #cbb994;border-radius:1px;padding:10px\"] > div.pickCreative_root)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":"#entryLi > li[class^=\"_\"]:has(> div.skinBorderBottomColor > div)"},{"domains":{"excludeDomains":[],"includeDomains":["chijofile.com"]},"kind":"extended","selector":"div.side-widget-area:has(a[href^=\"https:\/\/www.e-nls.com\/access.php\"])"},{"domains":{"excludeDomains":[],"includeDomains":["maniacture.com"]},"kind":"extended","selector":"#side-right > div.side-widget-area:has(a[href^=\"https:\/\/rcv.ixd.dmm.com\/api\/surl\"])"},{"domains":{"excludeDomains":[],"includeDomains":["fob.jp"]},"kind":"extended","selector":".container > div.swiper-container:has(> div.swiper-wrapper > div.swiper-slide > a[href^=\"https:\/\/click.duga.jp\/\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["nakamaaru.asahi.com"]},"kind":"extended","selector":".list > li > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gmo-animation.com"]},"kind":"extended","selector":".entry-content > h3:contains(\/売れ筋|おすすめ|商品\/)"},{"domains":{"excludeDomains":[],"includeDomains":["uelog.com"]},"kind":"extended","selector":".entry-content > div:not([class]) + div:not([class]):has(div > a[href^=\"https:\/\/t.afi-b.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["contents.fc2.com"]},"kind":"extended","selector":".search_listBox > .search_listBox:has(> div[class^=\"search_list\"] > h3 > a[href^=\"https:\/\/media.fc2.com\/clicks.php?id=\"] > span:contains(\/^\\[PR\\]$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["contents.fc2.com"]},"kind":"extended","selector":"section[class^=\"search_\"] > div[class^=\"c-cntCard-\"]:has(> div[class*=\"_indetail\"] > a[href^=\"https:\/\/media.fc2.com\/clicks.php?id=\"] > span:contains(\/^\\[PR\\]$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["tuma.jp"]},"kind":"extended","selector":".ta-c font[size=\"+1\"][color=\"#1a0dab\"]:contains(セフレ)"},{"domains":{"excludeDomains":[],"includeDomains":["konyoku.net"]},"kind":"extended","selector":".ta-c > b > font[size=\"+1\"]:contains(PCMAX)"},{"domains":{"excludeDomains":[],"includeDomains":["konyoku.net"]},"kind":"extended","selector":".ta-c > font[size=\"+1\"] > b:contains(\/バイアグラ|日本最大級の会員\/)"},{"domains":{"excludeDomains":[],"includeDomains":["konyoku.net"]},"kind":"extended","selector":".ta-c > form > font[size=\"+1\"] > b:contains(\/会員数|ハッピーメール\/)"},{"domains":{"excludeDomains":[],"includeDomains":["toukou.tv"]},"kind":"extended","selector":"center > center > table[width=\"807\"]:has(td[align=\"center\"] > a[href^=\"https:\/\/pcmax.jp\/lp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["toukou.tv"]},"kind":"extended","selector":"table[width=\"807\"]:has(td[colspan=\"5\"] a[href^=\"https:\/\/www.e-nls.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["toukou.tv","tuma.jp"]},"kind":"extended","selector":"table[width=\"446\"] > tbody > tr:contains(セックスライフ必需品)"},{"domains":{"excludeDomains":[],"includeDomains":["backsi.com"]},"kind":"extended","selector":".box_round > p > small:not(:contains(配信))"},{"domains":{"excludeDomains":[],"includeDomains":["blog94.fc2.com"]},"kind":"extended","selector":".menuProfBlock > div.menuText > div.plugin-freearea > ins.dmm-widget-placement:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockSide > div.blockWrapper > div.blockBody > center > ins.dmm-widget-placement:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["channelz.blog.fc2.com"]},"kind":"extended","selector":".plugin1:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["jukujo-neet.xyz"]},"kind":"extended","selector":".ad> div.textwidget:has(> center > a[href^=\"http:\/\/pcmax.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jukujo-neet.xyz"]},"kind":"extended","selector":".menu_underh2:contains(PCMAX)"},{"domains":{"excludeDomains":[],"includeDomains":["seinaruyakata.jp"]},"kind":"extended","selector":".plg > div > div.plugin-freearea > div.eroterest_partsv2:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["sumomo-ch.com"]},"kind":"extended","selector":".sidebar-t:contains(\/ランキング|エロ情報\/)"},{"domains":{"excludeDomains":[],"includeDomains":["adultangel.com"]},"kind":"extended","selector":".col-lg-7 > table[width=\"100%\"]:has(a[href*=\":\/\/click.dtiserv2.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["adultangel.com"]},"kind":"extended","selector":".col-lg-7 > table[width=\"100%\"]:has(a[href*=\":\/\/click.dtiserv2.com\"]) + img[alt=\"AngelPickUp\"]"},{"domains":{"excludeDomains":[],"includeDomains":["pref.oita.jp"]},"kind":"extended","selector":"#main .content_area:has(.banner_list a[href^=\"\/adv\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["draft-repo.com"]},"kind":"extended","selector":"#menu2Block > div.menuBlockBase:has(> div > div > div.plugin-freearea > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["aumo.jp"]},"kind":"extended","selector":".side-col:first-child:has(> div.dfp-wrapper)"},{"domains":{"excludeDomains":[],"includeDomains":["moshi-nara.com"]},"kind":"extended","selector":".main-kizi-box:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["doucolle.net"]},"kind":"extended","selector":"#extra div.sidetitle:contains(DMM)"},{"domains":{"excludeDomains":[],"includeDomains":["free-fonts.jp"]},"kind":"extended","selector":"#sidebar > .widget:has(> p > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["gift-for-loved-one.tokyo"]},"kind":"extended","selector":".main-inner > .widget_text:has(> div > center > div.ml-slider)"},{"domains":{"excludeDomains":[],"includeDomains":["gosyuinsanpo.com","gotrip.jp"]},"kind":"extended","selector":".widget_text > div > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":"h3[class^=\"_\"] + div > ul[class^=\"_\"] + div:has(> p[class^=\"_\"]:contains(PR))"},{"domains":{"excludeDomains":[],"includeDomains":["moeyo.com"]},"kind":"extended","selector":".side_title:contains(FANZA)"},{"domains":{"excludeDomains":[],"includeDomains":["moeyo.com"]},"kind":"extended","selector":"#right > div.side_box:has(> center > ins.dmm-widget-placement)"},{"domains":{"excludeDomains":[],"includeDomains":["moeyo.com"]},"kind":"extended","selector":"#left > div.side_box:has(> center > div > a[href^=\"https:\/\/al.dmm.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["city.chichibu.lg.jp"]},"kind":"extended","selector":"#RightPane > div.rs_preserve:has(> div.standardInfo > div.standardInfo_head_body > h2:contains(企業広告欄))"},{"domains":{"excludeDomains":[],"includeDomains":["shogi.or.jp"]},"kind":"extended","selector":"div[class^=\"column\"] > div.inner:has(> div[id^=\"div-gpt-ad-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kyuusai2nd.net"]},"kind":"extended","selector":"td[width=\"100%\"]:has(> table[border=\"0\"] > tbody > tr > td[width=\"100%\"] > table[border=\"0\"] > tbody > tr > td > a[href^=\"https:\/\/al.dmm.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kyuusai2nd.net"]},"kind":"extended","selector":"table[border=\"0\"]:has(> tbody > tr > td[width=\"50%\"] > a[href^=\"https:\/\/al.dmm.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hellokpop.site"]},"kind":"extended","selector":"#box2-inner > .hatena-module-html:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kosoch.com"]},"kind":"extended","selector":"#plugin2 > div.sub-container > div.plugin-freearea:has(> div > div >ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["windowsfaq.net"]},"kind":"extended","selector":"body > .text-center[style*=\"height:\"][style*=\"280px\"]:has(+ nav > ul:empty)"},{"domains":{"excludeDomains":[],"includeDomains":["yaraon-blog.com"]},"kind":"extended","selector":"dl[id^=\"mytextwidget-\"].corner:has(a[href^=\"https:\/\/rcv.ixd.dmm.com\/api\/surl\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ashikosu.com","chikubi-mu.com","gokkun.biz","kochokocho.net","mazomenzu.com","meisaku.org","petanko.biz","pisuton.com","sadomazomama.com","sukatoromama.com"]},"kind":"extended","selector":"font[color=\"red\"]:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["ashikosu.com","chikubi-mu.com","gokkun.biz","kochokocho.net","mazomenzu.com","meisaku.org","petanko.biz","pisuton.com","sadomazomama.com","sukatoromama.com"]},"kind":"extended","selector":"#list:has(> div.entry-card > div > p > span.category:contains(PR))"},{"domains":{"excludeDomains":[],"includeDomains":["wife-board.net"]},"kind":"extended","selector":"tbody > tr:has(> td > iframe[src$=\"\/pr\/bannercx81.php\"])"},{"domains":{"excludeDomains":[],"includeDomains":["gaccom.jp"]},"kind":"extended","selector":".contentTitle.ui-bar-gray:has(+ .table-b > .rank[class*=\"-list\"])"},{"domains":{"excludeDomains":[],"includeDomains":["gaccom.jp"]},"kind":"extended","selector":".contentTitle.ui-bar-gray:has(+ .table-b > .recipe-side-img-area)"},{"domains":{"excludeDomains":[],"includeDomains":["gaccom.jp"]},"kind":"extended","selector":".table-b:has(> .rank[class*=\"-list\"])"},{"domains":{"excludeDomains":[],"includeDomains":["gaccom.jp"]},"kind":"extended","selector":".table-b:has(> .recipe-side-img-area)"},{"domains":{"excludeDomains":[],"includeDomains":["utaten.com"]},"kind":"extended","selector":"tbody > tr:has(> td > aside.sideBySideBanner)"},{"domains":{"excludeDomains":[],"includeDomains":["city.kounosu.saitama.jp"]},"kind":"extended","selector":".top_content6:has(>  ul#top_banner_5_list)"},{"domains":{"excludeDomains":[],"includeDomains":["twiman.net"]},"kind":"extended","selector":"p.text-center.caption:contains(\/^スポンサーリンク\/)"},{"domains":{"excludeDomains":[],"includeDomains":["city.hadano.kanagawa.jp"]},"kind":"extended","selector":"#main.contents div[class^=\"section_\"]:has(img[src^=\"\/www\/banner\/images\"][src$=\".gif\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hre-net.com"]},"kind":"extended","selector":".other-link:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["hre-net.com"]},"kind":"extended","selector":".other-link:has(> div[style] > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["hre-net.com"]},"kind":"extended","selector":"#bnr-side-top > .list-wrap > li:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["matomeantena.com"]},"kind":"extended","selector":".main-box > ul.list > li > script[src^=\"https:\/\/img.ad-nex.com\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mirrorz.jp"]},"kind":"extended","selector":"#sranking > div > dl a[onclick^=\"ga\"]:upward(dl)"},{"domains":{"excludeDomains":[],"includeDomains":["puzzle-ch.com"]},"kind":"extended","selector":".box_sidebar > .line:contains(\/^★(?:スポンサードリンク|おすすめ)$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["kk1up.jp"]},"kind":"extended","selector":".widget_text > div.widget_inner > div.textwidget > p > ins.adsbygoogle:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["hadakanonude.com"]},"kind":"extended","selector":".entry-inner > p:contains(\/^PR$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["volx.jp"]},"kind":"extended","selector":".entry-content > p > a[href^=\"\/\/af.moshimo.com\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["xfolio.jp"]},"kind":"extended","selector":".swiper-wrapper > div.swiper-slide:has(> div.ad_swiper_card)"},{"domains":{"excludeDomains":[],"includeDomains":["xfolio.jp"]},"kind":"extended","selector":"#ranking_ul > li.cardList__list_item:has(> div.grandRankingAd)"},{"domains":{"excludeDomains":[],"includeDomains":["ticketfes.jp"]},"kind":"extended","selector":"[class^=\"css-\"] > div[class^=\"css-\"]:has(> amp-ad)"},{"domains":{"excludeDomains":[],"includeDomains":["nuki-dokoro.com"]},"kind":"extended","selector":".grid_post-box > div.post-box-contents > div[id^=\"imobile_ad\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["2-carat.net"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"\/\/static.criteo.net\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["akb48matomemory.com"]},"kind":"extended","selector":".plugin-memo:has(> div.side > div[class^=\"uz-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["japohan.net"]},"kind":"extended","selector":"div > center:contains(Sponsored Link)"},{"domains":{"excludeDomains":[],"includeDomains":["eurus.dti.ne.jp"]},"kind":"extended","selector":"body > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["eurus.dti.ne.jp"]},"kind":"extended","selector":"td[colspan=\"2\"]:contains(\/^スポンサードリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["jnews1.com"]},"kind":"extended","selector":".plugin-memo:has(> div.side > a[href^=\"https:\/\/hb.afl.rakuten.co.jp\/ichiba\"])"},{"domains":{"excludeDomains":[],"includeDomains":["dev.ftbucket.info"]},"kind":"extended","selector":"body > font[size=\"2\"]:contains(\/^広告$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["air-nifty.com","cocolog-nifty.com","hypplcs.com","moe-nifty.com","tea-nifty.com","txt-nifty.com","way-nifty.com"]},"kind":"extended","selector":".module-typelist:has(> div.module-inner > div.module-content > ul > li > div > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["womanlife.online"]},"kind":"extended","selector":"h3:has(+ div[id^=\"woman-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["orenoraresne.com"]},"kind":"extended","selector":".entry-content > div.wp-block-image:has(> figure > a.no-icon)"},{"domains":{"excludeDomains":[],"includeDomains":["mercari.com"]},"kind":"extended","selector":"div[style^=\"padding-top\"] > div[class^=\"_container_\"]:has(> div[class^=\"_wrapped-about-ads-link\"])"},{"domains":{"excludeDomains":[],"includeDomains":["googirl.jp"]},"kind":"extended","selector":".newentry_in > li.cf:not(:has(> a))"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".plg_body > div[style] > a[href^=\"https:\/\/www.dlsite.com\/pro\/dlaf\"][target=\"_blank\"] > img:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["picb2.com"]},"kind":"extended","selector":".d-md-block > h3.forum-information:has(> i)"},{"domains":{"excludeDomains":[],"includeDomains":["mineralfoundation.work"]},"kind":"extended","selector":".container > div.sub-content > div[align=\"center\"]:contains(\/^- PR -$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["kininaru-geinou-m.blog.jp"]},"kind":"extended","selector":".main-container > div:contains(\/^【スポンサードリンク】$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["solodc2017.com"]},"kind":"extended","selector":"p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["splatoon-torikara.com"]},"kind":"extended","selector":".side-section > div[data-as-slot-id]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["yamareco.com"]},"kind":"extended","selector":"#sidebar_right > div.box > div.bg_white > div > div.fw-b > a[href^=\"http:\/\/yamare.co\/amz\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["yamareco.com"]},"kind":"extended","selector":".all > div.innner > div.block:last-child:has(> div#extarea)"},{"domains":{"excludeDomains":[],"includeDomains":["re-file.com"]},"kind":"extended","selector":"#mainWrap > center:has(div[id^=\"div_fam8\"])"},{"domains":{"excludeDomains":[],"includeDomains":["re-file.com"]},"kind":"extended","selector":"#mainWrap > center:has(div[id^=\"div_fam8\"]) + br"},{"domains":{"excludeDomains":[],"includeDomains":["re-file.com"]},"kind":"extended","selector":".sideWrapFrame > ul > li ~ center:has(> a[href^=\"http:\/\/smalog.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["w.atwiki.jp"]},"kind":"extended","selector":"#wikibody > div:not([id], [class]):nth-last-of-type(2):has(> a):contains(<PR>)"},{"domains":{"excludeDomains":[],"includeDomains":["yakuji.co.jp"]},"kind":"extended","selector":".aside > div.category-list > span.ad-text03:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["minaminumaebi.blogmimi.com"]},"kind":"extended","selector":"div[style^=\"float:\"] > p:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["zuuonline.com"]},"kind":"extended","selector":".aside-banner > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".entry-content > link[href$=\"\/default.css\"] + span[style=\"font-size:12px;\"]:contains(スポンサード)"},{"domains":{"excludeDomains":[],"includeDomains":["dietnavi.com"]},"kind":"extended","selector":".logout_text + div.timesale > ul > li > div > div[id^=\"div-gpt-\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["izzetmtgnews.com"]},"kind":"extended","selector":"#related-entries > h2:has(+ div.ads)"},{"domains":{"excludeDomains":[],"includeDomains":["rakukan.net"]},"kind":"extended","selector":".module:has(> script[src^=\"https:\/\/js.ad-spire.net\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["asianoneta.blog.jp"]},"kind":"extended","selector":"font:contains(Sponsored Links)"},{"domains":{"excludeDomains":[],"includeDomains":["news-us.org"]},"kind":"extended","selector":".elementor-heading-title:contains(Sponsored Links)"},{"domains":{"excludeDomains":[],"includeDomains":["i2chmeijin.com"]},"kind":"extended","selector":".plugin2_outline > div.plugin2_title:contains(\/amazon|スポンサーリンク\/)"},{"domains":{"excludeDomains":[],"includeDomains":["netmile.co.jp"]},"kind":"extended","selector":"li > dl.pr:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["t-mall.tsite.jp"]},"kind":"extended","selector":".heightLine-4 > div#pc-tmall-gamelist-gamelist:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["comic.nan-net.com"]},"kind":"extended","selector":".widget_text > h3.sidebar-widget-title:contains(人気作)"},{"domains":{"excludeDomains":[],"includeDomains":["hicbc.com"]},"kind":"extended","selector":".list-main-article__header:has(+ div.OUTBRAIN)"},{"domains":{"excludeDomains":[],"includeDomains":["s.mognavi.jp"]},"kind":"extended","selector":".newItemList > li:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["kandatasokuho.com"]},"kind":"extended","selector":".side-menu > div > div.plugin-freearea > div > a[name=\"amachazllink\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["kandatasokuho.com"]},"kind":"extended","selector":".side-menu > h4:contains(ｽﾎﾟﾝｻｰﾘﾝｸ)"},{"domains":{"excludeDomains":[],"includeDomains":["hatenablog.com","kobonemi.com"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > iframe[src^=\"https:\/\/rcm-fe.amazon-adsystem.com\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["cnmi-dfw.com"]},"kind":"extended","selector":".widget_block script[src^=\"https:\/\/img.ad-nex.com\"]:upward(.widget_block)"},{"domains":{"excludeDomains":[],"includeDomains":["xn--68jza6c6j4c9e9094b.jp"]},"kind":"extended","selector":"#text2 > p + p + p:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["times.abema.tv"]},"kind":"extended","selector":".l-main > div.l-main-row:has(> .main-adarea)"},{"domains":{"excludeDomains":[],"includeDomains":["keisanki.me"]},"kind":"extended","selector":".block > div.container > div.row > article:has(> div > div > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["connpass.com"]},"kind":"extended","selector":"#main > .text_center:has(> .inline > div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jacom.or.jp"]},"kind":"extended","selector":"div[class^=\"banner\"] > a:not([href*=\":\/\/www.ja\"]):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["oppainorakuen.com"]},"kind":"extended","selector":"#sidemenu2 > dl.sidemenu_body:has(a[href^=\"http:\/\/www.e-nls.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["sow.blog.jp"]},"kind":"extended","selector":".sidetitlebody > .sidetitle:contains(AD)"},{"domains":{"excludeDomains":[],"includeDomains":["f1jouhou2.com"]},"kind":"extended","selector":".rmenubox + div.p1_title:contains(【PR】)"},{"domains":{"excludeDomains":[],"includeDomains":["f1jouhou2.com"]},"kind":"extended","selector":".rmenubox > div.plugin-freearea > div[style^=\"width:230px\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["kaigainoomaera.com"]},"kind":"extended","selector":".plugin_right > div > div > script[src$=\"\/rakuten_widget.js\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["kokopyon.net"]},"kind":"extended","selector":".plg_area > h2.plg_title:contains(スポンサー):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["nmbschedule.blog.fc2.com"]},"kind":"extended","selector":"#secondary-column > div.sidebar > div[style^=\"text-align:\"] > div.plugin-freearea > div.kaerebalink-box:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["dqmj.info"]},"kind":"extended","selector":".side_main > img[src=\"img\/index_book.gif\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["dqmj.info"]},"kind":"extended","selector":".side_main > img[src=\"img\/index_series.gif\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["anacap.doorblog.jp"]},"kind":"extended","selector":".plugin-memo script[src]:upward(.plugin-memo)"},{"domains":{"excludeDomains":[],"includeDomains":["fashionsnap.com"]},"kind":"extended","selector":"div[class] > div:not([class]) > div > div.OB-REACT-WRAPPER:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["fashionsnap.com"]},"kind":"extended","selector":"#mainArticleBottom_leftUnit:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["fashionsnap.com"]},"kind":"extended","selector":"#__next  > div[class^=\"_\"] > div[class]:has(> div > p:contains(ADVERTISING))"},{"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"kind":"extended","selector":"#related-posts:has(> ul > amp-list)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.excite.co.jp","exblog.jp"]},"kind":"extended","selector":"#gpt_pc_blog_header:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["geartics.com"]},"kind":"extended","selector":".mt-6 > div.ads-double:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ita-do.com"]},"kind":"extended","selector":".box02:has(> .ad01)"},{"domains":{"excludeDomains":[],"includeDomains":["buffalo.jp"]},"kind":"extended","selector":"table > tbody > tr:has(> td.txt-top > div.el-list em:contains(PR))"},{"domains":{"excludeDomains":[],"includeDomains":["withonline.jp"]},"kind":"extended","selector":"#ranking-part > ul.tab_content > li[class]:has(> a[data-google-interstitial])"},{"domains":{"excludeDomains":[],"includeDomains":["refind2ch.org"]},"kind":"extended","selector":".list-group > tr:has(> td[style=\"text-align:center\"] > div[style^=\"padding-top:30px;\"])"},{"domains":{"excludeDomains":[],"includeDomains":["yahoo.co.jp"]},"kind":"extended","selector":"div[class^=\"Sports_StreamSports\"] > aside[class^=\"ArticleBox_ArticleBox\"]:has(> a[href^=\"https:\/\/app.adjust.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["meiwasuisan.com"]},"kind":"extended","selector":"tr > td[colspan=\"4\"][align=\"center\"]:has(> script[src^=\"https:\/\/xml.affiliate.rakuten.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["gammaplus.takeshobo.co.jp"]},"kind":"extended","selector":".bnr__section:has(script[src^=\"https:\/\/js.ad-stir.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["nme-jp.com"]},"kind":"extended","selector":".post-content ~ div.row:has(> div[class^=\"col-xs\"] > div.post-banner)"},{"domains":{"excludeDomains":[],"includeDomains":["privatter.net"]},"kind":"extended","selector":".hidden-sm > p > a[data-target=\"#adModal\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["favsite.jp"]},"kind":"extended","selector":".content-rank > div > div.content-rank-img > a[href*=\"www.dlsite.com\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["itaishinja.com"]},"kind":"extended","selector":".plugin-memo > div.side > div > script[src*=\"i-mobile.co.jp\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["kitimama-matome.net"]},"kind":"extended","selector":".plugin-memo > div.side > div > script[src$=\"\/rakuten_widget.js\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["amigo.tennis365.net"]},"kind":"extended","selector":"#sitemap_right > div.ul_main > h3:contains(ADリンク):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ameba.jp"]},"kind":"extended","selector":"article.HomeBlogFeed_Article_Card > div.HomeBlogFeed_Article_Ad_Loading:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["mixi.jp"]},"kind":"extended","selector":".feed01 > div.adMain:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["search.yahoo.co.jp"]},"kind":"extended","selector":"#contentsInner > div[class^=\"ContentWrapper_wrapper_\"]:has(> div[class^=\"SS_SS__\"] > ul > li > article > a > span:matches-css(before, content: \/^広告$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["nishinippon.co.jp"]},"kind":"extended","selector":".p-content > #external-feed > .p-grid__item:has(> .p-content-header > .c-heading-h2--pr > .c-heading-h2--pr__inner > .c-heading-h2__text > span:contains([PR]))"},{"domains":{"excludeDomains":[],"includeDomains":["zch-vip.com"]},"kind":"extended","selector":".acr_ranking_sys > tbody > tr > td > div[id^=\"imobile_ad\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog103.fc2.com"]},"kind":"extended","selector":"div[class$=\"BlockBase\"] > div > div > div.plugin-freearea > div > a[href^=\"https:\/\/hb.afl.rakuten.co.jp\/hsc\/\"][target=\"_blank\"]:upward(5)"},{"domains":{"excludeDomains":[],"includeDomains":["blog120.fc2.com"]},"kind":"extended","selector":"div[class$=\"BlockBase\"] > div > div > div.plugin-freearea > a[href^=\"https:\/\/www.amazon.co.jp\/dp\/\"][target=\"_blank\"] > img:upward(5)"},{"domains":{"excludeDomains":[],"includeDomains":["minnyuu.jp"]},"kind":"extended","selector":"div[class$=\"BlockBase\"] > div > div > div.plugin-freearea > ins.dmm-widget-placement:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["minnyuu.jp"]},"kind":"extended","selector":"div[class$=\"BlockBase\"] > div > div > div.plugin-freearea > script[src*=\":\/\/js.\"][src*=\"\/t\/\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["game8.jp"]},"kind":"extended","selector":"div[style=\"margin: 30px 10px 10px\"] > h2.a-header--2:has(+ div[id^=\"g8-ad-placement\"])"},{"domains":{"excludeDomains":[],"includeDomains":["nikonikona.blog.2nt.com"]},"kind":"extended","selector":"center > table > tbody > tr > td > center > a.overwhite[target=\"_blank\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["ibarakinews.jp"]},"kind":"extended","selector":".l-ad32 > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["adult-machiko.com"]},"kind":"extended","selector":".content_box:has(> ul.pr5)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.2nt.com"]},"kind":"extended","selector":"aside[class^=\"plugin_\"] > div.plg_body > center > div > a[href^=\"https:\/\/dlsoft.dmm.co.jp\"][target=\"_blank\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["jj-labo.seesaa.net"]},"kind":"extended","selector":".module--free h3.module__heading:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kirinstation.seesaa.net"]},"kind":"extended","selector":".-freeArea:has(> div > center > a[href^=\"https:\/\/www.amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kirinstation.seesaa.net"]},"kind":"extended","selector":".-freeArea:has(> div > center > a[href^=\"https:\/\/click.linksynergy.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["eroduma.com"]},"kind":"extended","selector":"#extra div.plugin-memo:has(> div.side > div > div.sample_block > a[href^=\"https:\/\/adult.contents.fc2.com\/aff.php\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kokuhakutaiken.com"]},"kind":"extended","selector":".plugin2_outline:has(> div > div.plugin-freearea > div[align=\"center\"] > a[href^=\"https:\/\/amzn.to\"][target=\"_blank\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kokuhakutaiken.com","netoraretaiken.com"]},"kind":"extended","selector":"div[class$=\"_outline\"] > div > div.plugin-freearea > a[href^=\"https:\/\/www.e-nls.com\/access.php\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["kokuhakutaiken.com","netoraretaiken.com"]},"kind":"extended","selector":"div[class$=\"_outline\"]:has(.sample_block > a[href^=\"https:\/\/adult.contents.fc2.com\/aff.php\"])"},{"domains":{"excludeDomains":[],"includeDomains":["moetataiken.com"]},"kind":"extended","selector":".plugin-memo > div.side > a[href^=\"https:\/\/book.dmm.co.jp\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["netoraretaiken.com"]},"kind":"extended","selector":"div[class$=\"_outline\"] > div > div.plugin-freearea > div > a[href^=\"https:\/\/book.dmm.co.jp\"]:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["netorarezukiview.com"]},"kind":"extended","selector":".side_plugin:has(> div > div > div.plugin-freearea > div > a[href^=\"https:\/\/al.dmm.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["netorarezukiview.com"]},"kind":"extended","selector":".side_plugin:has(> div > div > div.plugin-freearea > a[href^=\"https:\/\/amzn.to\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kahoku.news"]},"kind":"extended","selector":"p.vr2_cate-title:has(+ .vr2_prlist)"},{"domains":{"excludeDomains":[],"includeDomains":["kahoku.news"]},"kind":"extended","selector":".vr2_articleslist > .vr2_articleslist__item:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["doorblog.jp"]},"kind":"extended","selector":".plugin-memo:has(> div.side > div[align=\"center\"] > script[src$=\"\/show_ads.js\"])"},{"domains":{"excludeDomains":[],"includeDomains":["minute.jp"]},"kind":"extended","selector":".p-articlePageRelatedArticles__post > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["matome-tarou.ldblog.jp"]},"kind":"extended","selector":".article-body-inner > table:has(> tbody div[class^=\"google-user-ad-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["nijimoemoe.com"]},"kind":"extended","selector":".plugin-memo > div.side > center > div[id^=\"im-\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["nijimoemoe.com"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"\/\/150601.fc2rs.com\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["eroitaiken.blog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div.banner:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["teams.one"]},"kind":"extended","selector":".sideColumnContainer > .content-block > .pr-block:not(:has(a[href=\"\/reserve\/omiyakenpo\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["amaebi.co"]},"kind":"extended","selector":".module--free > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["geinoujam.com"]},"kind":"extended","selector":".article-body-inner h4:contains(\/FANZA|Gcolle|ランダム\/)"},{"domains":{"excludeDomains":[],"includeDomains":["mukakin-blog.com"]},"kind":"extended","selector":".module--free > div[style=\"text-align:center;\"] > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["xn--l8j1bc5qvlge4c1402b4ha377l2f3cvvyd.com"]},"kind":"extended","selector":"div:not([style]) > div[style=\"text-align:center;\"] > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["loveh.org"]},"kind":"extended","selector":".bigpickupin > a[href^=\"https:\/\/www.dmm.co.jp\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gahalog.2chblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > center > div#verticalrank:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["gossip1.net","namaxchang.com"]},"kind":"extended","selector":".module--free > div > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.esuteru.com"]},"kind":"extended","selector":"#more > center:last-of-type:has(> a[href$=\"300x250.php\"])"},{"domains":{"excludeDomains":[],"includeDomains":["femimatsu.com"]},"kind":"extended","selector":".-freeArea > div.adAmazon:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["hdata.seesaa.net"]},"kind":"extended","selector":"#links > div[align=\"center\"]:has(> table[style])"},{"domains":{"excludeDomains":[],"includeDomains":["hdata.seesaa.net"]},"kind":"extended","selector":"#links > div.sidetitle:contains(注目)"},{"domains":{"excludeDomains":[],"includeDomains":["pokemon-goh.doorblog.jp"]},"kind":"extended","selector":".plugin-memo > div.google-user-ad-side:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["rabitsokuhou.2chblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div#nav > div.adblock:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["irasutoya.com"]},"kind":"extended","selector":".HTML > div > div.entryadwrapper2:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["bipblog.com"]},"kind":"extended","selector":".main_left_block > div#BottomAmazon:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["netamesi.com"]},"kind":"extended","selector":".article__content > div:not([class]) > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".FeatureBox_Magazine > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["bi-girl.net"]},"kind":"extended","selector":".footer_ranking_wrap > div.osusume_av_wrapper:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div[align=\"center\"] > ins.adsbygoogle:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["sow.blog.jp"]},"kind":"extended","selector":".article-body-more div:has(> a[target=\"_blank\"][href^=\"https:\/\/www.amazon.co.jp\/dp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["anime.eiga.com"]},"kind":"extended","selector":".articleContainer > div.articleInner > ul.relatedItemList:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["anihatsu.com"]},"kind":"extended","selector":".plugin-memo > div.side > div > div.google-user-ad-side:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["chiebukuro.yahoo.co.jp"]},"kind":"extended","selector":"div[class^=\"Top_chie-Pages__ColumnItem--Sub\"] > div[class^=\"Top_chie-Pages__SubColumnSection--Box\"]:has(> #ad_lrec:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["figsoku.net"]},"kind":"extended","selector":".pluginWrap > div > div > a[target=\"_blank\"][rel=\"noopener\"] > img:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["fevian.org"]},"kind":"extended","selector":"article > a[href^=\"https:\/\/al.dmm.co.jp\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["kijyomita.com"]},"kind":"extended","selector":".plugin-memo > div.side > center > script[src^=\"https:\/\/cdn-fluct.sh.adingo.jp\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["anicobin.ldblog.jp"]},"kind":"extended","selector":".related-wadai:contains(ベストセラー)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":"div[class^=\"style\"] > div[class^=\"style\"] > div[class^=\"style\"] > div[data-testid$=\"AdUnit\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":".p-items_main > div > div[class^=\"style-\"] > div[class^=\"style-\"] > div[id^=\"logly-\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["hiroburo.com"]},"kind":"extended","selector":".module--free > center:has(> a[href] + br + iframe[src^=\"https:\/\/www.youtube.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["slotlog.net"]},"kind":"extended","selector":".plugin-memo:has(> div.side > div > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["zch-vip.com"]},"kind":"extended","selector":".plugin-memo > div.side > div > script[src^=\"http:\/\/spdeliver.i-mobile.co.jp\/script\/ads.js\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > script[src*=\".jp\/ufo\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["moyugenn.com"]},"kind":"extended","selector":".moyugenn-c:contains(Amazonランキング)"},{"domains":{"excludeDomains":[],"includeDomains":["m4ex.com"]},"kind":"extended","selector":"b > div > a[href^=\"https:\/\/al.dmm.co.jp\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["w-higa.com"]},"kind":"extended","selector":"#right_col > div:not([class]):contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["marshmallow-qa.com"]},"kind":"extended","selector":"body > main + div.d-flex:has(> div.my-4 > div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["counter-attaaack.net"]},"kind":"extended","selector":".entry-body > center:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["48idol.*"]},"kind":"extended","selector":".elementor-widget-container:has(> center:only-child >.for-floating)"},{"domains":{"excludeDomains":[],"includeDomains":["48idol.*"]},"kind":"extended","selector":".elementor-widget-container:has(> center:only-child > div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"kind":"extended","selector":".l-side-block--banner:has(> div.ad)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"kind":"extended","selector":".plugin-freearea > div[style^=\"width:300px\"] > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["newsee-media.com"]},"kind":"extended","selector":".mb0 > div.s-side-title-header > [class^=\"s-side-\"]:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp","ldblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div[class^=\"alistcloud-container\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["economical.co.jp"]},"kind":"extended","selector":".side-topad > div.widget_st_custom_html_widget:has(> div > p > a[href^=\"\/\/ck.jp.ap.valuecommerce.com\/servlet\/referral\"])"},{"domains":{"excludeDomains":[],"includeDomains":["picb2.com"]},"kind":"extended","selector":".forum-information > font:contains(楽天)"},{"domains":{"excludeDomains":[],"includeDomains":["bantyou.livedoor.biz","eroduma.com","ldblog.jp","moetataiken.com"]},"kind":"extended","selector":".plugin-memo:has(> div.side > a[href^=\"http:\/\/www.e-nls.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["seesaawiki.jp"]},"kind":"extended","selector":".user-area > table#content_block_1:has(a[href^=\"http:\/\/ck.jp.ap.valuecommerce.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["bukidobi.com","tennimuhou.com","texal.jp"]},"kind":"extended","selector":".widget_custom_html > div > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["appbank.net"]},"kind":"extended","selector":"aside > div.img-row:has(> div.one-half > h5 > a[href^=\"https:\/\/www.amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["blog.nicovideo.jp"]},"kind":"extended","selector":".l-aside-item-inner > ul.l-aside-prlist:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["moeimg.net"]},"kind":"extended","selector":".widget-area > div.widget-container:has(> div.pr_box)"},{"domains":{"excludeDomains":[],"includeDomains":["fukuishimbun.co.jp"]},"kind":"extended","selector":"#wrapper > div[style^=\"text-align:center;\"] > div[id^=\"div-gpt-ad\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":".p-items_main > div > div[class]:has(> div > div[class] > div[class] > div[class^=\"ad-\"][class$=\"0\"])"},{"domains":{"excludeDomains":[],"includeDomains":["seesaa.net"]},"kind":"extended","selector":".module--free > center > a[href^=\"https:\/\/prf.hn\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["seesaa.net"]},"kind":"extended","selector":".module--free > center > script[src*=\"\/\/adm.shinobi.jp\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["seesaa.net"]},"kind":"extended","selector":".module--free > center > script[src*=\"i-mobile.co.jp\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["moez-m.com"]},"kind":"extended","selector":".widget-content-top table.has-fixed-layout td:has(> div > div.topprimg)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":"div[id^=\"New2HomeTrendPage-\"] > div[class] > div[class] > div[class]:has(> div#trend-side-ad:only-child)"},{"domains":{"excludeDomains":[],"includeDomains":["jobcatalog.yahoo.co.jp"]},"kind":"extended","selector":"div[class*=\"__\"] > div[id$=\"ad1\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asobu.blog"]},"kind":"extended","selector":".ark-block-columns:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kabushiki.jp"]},"kind":"extended","selector":"ul[class^=\"top-news--items-\"] > li[class^=\"cmn-summary-\"] > div[id^=\"div-gpt-ad\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gfoodd.com"]},"kind":"extended","selector":".code-block > div.sponserdrink:has(+ .ninja-recommend-block)"},{"domains":{"excludeDomains":[],"includeDomains":["ckworks.jp"]},"kind":"extended","selector":"#rightContentsInnerBox > article.articleBox > div.articleSubBox:has(> .listItemGoodsSingleLarge)"},{"domains":{"excludeDomains":[],"includeDomains":["xn--w8jtkjf8c570x.com"]},"kind":"extended","selector":".post > strong > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["telling.asahi.com"]},"kind":"extended","selector":".c-article-block:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["colordic.org"]},"kind":"extended","selector":"footer > div.container > div.row:not(:has(.text-muted))"},{"domains":{"excludeDomains":[],"includeDomains":["plant-world.biz"]},"kind":"extended","selector":".article-body > center:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["jpnculture.net"]},"kind":"extended","selector":".widget_custom_html.ad:has(> .textwidget > center > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["renote.net"]},"kind":"extended","selector":".article__bottom__container > div.article__bottom__ad__container:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".l-aside > div[class] > div[class]:has(> div.Section > div.Pr)"},{"domains":{"excludeDomains":[],"includeDomains":["iwate-np.co.jp"]},"kind":"extended","selector":".article-list > li:has(> div[id^=\"yads_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["norisoku.com"]},"kind":"extended","selector":".inyou + p:has(> a[href^=\"https:\/\/www.amazon.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ff14hikasensokuhou.com"]},"kind":"extended","selector":"div.plugin_item:has(> div.plugin_content > h2 > span:contains(\/スポンサーリンク|オススメ記事\/))"},{"domains":{"excludeDomains":[],"includeDomains":["fukuishimbun.co.jp"]},"kind":"extended","selector":".article-body > .inread:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["ongakumichi523.jp"]},"kind":"extended","selector":"#main_contents > .content:has(> h3.plg_header:contains(スポンサーリンク))"},{"domains":{"excludeDomains":[],"includeDomains":["ongakumichi523.jp"]},"kind":"extended","selector":"#sidemenu > .sidemenu_content:has(> h3.plg_header:contains(スポンサーリンク))"},{"domains":{"excludeDomains":[],"includeDomains":["switchsoku.com"]},"kind":"extended","selector":".l-main > div.dividerBottom > div.dividerBottom:has(> aside.widget > div.adWidget)"},{"domains":{"excludeDomains":[],"includeDomains":["aaieba.livedoor.biz"]},"kind":"extended","selector":".plugin-memo:has(> div.side > div > div[id^=\"mhub-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["kabuyoho.ifis.co.jp"]},"kind":"extended","selector":"#topix > .context:has(> #ad_centents_center)"},{"domains":{"excludeDomains":[],"includeDomains":["games.app-liv.jp"]},"kind":"extended","selector":".special_newarticle_list > li:has(> div.adsbygoogle_area)"},{"domains":{"excludeDomains":[],"includeDomains":["myoji-yurai.net"]},"kind":"extended","selector":".spSideNone:has(> li > div.app_icon)"},{"domains":{"excludeDomains":[],"includeDomains":["pref.shimane.lg.jp"]},"kind":"extended","selector":"#wrapper > .box-content > .inner > .box-other.t1:has(> .title:contains(企業広告))"},{"domains":{"excludeDomains":[],"includeDomains":["northwood.blog.fc2.com"]},"kind":"extended","selector":"#menu2Block > div.menuBlockBase:has(> div.menuBlockBody a[href^=\"https:\/\/click.linksynergy.com\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"kind":"extended","selector":".col-sm-4 > [id]:first-child:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"kind":"extended","selector":".sidebar > div[style=\"height:2px;overflow:hidden;\"] + [class]:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["w.grapps.me"]},"kind":"extended","selector":".main-contents > div.sp-only:has(> script[src^=\"\/\/j.microad.net\"])"},{"domains":{"excludeDomains":[],"includeDomains":["webcg.net"]},"kind":"extended","selector":".type-1 > li:has(> div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["onihimechan.com"]},"kind":"extended","selector":"#sub .sidewrapper:has(> .sidetitlebody > .sidetitle:contains(スポンサードリンク))"},{"domains":{"excludeDomains":[],"includeDomains":["kijomatomelog.com"]},"kind":"extended","selector":".sub_right > .sidewrapper:has(> .sidetitlebody > .sidetitle:contains(スポンサードリンク))"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".p-kurashi__list > div.p-kurashi__listItem:has(> div[id^=\"div-gpt-ad-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hinode.pics"]},"kind":"extended","selector":"#right_wrap > div.right_plugin_wrap:has(> div.right_plugin_body > div[style] > ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["chansoku.com"]},"kind":"extended","selector":"#sidebar-inner > span:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["traffic-exchange.tv"]},"kind":"extended","selector":"table[width=\"217\"]:has(a[href^=\"http:\/\/traffic-exchange.tv\/bannerShare\"])"},{"domains":{"excludeDomains":[],"includeDomains":["chil-chil.net"]},"kind":"extended","selector":".c-latest_main:has(> div.img > div[data-ad_space_id])"},{"domains":{"excludeDomains":[],"includeDomains":["jisaka.com"]},"kind":"extended","selector":".right-column-inner > div.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(スポンサードリンク))"},{"domains":{"excludeDomains":[],"includeDomains":["bike-news.jp"]},"kind":"extended","selector":"#detail > section.article-middle:has(> .box-wrap > .box-left > div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["match.com"]},"kind":"extended","selector":"div[style] > div[class^=\"css-\"]:has(> div[id^=\"gpt_\"])"},{"domains":{"excludeDomains":[],"includeDomains":["eromazofu.com"]},"kind":"extended","selector":"blockquote:has(> p > a[href^=\"https:\/\/nxcount.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"kind":"extended","selector":"#content-sticky > table:has(div.rcardImg)"},{"domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"kind":"extended","selector":"#content-sticky > table:has(td[style=\"padding-right: 16px;\"] > div.side_lo > div#RGPT_Rak_Blog_User_SideBanner)"},{"domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"kind":"extended","selector":".Section > div.Ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["namaeuranai.biz"]},"kind":"extended","selector":"div[style=\"margin:10px 0;\"] > div[style=\"height:280px;\"] > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["radichubu.jp"]},"kind":"extended","selector":".c-box:has(> div.uz-radichubu_pc)"},{"domains":{"excludeDomains":[],"includeDomains":["radichubu.jp"]},"kind":"extended","selector":".c-topics__card__item--half:has(> div.ad_pr)"},{"domains":{"excludeDomains":[],"includeDomains":["r.gnavi.co.jp"]},"kind":"extended","selector":".hatena-module-html > .hatena-module-body > div > div[id^=\"div-gpt-ad-\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["live.doneru.jp"]},"kind":"extended","selector":".l-sidebar > .widget:has(> .textwidget > p > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["smartasw.com"]},"kind":"extended","selector":".post_content > .has-border:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["all-freesoft.net"]},"kind":"extended","selector":"#site-box #d-box + div > font:contains(\/^スポンサーリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["all-freesoft.net"]},"kind":"extended","selector":"#site-box > #b-box > div > font:contains(\/^スポンサーリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["all-freesoft.net"]},"kind":"extended","selector":"table[summary] > tbody > tr[align=\"left\"][bgcolor]:has(> td > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["all-freesoft.net"]},"kind":"extended","selector":"table[summary] > tbody > tr[align=\"left\"][bgcolor]:has(> td > font:contains(\/^スポンサーリンク$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"kind":"extended","selector":".entry-content div[id^=\"oumi-\"]:has(> .oumi-adlabel)"},{"domains":{"excludeDomains":[],"includeDomains":["buzzfeed.com"]},"kind":"extended","selector":"li[class^=\" \"]:has(> div.Ad)"},{"domains":{"excludeDomains":[],"includeDomains":["calligra.design","dddfont.com","frames-design.com","fukidesign.com","kage-design.com"]},"kind":"extended","selector":".linkul > li:has(> script[src^=\"https:\/\/pagead2.googlesyndication.com\"])"},{"domains":{"excludeDomains":[],"includeDomains":["auctions.yahoo.co.jp"]},"kind":"extended","selector":"div[class^=\"LayoutMain-sc\"] > aside[class^=\"Component-sc\"]:has(> div[id^=\"adS\"])"},{"domains":{"excludeDomains":[],"includeDomains":["auctions.yahoo.co.jp"]},"kind":"extended","selector":"div[class^=\"LayoutMain-sc\"] > section[class^=\"Component-sc\"]:last-of-type:has(> div[id^=\"adS\"])"},{"domains":{"excludeDomains":[],"includeDomains":["inakadaisuki.com"]},"kind":"extended","selector":".post > table[style]:has(> tbody > tr > td > .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["tabikobo.com"]},"kind":"extended","selector":".main > .newTemp > p:last-child:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["jigen.net"]},"kind":"extended","selector":".section > div.clear:has(> a[href^=\"https:\/\/amazon.co.jp\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["uraaka-joshi.com"]},"kind":"extended","selector":"#pickup-block > .grid:has(iframe[src*=\"\/ad-d\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["uraaka-joshi.com"]},"kind":"extended","selector":"#main-block > .grid > div[class^=\"grid-cell\"]:has(iframe[src*=\"\/ad-d\/\"])"},{"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"kind":"extended","selector":".search-box ~ div.l-contents-block:has(.card-game-sale-rank--amazon)"},{"domains":{"excludeDomains":[],"includeDomains":["gigafree.net"]},"kind":"extended","selector":".sentence > p + div.width75:has(> div[align=\"center\"]:contains(\/^スポンサード リンク$\/))"},{"domains":{"excludeDomains":[],"includeDomains":["gigafree.net"]},"kind":"extended","selector":".bottombox > div > span[class=\"accent\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["gigafree.net"]},"kind":"extended","selector":".related-cate:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["gigafree.net"]},"kind":"extended","selector":".detail > .related:has(> .adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["jpstreamer.com","originalnew.org","tanweb.net"]},"kind":"extended","selector":".cardtype > .cardtype__article > .adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["sanyonews.jp"]},"kind":"extended","selector":".contents > div.OUTBRAIN:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["sanyonews.jp"]},"kind":"extended","selector":".contents > div.section_relation > div.uz-ny:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["ibarakinews.jp"]},"kind":"extended","selector":"div[class^=\"pr_list_contentsbox\"] > a > div > img[src^=\"https:\/\/ibarakinews.jp\/images\/common\/PR_\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["jomo-news.co.jp"]},"kind":"extended","selector":".top-articles > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ear-phone-review.com"]},"kind":"extended","selector":".card.example-1:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ear-phone-review.com"]},"kind":"extended","selector":".hatena-module-html > div > script:only-child:not([src]):upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["newmatoan.com"]},"kind":"extended","selector":".divh1:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["kichikuou.com"]},"kind":"extended","selector":".singleAdjust01 > div.adAdjust02:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["doujinonsei.jp"]},"kind":"extended","selector":".plugin_right > div > div.plugin-freearea > a[rel$=\"sponsored\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["englishhub.jp"]},"kind":"extended","selector":"#sidebar1 > div.widget_text:has(> div > div.center > a[target=\"_blank\"])"},{"domains":{"excludeDomains":[],"includeDomains":["creive.me"]},"kind":"extended","selector":".widget_custom_html > div > div[id^=\"jp_crv_\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["teller.jp"]},"kind":"extended","selector":"div[class^=\"css-\"] > div:not([class]) > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["japan.zdnet.com"]},"kind":"extended","selector":".pg-container-main-primary > section > div.pg-mod > h3.ttl-line-center:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["kuroyonhon.com"]},"kind":"extended","selector":".nav_div:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["annict.com"]},"kind":"extended","selector":".mt-3:has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["kidanlog.com"]},"kind":"extended","selector":".entry-content :not([class]):has(> ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["infraexpert.com"]},"kind":"extended","selector":"table[height=\"878\"] > tbody > tr:has(> td[height=\"307\"][bgcolor=\"#f8fafc\"][align=\"center\"])"},{"domains":{"excludeDomains":[],"includeDomains":["mbs.jp"]},"kind":"extended","selector":".common-wrap > div.OUTBRAIN:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["j-wave.co.jp"]},"kind":"extended","selector":".block_ad > div.img_ad > div#adbnr-s > ins.adsbygoogle:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["kabutan.jp"]},"kind":"extended","selector":"#acrank_top td[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["game-i.daa.jp"]},"kind":"extended","selector":".style_table > tbody > tr > td.style_td > div[class*=\"Rect\"][style^=\"margin:\"]:upward(tr)"},{"domains":{"excludeDomains":[],"includeDomains":["setusoku.com"]},"kind":"extended","selector":"#main center:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"kind":"extended","selector":".ad-area > div.ad-label:contains(\/^スポンサーリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"kind":"extended","selector":".section-title > p:contains(\/^スポンサーリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"kind":"extended","selector":".text-center > p:contains(スポンサー)"},{"domains":{"excludeDomains":[],"includeDomains":["katuru.com"]},"kind":"extended","selector":".ui-block-b:has(script:not([src]))"},{"domains":{"excludeDomains":[],"includeDomains":["warotanikki.com"]},"kind":"extended","selector":".widget_diver_widget_pcsp > div > div.adp:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["warotanikki.com"]},"kind":"extended","selector":".widget_diver_widget_pcsp > div > center > script[src$=\"\/adstir.js\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["blogterest.net"]},"kind":"extended","selector":".blockSide > div.blockWrapper > div > div[class$=\"eroterest_partsv2\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["cat.benesse.ne.jp","dog.benesse.ne.jp"]},"kind":"extended","selector":".ppg-panel__item:has(> div.ppg-panel-figure > div.ppg-panel-figure__inner > div.ppg-panel-figure__image--ad)"},{"domains":{"excludeDomains":[],"includeDomains":["39.benesse.ne.jp","39mag.benesse.ne.jp"]},"kind":"extended","selector":"li[class$=\"_item\"] > div[id^=\"div-M_MD_gtx_\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["2chblog.jp"]},"kind":"extended","selector":"#sidebar-inner > div.plugin-memo:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kabegami.jpn.org"]},"kind":"extended","selector":"#log-1[colspan=\"2\"]:contains(スポンサードリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["kabegami.jpn.org"]},"kind":"extended","selector":"body > div:not([style]) > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["kabegami.jpn.org"]},"kind":"extended","selector":"div[style=\"margin-left:175px;zoom:1;\"] > div[style=\"margin-top:10px;\"]:contains(\/^スポンサードリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["newsmatomedia.com"]},"kind":"extended","selector":"[class^=\"l-\"] > [class^=\"s-\"]:has( > [class^=\"ad-list\"])"},{"domains":{"excludeDomains":[],"includeDomains":["news4vip.livedoor.biz"]},"kind":"extended","selector":"div.plugin-memo:has(> div.side ins.adsbygoogle)"},{"domains":{"excludeDomains":[],"includeDomains":["workingnews117.com"]},"kind":"extended","selector":"div[class^=\"mainCommentBold\"]:contains(\/^(関連記事|PR|週間人気ページランキング)$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["anihatsu.com"]},"kind":"extended","selector":"div[class^=\"article-body\"] > blockquote:has(> div[align=\"center\"] > a[href*=\"amazon.co.jp\"])"},{"domains":{"excludeDomains":[],"includeDomains":["cnn.co.jp"]},"kind":"extended","selector":".pg-container-side div.cb-l1-m2:has(div.bnr-rect)"},{"domains":{"excludeDomains":[],"includeDomains":["yosakoimatsuri.com"]},"kind":"extended","selector":".custom-html-widget > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["dic.nicovideo.jp"]},"kind":"extended","selector":"div[style=\"margin-left: -4px;\"] > a.auto[href*=\"\/Ads\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":"#bigfooterpanel_general:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"kind":"extended","selector":".freespaceArea:has(> a[href^=\"\/\/ck.jp\"][rel=\"nofollow\"])"},{"domains":{"excludeDomains":[],"includeDomains":["hikak.com","shindans.com","zengin.ajtw.net","zyuken.net"]},"kind":"extended","selector":".adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["asajikan.jp"]},"kind":"extended","selector":".block-mobile > div[class^=\"list\"] > script[src^=\"https:\/\/cdn-fluct.sh.adingo.jp\/\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["fumumu.net"]},"kind":"extended","selector":".entryContents > h3:contains(おすすめ記事)"},{"domains":{"excludeDomains":[],"includeDomains":["46matome.net","keyakizaka46matomemory.net"]},"kind":"extended","selector":"#more > b:not(:contains(まとめもり～))"},{"domains":{"excludeDomains":[],"includeDomains":["hayamimi-gunpla.com"]},"kind":"extended","selector":"#p5tittle:contains(\/人気ランキング|商品|予約開始|発売|在庫\/)"},{"domains":{"excludeDomains":[],"includeDomains":["hayamimi-hobby.com"]},"kind":"extended","selector":".box-article > div.border-ao.text-center:contains(関連商品)"},{"domains":{"excludeDomains":[],"includeDomains":["hayamimi-hobby.com"]},"kind":"extended","selector":".page-desktop > div.text-dark:contains(\/プレバン|楽天\/)"},{"domains":{"excludeDomains":[],"includeDomains":["golfsapuri.com"]},"kind":"extended","selector":".typeB_ttl:contains(記事)"},{"domains":{"excludeDomains":[],"includeDomains":["mangaraw.co"]},"kind":"extended","selector":".my-2:not(:has(> div.card))"},{"domains":{"excludeDomains":[],"includeDomains":["socom.yokohama"]},"kind":"extended","selector":".entry > h3:contains(こちらの記事も)"},{"domains":{"excludeDomains":[],"includeDomains":["yukkuri-futaba.sakura.ne.jp"]},"kind":"extended","selector":"#amazonSelector:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["yukkuri-futaba.sakura.ne.jp"]},"kind":"extended","selector":"#wrapAmazon:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["j-cast.com"]},"kind":"extended","selector":"div.title-sec:contains(姉妹サイト)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":"#home-side-ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":"#personalized-feed-side-ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["qiita.com"]},"kind":"extended","selector":".p-items_main > div[class^=\"css-\"]:has(div[id^=\"dfp-slot-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp","trafficnews.jp"]},"kind":"extended","selector":"ul[class^=\"_taxel_row\"] > li > div[class^=\"_taxel_ad_article\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["connect.coron.tech"]},"kind":"extended","selector":"div.center[style=\"margin-top:20px;min-height:167px;\"] > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["eegg.fun"]},"kind":"extended","selector":".innerframe > div.whiteboard > div > div.indent > div#ad_index_top:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["eegg.fun"]},"kind":"extended","selector":".innerframe > div.whiteboard > div > div.indent > div#ad_kiji_middle:upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["eegg.fun"]},"kind":"extended","selector":".innerframe > div.whiteboard > div > div.indent > center > div#ad_index_middle:upward(5)"},{"domains":{"excludeDomains":[],"includeDomains":["baraero.com"]},"kind":"extended","selector":".grid_post-box > div.post-box-contents > div > div.dfad:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["chixi.jp"]},"kind":"extended","selector":".dparts.homeMainTable:contains(インタレストマッチ)"},{"domains":{"excludeDomains":[],"includeDomains":["chixi.jp"]},"kind":"extended","selector":"#Center > div.partsHeading:contains(インタレスト)"},{"domains":{"excludeDomains":[],"includeDomains":["chixi.jp"]},"kind":"extended","selector":".homeRightTable > div.parts > div.partsBanner:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["kochinews.co.jp"]},"kind":"extended","selector":"body #sb3:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["ytv.co.jp"]},"kind":"extended","selector":".relation-block > div.OUTBRAIN:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["woman.mynavi.jp"]},"kind":"extended","selector":".l-main > .p-aside-section:has(> div > div > div > div[id^=\"div-gpt-\"])"},{"domains":{"excludeDomains":[],"includeDomains":["woman.mynavi.jp"]},"kind":"extended","selector":".p-aside-section > div[id^=\"div-gpt-ad-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["full-count.jp"]},"kind":"extended","selector":".l-sidebar-ads > li:not(:has(> a[href^=\"https:\/\/full-count.jp\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["mangalove.me"]},"kind":"extended","selector":"ul[class^=\"list-comic-\"] > li > div.native-ad-wrap:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["apollomaniacs.com"]},"kind":"extended","selector":".kk_sidebar_items > div.item_box_sdb:has(> p.item_box-image > a[href^=\"https:\/\/www.amazon.co\"])"},{"domains":{"excludeDomains":[],"includeDomains":["jbpress.ismedia.jp"]},"kind":"extended","selector":".m-article-colm-list > div#recommend_pc:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["lnews.jp"]},"kind":"extended","selector":".post-block > div#taboola-below-article-thumbnails:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["financial-field.com"]},"kind":"extended","selector":".entry_main_body > p.contentText:contains(【PR】)"},{"domains":{"excludeDomains":[],"includeDomains":["tanoshiiosake.jp"]},"kind":"extended","selector":".list-recommend > h2:has(> span.line:contains(おすすめ情報))"},{"domains":{"excludeDomains":[],"includeDomains":["tanoshiiosake.jp"]},"kind":"extended","selector":".list-recommend > ul:has(> li > a[href^=\"http:\/\/socialife.sony.net\"] > img)"},{"domains":{"excludeDomains":[],"includeDomains":["kakaku.com"]},"kind":"extended","selector":".c-feed_cell > a.c-feed_item-pr:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["kakaku.com"]},"kind":"extended","selector":"#ct004 > div.contMain > table.tblPRbn:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["asiatravelnote.com"]},"kind":"extended","selector":".td-post-content > div > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["biteki.com"]},"kind":"extended","selector":".items > div.item > div[id^=\"logly-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["zakzak.co.jp"]},"kind":"extended","selector":".sidebar-items > header.story-card-header.large:contains(zakスペシャル)"},{"domains":{"excludeDomains":[],"includeDomains":["zakzak.co.jp"]},"kind":"extended","selector":".p-10px > div.OUTBRAIN:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["techable.jp"]},"kind":"extended","selector":".te-article__body__inner > div.te-article__section:has(> div.uz-ny)"},{"domains":{"excludeDomains":[],"includeDomains":["xn--u9j3iub5080abs7bxbc.com"]},"kind":"extended","selector":".clearfix > p > span[style=\"color: #ff0000;\"]:contains(3千円プレゼント！):upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["xn--u9j3iub5080abs7bxbc.com"]},"kind":"extended","selector":".clearfix > p > strong:contains(↓)"},{"domains":{"excludeDomains":[],"includeDomains":["fpcafe.jp"]},"kind":"extended","selector":"#sideNavi div.banner:has(> a[href^=\"https:\/\/h.accesstrade.net\/sp\/cc?\"])"},{"domains":{"excludeDomains":[],"includeDomains":["wa3.i-3-i.info"]},"kind":"extended","selector":"[class]:is([class^=\"word_label\"], section[class^=\"word\"][class*=\"_detail\"]):contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"kind":"extended","selector":".mainbody > h2:contains(おすすめ関連記事)"},{"domains":{"excludeDomains":[],"includeDomains":["wifi-kiwami.net"]},"kind":"extended","selector":".entry-content > p[style=\"text-align: center;\"]:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["weekly-jitsuwa.jp"]},"kind":"extended","selector":".together-posts > li > div[id^=\"logly-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["news.nifty.com"]},"kind":"extended","selector":".widget > div[id^=\"div-gpt-\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["yomiuri.co.jp"]},"kind":"extended","selector":".p-article-reading-recommend-list-item > article > div[id^=\"ad_dfp\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["w.atwiki.jp"]},"kind":"extended","selector":"#menubar2 > div.atwiki-contents > div > object[id^=\"Player_\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["w.atwiki.jp"]},"kind":"extended","selector":"#wikibody > h3[id^=\"id_\"] > span[style=\"font-weight: bold;\"] > center:contains(広告):upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["lyrical-nonsense.com"]},"kind":"extended","selector":".lyricside > span.ezoic-ad:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["dailyshincho.jp"]},"kind":"extended","selector":".c-box-ad:not(:has(a[href$=\"\/recruit1\/\"]))"},{"domains":{"excludeDomains":[],"includeDomains":["5chan.jp"]},"kind":"extended","selector":".linklist > li > a[target=\"_blank\"]:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["kakaku.com"]},"kind":"extended","selector":".alignC > div.mTop10 > div[style]:contains(-PR-)"},{"domains":{"excludeDomains":[],"includeDomains":["otekomachi.yomiuri.co.jp"]},"kind":"extended","selector":".wp-caption-text:contains(※楽天ブックスにリンクします)"},{"domains":{"excludeDomains":[],"includeDomains":["koro-pokemon.com"]},"kind":"extended","selector":"#side > h2.h2s:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["pente.koro-pokemon.com"]},"kind":"extended","selector":".h2s:last-of-type:contains(ポケモン関連)"},{"domains":{"excludeDomains":[],"includeDomains":["tokai-tv.com"]},"kind":"extended","selector":".contents_right > div.box > div#ad_rectangle_1:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["wired.jp"]},"kind":"extended","selector":"div[class*=\"ContentFooterWrapper-\"]:has(> div > div.wide-adrail)"},{"domains":{"excludeDomains":[],"includeDomains":["simtaro.com"]},"kind":"extended","selector":".entry-content > div[style^=\"box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);\"] > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["gamedbs.jp"]},"kind":"extended","selector":"div > div[style=\"text-align:center;\"] > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["onepiece-log.com"]},"kind":"extended","selector":".entry_body > center:contains([スポンサーリンク])"},{"domains":{"excludeDomains":[],"includeDomains":["azby.fmworld.net"]},"kind":"extended","selector":"#recommended > div > div.floatL > a > img[title^=\"[PR]\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["viet-jo.com"]},"kind":"extended","selector":"#irelated > div > ul > div.bds > div.bd_left1[name]:has-text(PR):upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["viet-jo.com"]},"kind":"extended","selector":".banner_left1 > script:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["viet-jo.com"]},"kind":"extended","selector":"tr > td > div[class^=\"text-top-tab1-\"] > div.bd > div.bd_left[name]:contains(PR):upward(4)"},{"domains":{"excludeDomains":[],"includeDomains":["nihongonosensei.net"]},"kind":"extended","selector":"#text-2 > div.textwidget > p > ins.adsbygoogle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["news.gree.net"]},"kind":"extended","selector":".cst > div.inNews > div.flex > div[id^=\"div-gpt-\"]:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["cnn.co.jp"]},"kind":"extended","selector":".pg-container-side div.cb-l1-m2 > div.cb > .OUTBRAIN:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["sagatv.co.jp"]},"kind":"extended","selector":".c-content-main > h2:not([data-bg-pattern]):contains(こちらもおすすめ)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp","blog.livedoor.jp","doorblog.jp","ldblog.jp","livedoor.blog","syurabahazard.com"]},"kind":"extended","selector":".plugin-memo > div.side > iframe[src*=\"\/\/rcm-fe.amazon-adsystem.com\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp","blog.livedoor.jp","doorblog.jp","ldblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"\/\/z-fe.amazon-adsystem.com\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > img[src*=\"a8.net\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["elog-ch.com"]},"kind":"extended","selector":".d_line > img[src$=\"\/cat20.gif\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["elog-ch.com"]},"kind":"extended","selector":"#content > h2:contains([PR])"},{"domains":{"excludeDomains":[],"includeDomains":["elog-ch.net"]},"kind":"extended","selector":"[class^=\"caption\"]:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["limo.media"]},"kind":"extended","selector":"div[class$=\"-block\"] > div.m-ad-rectangle:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["bengo4.com"]},"kind":"extended","selector":"li.p-topics-list__item div[id^=\"yads\"]:upward(li)"},{"domains":{"excludeDomains":[],"includeDomains":["bestcarweb.jp"]},"kind":"extended","selector":".l-sub__block > div.l-sub__bnr > div[id$=\"_Rectangle\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["kagua.biz"]},"kind":"extended","selector":"p span#RealtimeClockArea2:upward(p)"},{"domains":{"excludeDomains":[],"includeDomains":["thetv.jp"]},"kind":"extended","selector":".sidebarcontents > div.pr:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["yomogame252.com"]},"kind":"extended","selector":".wp-block-cocoon-blocks-blank-box-1.has-light-blue-border-color:has(> div > div.amazon-item-box)"},{"domains":{"excludeDomains":[],"includeDomains":["hoimiso.xsrv.jp"]},"kind":"extended","selector":"#mybox > ul > li > div.textwidget > ins.adsbygoogle:upward(3)"},{"domains":{"excludeDomains":[],"includeDomains":["hoimiso.xsrv.jp"]},"kind":"extended","selector":".kizi-under-box > div.textwidget > p:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["hoimiso.xsrv.jp"]},"kind":"extended","selector":".hentry > aside > script + div:contains(スポンサーリンク)"},{"domains":{"excludeDomains":[],"includeDomains":["9db.jp"]},"kind":"extended","selector":".frame > div[style=\"background-color:transparent;\"] > ins.adsbygoogle:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["main-hrs-game.ssl-lolipop.jp"]},"kind":"extended","selector":"li > .p0[href^=\"https:\/\/amzn.to\"][title=\"Amazonを新しいタブで開く\"]:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["hateblo.jp","hatenablog.com","hatenablog.jp","hatenadiary.com","hatenadiary.jp","hatenadiary.org"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > script[src^=\"\/\/z-fe.amazon-adsystem.com\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["hateblo.jp","hatenablog.com","hatenablog.jp","hatenadiary.com","hatenadiary.jp","hatenadiary.org"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > a[href^=\"https:\/\/adf.shinobi.jp\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["hateblo.jp","hatenablog.com","hatenablog.jp","hatenadiary.com","hatenadiary.jp","hatenadiary.org","yoima2.hatenablog.com"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > script[src*=\"\/\/adm.shinobi.jp\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["hateblo.jp","hatenablog.com","hatenablog.jp","hatenadiary.com","hatenadiary.jp","hatenadiary.org"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > a[href*=\"\/\/hb.afl.rakuten.co.jp\/hsc\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["hateblo.jp","hatenablog.com","hatenablog.jp","hatenadiary.com","hatenadiary.jp","hatenadiary.org"]},"kind":"extended","selector":".hatena-module-html > div.hatena-module-body > a[href^=\"https:\/\/click.linksynergy.com\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"kind":"extended","selector":"#content-side > table div[id*=\"Rak_Blog_User_SideBanner\"]:upward(table)"},{"domains":{"excludeDomains":[],"includeDomains":["fukafuka295.jp"]},"kind":"extended","selector":"#amzn-ranking-zone-title:contains(Amazon売り上げランキング)"},{"domains":{"excludeDomains":[],"includeDomains":["fukafuka295.jp"]},"kind":"extended","selector":".widget_catbox_widget.post-widgets-bottom > div > div.amzn-tabs-container:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["majikichi.com"]},"kind":"extended","selector":"#extra div.plugin-memo > div.side > script[language=\"JavaScript\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["majikichi.com"]},"kind":"extended","selector":".plugin-memo > div.side > script[src^=\"https:\/\/js.ad-stir.com\/\"]:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["rabitsokuhou.2chblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div.adblock:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["rabitsokuhou.2chblog.jp"]},"kind":"extended","selector":".plugin-memo > div.side > div.gdblock:upward(2)"},{"domains":{"excludeDomains":[],"includeDomains":["8mato.jp"]},"kind":"extended","selector":".footer_content > div.recommend_ads:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["matometatta-news.net"]},"kind":"extended","selector":".entry[data-type=space] script[src^=\"https:\/\/img.ad-nex.com\/\"]:upward(.entry)"},{"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"kind":"extended","selector":".first-article > div[align=\"center\"] > p:contains(\/^スポンサードリンク$\/)"},{"domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"kind":"extended","selector":"div[class^=\"ranking_sRanking_List_Wrapper\"] > div[class^=\"ranking_sRanking_List_Label\"]:contains(PR)"},{"domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"kind":"extended","selector":"div[class^=\"recommendArticles_pRecommend_\"] > div#cxMorePc:upward(1)"},{"domains":{"excludeDomains":[],"includeDomains":["itest.5ch.io"]},"kind":"extended","selector":".ad_nth:not([style])"},{"domains":{"excludeDomains":[],"includeDomains":["itest.5ch.io"]},"kind":"extended","selector":".ad_nth_li"},{"domains":{"excludeDomains":[],"includeDomains":["itest.bbspink.com"]},"kind":"extended","selector":"#floater_ads"}],"cssInjectionRules":[{"declaration":"visibility: visible !important;","domains":{"excludeDomains":[],"includeDomains":["anikore.jp","ar-mag.jp","ben54.jp","car-me.jp","chugoku-np.co.jp","j-cast.com","kurashi-to-oshare.jp","kyoto-np.co.jp","medicalnote.jp","minato-yamaguchi.co.jp","okinawatimes.co.jp","paiza.jp","qa.weblio.jp","rank-king.jp","raysee.jp","uwl.weblio.jp"]},"selector":"html[class*=\"loading\"]"},{"declaration":"height: 600px !important;","domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"selector":".mainbody > div[style=\"width:800px; height:400px; margin-top:30px;\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["soraraw.net"]},"selector":".adguard-overlay"},{"declaration":"filter: none !important; pointer-events: auto !important; user-select: auto !important;","domains":{"excludeDomains":[],"includeDomains":["soraraw.net"]},"selector":"#__next > div[style]"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["mangaruu.com"]},"selector":"body > .adsbygoogle.ad-unit[style]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["mangaruu.com"]},"selector":".adguard-overlay"},{"declaration":"filter: none !important; pointer-events: auto !important; user-select: auto !important;","domains":{"excludeDomains":[],"includeDomains":["mangaruu.com"]},"selector":"#__next > div[style*=\"filter:\"]"},{"declaration":"height: 30px !important;","domains":{"excludeDomains":[],"includeDomains":["r326.com"]},"selector":"#div_adtest"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"selector":".tp-backdrop"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"selector":".tp-modal"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"selector":"body.tp-modal-open"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["tokyo-sports.co.jp"]},"selector":"html.tp-scroll-prevented"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"selector":"#detect.ad-container"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["chobirich.com"]},"selector":".Enquete"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"selector":".ad.ads.adsbygoogle.ad1.ad-space.adbox.imggif.ad-banner.amp_ad.file-display-area"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["mytry.jp"]},"selector":"body > #container"},{"declaration":"font-size: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"selector":"#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"])"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"selector":"#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"]) img"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["guitarmagazine.jp"]},"selector":".tp-backdrop"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["guitarmagazine.jp"]},"selector":".tp-modal"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["guitarmagazine.jp"]},"selector":"body.tp-modal-open"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["guitarmagazine.jp"]},"selector":"html.tp-scroll-prevented"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["b.best-hit.tv"]},"selector":".ad.ads.adsbygoogle.ad1.ad-space.adbox.imggif.ad-banner.amp_ad.file-display-area"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["jprime.jp"]},"selector":".js-reward-modal"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["jprime.jp"]},"selector":".js-reward-gallery-modal"},{"declaration":"opacity: 1 !important; pointer-events: auto !imortant; filter: none !important;","domains":{"excludeDomains":[],"includeDomains":["jprime.jp"]},"selector":".image-area"},{"declaration":"opacity: 1 !important; pointer-events: auto !imortant; filter: none !important;","domains":{"excludeDomains":[],"includeDomains":["jprime.jp"]},"selector":".js-article-wrap .article-body"},{"declaration":"min-height: 1px !important;","domains":{"excludeDomains":[],"includeDomains":["shindanmaker.com"]},"selector":"div[id^=\"div-gpt-\"]"},{"declaration":"height: 10px !important; position: absolute !important; left: -3000px !important;","domains":{"excludeDomains":[],"includeDomains":["tters.jp"]},"selector":"#check-ad"},{"declaration":"height: 1px !important;","domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"selector":".adsense-container"},{"declaration":"height: 5px !important;","domains":{"excludeDomains":[],"includeDomains":["puzzle-ch.com"]},"selector":"ins.adsbygoogle"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["logworker.net"]},"selector":"#unblk"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["logworker.net"]},"selector":".entry-content"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["logworker.net"]},"selector":"ins.adsbygoogle[data-ad-slot]"},{"declaration":"height: 1px !important; min-height: 1px !important; visibility: hidden !important;","domains":{"excludeDomains":[],"includeDomains":["musmus.main.jp"]},"selector":"div[class*=\"ad_\"]"},{"declaration":"height: 1px !important; min-height: 1px !important; visibility: hidden !important;","domains":{"excludeDomains":[],"includeDomains":["musmus.main.jp"]},"selector":"div[id^=\"sub_ad\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["snrec.jp"]},"selector":".tp-backdrop"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["snrec.jp"]},"selector":".tp-modal"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["snrec.jp"]},"selector":"body.tp-modal-open"},{"declaration":"overflow: visible !important; height: auto !important; touch-action: auto !important;","domains":{"excludeDomains":[],"includeDomains":["snrec.jp"]},"selector":"html.tp-scroll-prevented"},{"declaration":"opacity: 1 !important;","domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"selector":"img[data-sco-src]"},{"declaration":"visibility: visible !important;","domains":{"excludeDomains":[],"includeDomains":["kledgeb.blogspot.com"]},"selector":"body > div[style=\"visibility: hidden;\"]"},{"declaration":"overflow: visible !important;","domains":{"excludeDomains":[],"includeDomains":["fireembs.blog.jp","friday.kodansha.co.jp","kansai-sanpo.com"]},"selector":"body"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["fireembs.blog.jp","friday.kodansha.co.jp","kansai-sanpo.com"]},"selector":"body div.fc-ab-root:not(#style_important)"},{"declaration":"display: block !important; height: 51px !important;","domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"selector":"#adunit-10"},{"declaration":"display: block !important; height: 51px !important;","domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"selector":"#adunit-11"},{"declaration":"display: block !important; height: 51px !important;","domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"selector":"#adsidetop"},{"declaration":"display: block !important; height: 51px !important;","domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"selector":"#adstop"},{"declaration":"display: block!important;","domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"selector":"body"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"selector":"body[style=\"display: none;\"]"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["ouminews.net"]},"selector":".ad_unit.ad-unit.text-ad.text_ad.pub_300x250"},{"declaration":"display: block!important;height: 1px!important;","domains":{"excludeDomains":[],"includeDomains":["knshow.com"]},"selector":".ads"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"selector":".ad2"},{"declaration":"display: block!important;","domains":{"excludeDomains":[],"includeDomains":["applion.jp"]},"selector":"#adcheck.ads-ad"},{"declaration":"height: 51px!important; position: absolute!important; left: -3000px!important;","domains":{"excludeDomains":[],"includeDomains":["380cc.cc"]},"selector":"#playertopads"},{"declaration":"padding-bottom: 10px !important;","domains":{"excludeDomains":[],"includeDomains":["itest.bbspink.com"]},"selector":".footer-with-ad"},{"declaration":"min-height: 0 !important; margin: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["nlab.itmedia.co.jp"]},"selector":"#globalHeader"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["eromovie-s.com"]},"selector":".movie-watch"},{"declaration":"position: absolute !important; left: -4000px !important;","domains":{"excludeDomains":[],"includeDomains":["2game.info"]},"selector":".sponsored-loop300x250"},{"declaration":".top-section { grid-template-columns: minmax(180px, 1fr) 0 !important; }","domains":{"excludeDomains":[],"includeDomains":["eroanime-movie.com"]},"selector":"@media (min-width: 835px)"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["telling.asahi.com"]},"selector":".p-header-billboard"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["erologz.com"]},"selector":"#sidebar-small[style^=\"height:\"]"},{"declaration":"margin-top: 0px !important;","domains":{"excludeDomains":[],"includeDomains":["ge-soku.com"]},"selector":"#custom_html-48"},{"declaration":"width: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["hitoikigame.com"]},"selector":".plugin-freearea td[bgcolor] > div[style]"},{"declaration":"visibility: hidden !important; height: 0 !important; margin-bottom: 45px !important;","domains":{"excludeDomains":[],"includeDomains":["afsgames.com"]},"selector":".ad970x250"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["wpb.shueisha.co.jp"]},"selector":"ul.mod-grid2 > li.block-list-a-a__list__item:has(> div.block-banner-b-a)"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["wpb.shueisha.co.jp"]},"selector":"ul.mod-grid2 > li.block-list-a-a__list__item:has(> div[class$=\"_InRecommend\"])"},{"declaration":"width: 50% !important;","domains":{"excludeDomains":[],"includeDomains":["wpb.shueisha.co.jp"]},"selector":"ul.mod-grid2:has(> li.block-list-a-a__list__item > div.block-banner-b-a)"},{"declaration":"width: 50% !important;","domains":{"excludeDomains":[],"includeDomains":["wpb.shueisha.co.jp"]},"selector":"ul.mod-grid2:has(> li.block-list-a-a__list__item > div[class$=\"_InRecommend\"])"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["minkch.com"]},"selector":".lsidebar[style^=\"min-height\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["soredoko.jp"]},"selector":"#srdk-index-native-pc"},{"declaration":"margin-left: 20px !important;","domains":{"excludeDomains":[],"includeDomains":["soredoko.jp"]},"selector":"#srdk-index-native-pc ~ li.rank-7"},{"declaration":"margin-left: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["soredoko.jp"]},"selector":"#srdk-index-native-pc ~ li.rank-8"},{"declaration":"padding-bottom: unset !important;","domains":{"excludeDomains":[],"includeDomains":["allabout.co.jp"]},"selector":".aa_footer"},{"declaration":"margin-top: 100px !important;","domains":{"excludeDomains":[],"includeDomains":["telling.asahi.com"]},"selector":".u-mb64 .p-new__row"},{"declaration":"margin-top: 0px !important;","domains":{"excludeDomains":[],"includeDomains":["ryukyushimpo.jp"]},"selector":"main > .homepage:not(:matches-css(max-width: 1150px))"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["video.fc2.com","vip-front.video.g.fc2.com"]},"selector":".main_ad_head_wide"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["video.fc2.com"]},"selector":".c-ad-103"},{"declaration":"height: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["map.yahoo.co.jp"]},"selector":".App__contentsMap[style=\"height: calc(100% - 50px);\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["umaroidblog.com"]},"selector":"#sidebar[style^=\"height:\"]"},{"declaration":"border-top: none !important; padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["maonline.jp"]},"selector":".media_article .articlegroups .d-block:not(:first-of-type)"},{"declaration":"grid-auto-rows: auto !important;","domains":{"excludeDomains":[],"includeDomains":["peko-step.com"]},"selector":"#cgrig_base_pic"},{"declaration":"grid-row-start: auto !important; grid-row-end: auto !important;","domains":{"excludeDomains":[],"includeDomains":["peko-step.com"]},"selector":"#cgrig_cont"},{"declaration":"grid-row-start: 3 !important; grid-row-end: 7 !important;","domains":{"excludeDomains":[],"includeDomains":["peko-step.com"]},"selector":"#cgrig_left"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"selector":".block-sub-recommend[style=\"margin-top:30px;\"]"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"selector":".block-sub-ad + .block-sub"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mapfan.com"]},"selector":".side-ad-area.half-margin"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mapfan.com"]},"selector":".nav-menu-width.margin.no-side-margin"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["shirotomaster.com"]},"selector":"div[style=\"margin: auto; width: 930px; height: 265px; text-align: center;\"]"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["dengekionline.com"]},"selector":".gPr.u-mtbM"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["dengekionline.com"]},"selector":".gPr_title.u-ttl01"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["dengekionline.com"]},"selector":".p-dol .gNews_title.u-ttl01"},{"declaration":".wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-bottom { bottom: 0 !important; }","domains":{"excludeDomains":[],"includeDomains":["jikayosha.jp"]},"selector":"@media (min-width: 641px)"},{"declaration":"height: 100% !important; max-height: calc(100vh - 70px - 20px) !important;","domains":{"excludeDomains":[],"includeDomains":["friday.kodansha.co.jp"]},"selector":"div[class^=\"detail_photo_\"]"},{"declaration":"max-height: calc(100vh - 70px - 20px) !important;","domains":{"excludeDomains":[],"includeDomains":["friday.kodansha.co.jp"]},"selector":"img[class^=\"detail_mainImage\"]"},{"declaration":"padding-top: 30px !important;","domains":{"excludeDomains":[],"includeDomains":["ekr.chosunonline.com","life.chosunonline.com"]},"selector":".csh_main"},{"declaration":"height: 44px !important","domains":{"excludeDomains":[],"includeDomains":["www.chosunonline.com"]},"selector":".top_banner_area"},{"declaration":"height: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["mangalove.me"]},"selector":".viewer, .viewer .imgWrap, .viewer .lastPage.slick-slide, .viewer .slick-list, .viewer .slick-track, .viewerBody"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["gameranbu.jp"]},"selector":"#sub-col-wrap_top280"},{"declaration":"top: unset !important;","domains":{"excludeDomains":[],"includeDomains":["kakijun.jp"]},"selector":"#hidari"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["gdm.or.jp"]},"selector":"#asideRight .box.bottom"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["barks.jp"]},"selector":".c167:nth-child(2)"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["barks.jp"]},"selector":".c213:nth-child(2)"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["barks.jp"]},"selector":".c422:nth-child(2)"},{"declaration":"padding-top: 20px !important;","domains":{"excludeDomains":[],"includeDomains":["hostlove.com"]},"selector":"body:not(.tp) > div#container > #main.template1"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["bunshun.jp"]},"selector":"div[class=\"block recommend\"]"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["anime.eiga.com"]},"selector":"#subProgram"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["dailynewsonline.jp"]},"selector":"body[style*=\"position\"]"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["azby.fmworld.net"]},"selector":".side_box"},{"declaration":"width: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"selector":"._2pnTOjTu"},{"declaration":"padding-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["ff10-hd.com","ff8clear.net","sheepplus.com","winningpost8.com"]},"selector":"#entry[class^=\"e\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["ff10-hd.com","ff8clear.net","sheepplus.com","winningpost8.com"]},"selector":"#new"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["ff10-hd.com","ff8clear.net","sheepplus.com","winningpost8.com"]},"selector":"#side[class^=\"s\"]"},{"declaration":"padding-top: 450px !important;","domains":{"excludeDomains":[],"includeDomains":["ff8clear.net","winningpost8.com"]},"selector":"div#wrapper.on"},{"declaration":"top: 330px !important;","domains":{"excludeDomains":[],"includeDomains":["ff8clear.net","winningpost8.com"]},"selector":"div.on nav#path"},{"declaration":"top: 386px !important;","domains":{"excludeDomains":[],"includeDomains":["ff8clear.net","winningpost8.com"]},"selector":"div.on h1"},{"declaration":"padding-top: 25px !important;","domains":{"excludeDomains":[],"includeDomains":["dqclear.com"]},"selector":"#right"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["sheepplus.com"]},"selector":"#main"},{"declaration":"border-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["sheepplus.com"]},"selector":"#side[class^=\"ad\"]"},{"declaration":"border-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["sheepplus.com"]},"selector":".adh"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["e-nenpi.com"]},"selector":".gadget_topics > div.cont.last-child"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["wazap.com"]},"selector":".sub > div.section > span.heading"},{"declaration":"min-height: 1500px!important;","domains":{"excludeDomains":[],"includeDomains":["estate.nikkan.co.jp"]},"selector":".center_column"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["twpf.jp"]},"selector":"#signin-with-twitter"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["h-pon.doorblog.jp"]},"selector":".right-container[style^=\"position: fixed\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["4gamer.net"]},"selector":".medipartner"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["matometanews.com"]},"selector":"#leftbody > div.plugin-memo:first-child"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["matometanews.com"]},"selector":"#leftbody > div.plugin-memo:last-of-type"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["matometanews.com"]},"selector":"#left"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["jumpmatome2ch.biz"]},"selector":"#body-in > div[class^=\"d-contents\"]"},{"declaration":"opacity: 1 !important;","domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"selector":"#tx7player[style*=\"opacity: 0.\"]"},{"declaration":"position: sticky !important;","domains":{"excludeDomains":[],"includeDomains":["gizmodo.jp"]},"selector":"main > div.l-generalContent-secondary"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["colordic.org"]},"selector":"footer"},{"declaration":"margin-top: 0!important;","domains":{"excludeDomains":[],"includeDomains":["games.yahoo.co.jp"]},"selector":".isJack"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["lesson.golfdigest.co.jp","score.golfdigest.co.jp"]},"selector":"#wholeHeaderPane"},{"declaration":"opacity: 1 !important;","domains":{"excludeDomains":[],"includeDomains":["dq-dai.com"]},"selector":"#lower section.character ul.character_list li.standby"},{"declaration":"background: none !important;","domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"selector":".vjs-text-track-display > div:matches-css(background-color: rgb(0, 0, 0))"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["eguchi-hd.co.jp"]},"selector":".hustle-popup"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["eguchi-hd.co.jp"]},"selector":".hustle-no-scroll"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["uranaitv.jp"]},"selector":".fortune-submit"},{"declaration":"padding-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["t-mall.kantangame.com"]},"selector":"body[style=\"padding: 0px 0px 154px;\"]"},{"declaration":"grid-template-columns: 1fr 0 !important;","domains":{"excludeDomains":[],"includeDomains":["auctions.yahoo.co.jp"]},"selector":"div[class^=\"LayoutContentInner-sc\"] > div[class^=\"Promotion-sc\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["avfuuzoku.com"]},"selector":"#top #head"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["news.jorudan.co.jp"]},"selector":".ad_common_1_970x250"},{"declaration":"padding-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["itest.5ch.io"]},"selector":".bbsmenu-with-ad"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["itest.5ch.io"]},"selector":"#js-forms"},{"declaration":"visibility: hidden !important; height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["weather.yahoo.co.jp"]},"selector":"#ydn-bot"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["supercweather.com"]},"selector":"#adds"},{"declaration":"display: block !important; width: 100% !important; height: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["supercweather.com"]},"selector":"#content"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["applica.info"]},"selector":".l-contentsSub[style^=\"height\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"selector":".__isboostReturnAd"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"selector":"#is_w_area"},{"declaration":"overflow: auto !important; height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"selector":".inv_scroll_cancel"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["kabegamikan.com"]},"selector":"td[width=\"340\"]"},{"declaration":"width: 380px !important;","domains":{"excludeDomains":[],"includeDomains":["kabegamikan.com"]},"selector":"div[style=\"width:730px;font-size:11pt;\"] > table[width=\"730\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["news-postseven.com"]},"selector":".su-modal"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["news-postseven.com"]},"selector":"body[style^=\"overflow:\"]"},{"declaration":"margin-bottom: 0!important;","domains":{"excludeDomains":[],"includeDomains":["minkabu.jp"]},"selector":".ly_content_wrapper"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["ero-gazou.jp","my-nikki.net","naitter.hippy.jp","pictab.art"]},"selector":".pum-overlay"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ero-gazou.jp","my-nikki.net","naitter.hippy.jp","pictab.art"]},"selector":".pum-open"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["mapion.co.jp"]},"selector":"#map_yads"},{"declaration":"bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mapion.co.jp"]},"selector":"#result_nav"},{"declaration":"height: 1px !important;","domains":{"excludeDomains":[],"includeDomains":["teny.co.jp"]},"selector":".s-ad"},{"declaration":"height: 1px !important;","domains":{"excludeDomains":[],"includeDomains":["roote.ekispert.net"]},"selector":"#bottom_area"},{"declaration":"padding-top: 110px !important;","domains":{"excludeDomains":[],"includeDomains":["ovninavi.com"]},"selector":"#cb-container"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ovninavi.com"]},"selector":".ovni-header"},{"declaration":"padding-bottom: 354px !important;","domains":{"excludeDomains":[],"includeDomains":["medibang.com"]},"selector":"#content"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["piapro.jp"]},"selector":"#footer"},{"declaration":"padding-bottom: 170px !important;","domains":{"excludeDomains":[],"includeDomains":["piapro.jp"]},"selector":"#main[style=\"padding-bottom:300px;\"]"},{"declaration":"height: 0 !important; min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["minpo.jp"]},"selector":".ads970"},{"declaration":"bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["young-machine.com"]},"selector":".wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed"},{"declaration":"border: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["bbs4.mozakin.com"]},"selector":".thread_txad"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["bbs4.mozakin.com"]},"selector":".adsepa"},{"declaration":"border: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["bbs4.mozakin.com"]},"selector":".reply_txad"},{"declaration":"height: 2205px !important;","domains":{"excludeDomains":[],"includeDomains":["mozakin.com"]},"selector":"#wrap01"},{"declaration":"top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mozakin.com"]},"selector":".tabpain[style=\"left: -260px; top: 280px;\"]"},{"declaration":"top: -1120px !important;","domains":{"excludeDomains":[],"includeDomains":["mozakin.com"]},"selector":".tabpain[style=\"top: 550px; left: 0px;\"]"},{"declaration":"bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["okwave.jp"]},"selector":".following_buttons_upper"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"selector":".plugin-memo > div.side > div.gad-fixed:upward(2)"},{"declaration":"visibility: hidden !important;margin: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["hrs-game.main.jp","main-hrs-game.ssl-lolipop.jp"]},"selector":".ads_native"},{"declaration":"max-height: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["firecross.jp"]},"selector":"#stage"},{"declaration":"display: none!important;","domains":{"excludeDomains":[],"includeDomains":["novel.prcm.jp"]},"selector":"#gn_interstitial_area"},{"declaration":"position: relative!important;overflow-y: unset !important;","domains":{"excludeDomains":[],"includeDomains":["novel.prcm.jp"]},"selector":"body.app-scroll-lock"},{"declaration":"visibility: hidden!important;height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"selector":".plugin-memo > div.side > div.ad-center:upward(2)"},{"declaration":"display: none!important;","domains":{"excludeDomains":[],"includeDomains":["gizmodo.jp"]},"selector":".s-body-ad-wrapper"},{"declaration":"position: sticky !important;","domains":{"excludeDomains":[],"includeDomains":["gizmodo.jp"]},"selector":".l-generalContent-secondary[style=\"position: unset;\"]"},{"declaration":"height: 50px !important;","domains":{"excludeDomains":[],"includeDomains":["security-next.com"]},"selector":".header"},{"declaration":"min-height: 676px !important;","domains":{"excludeDomains":[],"includeDomains":["gigafile.nu"]},"selector":"#wrap_contents_box"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["freesoft-100.com"]},"selector":"#bglink"},{"declaration":"background: none !important;","domains":{"excludeDomains":[],"includeDomains":["freesoft-100.com"]},"selector":"body"},{"declaration":"height: auto!important;","domains":{"excludeDomains":[],"includeDomains":["sunri2525.blog.jp"]},"selector":"._fukugan_grid"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["hiraganakeyaki.blog.jp"]},"selector":".right-column-inner > div.plugin-memo:first-child"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["hiraganakeyaki.blog.jp"]},"selector":".right-column-inner > div.plugin-memo:last-of-type"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["hiraganakeyaki.blog.jp"]},"selector":".right-container[style^=\"position: fixed\"]"},{"declaration":"padding: 0px 60px 80px !important;","domains":{"excludeDomains":[],"includeDomains":["blog.fc2.com"]},"selector":"#main-container"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["duellinks.doorblog.jp"]},"selector":".l-sidebar-b[style^=\"position: fixed\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["duellinks.doorblog.jp"]},"selector":".l-sidebar-b > div.plugin-memo"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["news.2chblog.jp"]},"selector":"#sub > div.column-inner > div.column-inner-2 > div.plugin-memo:nth-child(-n+2)"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["news.2chblog.jp"]},"selector":"#sub > div.column-inner > div.column-inner-2 > div.plugin-memo:last-of-type"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["news.2chblog.jp"]},"selector":"#side-r"},{"declaration":"height: 724px !important;","domains":{"excludeDomains":[],"includeDomains":["shikaku2ch.doorblog.jp"]},"selector":"#adnone"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["shikaku2ch.doorblog.jp"]},"selector":"#extra > div.column-inner > div.column-inner-2 > div.plugin-memo:first-child"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["shikaku2ch.doorblog.jp"]},"selector":"#extra > div.column-inner > div.column-inner-2 > div.plugin-memo:last-of-type"},{"declaration":"height: 90px !important; width: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["otajo.jp"]},"selector":"#writerprofile + aside.adsense"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["togetter.com"]},"selector":".clearfix.contents"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["gendai.media"]},"selector":".sideContents.ie-sticky[style$=\"min-height: 1500px;\"]"},{"declaration":"min-height: 1px !important;","domains":{"excludeDomains":[],"includeDomains":["gendai.media"]},"selector":".blockContainer[style$=\"-60px auto;\"] > div[style=\"min-height: 90px;\"]"},{"declaration":"position: absolute!important;left: -4000px !important;","domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"selector":".adsbygoogle"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["cosp.jp"]},"selector":".latestnewstable2014[height^=\"1\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["otonanswer.jp"]},"selector":".side[style^=\"height\"]"},{"declaration":"position: static !important;margin-top: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ameblo.jp"]},"selector":"#subAInner[style]"},{"declaration":"min-height: 0 !important","domains":{"excludeDomains":[],"includeDomains":["figgy.jp"]},"selector":".adBillBoardPC"},{"declaration":"height: 0 !important; min-height: 0 !important; margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["gamer.ne.jp","onlinegamer.jp"]},"selector":".adBillboard_pc"},{"declaration":"display: none!important;","domains":{"excludeDomains":[],"includeDomains":["yamareco.com"]},"selector":"#ad01"},{"declaration":"display: none!important;","domains":{"excludeDomains":[],"includeDomains":["yamareco.com"]},"selector":".modal-backdrop"},{"declaration":"padding-right: 0 !important; overflow: auto!important;","domains":{"excludeDomains":[],"includeDomains":["yamareco.com"]},"selector":"body.header_bg_ad.modal-open"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["minigame.aeriagames.jp"]},"selector":"#aeriaGamesCenterAd"},{"declaration":"top: 120px !important;","domains":{"excludeDomains":[],"includeDomains":["pokemon-matome.net"]},"selector":"#header_rtranking"},{"declaration":"margin-top: 240px !important;","domains":{"excludeDomains":[],"includeDomains":["pokemon-matome.net"]},"selector":"div[id^=\"container_in\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"selector":".vjs-modal-dialog.vjs-error-display"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"selector":".vjs-controls-disabled.vjs-error .vjs-control-bar"},{"declaration":"background: none !important;","domains":{"excludeDomains":[],"includeDomains":["automaton-media.com"]},"selector":"body"},{"declaration":"width: calc(100% - 20px) !important;","domains":{"excludeDomains":[],"includeDomains":["ideo.laxd.com","video.fc2.com","vip-front.video.g.fc2.com"]},"selector":".app-container[aria-expanded=\"false\"] section.with-ad"},{"declaration":"width: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["video.fc2.com","vip-front.video.g.fc2.com"]},"selector":".with-ad[data-layout=\"list\"] .main-header"},{"declaration":"width: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["video.fc2.com","vip-front.video.g.fc2.com"]},"selector":".with-ad[data-layout=\"list\"][data-section-type=\"new-video\"] .content-wrap:nth-child(-n+2)"},{"declaration":"right: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mail.yahoo.co.jp"]},"selector":"body.withsky div#shellcontent[style]"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["news.mynavi.jp"]},"selector":".articleList-attention[style^=\"min-height\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["sp.jp.wazap.com"]},"selector":".gmoam_outer_wrapper"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["sp.jp.wazap.com"]},"selector":"body[style=\"position: fixed;\"]"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["tv-asahi.co.jp"]},"selector":"#common-header > div[class^=\"common-header-pc-\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["buhidoh.net"]},"selector":"#center-left"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["nwknews.jp"]},"selector":"#extra"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["gadget2ch.com"]},"selector":"#sidebar"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["nandemo-uketori.com","saikyo-jump.com","watarukiti.com"]},"selector":".right-container"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["kosoch.com"]},"selector":"#plugin2[style^=\"position: fixed\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["anige-sokuhouvip.com"]},"selector":"#scroll.fixed"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["digital-thread.com","itaishinja.com","kyousoku.net","oryouri.2chblog.jp"]},"selector":"#sub"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["gahalog.2chblog.jp"]},"selector":"#sidebar[style^=\"position: fixed\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["itainews.com"]},"selector":"#left[style^=\"position: fixed\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["takenokosokuhou.com"]},"selector":".fix_box-m"},{"declaration":"min-height:auto !important;","domains":{"excludeDomains":[],"includeDomains":["nicovideo.jp"]},"selector":".BottomContainer.InView"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["blog.esuteru.com","otakomu.jp"]},"selector":".jackFix + div.siteContent"},{"declaration":"margin-left: 0!important;","domains":{"excludeDomains":[],"includeDomains":["blog.esuteru.com","otakomu.jp"]},"selector":".siteRanking-main"},{"declaration":"margin-left: 0!important;","domains":{"excludeDomains":[],"includeDomains":["otakomu.jp"]},"selector":".siteRanking-main"},{"declaration":"padding-top: 30px!important;","domains":{"excludeDomains":[],"includeDomains":["hostlove.com"]},"selector":"#index_nav > h1"},{"declaration":"margin-top: 100px !important;","domains":{"excludeDomains":[],"includeDomains":["plus.fm-p.jp"]},"selector":".ad_overlay #footer_prelogin"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["plus.fm-p.jp"]},"selector":"body.ad_overlay::after"},{"declaration":"overflow: auto !important; position: static !important;","domains":{"excludeDomains":[],"includeDomains":["zutool.jp"]},"selector":"body"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["zutool.jp"]},"selector":"#popup_banner"},{"declaration":"margin-top: 16px !important;","domains":{"excludeDomains":[],"includeDomains":["asahi.com"]},"selector":".border-t:has(> .section-container > div > #recommend_click)"},{"declaration":"visibility: hidden !important;","domains":{"excludeDomains":[],"includeDomains":["game16.net"]},"selector":"#comment-ad-anchor > div.g-txt2"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["fc2.adult","fc2.page"]},"selector":"body[style=\"padding-top: 420px !important;\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["limo.media"]},"selector":".m-articles__item:has(> div.m-articles__img > a.toplink[data-event])"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["39news.net","3punchiebukuro.info","catheart.pet","davincinews.info","dogheart.pet","entame-news.info","entame-trendnews.info","ichi-oshi.info","lettuceclub.site","mainichigahakken.info","mamanote.info","point-dengekihobby.jp","point-thetv.jp","presslink.jp","tamahiyo.site","trend-news.fun","walkerplus.info"]},"selector":"#js_detail-Interstitial_Div"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["39news.net","3punchiebukuro.info","catheart.pet","davincinews.info","dogheart.pet","entame-news.info","entame-trendnews.info","ichi-oshi.info","lettuceclub.site","mainichigahakken.info","mamanote.info","point-dengekihobby.jp","point-thetv.jp","presslink.jp","tamahiyo.site","trend-news.fun","walkerplus.info"]},"selector":".article-OverflowHidden"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["bengoshihoken-mikata.jp"]},"selector":".jquery-modal"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["bengoshihoken-mikata.jp"]},"selector":"body"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["bengoshihoken-mikata.jp"]},"selector":"section.fix:has(> div.fix__wrap)"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["kako.5ch.io"]},"selector":"footer[style=\"margin-bottom:100px;\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["bakuwaro.com"]},"selector":"#sidebar-widget.q2w3-fixed-widget-container"},{"declaration":"min-height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["news.tv-asahi.co.jp"]},"selector":"body:is(.articles, .top) .con:has(.main-container)"},{"declaration":"padding-bottom: 20px !important;","domains":{"excludeDomains":[],"includeDomains":["entapark.jp"]},"selector":".footer__inner"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["football-tribe.com"]},"selector":".japan.single-post.is-pc .container.single-post .sidebar"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["dime.jp"]},"selector":".breadcrumb"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["doujinnote.com","trend-answer.com"]},"selector":".popmake-overlay"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["doujinnote.com","trend-answer.com"]},"selector":".pum-open"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["wiki.fc2.com"]},"selector":"#menu1 > div#plg_free_2:has(> div > div[style^=\"margin-top:\"])"},{"declaration":"height: 160px !important;","domains":{"excludeDomains":[],"includeDomains":["i-pclub.com"]},"selector":"#fooot1, .fooo"},{"declaration":"height: unset !important;","domains":{"excludeDomains":[],"includeDomains":["seinenbu.tokyo-shoten.or.jp"]},"selector":".\\.hpb-subh01 > tbody > tr[height=\"2048\"]"},{"declaration":"padding-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["theworldmagazine.jp"]},"selector":".l-footer"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["kojodan.jp"]},"selector":"#header_space"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ben54.jp"]},"selector":"body[style^=\"overflow:\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["ben54.jp"]},"selector":"div#adModal"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["asagei.com"]},"selector":".footer-area"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["medical.mainichi.jp"]},"selector":".p-kv__list:has(> div[id^=\"ad-\"])"},{"declaration":"width: auto !important;","domains":{"excludeDomains":[],"includeDomains":["torechart.com"]},"selector":".leftbox"},{"declaration":"margin-bottom: 10px !important;","domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"selector":"div[style=\"margin-bottom:100px;\"][align=\"center\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"selector":".upper-menu > div[style=\"height: 90px!important;\"]"},{"declaration":"padding-bottom: 110px !important;","domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"selector":".footer"},{"declaration":"height: inherit !important;","domains":{"excludeDomains":[],"includeDomains":["h1g.jp"]},"selector":".upper-menu"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["play.ponta.jp"]},"selector":".p-header-wrap"},{"declaration":"margin-top: 10px !important;","domains":{"excludeDomains":[],"includeDomains":["uranai.nosv.org"]},"selector":"#navigation[style^=\"margin-top\"]"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["plus.luremaga.jp"]},"selector":".l-footer"},{"declaration":".dividerBottom + .postContents::before { min-height: 0 !important; }","domains":{"excludeDomains":[],"includeDomains":["plus.luremaga.jp"]},"selector":"@media (max-width: 768px)"},{"declaration":".side_widget.block-widget > .code-block-banner-ec-1::before { min-height: 0 !important; }","domains":{"excludeDomains":[],"includeDomains":["plus.luremaga.jp"]},"selector":"@media (min-width: 769px)"},{"declaration":"footer.md\\:mb-\\[200px\\] { margin-bottom: 0 !important; }","domains":{"excludeDomains":[],"includeDomains":["lettuceclub.net"]},"selector":"@media (min-width: 768px)"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["lettuceclub.net"]},"selector":"footer.mb-\\[380px\\]"},{"declaration":"padding-bottom: 20px !important;","domains":{"excludeDomains":[],"includeDomains":["dic.pixiv.net"]},"selector":"#footer.pb-\\[196px\\]"},{"declaration":"visibility: hidden !important;","domains":{"excludeDomains":[],"includeDomains":["kanji.me"]},"selector":"div[class^=\"handwrite-box-\"]:has(> div.ggcontent > ins.adsbygoogle)"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["kakaku.com"]},"selector":"body"},{"declaration":"height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"selector":"div[style^=\"max-width: 1000px; width: 100%; height: 150px; margin: 0 auto 50px auto;\"]"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["appget.com"]},"selector":".pc_block[style^=\"position: sticky\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["peing.net"]},"selector":"div[id^=\"ad-in\"]"},{"declaration":"overflow: auto !important;","domains":{"excludeDomains":[],"includeDomains":["peing.net"]},"selector":"body[style=\"overflow: hidden;\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["gigazine.net"]},"selector":"#entry-form"},{"declaration":"display: block !important;","domains":{"excludeDomains":[],"includeDomains":["gigazine.net"]},"selector":"#entry-text"},{"declaration":"top: 132px !important;","domains":{"excludeDomains":[],"includeDomains":["wealthadvisor.co.jp"]},"selector":"nav:not(.fixed):not([id])"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["news.yahoo.co.jp"]},"selector":"#yjnFooter.kBXsbI"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["gizmodo.jp"]},"selector":"[class*=\"ranking_selectButton\"]:last-child:contains(Amazon)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["gizmodo.jp"]},"selector":"[class*=\"ranking_rankingList\"]:has(> .gtm-rankingAmazon)"},{"declaration":"min-height: unset !important;","domains":{"excludeDomains":[],"includeDomains":["bepal.net","idle-girl.com"]},"selector":"#sidebar"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["eromanga-show.com","hentai-one.com"]},"selector":".min-h-\\[250px\\]"},{"declaration":"padding-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["corp.rakuten.co.jp"]},"selector":".mno-pitari"},{"declaration":"html:not(.ipad):not(.android) .rf-header { height: 130px !important; }","domains":{"excludeDomains":[],"includeDomains":["corp.rakuten.co.jp"]},"selector":"@media (min-width: 769px)"},{"declaration":"html:not(.ipad):not(.android) .rf-header .rf-header-inner { height: 130px !important; }","domains":{"excludeDomains":[],"includeDomains":["corp.rakuten.co.jp"]},"selector":"@media (min-width: 769px)"},{"declaration":".rf-header { margin-bottom: 25px !important; }","domains":{"excludeDomains":[],"includeDomains":["corp.rakuten.co.jp"]},"selector":"@media (max-width: 768px)"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["corp.rakuten.co.jp"]},"selector":"#pitari_area"},{"declaration":"margin-top: 0px !important;","domains":{"excludeDomains":[],"includeDomains":["musicman.co.jp"]},"selector":"#is_header_banner"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["weathernews.jp"]},"selector":".footer"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["weathernews.jp"]},"selector":"#footer[style=\"margin-bottom: 100px;\"]"},{"declaration":"top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["j-defense.ikaros.jp"]},"selector":"main #bnr_about"},{"declaration":"top: 156px !important;","domains":{"excludeDomains":[],"includeDomains":["j-defense.ikaros.jp"]},"selector":"main #box_ranking"},{"declaration":"top: 636px !important;","domains":{"excludeDomains":[],"includeDomains":["j-defense.ikaros.jp"]},"selector":"main #bnr_books"},{"declaration":"padding-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["jisin.jp"]},"selector":"#main-footer[style=\"padding-bottom:100px;\"]"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["news.audee.jp"]},"selector":"#_popIn_recommend_right"},{"declaration":"height: unset !important;","domains":{"excludeDomains":[],"includeDomains":["knshow.com"]},"selector":".listInfoR[style=\"margin-bottom: 10px; height: 400px;\"]"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"selector":".relatedLinksPhoto > ul#orecView2"},{"declaration":"margin-bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["young-machine.com"]},"selector":".l-footer"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["mantan-web.jp"]},"selector":".conteiner__head"},{"declaration":"top: auto !important;","domains":{"excludeDomains":[],"includeDomains":["ekitan.com"]},"selector":".sidebar-ad[style^=\"position: fixed; top: 312px;\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["soredoko.jp"]},"selector":"#srdk-in-article-related-pc"},{"declaration":"height: 0 !important;border: none !important;","domains":{"excludeDomains":[],"includeDomains":["kyosui.net"]},"selector":".bdotted[style=\"text-align:center; margin-top:10px;\"]"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["contents.game.nifty.com","ecnavi.kantangame.com"]},"selector":".l-n-game__footer"},{"declaration":"bottom: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["xvideo-jp.com"]},"selector":"footer.bottom-\\[100px\\]"},{"declaration":"padding-bottom: 10px !important;","domains":{"excludeDomains":[],"includeDomains":["nikkan-gendai.com"]},"selector":"footer"},{"declaration":"padding-bottom: unset !important;","domains":{"excludeDomains":[],"includeDomains":["mdpr.jp"]},"selector":".l-footer--withAdBottomOverlay"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["gigafile.nu"]},"selector":"#wrap_banner_billboard"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["maidonanews.jp","yorozoonews.jp"]},"selector":".module-list-articles__item[style=\"padding:0px\"]"},{"declaration":"visibility: hidden !important;","domains":{"excludeDomains":[],"includeDomains":["amigo.tennis365.net"]},"selector":".google"},{"declaration":"height: 100% !important;","domains":{"excludeDomains":[],"includeDomains":["mapion.co.jp"]},"selector":".map-body"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["app.famitsu.com"]},"selector":"#CommonSideColumn_play-report___f_o9.CommonSideColumn_item__OI_xC:not(:first-child)"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["friday.kodansha.co.jp"]},"selector":"div[class^=\"detail_adContainer\"]"},{"declaration":"min-height: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["friday.kodansha.co.jp"]},"selector":".detail_sideColumnItem__5kZXh"},{"declaration":"height: auto !important;","domains":{"excludeDomains":[],"includeDomains":["bbs.kakaku.com"]},"selector":"#moduleFixedBnr[style^=\"height\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["cinematoday.jp"]},"selector":".feed > div[style=\"width:66%;height:70%;clear:left;float:right;\"]"},{"declaration":"height: unset !important;","domains":{"excludeDomains":[],"includeDomains":["hosyusokuhou.jp"]},"selector":"#side[style^=\"height\"]"},{"declaration":"margin-top: 0 !important; background-position-y: 0% !important;","domains":{"excludeDomains":[],"includeDomains":["4gamer.net"]},"selector":"body:not(.custom_1):not(.custom_2):not(.template_news):not([id])"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["4gamer.net"]},"selector":".slidead_smartphone_top + script + script + h2"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"selector":"#interstitial-popup"},{"declaration":"overflow: visible !important;","domains":{"excludeDomains":[],"includeDomains":["plaza.rakuten.co.jp"]},"selector":"body[style^=\"overflow: hidden;\"]"},{"declaration":"min-height: auto!important;","domains":{"excludeDomains":[],"includeDomains":["news.so-net.ne.jp"]},"selector":".MuiGrid-container.MuiGrid-root[style*=\"min-height:\"]"},{"declaration":"min-height: auto!important;","domains":{"excludeDomains":[],"includeDomains":["news.so-net.ne.jp"]},"selector":".MuiGrid-item.MuiGrid-root[style*=\"min-height:\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["diamond-rm.net"]},"selector":"div[id^=\"plist\"] > div:not([class])"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["toyokeizai.net"]},"selector":".genre > ul > li.pr"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["iwate-np.co.jp"]},"selector":".cm-wrap"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["car-me.jp"]},"selector":".csw-content-container > .ise-ad"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["precious.jp"]},"selector":"#mainvisual-column div.slick-slide:has(> script)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["go2senkyo.com"]},"selector":".p_top_top_article > span > div.p_top_top_article_banner:upward(2)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["w.atwiki.jp"]},"selector":"#atwiki-ads-overlay"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["japandesign.ne.jp"]},"selector":".c-box.ad"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["sippo.asahi.com"]},"selector":".c-article-block:has(> div[id^=\"div-gpt-\"])"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["31012.jp","happy-news-style.com","japan-hentai.com","keepuyo.com","lifematome.blog"]},"selector":".post-list-item > div.post-list-inner-infeed:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["4years.asahi.com"]},"selector":"ul[class^=\"panel-article__list\"] > li > div[id^=\"div-gpt-\"]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["cinematoday.jp"]},"selector":".feed-item > div[id^=\"div-gpt-\"]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["at-s.com"]},"selector":".newsList05__bnr"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["inutomo11.com","kidan-m.com"]},"selector":".plugin-memo:has(> div.side > div[id^=\"gad-fixed\"])"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["hotokami.jp"]},"selector":".full_screen_ad"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"selector":".art_li[style^=\"width\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["biteki.com"]},"selector":".slick-slide > div[id] + script:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["magmix.jp"]},"selector":".swiper-slide-extra"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["curet.jp"]},"selector":".p-widget-list__item > div[id^=\"div-gpt-\"]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["golfsapuri.com"]},"selector":".box > div[id^=\"pc_top_infeed\"]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["bike-news.jp","egolf.jp","kuruma-news.jp","merkmal-biz.jp","trafficnews.jp"]},"selector":".swiper-slide[data-history^=\"photo_extra\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["soco-st.com"]},"selector":".post_ad"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["mainichi.jp"]},"selector":".is-2col.articlelist > li > div[id^=\"ad-pc-article\"]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["nukiez.tv"]},"selector":".grid > div[id^=div_fam_async_]:upward(1)"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["nukiez.tv"]},"selector":"li.large.grid"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["coinpost.jp"]},"selector":".homelist-in[style^=\"text-align:center;height:\"]"},{"declaration":"position: static !important;","domains":{"excludeDomains":[],"includeDomains":["imas-cg.net"]},"selector":"#utilities"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["bisweb.jp"]},"selector":"._popIn_infinite_page > li:has(> a[class*=\"_popIn_recommend_article_ad\"])"},{"declaration":"width: 25% !important;","domains":{"excludeDomains":[],"includeDomains":["bisweb.jp"]},"selector":"#_popIn_recommend_div ul._popIn_infinite_page:has(a[class*=\"_popIn_recommend_article_ad\"]) > li"},{"declaration":"width: auto !important;","domains":{"excludeDomains":[],"includeDomains":["bisweb.jp"]},"selector":"#_popIn_recommend_div:has(a[class*=\"_popIn_recommend_article_ad\"]) ._popIn_recommend_art_img"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["gentosha-go.com"]},"selector":"._popIn_infinite_page > li:has(> a[class*=\"_popIn_recommend_article_ad\"])"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"selector":"[class][data-ranking=\"amazon\"]"},{"declaration":"transform: none !important;","domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"selector":"div[class^=\"ranking_\"] > div[class^=\"ranking_sRanking_Nav_\"]:has(> div[data-ranking=\"weekly\"] + div[data-ranking=\"amazon\"]) + div[class^=\"ranking_sRanking_ListContainer_\"]"},{"declaration":"color: #1b9b6f !important; fill: #1b9b6f !important;","domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"selector":"div[class^=\"ranking_\"] > div[class^=\"ranking_sRanking_Nav_\"] > div[data-ranking=\"weekly\"]"},{"declaration":"transform: none !important;","domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"selector":"div[class^=\"ranking_\"] > div[class^=\"ranking_sRanking_Nav_\"] > div[data-ranking=\"weekly\"]::after"},{"declaration":"transform: none !important;","domains":{"excludeDomains":[],"includeDomains":["lifehacker.jp"]},"selector":"div[class^=\"ranking_\"] > div[class^=\"ranking_pRanking_List\"]:has(> ol[data-ranking=\"weekly\"] + div[class^=\"ranking_pRanking_List_Wrapper\"] > ol[data-ranking=\"amazon\"])"},{"declaration":"margin-top: 0 !important;","domains":{"excludeDomains":[],"includeDomains":["itest.5ch.io"]},"selector":"div[itemprop=\"itemListElement\"][style=\"margin-top: 100px;\"]"},{"declaration":"remove: true;","domains":{"excludeDomains":[],"includeDomains":["automaton-media.com"]},"selector":"#custom-background-css"},{"declaration":"background: none !important;","domains":{"excludeDomains":[],"includeDomains":["service.webgoto.net"]},"selector":".image_box[style*=\"amazon.co\"]"},{"declaration":"display: none !important;","domains":{"excludeDomains":[],"includeDomains":["adguard.app","adguard.com","adguard.info"]},"selector":".hello_from_adguard_advanced_protection_ios"}],"networkRules":[{"action":"removeQueryParameter","domains":{"excludeDomains":[],"includeDomains":[]},"parameterName":"gm","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?nexon\\.com\/ngm\/\\?gm="},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["phileweb.com"]},"replacementText":"window.googletag=window.googletag||{cmd:[]};window.googletag.cmd.push=function(f){if(typeof f==='function')f();return 0;};","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?g\\.doubleclick\\.net\/tag\/js\/gpt\\.js"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":[]},"replacementText":"if(h){return;","searchPattern":"\/if\\(h\\)\\{\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?sp\\.seiga\\.nicovideo\\.jp\/js\/illust\/illust\\.min\\.js"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["ib-game.jp"]},"replacementText":"","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?googleads\\.g\\.doubleclick\\.net\/pagead\/id"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["himachat.jp"]},"replacementText":"","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?adm\\.shinobi\\.jp\/st\/t\\.js"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":[]},"replacementText":"","searchPattern":"\/function myFunc[\\s\\S\\n]+?doSakigake\\(\\);[\\s\\S\\n]+?\\}\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?in-jpn\\.com[^A-Za-z0-9_\\-.%]"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"replacementText":"","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?local\\.adguard\\.org[^A-Za-z0-9_\\-.%]"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"replacementText":"window.adsbygoogle=window.adsbygoogle||[];window.adsbygoogle.push=function(){return 0;};","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?pagead2\\.googlesyndication\\.com\/pagead\/js\/adsbygoogle\\.js"},{"action":"removeQueryParameter","domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"parameterName":"\/^(cookie|ga_|u_)\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?g\\.doubleclick\\.net\/gampad\/ads\\?"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":[]},"replacementText":"1===1","searchPattern":"\/(!1|!0!)=?==SCO\\.imgLazyLoad\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?youpouch\\.com\/_static\/"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":[]},"replacementText":"1===1","searchPattern":"\/(!1|!0!)=?==SCO\\.imgLazyLoad\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?rocketnews24\\.com\/_static\/"},{"action":"replaceResponseText","domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"replacementText":"","searchPattern":"\/[\\s\\S]*\/","urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?pubads\\.g\\.doubleclick\\.net\/gampad\/ads\\?.*\/video\\.tv-tokyo\\.co\\.jp"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":".*\/DxOoykKhIT\/api\\?token="},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":".*\/api\/client\/getConfig\\?siteCode=bot_verification_ja"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":".*\\.co\/\\?action=save_info$"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":".*\/api\/v1\/verify\/fingerprint$"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?asahi\\.com\/ad\/esi\/"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?anime365\\.net\/js\/av\/"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?python\\.jp\/ext\/"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":["maidonanews.jp","yorozoonews.jp"]},"urlPattern":".*\/jobinfo[^A-Za-z0-9_\\-.%]"},{"action":"block","domains":{"excludeDomains":[],"includeDomains":[]},"urlPattern":"^[a-z][a-z0-9+.-]*:\/\/([^\/?#]+\\.)?vippers\\.jp\/include.*"}],"scriptletRules":[{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["sp.nicovideo.jp"]},"name":"google-ima3"},{"arguments":["DOMContentLoaded","registration_guide_modal"],"domains":{"excludeDomains":[],"includeDomains":["news.mynavi.jp"]},"name":"prevent-addEventListener"},{"arguments":["onmousedown","a[onmousedown^=\"this.href=\"\/\/widgets.taxel.jp\"]","stay"],"domains":{"excludeDomains":[],"includeDomains":["www.ohk.co.jp"]},"name":"remove-attr"},{"arguments":["a[href^=\"https:\/\/al.fanza.co.jp\/?lurl=\"]","?lurl"],"domains":{"excludeDomains":[],"includeDomains":["nihon-bijo-zukan.com","okazurand.net"]},"name":"href-sanitizer"},{"arguments":["height","iframe[id^=\"google_ads_iframe\"]","stay"],"domains":{"excludeDomains":[],"includeDomains":["kojodan.jp"]},"name":"remove-attr"},{"arguments":["a[href^=\"https:\/\/adclick.g.doubleclick.net\/\"][href*=\"adurl=\"]","?adurl"],"domains":{"excludeDomains":[],"includeDomains":["safeframe.googlesyndication.com"]},"name":"href-sanitizer"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"google-ima3"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"google-ima3"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["gd.gesoten.com"]},"name":"google-ima3"},{"arguments":["span[class] img.lazyload[width]","src","[data-src]"],"domains":{"excludeDomains":[],"includeDomains":["phileweb.com"]},"name":"set-attr"},{"arguments":["TagProvider.cleanup","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["famitsu.com"]},"name":"set-constant"},{"arguments":["hidden-by-ima","#vid1_html5_api"],"domains":{"excludeDomains":[],"includeDomains":["vk.sportsbull.jp"]},"name":"remove-class"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["vk.sportsbull.jp"]},"name":"google-ima3"},{"arguments":["data.adData"],"domains":{"excludeDomains":[],"includeDomains":["vk.sportsbull.jp"]},"name":"json-prune"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["oricon.co.jp"]},"name":"googletagservices-gpt"},{"arguments":["script","adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["real-sports.jp"]},"name":"prevent-element-src-loading"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["real-sports.jp"]},"name":"googlesyndication-adsbygoogle"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["e-words.jp"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["adBlockGuard","false","\/config.json"],"domains":{"excludeDomains":[],"includeDomains":["soraraw.net"]},"name":"trusted-json-set-fetch-response"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["mangaruu.com"]},"name":"prevent-fetch"},{"arguments":["adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["spotvnow.jp"]},"name":"prevent-fetch"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["pc.moppy.jp"]},"name":"prevent-fetch"},{"arguments":["aswift_"],"domains":{"excludeDomains":[],"includeDomains":["si-coding.net"]},"name":"prevent-setTimeout"},{"arguments":["script","adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["catr.jp"]},"name":"prevent-element-src-loading"},{"arguments":["adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["girlsvip-matome.com","yomury.blog.jp"]},"name":"prevent-setTimeout"},{"arguments":["d.socdm.com"],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"prevent-fetch"},{"arguments":["null===document.getElementById","1000"],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"prevent-setTimeout"},{"arguments":["intersa.aspx"],"domains":{"excludeDomains":[],"includeDomains":["r326.com"]},"name":"prevent-setTimeout"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["shihiro.com"]},"name":"prevent-fetch"},{"arguments":["\/adm.shinobi.jp\/st\/t.js\/ method:HEAD mode:no-cors"],"domains":{"excludeDomains":[],"includeDomains":["himachat.jp"]},"name":"prevent-fetch"},{"arguments":["script","detectAdBlocker"],"domains":{"excludeDomains":[],"includeDomains":["pretravel.kawasaki-create.com"]},"name":"remove-node-text"},{"arguments":["navigator.brave","undefined"],"domains":{"excludeDomains":[],"includeDomains":["rkd3.dev"]},"name":"set-constant"},{"arguments":["adsbygoogle.js"],"domains":{"excludeDomains":[],"includeDomains":["rkd3.dev"]},"name":"prevent-fetch"},{"arguments":["load","adBlockDetected"],"domains":{"excludeDomains":[],"includeDomains":["gigafile.nu"]},"name":"prevent-addEventListener"},{"arguments":["google_tag_manager","emptyObj"],"domains":{"excludeDomains":[],"includeDomains":["aimomo.net"]},"name":"set-constant"},{"arguments":["adsbygoogle.pageState","1"],"domains":{"excludeDomains":[],"includeDomains":["aimomo.net"]},"name":"set-constant"},{"arguments":["広告"],"domains":{"excludeDomains":[],"includeDomains":["pokegonews.net"]},"name":"prevent-eval-if"},{"arguments":["\/pagead2.googlesyndication.com|metrics.streaks.jp|ads-twitter.com\/"],"domains":{"excludeDomains":[],"includeDomains":["video.tv-tokyo.co.jp"]},"name":"prevent-fetch"},{"arguments":["load","delayCheckA"],"domains":{"excludeDomains":[],"includeDomains":["best-hit.tv","h178.com","j-baseball.club","j-basketball.club","j-rugby.club","j-volleyball.club","jukenbbs.com","localch.net","shukatsubbs.com"]},"name":"prevent-addEventListener"},{"arguments":["script","detectAdBlock"],"domains":{"excludeDomains":[],"includeDomains":["rxlife.net"]},"name":"remove-node-text"},{"arguments":["adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["rxlife.net"]},"name":"prevent-fetch"},{"arguments":["load","delayCheckAB"],"domains":{"excludeDomains":[],"includeDomains":["bm.best-hit.tv"]},"name":"prevent-addEventListener"},{"arguments":["myFunc","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["in-jpn.com","oninet.ne.jp","xth.jp"]},"name":"set-constant"},{"arguments":["ins.adsbygoogle","display","block"],"domains":{"excludeDomains":[],"includeDomains":["yourfones.net"]},"name":"spoof-css"},{"arguments":["Function.prototype.toString","\/w\/load.php?lang=ja&modules=codex-search-styles%2Cjquery%2Coojs%2C&skin=vector-2022&version=L58hf"],"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"name":"abort-on-stack-trace"},{"arguments":["()=>k(S(4"],"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"name":"prevent-setTimeout"},{"arguments":["#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"])","font-size","14px"],"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"name":"spoof-css"},{"arguments":["#mw-content-text div[style] a:is([href*=\"contents.fc2.com\"],[href*=\"dmm.co.jp\"]) img","height","128px"],"domains":{"excludeDomains":[],"includeDomains":["wiki.yjsnpi.nu"]},"name":"spoof-css"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["gunauc.net"]},"name":"prevent-fetch"},{"arguments":["(()=>{let e=[];document.addEventListener(\"DOMContentLoaded\",(()=>{const t=document.querySelector(\"body script\").textContent.match(\/\"] = '(.*?)'\/g);if(!t)return;t.forEach((t=>{const r=t.replace(\/.*'(.*?)'\/,\"$1\");e.push(r)}));const r=document.querySelector('.dl_button[href*=\"preview\"]').href.split(\"?\")[1];e.includes(r)&&(e=e.filter((e=>e!==r)));document.querySelectorAll(\".dl_button[href]\").forEach((t=>{let r=t.cloneNode(!0);r.href=t.href.replace(\/\\?.*\/,`?${e[0]}`),t.after(r);let o=t.cloneNode(!0);o.href=t.href.replace(\/\\?.*\/,`?${e[1]}`),t.after(o)}))}))})();"],"domains":{"excludeDomains":[],"includeDomains":["exploader.net"]},"name":"__blockerkit-inject-script"},{"arguments":["EventTarget.prototype.addEventListener","eval"],"domains":{"excludeDomains":[],"includeDomains":["exploader.net"]},"name":"abort-current-inline-script"},{"arguments":["href","a[style*=\"display:\"][href^=\"https:\/\/al.dmm.co.jp\"]","stay"],"domains":{"excludeDomains":[],"includeDomains":["exploader.net"]},"name":"remove-attr"},{"arguments":["return"],"domains":{"excludeDomains":[],"includeDomains":["kotobank.jp"]},"name":"prevent-setTimeout"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["success-corp.co.jp"]},"name":"prevent-fetch"},{"arguments":["style",".js-reward-target[style]","stay"],"domains":{"excludeDomains":[],"includeDomains":["jprime.jp"]},"name":"remove-attr"},{"arguments":["onload","google_esf"],"domains":{"excludeDomains":[],"includeDomains":["qa.crefan.jp"]},"name":"abort-current-inline-script"},{"arguments":["adBlockDetected"],"domains":{"excludeDomains":[],"includeDomains":["pointi.jp"]},"name":"abort-on-property-read"},{"arguments":["adBlockerDetected","false"],"domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"name":"set-constant"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["egotter.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["DOMContentLoaded","interstitialAd"],"domains":{"excludeDomains":[],"includeDomains":["addchannel.net","beasoku.com","kakenhi.net","memo.wiki","seesaa.net"]},"name":"prevent-addEventListener"},{"arguments":["ad_flg ad_url data.adData data.adTagUrl"],"domains":{"excludeDomains":[],"includeDomains":["lemino.docomo.ne.jp"]},"name":"json-prune"},{"arguments":["doubleclick.net"],"domains":{"excludeDomains":[],"includeDomains":["lemino.docomo.ne.jp"]},"name":"prevent-xhr"},{"arguments":["adset","off"],"domains":{"excludeDomains":[],"includeDomains":["bridalgown.work","contents-group.work","heisei-housewarming.work","inkbrushpainting.work","liquidfoundation.work","nailcolor.work","studioglass.work","tapestry.work","teaceremony.work","weddinghall.work"]},"name":"set-cookie"},{"arguments":["adset2","off"],"domains":{"excludeDomains":[],"includeDomains":["bridalgown.work","contents-group.work","heisei-housewarming.work","inkbrushpainting.work","liquidfoundation.work","nailcolor.work","studioglass.work","tapestry.work","teaceremony.work","weddinghall.work"]},"name":"set-cookie"},{"arguments":["all520dddaaa2022ccc","true"],"domains":{"excludeDomains":[],"includeDomains":["520call.me","520cc.cc"]},"name":"set-constant"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["audio-sound-premium.com","tojav.net"]},"name":"prevent-fetch"},{"arguments":["visited","#oRslt li a.visited","stay"],"domains":{"excludeDomains":[],"includeDomains":["o-dan.net"]},"name":"remove-class"},{"arguments":["oAdChk"],"domains":{"excludeDomains":[],"includeDomains":["o-dan.net"]},"name":"prevent-setTimeout"},{"arguments":["tpc.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"prevent-fetch"},{"arguments":["id","#div-gpt-ad-sidebottom"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"remove-attr"},{"arguments":["id","#div-gpt-ad-footer"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"remove-attr"},{"arguments":["id","#div-gpt-ad-pagebottom"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"remove-attr"},{"arguments":["id","#div-gpt-ad-relatedbottom-1"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"remove-attr"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["hidden_share","div[id^=\"post-\"]"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"remove-class"},{"arguments":["jQuery"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"abort-on-property-read"},{"arguments":["img[data-sco-src]","src","[data-sco-src]"],"domains":{"excludeDomains":[],"includeDomains":["rocketnews24.com","youpouch.com"]},"name":"set-attr"},{"arguments":["onload","adsCount"],"domains":{"excludeDomains":[],"includeDomains":["blog-and-destroy.com"]},"name":"abort-current-inline-script"},{"arguments":["navigator.brave"],"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"name":"abort-current-inline-script"},{"arguments":["\/adsbygoogle|clientHeight\/"],"domains":{"excludeDomains":[],"includeDomains":["gamemod.blog.fc2.com","helpsupport.blog.fc2.com"]},"name":"prevent-setTimeout"},{"arguments":["pagead2.googlesyndication.com","true","cors"],"domains":{"excludeDomains":[],"includeDomains":["gamemod.blog.fc2.com","helpsupport.blog.fc2.com"]},"name":"prevent-fetch"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["gamemod.blog.fc2.com","helpsupport.blog.fc2.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["document.getElementById","_0x"],"domains":{"excludeDomains":[],"includeDomains":["kledgeb.blogspot.com"]},"name":"abort-current-inline-script"},{"arguments":["pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["kledgeb.blogspot.com"]},"name":"prevent-fetch"},{"arguments":["load","adsCount"],"domains":{"excludeDomains":[],"includeDomains":["blog-and-destroy.com"]},"name":"prevent-addEventListener"},{"arguments":["_0x"],"domains":{"excludeDomains":[],"includeDomains":["manga1001.*"]},"name":"prevent-setTimeout"},{"arguments":["cdn.adschill.com"],"domains":{"excludeDomains":[],"includeDomains":["manga1001.*"]},"name":"prevent-fetch"},{"arguments":["document.querySelector","_0x"],"domains":{"excludeDomains":[],"includeDomains":["manga1001.*"]},"name":"abort-current-inline-script"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["kakomonn.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["playai.nu"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["error","adscript-error"],"domains":{"excludeDomains":[],"includeDomains":["coolpan.net"]},"name":"prevent-addEventListener"},{"arguments":["flgDisplay","false"],"domains":{"excludeDomains":[],"includeDomains":["coolpan.net"]},"name":"set-constant"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["coolpan.net"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["adsbygoogle.loaded","true"],"domains":{"excludeDomains":[],"includeDomains":["g-pc.info"]},"name":"set-constant"},{"arguments":["script","imp-adedge.i-mobile.co.jp"],"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"name":"prevent-element-src-loading"},{"arguments":["script","js.ad-stir.com"],"domains":{"excludeDomains":[],"includeDomains":["musenboya.com"]},"name":"prevent-element-src-loading"},{"arguments":["gptScriptLoaded","true"],"domains":{"excludeDomains":[],"includeDomains":["intaa.net"]},"name":"set-constant"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["battlecats-db.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["AdBlockLimitation"],"domains":{"excludeDomains":[],"includeDomains":["modalina.jp"]},"name":"abort-on-property-read"},{"arguments":["objDef.resolve"],"domains":{"excludeDomains":[],"includeDomains":["crefan.jp"]},"name":"prevent-setTimeout"},{"arguments":["script","pagead2.googlesyndication.com"],"domains":{"excludeDomains":[],"includeDomains":["nihongo-pro.com"]},"name":"prevent-element-src-loading"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["nihongo-pro.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["freemen.jp"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["adBlockDetected","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["h-ken.net"]},"name":"set-constant"},{"arguments":["class",".quigo","stay"],"domains":{"excludeDomains":[],"includeDomains":["coron.tech"]},"name":"remove-attr"},{"arguments":["jQuery","decodeURIComponent"],"domains":{"excludeDomains":[],"includeDomains":["connect.coron.tech"]},"name":"abort-current-inline-script"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","fp1-siken.com","fp2-siken.com","fp3-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"name":"googlesyndication-adsbygoogle"},{"arguments":["script","adsbygoogle"],"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","fp1-siken.com","fp2-siken.com","fp3-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"name":"prevent-element-src-loading"},{"arguments":["_0x"],"domains":{"excludeDomains":[],"includeDomains":["ap-siken.com","db-siken.com","fe-siken.com","fp1-siken.com","fp2-siken.com","fp3-siken.com","itpassportsiken.com","nw-siken.com","pm-siken.com","sc-siken.com","sg-siken.com"]},"name":"prevent-setTimeout"},{"arguments":["Document.prototype.getElementById","0","dspc-bottomRecommend","dspc-inread"],"domains":{"excludeDomains":[],"includeDomains":["daily.co.jp"]},"name":"trusted-replace-argument"},{"arguments":["(()=>{window.addEventListener(\"load\",(()=>{const t=document.querySelector(\"#openwebSection\"),e=document.querySelector(\"div[data-spot-id]\");if(!e||!t)return;const d=e.getAttribute(\"data-spot-id\");if(!d)return;var o;((t,e,d)=>{const o=document.createElement(\"div\");o.setAttribute(\"data-spotim-module\",\"conversation\"),o.setAttribute(\"data-spot-id\",t),o.dataset.postId=e,d.appendChild(o)})(d,Math.abs((o=document.title,[...o].reduce(((t,e)=>Math.imul(31,t)+e.charCodeAt(0)|0),0))),t);const a=document.createElement(\"script\");a.setAttribute(\"src\",`https:\/\/launcher.spot.im\/spot\/${d}`),a.setAttribute(\"async\",\"\"),document.head.appendChild(a)}));})();"],"domains":{"excludeDomains":[],"includeDomains":["daily.co.jp"]},"name":"__blockerkit-inject-script"},{"arguments":["head","script","(()=>{window.addEventListener(\"load\",(()=>{const t=document.querySelector(\"#openwebSection\"),e=document.querySelector(\"div[data-spot-id]\");if(!e||!t)return;const d=e.getAttribute(\"data-spot-id\");if(!d)return;var o;((t,e,d)=>{const o=document.createElement(\"div\");o.setAttribute(\"data-spotim-module\",\"conversation\"),o.setAttribute(\"data-spot-id\",t),o.dataset.postId=e,d.appendChild(o)})(d,Math.abs((o=document.title,[...o].reduce(((t,e)=>Math.imul(31,t)+e.charCodeAt(0)|0),0))),t);const a=document.createElement(\"script\");a.setAttribute(\"src\",`https:\/\/launcher.spot.im\/spot\/${d}`),a.setAttribute(\"async\",\"\"),document.head.appendChild(a)}));})();"],"domains":{"excludeDomains":[],"includeDomains":["daily.co.jp"]},"name":"trusted-create-element"},{"arguments":["ads"],"domains":{"excludeDomains":[],"includeDomains":["sports.tv.rakuten.co.jp"]},"name":"json-prune"},{"arguments":["result.ad_info"],"domains":{"excludeDomains":[],"includeDomains":["sports.tv.rakuten.co.jp"]},"name":"json-prune"},{"arguments":["result.paths.[].ad_info"],"domains":{"excludeDomains":[],"includeDomains":["sports.tv.rakuten.co.jp"]},"name":"json-prune"},{"arguments":["document.write","sitejack"],"domains":{"excludeDomains":[],"includeDomains":["akibablog.blog.jp"]},"name":"abort-current-inline-script"},{"arguments":["#text","\/スポンサードリンク：?|楽天広告：\/"],"domains":{"excludeDomains":[],"includeDomains":["kasegeru.blog.jp"]},"name":"remove-node-text"},{"arguments":["script","selectRandomProduct"],"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"name":"remove-node-text"},{"arguments":["document.createElement","overview"],"domains":{"excludeDomains":[],"includeDomains":["erommd-street.com"]},"name":"abort-current-inline-script"},{"arguments":["document.getElementById","imageUrls"],"domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"name":"abort-current-inline-script"},{"arguments":["load","videoInstArea"],"domains":{"excludeDomains":[],"includeDomains":["twivideo.net"]},"name":"prevent-addEventListener"},{"arguments":["$","google_ads_iframe_"],"domains":{"excludeDomains":[],"includeDomains":["ac-illust.com","photo-ac.com"]},"name":"abort-current-inline-script"},{"arguments":["setTrigger"],"domains":{"excludeDomains":[],"includeDomains":["twidouga.net"]},"name":"prevent-addEventListener"},{"arguments":["pum_vars","undefined"],"domains":{"excludeDomains":[],"includeDomains":["onagazou.info","pictab.art"]},"name":"set-constant"},{"arguments":["reward_countdown"],"domains":{"excludeDomains":[],"includeDomains":["shindanmaker.com"]},"name":"adjust-setInterval"},{"arguments":["#text","PR:"],"domains":{"excludeDomains":[],"includeDomains":["betweenjpandkr.blog"]},"name":"remove-node-text"},{"arguments":["ads_data","emptyObj"],"domains":{"excludeDomains":[],"includeDomains":["fashionpost.jp"]},"name":"set-constant"},{"arguments":["#text","関連動画"],"domains":{"excludeDomains":[],"includeDomains":["dvdrev.com"]},"name":"remove-node-text"},{"arguments":["timerId","1000"],"domains":{"excludeDomains":[],"includeDomains":["portal.game.sycasualgames.com"]},"name":"adjust-setInterval"},{"arguments":["#text","【広告】"],"domains":{"excludeDomains":[],"includeDomains":["fm.sekkaku.net"]},"name":"remove-node-text"},{"arguments":["#text","\/[vkExUnit_ad area=(after|before)]\/"],"domains":{"excludeDomains":[],"includeDomains":["lifematome.blog"]},"name":"remove-node-text"},{"arguments":["href",".cps-post-main a[href^=\"https:\/\/www.amazon.co.jp\"]","stay"],"domains":{"excludeDomains":[],"includeDomains":["lifematome.blog"]},"name":"remove-attr"},{"arguments":["q2w3_sidebar(q2w3_sidebar_options"],"domains":{"excludeDomains":[],"includeDomains":["yaraon-blog.com"]},"name":"prevent-setInterval"},{"arguments":["movie_cnt","300"],"domains":{"excludeDomains":[],"includeDomains":["nan-net.com"]},"name":"prevent-setTimeout"},{"arguments":["document.referrer","gmo_bb"],"domains":{"excludeDomains":[],"includeDomains":["chibanippo.co.jp","encount.press","engineweb.jp","h1g.jp","kenshonavi.com","maidonanews.jp","nkreport.jp","realsound.jp","riajo.com","searchkoreanews.jp","trafficnews.jp","yougakumap.com"]},"name":"abort-current-inline-script"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["uraaka-joshi.com"]},"name":"prevent-window-open"},{"arguments":["document.write","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["jav380.com"]},"name":"set-constant"},{"arguments":["scroll","b.type"],"domains":{"excludeDomains":[],"includeDomains":["anacap.doorblog.jp"]},"name":"prevent-addEventListener"},{"arguments":["click","event"],"domains":{"excludeDomains":[],"includeDomains":["anianierosuki.work"]},"name":"prevent-addEventListener"},{"arguments":["ads.[].imageUrl"],"domains":{"excludeDomains":[],"includeDomains":["empire.miyaco.moe","ikaskey.bktsk.com","labo.wovs.tk","live-theater.net","m.eskey.click","misskey.*","misskey.resonite.love","misskey.secinet.jp","misskeytsf.love","misskirara.net","mk.yopo.work","msk.ilnk.info","msk.kitamiss.com","nukers-misskey.hpc-densi.f5.si","p1.a9z.dev","posskey.com","redfuku.com","signalskey.signal-st.com","stormskey.works","sushi.ski","takusuki.com","trpger.us","uneune.one","uttaeruyo.com","warpday.net","zadankai.club"]},"name":"json-prune"},{"arguments":["document.currentScript","insertAdjacentHTML"],"domains":{"excludeDomains":[],"includeDomains":["agora-web.jp"]},"name":"abort-current-inline-script"},{"arguments":["with-ad","section.main"],"domains":{"excludeDomains":[],"includeDomains":["video.laxd.com"]},"name":"remove-class"},{"arguments":["fanza_link"],"domains":{"excludeDomains":[],"includeDomains":["shico.xyz"]},"name":"abort-on-property-read"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["trendynailwraps.com"]},"name":"prevent-window-open"},{"arguments":["jQuery","floatingAd"],"domains":{"excludeDomains":[],"includeDomains":["2chblog.jp","blog.jp","blog.livedoor.jp","digital-thread.com","doorblog.jp","gundamlog.com","kijomatomelog.com","livedoor.blog","nandemo-uketori.com","nwknews.jp","yugioh-starlight.com"]},"name":"abort-current-inline-script"},{"arguments":["playing","VAST_TARGET"],"domains":{"excludeDomains":[],"includeDomains":["uraaka-joshi.com"]},"name":"prevent-addEventListener"},{"arguments":[".run()}","1000"],"domains":{"excludeDomains":[],"includeDomains":["collepic.net"]},"name":"adjust-setInterval"},{"arguments":["getAdCookie"],"domains":{"excludeDomains":[],"includeDomains":["javcup.com"]},"name":"prevent-setTimeout"},{"arguments":["#text","\/スポンサード?リンク\/"],"domains":{"excludeDomains":[],"includeDomains":["aidoly.net","aikru.com","arty-matome.com","ch-review.net","gametohkenranbu.sakuraweb.com","ideal2ch.livedoor.biz","kabegami.jpn.org","negisoku.com","rank1-media.com","ranky-ranking.net","resizer.myct.jp","seikeidouga.blog.jp","tcg-bloglife.com"]},"name":"remove-node-text"},{"arguments":["has-topbanner","body > header.has-topbanner"],"domains":{"excludeDomains":[],"includeDomains":["phileweb.com"]},"name":"remove-class"},{"arguments":["tag","Math.random"],"domains":{"excludeDomains":[],"includeDomains":["majikichi.com"]},"name":"abort-current-inline-script"},{"arguments":["floatingAd"],"domains":{"excludeDomains":[],"includeDomains":["2chblog.jp","46matome.net","all-nationz.com","animesoku.com","blog.jp","blog.livedoor.jp","doorblog.jp","ebitsu.net","fiveslot777.com","giants-news.com","jisaka.com","kijyomatome.com","konoyubitomare.jp","ldblog.jp","livedoor.biz","livedoor.blog","momoclonews.com","norisoku.com","openworldnews.net","oumaga-times.com","pachinkopachisro.com","vipnews.jp","vtubernews.jp"]},"name":"prevent-setTimeout"},{"arguments":["addEventListener","style.display"],"domains":{"excludeDomains":[],"includeDomains":["javmix.*","xn--gmq92kd2rm1kx34a.com"]},"name":"abort-current-inline-script"},{"arguments":["simplegameAdCountDown","1000","0.02"],"domains":{"excludeDomains":[],"includeDomains":["simplegame.jp"]},"name":"adjust-setTimeout"},{"arguments":["DOMContentLoaded","window["],"domains":{"excludeDomains":[],"includeDomains":["tokyomotion.net"]},"name":"prevent-addEventListener"},{"arguments":["jmp","Math"],"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"name":"abort-current-inline-script"},{"arguments":["DOMContentLoaded","showPopUpBanner"],"domains":{"excludeDomains":[],"includeDomains":["ero-video.net"]},"name":"prevent-addEventListener"},{"arguments":["hoihoi"],"domains":{"excludeDomains":[],"includeDomains":["mjoato3uion.ky-3.net","ov53i9il.blog.fc2.com","qaacacthlive.omaww.net"]},"name":"prevent-eval-if"},{"arguments":["document.getElementById","lists"],"domains":{"excludeDomains":[],"includeDomains":["momoiroadult.com"]},"name":"abort-current-inline-script"},{"arguments":["geoAvailable","true"],"domains":{"excludeDomains":[],"includeDomains":["sonae.sankei.co.jp"]},"name":"set-constant"},{"arguments":["document.write","sitejack"],"domains":{"excludeDomains":[],"includeDomains":["blog.livedoor.jp"]},"name":"abort-current-inline-script"},{"arguments":["$.popunder","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["wav.tv"]},"name":"set-constant"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["wav.tv"]},"name":"prevent-window-open"},{"arguments":["data-popup-url"],"domains":{"excludeDomains":[],"includeDomains":["wav.tv"]},"name":"remove-attr"},{"arguments":["aeriaGamesAdCountDown","0.02"],"domains":{"excludeDomains":[],"includeDomains":["minigame.aeriagames.jp"]},"name":"adjust-setTimeout"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["asg.to"]},"name":"prevent-window-open"},{"arguments":["onclick","span > a[onclick]"],"domains":{"excludeDomains":[],"includeDomains":["380cc.cc"]},"name":"remove-attr"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["dl.520cc.cc"]},"name":"prevent-window-open"},{"arguments":["visibility","4000"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"adjust-setTimeout"},{"arguments":["[native code]","2000","0.3"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"adjust-setTimeout"},{"arguments":["[native code]","3000","0.25"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"adjust-setTimeout"},{"arguments":["[native code]","4000","0.2"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"adjust-setTimeout"},{"arguments":["FIRST_DELAY","0"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"set-constant"},{"arguments":["NEXT_DELAY","0"],"domains":{"excludeDomains":[],"includeDomains":["ponta.abstractpainting.work"]},"name":"set-constant"},{"arguments":["sec","0"],"domains":{"excludeDomains":[],"includeDomains":["dotti2.jp","pochitto2.jp"]},"name":"set-constant"},{"arguments":["sec","0"],"domains":{"excludeDomains":[],"includeDomains":["gotouchi.jp"]},"name":"set-constant"},{"arguments":["sec","0"],"domains":{"excludeDomains":[],"includeDomains":["cmnw.jp"]},"name":"set-constant"},{"arguments":["DOMContentLoaded","\/ads|AmazonCarousel\/"],"domains":{"excludeDomains":[],"includeDomains":["fo76db.com"]},"name":"prevent-addEventListener"},{"arguments":["actress","myad"],"domains":{"excludeDomains":[],"includeDomains":["matome-geinou.net"]},"name":"abort-current-inline-script"},{"arguments":["dataLayer.push","document.cookie.includes"],"domains":{"excludeDomains":[],"includeDomains":["news.denfaminicogamer.jp"]},"name":"abort-current-inline-script"},{"arguments":["href","#kk","stay"],"domains":{"excludeDomains":[],"includeDomains":["mekomeko-club.icu"]},"name":"remove-attr"},{"arguments":["skipcnt","1000","0.001"],"domains":{"excludeDomains":[],"includeDomains":["portal.game.success-corp.jp"]},"name":"adjust-setInterval"},{"arguments":["a[href^=\"https:\/\/app.adjust.com\/\"]","?redirect"],"domains":{"excludeDomains":[],"includeDomains":["www.yahoo.co.jp"]},"name":"href-sanitizer"},{"arguments":["click","waqool"],"domains":{"excludeDomains":[],"includeDomains":["shinshi-manga.net"]},"name":"prevent-addEventListener"},{"arguments":["DOMContentLoaded","\/[Aa]dDiv|showVignette\/"],"domains":{"excludeDomains":[],"includeDomains":["chronicle.wiki","game-info.wiki","mindhack2ch.com","playing.wiki","seesaa.net","seesaawiki.jp","sokuhou.wiki"]},"name":"prevent-addEventListener"},{"arguments":["#text","\/^PRs$\/"],"domains":{"excludeDomains":[],"includeDomains":["sinsimmd.com"]},"name":"remove-node-text"},{"arguments":["a[href*=\"a8ejpredirect\"]","?a8ejpredirect"],"domains":{"excludeDomains":[],"includeDomains":["ba-goods-search.com","figure-times.com","hayamimi-gunpla.com"]},"name":"href-sanitizer"},{"arguments":["#text","\/^s*PRs*$\/"],"domains":{"excludeDomains":[],"includeDomains":["tyoieronews.blog.jp"]},"name":"remove-node-text"},{"arguments":["return r(!0)"],"domains":{"excludeDomains":[],"includeDomains":["twiman.net"]},"name":"prevent-setTimeout"},{"arguments":["document.currentScript","IFTG"],"domains":{"excludeDomains":[],"includeDomains":["jukenbbs.com"]},"name":"abort-current-inline-script"},{"arguments":["frameset[rows=\"95,30,*\"]","rows","0,30,*"],"domains":{"excludeDomains":[],"includeDomains":["mt-soft.sakura.ne.jp"]},"name":"trusted-set-attr"},{"arguments":["a[href^=\"\/link?fallback_url=\"]","?fallback_url"],"domains":{"excludeDomains":[],"includeDomains":["my-best.com"]},"name":"href-sanitizer"},{"arguments":["ads"],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"json-prune"},{"arguments":["data.adData"],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"json-prune"},{"arguments":["\/nrWrapper()|n.setTimeoutIds_.has(i)\/","10000"],"domains":{"excludeDomains":[],"includeDomains":["tver.jp"]},"name":"adjust-setTimeout"},{"arguments":["\/adSkip|window.ADGMAD\/","30000","0.001"],"domains":{"excludeDomains":[],"includeDomains":["chance.enjoy.point.auone.jp","game.hiroba.dpoint.docomo.ne.jp","game.pointmall.rakuten.net","kantangame.com"]},"name":"adjust-setTimeout"},{"arguments":["return n(!0)"],"domains":{"excludeDomains":[],"includeDomains":["skebetter.com"]},"name":"prevent-setTimeout"},{"arguments":["univresalP","noopFunc"],"domains":{"excludeDomains":[],"includeDomains":["ddd-smart.net"]},"name":"set-constant"},{"arguments":["script","showTimerModal","currentTime = 1500 * 2","currentTime = 0"],"domains":{"excludeDomains":[],"includeDomains":["freebie-ac.jp"]},"name":"trusted-replace-node-text"},{"arguments":["isGGSurvey","true"],"domains":{"excludeDomains":[],"includeDomains":["ac-illust.com","photo-ac.com","silhouette-ac.com"]},"name":"set-constant"},{"arguments":["enable_dl_after_countdown","true"],"domains":{"excludeDomains":[],"includeDomains":["ac-illust.com","photo-ac.com","silhouette-ac.com"]},"name":"set-constant"},{"arguments":["props.initialProps.pageProps.pageData.brandingAds"],"domains":{"excludeDomains":[],"includeDomains":["search.yahoo.co.jp"]},"name":"json-prune"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["motimoti3d.jp"]},"name":"prevent-window-open"},{"arguments":["wpsite_clickable_data"],"domains":{"excludeDomains":[],"includeDomains":["automaton-media.com"]},"name":"abort-on-property-read"},{"arguments":["a[href^=\"https:\/\/af.moshimo.com\/af\/c\/click?\"][href*=\"&url=\"]","?url"],"domains":{"excludeDomains":[],"includeDomains":["mantan-web.jp"]},"name":"href-sanitizer"},{"arguments":["a[href^=\"https:\/\/al.dmm.com\/?lurl=\"]","?lurl"],"domains":{"excludeDomains":[],"includeDomains":["figsoku.net","hobbylabon.com","mantan-web.jp"]},"name":"href-sanitizer"},{"arguments":["a[href^=\"https:\/\/affiliate.suruga-ya.jp\/modules\/af\/af_jump.php?\"]","?goods_url"],"domains":{"excludeDomains":[],"includeDomains":["figsoku.net"]},"name":"href-sanitizer"},{"arguments":["a[href*=\"hb.afl.rakuten.co.jp\/\"][href*=\"pc=\"]","?pc"],"domains":{"excludeDomains":[],"includeDomains":["chimolog.co","figsoku.net","hayamimi-gunpla.com","my-best.com"]},"name":"href-sanitizer"},{"arguments":["a[href*=\"ck.jp.ap.valuecommerce.com\/servlet\/referral?\"][href*=\"&vc_url=\"]","?vc_url"],"domains":{"excludeDomains":[],"includeDomains":["chimolog.co","figsoku.net","hayamimi-gunpla.com","livefans.jp","my-best.com"]},"name":"href-sanitizer"},{"arguments":["document.createElement","randomad"],"domains":{"excludeDomains":[],"includeDomains":["figsoku.net"]},"name":"abort-current-inline-script"},{"arguments":[],"domains":{"excludeDomains":[],"includeDomains":["ebbs.jp"]},"name":"prevent-refresh"},{"arguments":["a[href^=\"https:\/\/al.fanza.co.jp\/?lurl=\"]","?lurl"],"domains":{"excludeDomains":[],"includeDomains":["eromon.net","idol-blog.com","moez-m.com","ura-akiba.jp"]},"name":"href-sanitizer"},{"arguments":["SU_Api.AdsTimer","-1"],"domains":{"excludeDomains":[],"includeDomains":["azby.fmworld.net"]},"name":"set-constant"},{"arguments":["discarded-search-interstitial-cta-banner","true"],"domains":{"excludeDomains":[],"includeDomains":["gamewith.jp"]},"name":"set-cookie-reload"},{"arguments":["is-collaboration-jack","body"],"domains":{"excludeDomains":[],"includeDomains":["gamewith.jp"]},"name":"remove-class"},{"arguments":["map_ad_bottom_height","0"],"domains":{"excludeDomains":[],"includeDomains":["mapion.co.jp"]},"name":"set-constant"},{"arguments":["okwave_rwd","true"],"domains":{"excludeDomains":[],"includeDomains":["okwave.jp"]},"name":"set-cookie-reload"},{"arguments":["DOMContentLoaded","Fixed"],"domains":{"excludeDomains":[],"includeDomains":["negisoku.com"]},"name":"prevent-addEventListener"},{"arguments":["data.response.videoAds data.response.waku.tagRelatedBanner"],"domains":{"excludeDomains":[],"includeDomains":["www.nicovideo.jp"]},"name":"json-prune"},{"arguments":["#text","\/^s*PR$\/"],"domains":{"excludeDomains":[],"includeDomains":["geinoukame.com"]},"name":"remove-node-text"},{"arguments":["kyujin_box juku"],"domains":{"excludeDomains":[],"includeDomains":["gakudohoiku.gaccom.jp"]},"name":"json-prune"},{"arguments":["href",".topentry_text a","stay"],"domains":{"excludeDomains":[],"includeDomains":["kokopyon.net"]},"name":"remove-attr"},{"arguments":["(()=>{window.YadsTimelineManager=function(){return{insertAd:function(){}}};})();"],"domains":{"excludeDomains":[],"includeDomains":["yahoo.co.jp"]},"name":"__blockerkit-inject-script"}]};
+  const host = String(location.hostname || "").toLowerCase();
+  const pageURL = String(location.href || "");
+  const appliedStyleIds = new Set();
+  const appliedRuntimeCSSRules = new WeakMap();
+
+  function domainMatches(ruleDomains) {
+    const include = ruleDomains && Array.isArray(ruleDomains.includeDomains) ? ruleDomains.includeDomains : [];
+    const exclude = ruleDomains && Array.isArray(ruleDomains.excludeDomains) ? ruleDomains.excludeDomains : [];
+    const matches = (domain) => host === domain || host.endsWith("." + domain);
+    if (exclude.some(matches)) return false;
+    if (include.length === 0) return true;
+    return include.some(matches);
+  }
+
+  function addStyle(id, cssText) {
+    if (!cssText || appliedStyleIds.has(id)) return;
+    const install = () => {
+      if (!document.documentElement) return;
+      if (appliedStyleIds.has(id)) return;
+      const style = document.createElement("style");
+      style.type = "text/css";
+      style.setAttribute("data-blockerkit", id);
+      style.appendChild(document.createTextNode(cssText));
+      (document.head || document.documentElement).appendChild(style);
+      appliedStyleIds.add(id);
+    };
+    if (document.documentElement) install();
+    else document.addEventListener("DOMContentLoaded", install, { once: true });
+  }
+
+  function cssEscapeFallback(value) {
+    if (window.CSS && typeof window.CSS.escape === "function") return window.CSS.escape(value);
+    return String(value).replace(/[^a-zA-Z0-9_-]/g, "\\$&");
+  }
+
+  function isProceduralSelector(selector) {
+    return /:(?:-abp-has|has-text|contains|matches-attr|matches-css|matches-property|xpath|upward|remove)\(/.test(String(selector || ""));
+  }
+
+  function selectorCanBeInjected(selector) {
+    if (!selector || isProceduralSelector(selector)) return false;
+    if (window.CSS && typeof window.CSS.supports === "function") {
+      try { return window.CSS.supports("selector(" + selector + ")"); } catch (_) {}
+    }
+    return true;
+  }
+
+  function activeCosmeticExceptionSelectors() {
+    const selectors = [];
+    for (const rule of config.cosmeticRules || []) {
+      if (!domainMatches(rule.domains)) continue;
+      if (rule.kind === "exception") selectors.push(rule.selector);
+    }
+    return selectors;
+  }
+
+  function ruleIsGeneric(rule) {
+    const domains = rule && rule.domains ? rule.domains : {};
+    const include = Array.isArray(domains.includeDomains) ? domains.includeDomains : [];
+    return include.length === 0;
+  }
+
+  function genericHideDisabled() {
+    for (const rule of config.cosmeticRules || []) {
+      if (rule.kind !== "genericHideException") continue;
+      if (domainMatches(rule.domains)) return true;
+    }
+    return false;
+  }
+
+  function installStaticStyles() {
+    const exceptionSelectors = activeCosmeticExceptionSelectors();
+    const exceptionSet = new Set(exceptionSelectors);
+    const skipGenericHide = genericHideDisabled();
+    const hideSelectors = [];
+    for (const rule of config.cosmeticRules || []) {
+      if (!domainMatches(rule.domains)) continue;
+      if (rule.kind !== "hide") continue;
+      if (skipGenericHide && ruleIsGeneric(rule)) continue;
+      if (exceptionSet.has(rule.selector)) continue;
+      hideSelectors.push(rule.selector);
+    }
+    if (hideSelectors.length > 0) {
+      addStyle("hide", hideSelectors.join(",") + "{display:none!important;}");
+    }
+
+    const injectableExceptions = exceptionSelectors.filter(selectorCanBeInjected);
+    if (injectableExceptions.length > 0) {
+      addStyle(
+        "cosmetic-exceptions",
+        injectableExceptions.map((selector) => selector + "{display:revert!important;visibility:visible!important;}").join("\n")
+      );
+    }
+
+    let css = "";
+    let index = 0;
+    for (const rule of config.cssInjectionRules || []) {
+      if (!domainMatches(rule.domains)) continue;
+      if (skipGenericHide && ruleIsGeneric(rule)) continue;
+      if (isProceduralSelector(rule.selector) || declarationRemovesElement(rule.declaration)) continue;
+      css += "\n" + rule.selector + "{" + rule.declaration + "}";
+      index += 1;
+    }
+    if (css) addStyle("css-injection-" + index, css);
+  }
+
+  function splitProceduralSelector(selector) {
+    const patterns = [
+      ":-abp-has(",
+      ":has(",
+      ":has-text(",
+      ":contains(",
+      ":matches-attr(",
+      ":matches-css(",
+      ":matches-property(",
+      ":xpath(",
+      ":upward(",
+      ":remove("
+    ];
+    let best = -1;
+    let marker = "";
+    for (const candidate of patterns) {
+      const index = selector.indexOf(candidate);
+      if (index >= 0 && (best < 0 || index < best)) {
+        best = index;
+        marker = candidate;
+      }
+    }
+    if (best < 0) return null;
+    const base = selector.slice(0, best).trim() || "*";
+    const rawArg = selector.slice(best + marker.length);
+    const close = rawArg.lastIndexOf(")");
+    const arg = (close >= 0 ? rawArg.slice(0, close) : rawArg).replace(/^["']|["']$/g, "");
+    return { base, marker, arg };
+  }
+
+  function applyProceduralRule(rule, declaration, ruleKey) {
+    if (!domainMatches(rule.domains)) return;
+    if (rule.kind === "exception") return;
+    if (activeCosmeticExceptionSelectors().includes(rule.selector)) return;
+
+    const parsed = splitProceduralSelector(rule.selector);
+    if (!parsed) {
+      applyCSSSelectorRule(rule.selector, declaration, ruleKey);
+      return;
+    }
+
+    let nodes = [];
+    try {
+      nodes = Array.from(document.querySelectorAll(parsed.base));
+    } catch (_) {
+      return;
+    }
+
+    for (let node of nodes) {
+      let target = node;
+      if (parsed.marker === ":-abp-has(" || parsed.marker === ":has(") {
+        if (!elementHasSelector(node, parsed.arg)) continue;
+      } else if (parsed.marker === ":has-text(" || parsed.marker === ":contains(") {
+        if (!String(node.textContent || "").includes(parsed.arg)) continue;
+      } else if (parsed.marker === ":matches-attr(") {
+        if (!elementMatchesAttribute(node, parsed.arg)) continue;
+      } else if (parsed.marker === ":matches-css(") {
+        if (!elementMatchesCSS(node, parsed.arg)) continue;
+      } else if (parsed.marker === ":matches-property(") {
+        if (!elementMatchesProperty(node, parsed.arg)) continue;
+      } else if (parsed.marker === ":upward(") {
+        const levels = Number(parsed.arg);
+        if (Number.isFinite(levels) && levels > 0) {
+          for (let i = 0; i < levels && target.parentElement; i += 1) target = target.parentElement;
+        } else if (parsed.arg) {
+          target = node.closest(parsed.arg) || node;
+        }
+      } else if (parsed.marker === ":remove(") {
+        target.remove();
+        continue;
+      } else {
+        continue;
+      }
+      if (declaration != null) applyCSSDeclaration(target, declaration, ruleKey);
+      else if (target && target.style) target.style.setProperty("display", "none", "important");
+    }
+  }
+
+  function applyCSSSelectorRule(selector, declaration, ruleKey) {
+    let nodes = [];
+    try {
+      nodes = Array.from(document.querySelectorAll(selector));
+    } catch (_) {
+      return;
+    }
+    for (const node of nodes) {
+      if (declaration != null) applyCSSDeclaration(node, declaration, ruleKey);
+      else if (node && node.style) node.style.setProperty("display", "none", "important");
+    }
+  }
+
+  function declarationRemovesElement(declaration) {
+    return /^\s*remove\s*:\s*true(?:\s*!important)?\s*;?\s*$/i.test(String(declaration || ""));
+  }
+
+  function applyCSSDeclaration(target, declaration, ruleKey) {
+    if (!target) return;
+    if (declarationRemovesElement(declaration)) {
+      if (typeof target.remove === "function") target.remove();
+      return;
+    }
+    if (!target.style) return;
+    let appliedKeys = appliedRuntimeCSSRules.get(target);
+    if (!appliedKeys) {
+      appliedKeys = new Set();
+      appliedRuntimeCSSRules.set(target, appliedKeys);
+    }
+    if (appliedKeys.has(ruleKey)) return;
+    target.style.cssText = String(target.style.cssText || "") + ";" + declaration;
+    appliedKeys.add(ruleKey);
+  }
+
+  function elementHasSelector(element, selector) {
+    if (!element || typeof element.querySelector !== "function" || !selector) return false;
+    const text = String(selector || "").trim();
+    const scoped = /^[>+~]/.test(text) ? ":scope " + text : text;
+    try { return !!element.querySelector(scoped); } catch (_) {}
+    try { return !!element.querySelector(text); } catch (_) {}
+    return false;
+  }
+
+  function elementMatchesCSS(element, expression) {
+    if (!element || typeof window.getComputedStyle !== "function") return false;
+    let body = String(expression || "").trim();
+    let pseudo = null;
+    const comma = body.indexOf(",");
+    if (comma >= 0 && body.slice(0, comma).indexOf(":") < 0) {
+      pseudo = body.slice(0, comma).trim();
+      if (pseudo && !pseudo.startsWith(":")) pseudo = "::" + pseudo;
+      body = body.slice(comma + 1).trim();
+    }
+    const comparison = splitComparison(body);
+    if (!comparison) return false;
+    let actual = "";
+    try {
+      const style = window.getComputedStyle(element, pseudo);
+      actual = style && typeof style.getPropertyValue === "function"
+        ? style.getPropertyValue(comparison.name)
+        : (style ? style[comparison.name] : "");
+    } catch (_) {}
+    return patternMatches(stripWrappingQuotes(actual), comparison.pattern);
+  }
+
+  function elementMatchesProperty(element, expression) {
+    const comparison = splitComparison(expression);
+    if (!comparison) return false;
+    const value = getPathValue(element, comparison.name);
+    if (value == null) return false;
+    return patternMatches(String(value), comparison.pattern);
+  }
+
+  function elementMatchesAttribute(element, expression) {
+    const comparison = splitComparison(expression);
+    const pairs = elementAttributePairs(element);
+    if (!comparison) {
+      return pairs.some((pair) => patternMatches(pair.name, expression));
+    }
+    return pairs.some((pair) => (
+      patternMatches(pair.name, comparison.name) && patternMatches(pair.value, comparison.pattern)
+    ));
+  }
+
+  function splitComparison(expression) {
+    const text = String(expression || "").trim();
+    const equals = text.indexOf("=");
+    const colon = text.indexOf(":");
+    let separator = -1;
+    if (equals >= 0 && colon >= 0) separator = Math.min(equals, colon);
+    else separator = Math.max(equals, colon);
+    if (separator < 0) return null;
+    return {
+      name: text.slice(0, separator).trim(),
+      pattern: stripWrappingQuotes(text.slice(separator + 1).trim())
+    };
+  }
+
+  function getPathValue(owner, path) {
+    let value = owner;
+    for (const part of String(path || "").split(".").filter(Boolean)) {
+      value = value == null ? null : value[part];
+      if (value == null) return null;
+    }
+    return value;
+  }
+
+  function elementAttributePairs(element) {
+    const pairs = [];
+    if (!element) return pairs;
+    try {
+      if (typeof element.getAttributeNames === "function") {
+        for (const name of element.getAttributeNames()) {
+          pairs.push({ name, value: element.getAttribute(name) || "" });
+        }
+        return pairs;
+      }
+    } catch (_) {}
+
+    const attrs = element.attributes;
+    if (!attrs) return pairs;
+    if (typeof attrs.length === "number") {
+      for (let index = 0; index < attrs.length; index += 1) {
+        const attr = attrs[index];
+        if (attr && attr.name) pairs.push({ name: attr.name, value: attr.value || "" });
+      }
+      return pairs;
+    }
+    for (const name of Object.keys(attrs)) {
+      pairs.push({ name, value: attrs[name] || "" });
+    }
+    return pairs;
+  }
+
+  let mutationScheduled = false;
+  function applyProceduralRulesSoon() {
+    if (mutationScheduled) return;
+    mutationScheduled = true;
+    queueMicrotask(() => {
+      mutationScheduled = false;
+      const skipGenericHide = genericHideDisabled();
+      for (const rule of config.cosmeticRules || []) {
+        if (skipGenericHide && ruleIsGeneric(rule)) continue;
+        if (rule.kind === "extended") applyProceduralRule(rule);
+      }
+      for (let index = 0; index < (config.cssInjectionRules || []).length; index += 1) {
+        const rule = config.cssInjectionRules[index];
+        if (skipGenericHide && ruleIsGeneric(rule)) continue;
+        if (isProceduralSelector(rule.selector) || declarationRemovesElement(rule.declaration)) {
+          applyProceduralRule(rule, rule.declaration, "css-injection-" + index);
+        }
+      }
+    });
+  }
+
+  function parseValue(raw) {
+    if (raw === "undefined") return undefined;
+    if (raw === "null") return null;
+    if (raw === "true") return true;
+    if (raw === "false") return false;
+    if (/^-?\d+(\.\d+)?$/.test(raw)) return Number(raw);
+    return raw;
+  }
+
+  function definePath(path, descriptorFactory) {
+    const parts = String(path || "").split(".").filter(Boolean);
+    if (parts.length === 0) return false;
+    let owner = window;
+    for (let i = 0; i < parts.length - 1; i += 1) {
+      const key = parts[i];
+      if (owner[key] == null) owner[key] = {};
+      owner = owner[key];
+    }
+    const prop = parts[parts.length - 1];
+    try {
+      Object.defineProperty(owner, prop, descriptorFactory());
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function findPathOwner(path) {
+    const parts = String(path || "").split(".").filter(Boolean);
+    if (parts.length === 0) return null;
+    let owner = window;
+    for (let i = 0; i < parts.length - 1; i += 1) {
+      owner = owner == null ? null : owner[parts[i]];
+      if (owner == null) return null;
+    }
+    return { owner, prop: parts[parts.length - 1] };
+  }
+
+  function installScriptlets() {
+    for (const rule of config.scriptletRules || []) {
+      if (!domainMatches(rule.domains)) continue;
+      const args = Array.isArray(rule.arguments) ? rule.arguments : [];
+      const name = String(rule.name || "");
+
+      if (name === "__blockerkit-inject-script") {
+        installRawScript(args[0] || "");
+      } else if (name === "set-constant" || name === "set" || name === "trusted-set-constant") {
+        const value = parseValue(args[1] || "");
+        definePath(args[0], () => ({ configurable: true, get: () => value, set: () => {} }));
+      } else if (name === "abort-current-inline-script" || name === "acis") {
+        installAbortCurrentInlineScript(args[0] || "", args[1] || "");
+      } else if (name === "abort-on-stack-trace") {
+        installAbortOnStackTrace(args[0] || "", args[1] || "");
+      } else if (name === "abort-on-property-read" || name === "aopr") {
+        definePath(args[0], () => ({ configurable: true, get: () => { throw new ReferenceError("BlockerKit aborted property read"); } }));
+      } else if (name === "abort-on-property-write" || name === "aopw") {
+        definePath(args[0], () => ({ configurable: true, set: () => { throw new ReferenceError("BlockerKit aborted property write"); } }));
+      } else if (name === "prevent-window-open") {
+        window.open = function() { return null; };
+      } else if (name === "prevent-addEventListener") {
+        installAddEventListenerGuard(args[0] || "", args[1] || "");
+      } else if (name === "prevent-element-src-loading") {
+        installElementSrcGuard(args[0] || "", args[1] || "");
+      } else if (name === "prevent-fetch" || name === "no-fetch-if") {
+        installFetchGuard(args[0] || "");
+      } else if (name === "prevent-xhr" || name === "no-xhr-if") {
+        installXHRGuard(args[0] || "");
+      } else if (name === "prevent-setTimeout") {
+        installTimerGuard("setTimeout", args[0] || "");
+      } else if (name === "prevent-setInterval") {
+        installTimerGuard("setInterval", args[0] || "");
+      } else if (name === "adjust-setTimeout") {
+        installTimerAdjust("setTimeout", args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "adjust-setInterval") {
+        installTimerAdjust("setInterval", args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "prevent-eval-if") {
+        installEvalGuard(args[0] || "");
+      } else if (name === "noeval") {
+        installEvalGuard("");
+      } else if (name === "prevent-requestAnimationFrame") {
+        installRequestAnimationFrameGuard(args[0] || "");
+      } else if (name === "set-local-storage-item" || name === "trusted-set-local-storage-item") {
+        try { localStorage.setItem(args[0], storageValue(args[1] || "")); } catch (_) {}
+      } else if (name === "set-session-storage-item" || name === "trusted-set-session-storage-item") {
+        try { sessionStorage.setItem(args[0], storageValue(args[1] || "")); } catch (_) {}
+      } else if (name === "set-cookie" || name === "trusted-set-cookie" || name === "trusted-set-cookie-reload" || name === "set-cookie-reload") {
+        if (args[0]) document.cookie = args[0] + "=" + storageValue(args[1] || "") + "; path=/";
+      } else if (name === "remove-cookie") {
+        removeCookie(args[0] || "");
+      } else if (name === "trusted-create-element") {
+        installTrustedCreateElement(args[0] || "head", args[1] || "div", args[2] || "", args[3] || "");
+      } else if (name === "trusted-click-element") {
+        installTrustedClickElement(args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "trusted-replace-argument") {
+        installArgumentReplacer(args[0] || "", args[1] || "0", args[2] || "", args[3] || "");
+      } else if (name === "trusted-suppress-native-method") {
+        installNativeMethodSuppressor(args[0] || "", args[1] || "");
+      } else if (name === "trusted-replace-fetch-response") {
+        installFetchResponseReplacer(args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "trusted-replace-xhr-response") {
+        installXHRResponseReplacer(args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "trusted-prune-inbound-object") {
+        installInboundObjectPruner(args[0] || "", args[1] || "");
+      } else if (name === "google-ima3") {
+        installGoogleIMA3Stub();
+      } else if (name === "googletagservices-gpt") {
+        installGoogletagServicesStub();
+      } else if (name === "googlesyndication-adsbygoogle") {
+        installAdsByGoogleStub();
+      } else if (name === "hide-in-shadow-dom") {
+        installShadowDOMAction(args[0] || "", (node) => {
+          if (node && node.style) node.style.setProperty("display", "none", "important");
+        });
+      } else if (name === "remove-in-shadow-dom") {
+        installShadowDOMAction(args[0] || "", (node) => {
+          if (node && typeof node.remove === "function") node.remove();
+        });
+      } else if (name === "inject-css-in-shadow-dom") {
+        installShadowStyle(args[0] || "");
+      } else if (name === "remove-class") {
+        installDOMAction(() => document.querySelectorAll(args[1] || "*").forEach((node) => node.classList.remove(args[0])));
+      } else if (name === "remove-attr") {
+        installDOMAction(() => document.querySelectorAll(args[1] || "*").forEach((node) => node.removeAttribute(args[0])));
+      } else if (name === "set-attr" || name === "trusted-set-attr") {
+        installSetAttr(args[0] || "*", args[1] || "", args[2] || "");
+      } else if (name === "remove-node-text") {
+        installRemoveNodeText(args[0] || "script", args[1] || "");
+      } else if (name === "trusted-replace-node-text") {
+        installReplaceNodeText(args[0] || "script", args[1] || "", args[2] || "", args[3] || "");
+      } else if (name === "json-prune" || name === "json-prune-fetch-response" || name === "json-prune-xhr-response") {
+        installJSONPrune(args[0] || "", args[1] || "");
+      } else if (name === "href-sanitizer") {
+        installDOMAction(() => document.querySelectorAll("a[href]").forEach((node) => {
+          try {
+            const url = new URL(node.href);
+            const param = args[0] || "url";
+            const clean = url.searchParams.get(param);
+            if (clean) node.href = clean;
+          } catch (_) {}
+        }));
+      } else if (name === "m3u-prune") {
+        installResponseTextTransform(args[1] || "", (text) => pruneM3UResponseText(text, args[0] || ""));
+      } else if (name === "xml-prune") {
+        installResponseTextTransform(args[2] || args[1] || "", (text) => pruneXMLResponseText(text, args[0] || ""));
+      } else if (name === "spoof-css") {
+        installSpoofCSS(args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "prevent-navigation") {
+        installNavigationGuard(args[0] || "");
+      } else if (name === "prevent-refresh") {
+        installRefreshGuard();
+      } else if (name === "trusted-replace-outbound-text") {
+        installOutboundTextReplacer(args[0] || "", args[1] || "", args[2] || "");
+      } else if (name === "prevent-innerHTML") {
+        installInnerHTMLGuard(args[0] || "*", args[1] || "");
+      } else if (name === "close-window") {
+        if (patternMatches(pageURL, args[0] || "")) {
+          try { window.close(); } catch (_) {}
+        }
+      } else if (name === "trusted-dispatch-event") {
+        installDispatchEvent(args[0] || "");
+      } else if (name === "amazon-apstag") {
+        installAmazonApstagStub();
+      } else if (name === "gemius") {
+        installGemiusStub();
+      } else if (name === "prevent-bab" || name === "prevent-fab-3.2.0") {
+        installAntiAdblockStub();
+      } else if (name === "prevent-popads-net") {
+        installPopAdsDefuser();
+      }
+    }
+  }
+
+  function installRawScript(source) {
+    try {
+      Function(String(source || ""))();
+    } catch (_) {}
+  }
+
+  function storageValue(value) {
+    if (value === "$now$") return String(Date.now());
+    return value;
+  }
+
+  function stripWrappingQuotes(value) {
+    const text = String(value || "").trim();
+    if (
+      (text.startsWith('"') && text.endsWith('"'))
+      || (text.startsWith("'") && text.endsWith("'"))
+      || (text.startsWith("`") && text.endsWith("`"))
+    ) {
+      return text.slice(1, -1);
+    }
+    return text;
+  }
+
+  function patternMatches(value, pattern) {
+    if (!pattern) return true;
+    const text = String(value || "");
+    const source = String(pattern || "");
+    if (source.length >= 2 && source[0] === "/") {
+      const lastSlash = source.lastIndexOf("/");
+      if (lastSlash > 0) {
+        try {
+          return new RegExp(source.slice(1, lastSlash), source.slice(lastSlash + 1)).test(text);
+        } catch (_) {}
+      }
+    }
+    return text.includes(source);
+  }
+
+  function argumentText(value) {
+    if (typeof value === "string") return value;
+    try {
+      const json = JSON.stringify(value);
+      if (json != null) return json;
+    } catch (_) {}
+    return String(value);
+  }
+
+  function argumentPatternMatches(args, pattern) {
+    if (!pattern) return true;
+    const text = Array.from(args || []).map(argumentText).join(" ");
+    const tokens = String(pattern || "")
+      .split("|")
+      .map(stripWrappingQuotes)
+      .map((token) => token.trim())
+      .filter(Boolean);
+    if (tokens.length === 0) return true;
+    return tokens.some((token) => patternMatches(text, token));
+  }
+
+  function makeMatcher(pattern) {
+    return (value) => patternMatches(value, pattern);
+  }
+
+  function makeReplacement(search) {
+    const source = String(search || "");
+    if (source.length >= 2 && source[0] === "/") {
+      const lastSlash = source.lastIndexOf("/");
+      if (lastSlash > 0) {
+        try {
+          return new RegExp(source.slice(1, lastSlash), source.slice(lastSlash + 1));
+        } catch (_) {}
+      }
+    }
+    return source;
+  }
+
+  function replaceText(value, search, replacement) {
+    const searchValue = makeReplacement(search);
+    const text = String(value || "");
+    const replaced = text.replace(searchValue, replacement || "");
+    if (replaced !== text || String(search || "").startsWith("/")) return replaced;
+
+    const quotedSearch = quoteJSONPropertyLiteral(search);
+    if (!quotedSearch) return replaced;
+    const quotedReplacement = quoteJSONPropertyLiteral(replacement) || replacement || "";
+    return text.replace(quotedSearch, quotedReplacement);
+  }
+
+  function quoteJSONPropertyLiteral(value) {
+    const text = String(value || "");
+    if (text.includes('"')) return null;
+    const separator = text.indexOf(":");
+    if (separator <= 0) return null;
+    return '"' + text.slice(0, separator) + '"' + text.slice(separator);
+  }
+
+  function applyReplacementDirective(value, directive) {
+    const raw = String(directive || "");
+    if (!raw.startsWith("replace:/")) return raw;
+
+    const body = raw.slice("replace:".length);
+    const firstEnd = findUnescapedSlash(body, 1);
+    if (firstEnd < 0) return value;
+    const lastEnd = findLastUnescapedSlash(body);
+    if (lastEnd <= firstEnd) return value;
+
+    const pattern = body.slice(1, firstEnd);
+    const replacement = body.slice(firstEnd + 1, lastEnd);
+    const flags = body.slice(lastEnd + 1);
+    try {
+      return String(value || "").replace(new RegExp(pattern, flags), replacement);
+    } catch (_) {
+      return value;
+    }
+  }
+
+  function findUnescapedSlash(text, start) {
+    let escaped = false;
+    for (let index = start; index < text.length; index += 1) {
+      const char = text[index];
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (char === "\\") {
+        escaped = true;
+        continue;
+      }
+      if (char === "/") return index;
+    }
+    return -1;
+  }
+
+  function findLastUnescapedSlash(text) {
+    for (let index = text.length - 1; index >= 0; index -= 1) {
+      if (text[index] !== "/") continue;
+      let slashCount = 0;
+      for (let cursor = index - 1; cursor >= 0 && text[cursor] === "\\"; cursor -= 1) slashCount += 1;
+      if (slashCount % 2 === 0) return index;
+    }
+    return -1;
+  }
+
+  function functionSource(listener) {
+    if (typeof listener === "function") return Function.prototype.toString.call(listener);
+    if (listener && typeof listener.handleEvent === "function") {
+      return Function.prototype.toString.call(listener.handleEvent);
+    }
+    return String(listener || "");
+  }
+
+  function installAbortCurrentInlineScript(path, pattern) {
+    const target = findPathOwner(path);
+    if (!target) return;
+    let value = target.owner[target.prop];
+    const shouldAbort = () => {
+      const script = document.currentScript;
+      const text = script && (script.textContent || script.innerText || "");
+      return patternMatches(text, pattern);
+    };
+    try {
+      Object.defineProperty(target.owner, target.prop, {
+        configurable: true,
+        get: function() {
+          if (shouldAbort()) throw new ReferenceError("BlockerKit aborted inline script");
+          return value;
+        },
+        set: function(nextValue) {
+          if (shouldAbort()) throw new ReferenceError("BlockerKit aborted inline script");
+          value = nextValue;
+        }
+      });
+    } catch (_) {}
+  }
+
+  function installAbortOnStackTrace(path, stackPattern) {
+    const target = findPathOwner(path);
+    if (!target) return;
+    let value = target.owner[target.prop];
+    const shouldAbort = () => {
+      try { return patternMatches(new Error().stack || "", stackPattern); } catch (_) { return false; }
+    };
+    try {
+      Object.defineProperty(target.owner, target.prop, {
+        configurable: true,
+        get: function() {
+          if (shouldAbort()) throw new ReferenceError("BlockerKit aborted stack trace");
+          return value;
+        },
+        set: function(nextValue) {
+          if (shouldAbort()) throw new ReferenceError("BlockerKit aborted stack trace");
+          value = nextValue;
+        }
+      });
+    } catch (_) {}
+  }
+
+  function installAddEventListenerGuard(typePattern, listenerPattern) {
+    const proto = window.EventTarget && window.EventTarget.prototype;
+    if (!proto || typeof proto.addEventListener !== "function" || proto.__blockerKitAddEventListenerGuard) return;
+    const originalAddEventListener = proto.addEventListener;
+    Object.defineProperty(proto, "__blockerKitAddEventListenerGuard", { value: true });
+    proto.addEventListener = function(type, listener, options) {
+      if (patternMatches(type, typePattern) && patternMatches(functionSource(listener), listenerPattern)) return;
+      return originalAddEventListener.apply(this, arguments);
+    };
+  }
+
+  function elementMatchesType(element, type) {
+    if (!type) return true;
+    const tag = String((element && element.tagName) || "").toLowerCase();
+    return tag === String(type).toLowerCase();
+  }
+
+  function installElementSrcGuard(type, pattern) {
+    const proto = window.Element && window.Element.prototype;
+    if (!proto || proto.__blockerKitElementSrcGuard) return;
+    Object.defineProperty(proto, "__blockerKitElementSrcGuard", { value: true });
+    const originalSetAttribute = proto.setAttribute;
+    if (typeof originalSetAttribute === "function") {
+      proto.setAttribute = function(name, value) {
+        const attr = String(name || "").toLowerCase();
+        if (
+          elementMatchesType(this, type)
+          && (attr === "src" || attr === "href")
+          && patternMatches(value, pattern)
+        ) {
+          return;
+        }
+        return originalSetAttribute.apply(this, arguments);
+      };
+    }
+  }
+
+  function installRemoveNodeText(selector, pattern) {
+    installDOMAction(() => {
+      document.querySelectorAll(selector || "script").forEach((node) => {
+        const text = String(node.textContent || "");
+        if (patternMatches(text, pattern)) node.textContent = "";
+      });
+    });
+  }
+
+  function installReplaceNodeText(selector, pattern, search, replacement) {
+    const matcher = makeMatcher(pattern);
+    const searchValue = makeReplacement(search);
+    installDOMAction(() => {
+      document.querySelectorAll(selector || "script").forEach((node) => {
+        const text = String(node.textContent || "");
+        if (!matcher(text)) return;
+        node.textContent = text.replace(searchValue, replacement || "");
+      });
+    });
+  }
+
+  function installSetAttr(selector, attributeName, rawValue) {
+    if (!attributeName) return;
+    installDOMAction(() => {
+      document.querySelectorAll(selector || "*").forEach((node) => {
+        const value = /^\[[^\]]+\]$/.test(rawValue)
+          ? node.getAttribute(rawValue.slice(1, -1)) || ""
+          : rawValue;
+        try { node.setAttribute(attributeName, value); } catch (_) {}
+      });
+    });
+  }
+
+  function installTrustedCreateElement(parentSelector, tagName, attributeText, textContent) {
+    const marker = [
+      parentSelector,
+      tagName,
+      attributeText,
+      textContent
+    ].join("\u0000");
+    installDOMAction(() => {
+      document.querySelectorAll(parentSelector || "head").forEach((parent) => {
+        if (!parent.__blockerKitCreatedElements) parent.__blockerKitCreatedElements = new Set();
+        if (parent.__blockerKitCreatedElements.has(marker)) return;
+        const node = document.createElement(tagName || "div");
+        applyAttributeText(node, attributeText || "");
+        if (textContent) node.textContent = textContent;
+        try {
+          parent.appendChild(node);
+          parent.__blockerKitCreatedElements.add(marker);
+        } catch (_) {}
+      });
+    });
+  }
+
+  function applyAttributeText(node, attributeText) {
+    const source = String(attributeText || "");
+    const pairPattern = /([A-Za-z_:-][\w:.-]*)=(?:"([^"]*)"|'([^']*)'|([^\s]+))/g;
+    let matched = false;
+    let match;
+    while ((match = pairPattern.exec(source)) !== null) {
+      matched = true;
+      const value = match[2] != null ? match[2] : (match[3] != null ? match[3] : match[4]);
+      try { node.setAttribute(match[1], value || ""); } catch (_) {}
+    }
+
+    if (matched) return;
+    const maybeURL = stripWrappingQuotes(source);
+    if (/^https?:\/\//.test(maybeURL)) {
+      const tag = String(node.tagName || "").toLowerCase();
+      try { node.setAttribute(tag === "link" ? "href" : "src", maybeURL); } catch (_) {}
+    }
+  }
+
+  function installTrustedClickElement(selector, extraMatch, delayText) {
+    if (!selector) return;
+    const numericDelay = Number(delayText || extraMatch || "0");
+    const delay = Number.isFinite(numericDelay) && numericDelay > 0 ? numericDelay : 0;
+    installDOMAction(() => {
+      const click = () => {
+        document.querySelectorAll(selector).forEach((node) => {
+          if (typeof node.click === "function") node.click();
+        });
+      };
+      if (delay > 0) setTimeout(click, delay);
+      else click();
+    });
+  }
+
+  function argumentIndex(indexText, length) {
+    const index = Number(indexText || "0");
+    if (!Number.isInteger(index)) return -1;
+    return index < 0 ? length + index : index;
+  }
+
+  function installArgumentReplacer(path, indexText, replacement, pattern) {
+    const target = findPathOwner(path);
+    if (!target || typeof target.owner[target.prop] !== "function") return;
+    const original = target.owner[target.prop];
+    target.owner[target.prop] = function() {
+      const args = Array.from(arguments);
+      const index = argumentIndex(indexText, args.length);
+      if (index >= 0 && index < args.length && patternMatches(args[index], pattern)) {
+        args[index] = applyReplacementDirective(args[index], replacement);
+      }
+      return original.apply(this, args);
+    };
+  }
+
+  function installNativeMethodSuppressor(path, pattern) {
+    const target = findPathOwner(path);
+    if (!target || typeof target.owner[target.prop] !== "function") return;
+    const original = target.owner[target.prop];
+    target.owner[target.prop] = function() {
+      if (argumentPatternMatches(arguments, pattern)) return undefined;
+      return original.apply(this, arguments);
+    };
+  }
+
+  function mapPossiblyAsync(value, mapper) {
+    if (value && typeof value.then === "function") return value.then(mapper);
+    return mapper(value);
+  }
+
+  function installFetchResponseReplacer(search, replacement, urlPattern) {
+    if (typeof window.fetch !== "function") return;
+    const originalFetch = window.fetch;
+    window.fetch = function(input, init) {
+      const url = typeof input === "string" ? input : (input && input.url);
+      const result = originalFetch.apply(this, arguments);
+      return mapPossiblyAsync(result, (response) => {
+        if (!patternMatches(url, urlPattern)) return response;
+        return wrapResponseText(response, search, replacement);
+      });
+    };
+  }
+
+  function wrapResponseText(response, search, replacement) {
+    if (!response || typeof response !== "object" || response.__blockerKitResponseWrapped) return response;
+    try { Object.defineProperty(response, "__blockerKitResponseWrapped", { value: true }); } catch (_) {}
+
+    if (typeof response.text === "function") {
+      const originalText = response.text;
+      response.text = function() {
+        return mapPossiblyAsync(originalText.apply(this, arguments), (text) => replaceText(text, search, replacement));
+      };
+    }
+
+    if (typeof response.json === "function") {
+      const originalJSON = response.json;
+      response.json = function() {
+        return mapPossiblyAsync(originalJSON.apply(this, arguments), (json) => {
+          try { return JSON.parse(replaceText(JSON.stringify(json), search, replacement)); } catch (_) { return json; }
+        });
+      };
+    }
+
+    return response;
+  }
+
+  function installXHRResponseReplacer(search, replacement, urlPattern) {
+    if (!window.XMLHttpRequest || !XMLHttpRequest.prototype) return;
+    const proto = XMLHttpRequest.prototype;
+    const originalOpen = proto.open;
+    const originalSend = proto.send;
+    if (typeof originalOpen !== "function" || typeof originalSend !== "function") return;
+
+    proto.open = function(method, url) {
+      this.__blockerKitResponseURL = url;
+      return originalOpen.apply(this, arguments);
+    };
+    proto.send = function() {
+      const result = originalSend.apply(this, arguments);
+      if (patternMatches(this.__blockerKitResponseURL, urlPattern)) {
+        installXHRTextGetter(this, "responseText", search, replacement);
+        installXHRTextGetter(this, "response", search, replacement);
+      }
+      return result;
+    };
+  }
+
+  function installXHRTextGetter(xhr, property, search, replacement) {
+    let value;
+    try { value = xhr[property]; } catch (_) { return; }
+    if (typeof value !== "string") return;
+    try {
+      Object.defineProperty(xhr, property, {
+        configurable: true,
+        get: function() {
+          return replaceText(value, search, replacement);
+        },
+        set: function(nextValue) {
+          value = nextValue;
+        }
+      });
+    } catch (_) {}
+  }
+
+  function installResponseTextTransform(urlPattern, mapper) {
+    if (!window.__blockerKitResponseTextTransforms) {
+      Object.defineProperty(window, "__blockerKitResponseTextTransforms", { value: [] });
+    }
+    window.__blockerKitResponseTextTransforms.push({ urlPattern, mapper });
+
+    if (typeof window.fetch === "function" && !window.__blockerKitScriptletResponseTransformFetch) {
+      Object.defineProperty(window, "__blockerKitScriptletResponseTransformFetch", { value: true });
+      const originalFetch = window.fetch;
+      window.fetch = function(input, init) {
+        const url = typeof input === "string" ? input : (input && input.url);
+        const result = originalFetch.apply(this, arguments);
+        return mapPossiblyAsync(result, (response) => wrapResponseForScriptletTransforms(response, url));
+      };
+    }
+
+    if (window.XMLHttpRequest && XMLHttpRequest.prototype && !window.__blockerKitScriptletResponseTransformXHR) {
+      Object.defineProperty(window, "__blockerKitScriptletResponseTransformXHR", { value: true });
+      const proto = XMLHttpRequest.prototype;
+      const originalOpen = proto.open;
+      const originalSend = proto.send;
+      if (typeof originalOpen === "function") {
+        proto.open = function(method, url) {
+          this.__blockerKitScriptletResponseURL = url;
+          return originalOpen.apply(this, arguments);
+        };
+      }
+      if (typeof originalSend === "function") {
+        proto.send = function() {
+          const result = originalSend.apply(this, arguments);
+          installXHRTransformGetter(this, "responseText", this.__blockerKitScriptletResponseURL, applyScriptletResponseTransforms);
+          installXHRTransformGetter(this, "response", this.__blockerKitScriptletResponseURL, applyScriptletResponseTransforms);
+          return result;
+        };
+      }
+    }
+  }
+
+  function wrapResponseForScriptletTransforms(response, rawURL) {
+    if (!response || typeof response !== "object" || response.__blockerKitScriptletResponseWrapped) return response;
+    try { Object.defineProperty(response, "__blockerKitScriptletResponseWrapped", { value: true }); } catch (_) {}
+
+    if (typeof response.text === "function") {
+      const originalText = response.text;
+      response.text = function() {
+        return mapPossiblyAsync(originalText.apply(this, arguments), (text) => applyScriptletResponseTransforms(text, rawURL));
+      };
+    }
+
+    if (typeof response.json === "function") {
+      const originalJSON = response.json;
+      response.json = function() {
+        return mapPossiblyAsync(originalJSON.apply(this, arguments), (json) => {
+          try { return JSON.parse(applyScriptletResponseTransforms(JSON.stringify(json), rawURL)); } catch (_) { return json; }
+        });
+      };
+    }
+
+    return response;
+  }
+
+  function applyScriptletResponseTransforms(text, rawURL) {
+    let nextText = String(text || "");
+    for (const rule of window.__blockerKitResponseTextTransforms || []) {
+      if (!patternMatches(rawURL, rule.urlPattern)) continue;
+      try { nextText = rule.mapper(nextText); } catch (_) {}
+    }
+    return nextText;
+  }
+
+  function installSpoofCSS(selector, property, value) {
+    if (!selector || !property || typeof window.getComputedStyle !== "function") return;
+    if (!window.__blockerKitSpoofCSSRules) {
+      Object.defineProperty(window, "__blockerKitSpoofCSSRules", { value: [] });
+    }
+    window.__blockerKitSpoofCSSRules.push({ selector, property, value });
+    if (window.__blockerKitSpoofCSS) return;
+    Object.defineProperty(window, "__blockerKitSpoofCSS", { value: true });
+    const originalGetComputedStyle = window.getComputedStyle;
+    window.getComputedStyle = function(element, pseudoElement) {
+      const style = originalGetComputedStyle.apply(this, arguments);
+      const matchingRules = (window.__blockerKitSpoofCSSRules || []).filter((rule) => elementMatchesSelector(element, rule.selector));
+      if (matchingRules.length === 0) return style;
+      return makeSpoofedStyle(style, matchingRules);
+    };
+  }
+
+  function makeSpoofedStyle(style, rules) {
+    const values = {};
+    for (const rule of rules) values[rule.property] = rule.value;
+    const getValue = (name) => Object.prototype.hasOwnProperty.call(values, name)
+      ? values[name]
+      : (style && typeof style.getPropertyValue === "function" ? style.getPropertyValue(name) : "");
+
+    if (typeof Proxy === "function") {
+      return new Proxy(style || {}, {
+        get(target, prop) {
+          if (prop === "getPropertyValue") return getValue;
+          if (Object.prototype.hasOwnProperty.call(values, prop)) return values[prop];
+          return target ? target[prop] : undefined;
+        }
+      });
+    }
+
+    const fallback = style || {};
+    fallback.getPropertyValue = getValue;
+    for (const key of Object.keys(values)) fallback[key] = values[key];
+    return fallback;
+  }
+
+  function elementMatchesSelector(element, selector) {
+    if (!selector) return true;
+    try {
+      if (element && typeof element.matches === "function") return element.matches(selector);
+    } catch (_) {}
+    return elementMatchesType(element, selector);
+  }
+
+  function installNavigationGuard(pattern) {
+    const shouldBlock = (url) => patternMatches(url, pattern);
+    patchMethod(location, "assign", shouldBlock);
+    patchMethod(location, "replace", shouldBlock);
+  }
+
+  function patchMethod(owner, property, shouldBlock) {
+    if (!owner || typeof owner[property] !== "function") return;
+    const original = owner[property];
+    try {
+      owner[property] = function(value) {
+        if (shouldBlock(value)) return undefined;
+        return original.apply(this, arguments);
+      };
+    } catch (_) {}
+  }
+
+  function installRefreshGuard() {
+    if (!location || typeof location.reload !== "function") return;
+    try { location.reload = function() {}; } catch (_) {}
+  }
+
+  function installOutboundTextReplacer(path, search, replacement) {
+    const target = findPathOwner(path);
+    if (!target || typeof target.owner[target.prop] !== "function") return;
+    const original = target.owner[target.prop];
+    target.owner[target.prop] = function() {
+      const result = original.apply(this, arguments);
+      return typeof result === "string" ? replaceText(result, search, replacement) : result;
+    };
+  }
+
+  function installInnerHTMLGuard(selector, pattern) {
+    const proto = window.Element && window.Element.prototype;
+    if (!proto) return;
+    if (!window.__blockerKitInnerHTMLRules) {
+      Object.defineProperty(window, "__blockerKitInnerHTMLRules", { value: [] });
+    }
+    window.__blockerKitInnerHTMLRules.push({ selector, pattern });
+    if (proto.__blockerKitInnerHTMLGuard) return;
+    Object.defineProperty(proto, "__blockerKitInnerHTMLGuard", { value: true });
+    const descriptor = findPropertyDescriptor(proto, "innerHTML");
+    try {
+      Object.defineProperty(proto, "innerHTML", {
+        configurable: true,
+        get: function() {
+          if (descriptor && typeof descriptor.get === "function") return descriptor.get.call(this);
+          return this.__blockerKitInnerHTML || "";
+        },
+        set: function(value) {
+          for (const rule of window.__blockerKitInnerHTMLRules || []) {
+            if (elementMatchesSelector(this, rule.selector) && patternMatches(value, rule.pattern)) {
+              this.__blockerKitInnerHTML = "";
+              return;
+            }
+          }
+          this.__blockerKitInnerHTML = String(value || "");
+          if (descriptor && typeof descriptor.set === "function") descriptor.set.call(this, value);
+        }
+      });
+    } catch (_) {}
+  }
+
+  function findPropertyDescriptor(owner, property) {
+    let current = owner;
+    while (current) {
+      const descriptor = Object.getOwnPropertyDescriptor(current, property);
+      if (descriptor) return descriptor;
+      current = Object.getPrototypeOf(current);
+    }
+    return null;
+  }
+
+  function installDispatchEvent(eventName) {
+    if (!eventName) return;
+    try {
+      const event = typeof Event === "function" ? new Event(eventName) : { type: eventName };
+      if (typeof window.dispatchEvent === "function") window.dispatchEvent(event);
+      else if (document && typeof document.dispatchEvent === "function") document.dispatchEvent(event);
+    } catch (_) {}
+  }
+
+  function installAmazonApstagStub() {
+    const apstag = window.apstag || {};
+    apstag.init = apstag.init || function() {};
+    apstag.fetchBids = apstag.fetchBids || function(slots, callback) {
+      if (typeof callback === "function") callback([]);
+    };
+    apstag.setDisplayBids = apstag.setDisplayBids || function() {};
+    apstag.targetingKeys = apstag.targetingKeys || function() { return []; };
+    window.apstag = apstag;
+  }
+
+  function installGemiusStub() {
+    const noop = function() {};
+    const stream = window.gemiusStream || {};
+    stream.init = stream.init || noop;
+    stream.event = stream.event || noop;
+    stream.close = stream.close || noop;
+    stream.pending = stream.pending || [];
+    window.gemiusStream = stream;
+    window.pp_gemius_hit = window.pp_gemius_hit || noop;
+    window.gemius_hit = window.gemius_hit || noop;
+    window.gemius_event = window.gemius_event || noop;
+  }
+
+  function installAntiAdblockStub() {
+    const noop = function() {};
+    const AdBlockStub = function() {};
+    AdBlockStub.prototype.on = function() { return this; };
+    AdBlockStub.prototype.onDetected = function(callback) { return this; };
+    AdBlockStub.prototype.onNotDetected = function(callback) {
+      if (typeof callback === "function") callback();
+      return this;
+    };
+    AdBlockStub.prototype.check = function() { return false; };
+    AdBlockStub.prototype.clearEvent = noop;
+    AdBlockStub.prototype.emitEvent = noop;
+    window.FuckAdBlock = window.FuckAdBlock || AdBlockStub;
+    window.BlockAdBlock = window.BlockAdBlock || AdBlockStub;
+    window.fuckAdBlock = window.fuckAdBlock || new window.FuckAdBlock();
+    window.blockAdBlock = window.blockAdBlock || new window.BlockAdBlock();
+  }
+
+  function installPopAdsDefuser() {
+    const descriptor = {
+      configurable: true,
+      get: function() { return undefined; },
+      set: function() {}
+    };
+    try { Object.defineProperty(window, "PopAds", descriptor); } catch (_) {}
+    try { Object.defineProperty(window, "popns", descriptor); } catch (_) {}
+  }
+
+  function installInboundObjectPruner(path, prunePathsText) {
+    const target = findPathOwner(path);
+    if (!target || typeof target.owner[target.prop] !== "function") return;
+    const prunePaths = splitPathList(prunePathsText);
+    if (prunePaths.length === 0) return;
+    const original = target.owner[target.prop];
+    target.owner[target.prop] = function() {
+      const args = Array.from(arguments);
+      args.forEach((value) => prunePaths.forEach((path) => pruneJSONPath(value, path)));
+      return original.apply(this, args);
+    };
+  }
+
+  function installGoogleIMA3Stub() {
+    const googleObject = window.google || {};
+    const ima = googleObject.ima || {};
+    const noop = function() {};
+    const AdsManager = function() {};
+    AdsManager.prototype.init = noop;
+    AdsManager.prototype.start = noop;
+    AdsManager.prototype.stop = noop;
+    AdsManager.prototype.destroy = noop;
+    AdsManager.prototype.addEventListener = noop;
+    AdsManager.prototype.removeEventListener = noop;
+
+    const AdsLoader = function() {};
+    AdsLoader.prototype.requestAds = noop;
+    AdsLoader.prototype.contentComplete = noop;
+    AdsLoader.prototype.addEventListener = noop;
+    AdsLoader.prototype.removeEventListener = noop;
+    AdsLoader.prototype.getSettings = function() {
+      return { setVpaidMode: noop, setLocale: noop, setPlayerType: noop, setPlayerVersion: noop };
+    };
+
+    ima.AdsLoader = ima.AdsLoader || AdsLoader;
+    ima.AdsManager = ima.AdsManager || AdsManager;
+    ima.AdDisplayContainer = ima.AdDisplayContainer || function() { this.initialize = noop; };
+    ima.AdsRequest = ima.AdsRequest || function() {};
+    ima.CompanionAdSelectionSettings = ima.CompanionAdSelectionSettings || function() {};
+    ima.ImaSdkSettings = ima.ImaSdkSettings || function() {};
+    ima.AdEvent = ima.AdEvent || { Type: {} };
+    ima.AdErrorEvent = ima.AdErrorEvent || { Type: { AD_ERROR: "adError" } };
+    ima.AdsManagerLoadedEvent = ima.AdsManagerLoadedEvent || { Type: { ADS_MANAGER_LOADED: "adsManagerLoaded" } };
+    googleObject.ima = ima;
+    window.google = googleObject;
+  }
+
+  function installGoogletagServicesStub() {
+    const service = {
+      addEventListener: function() { return service; },
+      clear: function() { return service; },
+      collapseEmptyDivs: function() { return service; },
+      disableInitialLoad: function() { return service; },
+      enableAsyncRendering: function() { return service; },
+      enableSingleRequest: function() { return service; },
+      refresh: function() { return service; },
+      set: function() { return service; },
+      setCentering: function() { return service; },
+      setTargeting: function() { return service; }
+    };
+    const slot = {
+      addService: function() { return slot; },
+      defineSizeMapping: function() { return slot; },
+      setCollapseEmptyDiv: function() { return slot; },
+      setTargeting: function() { return slot; }
+    };
+    const googletag = window.googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push = function(callback) {
+      if (typeof callback === "function") callback();
+      return 0;
+    };
+    googletag.apiReady = true;
+    googletag.pubadsReady = true;
+    googletag.pubads = googletag.pubads || function() { return service; };
+    googletag.defineSlot = googletag.defineSlot || function() { return slot; };
+    googletag.defineOutOfPageSlot = googletag.defineOutOfPageSlot || function() { return slot; };
+    googletag.display = googletag.display || function() {};
+    googletag.enableServices = googletag.enableServices || function() {};
+    googletag.destroySlots = googletag.destroySlots || function() { return true; };
+    window.googletag = googletag;
+  }
+
+  function installAdsByGoogleStub() {
+    const adsbygoogle = window.adsbygoogle || [];
+    adsbygoogle.push = function() { return 0; };
+    window.adsbygoogle = adsbygoogle;
+  }
+
+  function shadowRoots() {
+    const roots = [];
+    const visit = (root) => {
+      let nodes = [];
+      try { nodes = Array.from(root.querySelectorAll("*")); } catch (_) {}
+      for (const node of nodes) {
+        if (node.shadowRoot) {
+          roots.push(node.shadowRoot);
+          visit(node.shadowRoot);
+        }
+      }
+    };
+    visit(document);
+    return roots;
+  }
+
+  function installShadowDOMAction(selector, action) {
+    if (!selector) return;
+    installDOMAction(() => {
+      shadowRoots().forEach((root) => {
+        try {
+          root.querySelectorAll(selector).forEach(action);
+        } catch (_) {}
+      });
+    });
+  }
+
+  function installShadowStyle(cssText) {
+    if (!cssText) return;
+    installDOMAction(() => {
+      shadowRoots().forEach((root) => {
+        if (!root.__blockerKitShadowStyles) root.__blockerKitShadowStyles = new Set();
+        if (root.__blockerKitShadowStyles.has(cssText)) return;
+        try {
+          const style = document.createElement("style");
+          style.appendChild(document.createTextNode(cssText));
+          root.appendChild(style);
+          root.__blockerKitShadowStyles.add(cssText);
+        } catch (_) {}
+      });
+    });
+  }
+
+  function removeCookie(pattern) {
+    try {
+      String(document.cookie || "").split(";").forEach((part) => {
+        const name = part.split("=")[0].trim();
+        if (name && patternMatches(name, pattern)) {
+          document.cookie = name + "=; Max-Age=0; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+        }
+      });
+    } catch (_) {}
+  }
+
+  function pathParts(path) {
+    const normalized = String(path || "")
+      .replace(/^\\?\$\.\.?/, "")
+      .replace(/^\$/, "");
+    return normalized.split(".").filter(Boolean);
+  }
+
+  function walkPathValues(value, parts, callback) {
+    if (!value || parts.length === 0) return;
+    const [part, ...rest] = parts;
+    if (part === "*" || part === "[]" || part === "[-]") {
+      if (Array.isArray(value)) {
+        value.forEach((item) => walkPathValues(item, rest, callback));
+      } else if (typeof value === "object") {
+        Object.keys(value).forEach((key) => walkPathValues(value[key], rest, callback));
+      }
+      return;
+    }
+    if (rest.length === 0) {
+      callback(value, part);
+      return;
+    }
+    walkPathValues(value[part], rest, callback);
+  }
+
+  function hasJSONPath(value, rawPath) {
+    let found = false;
+    walkPathValues(value, pathParts(rawPath), (owner, prop) => {
+      if (owner && Object.prototype.hasOwnProperty.call(owner, prop)) found = true;
+    });
+    return found;
+  }
+
+  function pruneJSONPath(value, rawPath) {
+    walkPathValues(value, pathParts(rawPath), (owner, prop) => {
+      if (owner && Object.prototype.hasOwnProperty.call(owner, prop)) delete owner[prop];
+    });
+  }
+
+  function splitPathList(rawPaths) {
+    return String(rawPaths || "").split(/\s+/).map((path) => path.trim()).filter(Boolean);
+  }
+
+  function installJSONPrune(prunePathsText, requiredPathsText) {
+    const prunePaths = splitPathList(prunePathsText);
+    if (prunePaths.length === 0 || !window.JSON || typeof JSON.parse !== "function") return;
+    const requiredPaths = splitPathList(requiredPathsText);
+    if (!window.__blockerKitJSONPruneRules) {
+      Object.defineProperty(window, "__blockerKitJSONPruneRules", { value: [] });
+    }
+    window.__blockerKitJSONPruneRules.push({ prunePaths, requiredPaths });
+    if (window.__blockerKitJSONPruneInstalled) return;
+    Object.defineProperty(window, "__blockerKitJSONPruneInstalled", { value: true });
+    const originalParse = JSON.parse;
+    JSON.parse = function() {
+      const parsed = originalParse.apply(this, arguments);
+      for (const rule of window.__blockerKitJSONPruneRules || []) {
+        if (rule.requiredPaths.length > 0 && !rule.requiredPaths.every((path) => hasJSONPath(parsed, path))) continue;
+        rule.prunePaths.forEach((path) => pruneJSONPath(parsed, path));
+      }
+      return parsed;
+    };
+  }
+
+  function installFetchGuard(pattern) {
+    if (typeof window.fetch !== "function" || window.__blockerKitFetchGuard) return;
+    const originalFetch = window.fetch;
+    Object.defineProperty(window, "__blockerKitFetchGuard", { value: true });
+    window.fetch = function(input, init) {
+      const url = typeof input === "string" ? input : (input && input.url);
+      if (patternMatches(url, pattern)) return Promise.reject(new TypeError("Blocked by BlockerKit"));
+      return originalFetch.apply(this, arguments);
+    };
+  }
+
+  function installXHRGuard(pattern) {
+    if (!window.XMLHttpRequest || window.__blockerKitXHRGuard) return;
+    Object.defineProperty(window, "__blockerKitXHRGuard", { value: true });
+    const originalOpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function(method, url) {
+      this.__blockerKitBlocked = patternMatches(url, pattern);
+      return originalOpen.apply(this, arguments);
+    };
+    const originalSend = XMLHttpRequest.prototype.send;
+    XMLHttpRequest.prototype.send = function() {
+      if (this.__blockerKitBlocked) {
+        try { this.abort(); } catch (_) {}
+        return;
+      }
+      return originalSend.apply(this, arguments);
+    };
+  }
+
+  function installTimerGuard(name, pattern) {
+    const original = window[name];
+    if (typeof original !== "function") return;
+    window[name] = function(handler, timeout) {
+      if (patternMatches(String(handler), pattern)) return 0;
+      return original.apply(this, arguments);
+    };
+  }
+
+  function installTimerAdjust(name, pattern, targetDelay, multiplier) {
+    const original = window[name];
+    if (typeof original !== "function") return;
+    const factor = Number(multiplier || "0.001");
+    window[name] = function(handler, timeout) {
+      let nextTimeout = timeout;
+      const delayMatches = !targetDelay || targetDelay === "*" || Number(targetDelay) === Number(timeout);
+      if (delayMatches && patternMatches(String(handler), pattern) && Number.isFinite(factor)) {
+        nextTimeout = Math.max(0, Number(timeout || 0) * factor);
+      }
+      return original.call(this, handler, nextTimeout);
+    };
+  }
+
+  function installEvalGuard(pattern) {
+    if (typeof window.eval !== "function" || window.__blockerKitEvalGuard) return;
+    const originalEval = window.eval;
+    Object.defineProperty(window, "__blockerKitEvalGuard", { value: true });
+    window.eval = function(source) {
+      if (patternMatches(source, pattern)) return undefined;
+      return originalEval.apply(this, arguments);
+    };
+  }
+
+  function installRequestAnimationFrameGuard(pattern) {
+    if (typeof window.requestAnimationFrame !== "function" || window.__blockerKitRAFGuard) return;
+    const originalRAF = window.requestAnimationFrame;
+    Object.defineProperty(window, "__blockerKitRAFGuard", { value: true });
+    window.requestAnimationFrame = function(callback) {
+      if (patternMatches(functionSource(callback), pattern)) return 0;
+      return originalRAF.apply(this, arguments);
+    };
+  }
+
+  function installDOMAction(action) {
+    const run = () => {
+      try { action(); } catch (_) {}
+    };
+    run();
+    document.addEventListener("DOMContentLoaded", run, { once: true });
+  }
+
+  function installNetworkHooks() {
+    const rules = (config.networkRules || []).filter((rule) => domainMatches(rule.domains));
+    const blockRules = rules.filter((rule) => rule.action === "block");
+    const removeParamRules = rules.filter((rule) => rule.action === "removeQueryParameter");
+    const responseTransformRules = rules.filter((rule) => [
+      "replaceResponseText",
+      "pruneJSONResponse",
+      "pruneXMLResponse",
+      "pruneM3UResponse"
+    ].includes(rule.action));
+    if (blockRules.length === 0 && removeParamRules.length === 0 && responseTransformRules.length === 0) return;
+
+    const ruleMatchesURL = (rule, rawURL) => {
+      if (!rule.urlPattern) return true;
+      try {
+        return new RegExp(rule.urlPattern).test(String(rawURL));
+      } catch (_) {
+        return String(rawURL).includes(String(rule.urlPattern));
+      }
+    };
+
+    const searchParamNames = (url) => {
+      const names = [];
+      try {
+        url.searchParams.forEach((_, name) => {
+          if (!names.includes(name)) names.push(name);
+        });
+      } catch (_) {}
+      if (names.length > 0) return names;
+
+      const query = String(url).split("?")[1] || "";
+      for (const part of query.split("&")) {
+        const name = part.split("=")[0];
+        if (name && !names.includes(name)) names.push(name);
+      }
+      return names;
+    };
+
+    const parameterNameMatches = (name, pattern) => {
+      if (!pattern) return true;
+      const matcher = makeReplacement(pattern);
+      if (matcher instanceof RegExp) {
+        matcher.lastIndex = 0;
+        return matcher.test(name);
+      }
+      return name === String(pattern);
+    };
+
+    const removeSearchParameters = (url, parameterName) => {
+      if (!parameterName) {
+        const hadQuery = String(url).includes("?");
+        try { url.search = ""; } catch (_) {}
+        return hadQuery;
+      }
+
+      let changed = false;
+      for (const name of searchParamNames(url)) {
+        if (!parameterNameMatches(name, parameterName)) continue;
+        try {
+          url.searchParams.delete(name);
+          changed = true;
+        } catch (_) {}
+      }
+      return changed;
+    };
+
+    const sanitize = (rawURL) => {
+      try {
+        const url = new URL(rawURL, pageURL);
+        let changed = false;
+        for (const rule of removeParamRules) {
+          if (!ruleMatchesURL(rule, String(url))) continue;
+          changed = removeSearchParameters(url, rule.parameterName || "") || changed;
+        }
+        return changed ? String(url) : rawURL;
+      } catch (_) {
+        return rawURL;
+      }
+    };
+
+    const sanitizeCurrentPageURL = () => {
+      if (removeParamRules.length === 0 || !location || !location.href) return;
+      const currentURL = String(location.href);
+      const nextURL = sanitize(currentURL);
+      if (nextURL === currentURL) return;
+      try {
+        if (typeof history !== "undefined" && history && typeof history.replaceState === "function") {
+          history.replaceState(history.state, document.title || "", nextURL);
+        }
+      } catch (_) {}
+    };
+
+    const sanitizeFetchInput = (input) => {
+      if (typeof input === "string") return sanitize(input);
+      if (input && typeof input.url === "string") {
+        const nextURL = sanitize(input.url);
+        if (nextURL !== input.url && typeof Request === "function") {
+          try { return new Request(nextURL, input); } catch (_) {}
+        }
+      }
+      if (input && typeof input.href === "string") {
+        const nextURL = sanitize(input.href);
+        if (nextURL !== input.href) return nextURL;
+      }
+      return input;
+    };
+
+    const networkURLFromFetchInput = (input) => {
+      if (typeof input === "string") return input;
+      if (input && typeof input.url === "string") return input.url;
+      if (input && typeof input.href === "string") return input.href;
+      return input;
+    };
+
+    const shouldBlockURL = (rawURL) => {
+      for (const rule of blockRules) {
+        if (ruleMatchesURL(rule, rawURL)) return true;
+      }
+      return false;
+    };
+
+    const blockedFetchError = () => new TypeError("Load failed");
+
+    const dispatchXHRBlockedEvents = (xhr) => {
+      try {
+        Object.defineProperty(xhr, "readyState", { configurable: true, value: 4 });
+      } catch (_) {
+        try { xhr.readyState = 4; } catch (_) {}
+      }
+
+      if (typeof xhr.dispatchEvent !== "function") return;
+      const makeEvent = (type) => {
+        try {
+          if (typeof ProgressEvent === "function" && (type === "loadstart" || type === "error" || type === "loadend")) {
+            return new ProgressEvent(type);
+          }
+        } catch (_) {}
+        try {
+          if (typeof Event === "function") return new Event(type);
+        } catch (_) {}
+        return { type };
+      };
+
+      for (const type of ["loadstart", "readystatechange", "error", "loadend"]) {
+        try { xhr.dispatchEvent(makeEvent(type)); } catch (_) {}
+      }
+    };
+
+    const transformText = (text, rawURL) => {
+      let nextText = String(text || "");
+      for (const rule of responseTransformRules) {
+        if (!ruleMatchesURL(rule, rawURL)) continue;
+        if (rule.action === "replaceResponseText") {
+          nextText = replaceText(nextText, rule.searchPattern || "", rule.replacementText || "");
+        } else if (rule.action === "pruneJSONResponse") {
+          nextText = pruneJSONResponseText(nextText, rule.prunePath || "");
+        } else if (rule.action === "pruneXMLResponse") {
+          nextText = pruneXMLResponseText(nextText, rule.prunePath || "");
+        } else if (rule.action === "pruneM3UResponse") {
+          nextText = pruneM3UResponseText(nextText, rule.prunePath || "");
+        }
+      }
+      return nextText;
+    };
+
+    const transformJSON = (json, rawURL) => {
+      let nextJSON = json;
+      for (const rule of responseTransformRules) {
+        if (!ruleMatchesURL(rule, rawURL)) continue;
+        if (rule.action === "pruneJSONResponse") {
+          for (const path of splitPathList(rule.prunePath || "")) pruneJSONPath(nextJSON, path);
+        } else {
+          try { nextJSON = JSON.parse(transformText(JSON.stringify(nextJSON), rawURL)); } catch (_) {}
+        }
+      }
+      return nextJSON;
+    };
+
+    const wrapResponseForNetworkRules = (response, rawURL) => {
+      if (!response || typeof response !== "object" || response.__blockerKitNetworkResponseWrapped) return response;
+      try { Object.defineProperty(response, "__blockerKitNetworkResponseWrapped", { value: true }); } catch (_) {}
+
+      if (typeof response.text === "function") {
+        const originalText = response.text;
+        response.text = function() {
+          return mapPossiblyAsync(originalText.apply(this, arguments), (text) => transformText(text, rawURL));
+        };
+      }
+
+      if (typeof response.json === "function") {
+        const originalJSON = response.json;
+        response.json = function() {
+          return mapPossiblyAsync(originalJSON.apply(this, arguments), (json) => transformJSON(json, rawURL));
+        };
+      }
+
+      return response;
+    };
+
+    if (typeof window.fetch === "function" && !window.__blockerKitNetworkFetch) {
+      Object.defineProperty(window, "__blockerKitNetworkFetch", { value: true });
+      const originalFetch = window.fetch;
+      window.fetch = function(input, init) {
+        input = sanitizeFetchInput(input);
+        const url = networkURLFromFetchInput(input);
+        if (shouldBlockURL(url)) {
+          return Promise.reject(blockedFetchError());
+        }
+
+        const result = originalFetch.call(this, input, init);
+        return mapPossiblyAsync(result, (response) => wrapResponseForNetworkRules(response, url));
+      };
+    }
+
+    if (window.XMLHttpRequest && XMLHttpRequest.prototype && !window.__blockerKitNetworkXHR) {
+      Object.defineProperty(window, "__blockerKitNetworkXHR", { value: true });
+      const proto = XMLHttpRequest.prototype;
+      const originalOpen = proto.open;
+      const originalSend = proto.send;
+      if (typeof originalOpen === "function") {
+        proto.open = function(method, url) {
+          const nextURL = typeof url === "string" ? sanitize(url) : url;
+          this.__blockerKitNetworkURL = nextURL;
+          const args = Array.from(arguments);
+          args[1] = nextURL;
+          return originalOpen.apply(this, args);
+        };
+      }
+      if (typeof originalSend === "function") {
+        proto.send = function() {
+          if (shouldBlockURL(this.__blockerKitNetworkURL)) {
+            dispatchXHRBlockedEvents(this);
+            return;
+          }
+
+          const result = originalSend.apply(this, arguments);
+          installXHRTransformGetter(this, "responseText", this.__blockerKitNetworkURL, transformText);
+          installXHRTransformGetter(this, "response", this.__blockerKitNetworkURL, transformText);
+          return result;
+        };
+      }
+    }
+
+    sanitizeCurrentPageURL();
+  }
+
+  function installXHRTransformGetter(xhr, property, rawURL, mapper) {
+    let value;
+    try { value = xhr[property]; } catch (_) { return; }
+    if (typeof value !== "string") return;
+    try {
+      Object.defineProperty(xhr, property, {
+        configurable: true,
+        get: function() {
+          return mapper(value, rawURL);
+        },
+        set: function(nextValue) {
+          value = nextValue;
+        }
+      });
+    } catch (_) {}
+  }
+
+  function pruneJSONResponseText(text, prunePathsText) {
+    try {
+      const value = JSON.parse(String(text || ""));
+      for (const path of splitPathList(prunePathsText)) pruneJSONPath(value, path);
+      return JSON.stringify(value);
+    } catch (_) {
+      return text;
+    }
+  }
+
+  function pruneXMLResponseText(text, prunePattern) {
+    const tagName = simpleXMLTagName(prunePattern);
+    if (tagName) {
+      try {
+        const tagPattern = new RegExp("<" + tagName + "\\b[^>]*>[\\s\\S]*?<\\/" + tagName + ">", "g");
+        return String(text || "").replace(tagPattern, "");
+      } catch (_) {}
+    }
+    return replaceText(text, prunePattern, "");
+  }
+
+  function simpleXMLTagName(pattern) {
+    const source = String(pattern || "");
+    const match = source.match(/[A-Za-z_][A-Za-z0-9_-]*/);
+    return match ? match[0] : "";
+  }
+
+  function pruneM3UResponseText(text, prunePattern) {
+    return String(text || "")
+      .split(/\r?\n/)
+      .filter((line) => !patternMatches(line, prunePattern))
+      .join("\n");
+  }
+
+  installStaticStyles();
+  installScriptlets();
+  installNetworkHooks();
+  applyProceduralRulesSoon();
+
+  const observer = new MutationObserver(applyProceduralRulesSoon);
+  const observe = () => {
+    if (document.documentElement) {
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+    }
+  };
+  observe();
+  document.addEventListener("DOMContentLoaded", () => {
+    installStaticStyles();
+    applyProceduralRulesSoon();
+    observe();
+  }, { once: true });
+})();
