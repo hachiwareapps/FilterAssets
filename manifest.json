@@ -1,0 +1,166 @@
+{
+  "conversion" : {
+    "contentRuleListTarget" : "iOS17",
+    "detailedReportsDirectory" : "reports\/blockerkit",
+    "droppedRulesLog" : "reports\/dropped-rules.json",
+    "filenameConvention" : "ContentRuleList-<output-prefix>_<source-file>[_chunk_NNN].json",
+    "inputFormat" : "AdGuard\/EasyList filter text",
+    "outputFormat" : "WebKit Content Rule List JSON and BlockerKit user script JavaScript",
+    "report" : "reports\/conversion-report.json",
+    "unsupportedRulesLog" : "reports\/unsupported-rules.json",
+    "userScriptArtifacts" : {
+      "filenameConvention" : "BlockerKitUserScript-<profile-id>.js",
+      "manifest" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScriptManifest.json",
+      "profiles" : [
+        {
+          "artifact" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScript-all-default.js",
+          "artifactManifest" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScriptManifest.json",
+          "byteCount" : 4672345,
+          "inputConfigFiles" : [
+            "adguard_base_adservers.runtime-config.json",
+            "adguard_base_adservers_firstparty.runtime-config.json",
+            "adguard_base_allowlist.runtime-config.json",
+            "adguard_base_allowlist_stealth.runtime-config.json",
+            "adguard_base_antiadblock.runtime-config.json",
+            "adguard_base_banner_sizes.runtime-config.json",
+            "adguard_base_content_blocker.runtime-config.json",
+            "adguard_base_cryptominers.runtime-config.json",
+            "adguard_base_foreign.runtime-config.json",
+            "adguard_base_general_elemhide.runtime-config.json",
+            "adguard_base_general_extensions.runtime-config.json",
+            "adguard_base_general_url.runtime-config.json",
+            "adguard_base_replace.runtime-config.json",
+            "adguard_base_specific.runtime-config.json",
+            "adguard_japanese_adservers.runtime-config.json",
+            "adguard_japanese_adservers_firstparty.runtime-config.json",
+            "adguard_japanese_allowlist.runtime-config.json",
+            "adguard_japanese_antiadblock.runtime-config.json",
+            "adguard_japanese_general_elemhide.runtime-config.json",
+            "adguard_japanese_general_extensions.runtime-config.json",
+            "adguard_japanese_general_url.runtime-config.json",
+            "adguard_japanese_specific.runtime-config.json",
+            "easylist_adult_adult_adservers.runtime-config.json",
+            "easylist_adult_adult_adservers_popup.runtime-config.json",
+            "easylist_adult_adult_allowlist.runtime-config.json",
+            "easylist_adult_adult_allowlist_popup.runtime-config.json",
+            "easylist_adult_adult_specific_block.runtime-config.json",
+            "easylist_adult_adult_specific_block_popup.runtime-config.json",
+            "easylist_adult_adult_specific_hide.runtime-config.json",
+            "easylist_adult_adult_thirdparty.runtime-config.json",
+            "easylist_adult_adult_thirdparty_popup.runtime-config.json",
+            "easylist_easylist_adservers.runtime-config.json",
+            "easylist_easylist_adservers_popup.runtime-config.json",
+            "easylist_easylist_allowlist.runtime-config.json",
+            "easylist_easylist_allowlist_dimensions.runtime-config.json",
+            "easylist_easylist_allowlist_general_hide.runtime-config.json",
+            "easylist_easylist_allowlist_popup.runtime-config.json",
+            "easylist_easylist_general_block.runtime-config.json",
+            "easylist_easylist_general_block_dimensions.runtime-config.json",
+            "easylist_easylist_general_block_popup.runtime-config.json",
+            "easylist_easylist_general_hide.runtime-config.json",
+            "easylist_easylist_specific_block.runtime-config.json",
+            "easylist_easylist_specific_block_popup.runtime-config.json",
+            "easylist_easylist_specific_hide.runtime-config.json",
+            "easylist_easylist_specific_hide_abp.runtime-config.json",
+            "easylist_easylist_thirdparty.runtime-config.json",
+            "easylist_easylist_thirdparty_popup.runtime-config.json"
+          ],
+          "profileID" : "all-default",
+          "report" : "reports\/runtime\/all-default.json",
+          "ruleCounts" : {
+            "cosmetic" : 21998,
+            "cssInjection" : 2481,
+            "network" : 639,
+            "scriptlet" : 5558,
+            "total" : 30676
+          },
+          "sha256" : "9ac69a646de9bf3b22c9238cc8873e80b11c237563d9f78080011029097b4c1c"
+        }
+      ]
+    }
+  },
+  "correspondingSource" : {
+    "publicReproducer" : {
+      "compilerBinaryArtifactChecksum" : "d84300ae5201a7664fa489d95e567c78d4ca266c35fd571cb19eb7382928181f",
+      "executionCommand" : ".\/Scripts\/reproduce.sh",
+      "path" : "Tools\/Reproducer",
+      "revision" : "8c35d790d481a593b8ca338b5f048d1a53fa4e9d6793ebbf5fabb8250ed06110",
+      "scripts" : {
+        "reproduce" : "Scripts\/reproduce.sh",
+        "verify" : "Scripts\/verify.sh"
+      },
+      "sdk" : {
+        "branch" : null,
+        "identity" : "blockerkitsdk",
+        "location" : "https:\/\/github.com\/hachiwareapps\/BlockerKitSDK.git",
+        "revision" : "428cdd516c77bef0859f845d34d571b85ea2b16d",
+        "version" : "0.11.0"
+      }
+    },
+    "sourceManifest" : "filter-sources.json"
+  },
+  "exclusions" : [
+    {
+      "package" : "FilterPrivateAssets",
+      "reason" : "First-party private filters are distributed separately and are not part of the GPL third-party filter package."
+    },
+    {
+      "reason" : "MobileFilter\/adguard_mobile resources are not included in this package.",
+      "source" : "AdGuard MobileFilter"
+    }
+  ],
+  "generatedAt" : "2026-07-22T09:00:29Z",
+  "package" : {
+    "contents" : "WebKit Content Rule List JSON and BlockerKit user script resources generated from AdGuard Filters and EasyList.",
+    "license" : "GPL-3.0-only",
+    "name" : "FilterAssets",
+    "version" : "0.15.0"
+  },
+  "schemaVersion" : 1,
+  "sourceManifest" : "filter-sources.json",
+  "sources" : [
+    {
+      "archiveURL" : "https:\/\/github.com\/AdguardTeam\/AdguardFilters\/archive\/550a0c4bed589764e8739a44ea1d5c91e0acccc5.zip",
+      "commit" : "550a0c4bed589764e8739a44ea1d5c91e0acccc5",
+      "gitURL" : "https:\/\/github.com\/AdguardTeam\/AdguardFilters.git",
+      "id" : "adguard_filters",
+      "includedDirectories" : [
+        {
+          "outputPrefix" : "adguard_base",
+          "path" : "BaseFilter\/sections"
+        },
+        {
+          "outputPrefix" : "adguard_japanese",
+          "path" : "JapaneseFilter\/sections"
+        }
+      ],
+      "license" : "GPL-3.0-only",
+      "name" : "AdGuard Filters",
+      "ref" : "refs\/heads\/master",
+      "retrievedAt" : "2026-07-22T08:58:54Z",
+      "upstreamURL" : "https:\/\/github.com\/AdguardTeam\/AdguardFilters"
+    },
+    {
+      "archiveURL" : "https:\/\/github.com\/easylist\/easylist\/archive\/954e2cf6c48c41dda91f874440425654a0ee4301.zip",
+      "commit" : "954e2cf6c48c41dda91f874440425654a0ee4301",
+      "gitURL" : "https:\/\/github.com\/easylist\/easylist.git",
+      "id" : "easylist",
+      "includedDirectories" : [
+        {
+          "outputPrefix" : "easylist",
+          "path" : "easylist"
+        },
+        {
+          "outputPrefix" : "easylist_adult",
+          "path" : "easylist_adult"
+        }
+      ],
+      "license" : "GPL-3.0-only",
+      "licenseSelection" : "The EasyList repository is dual licensed; this package uses the GPLv3 option.",
+      "name" : "EasyList",
+      "ref" : "refs\/heads\/master",
+      "retrievedAt" : "2026-07-22T08:58:54Z",
+      "upstreamURL" : "https:\/\/github.com\/easylist\/easylist"
+    }
+  ]
+}
