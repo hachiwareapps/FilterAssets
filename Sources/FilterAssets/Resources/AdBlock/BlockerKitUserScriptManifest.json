@@ -1,0 +1,15 @@
+{
+  "profiles" : [
+    {
+      "byteCount" : 370065,
+      "contentWorld" : "page",
+      "fileName" : "BlockerKitUserScript-adguard-japanese.js",
+      "forMainFrameOnly" : false,
+      "id" : "adguard-japanese",
+      "injectionTime" : "documentStart",
+      "report" : "reports\/runtime\/adguard-japanese.json",
+      "sha256" : "c8bad9fce28ef69296f2b4a3f508b46b9e378e4fd3121763629763650e6403a0"
+    }
+  ],
+  "schemaVersion" : 1
+}
