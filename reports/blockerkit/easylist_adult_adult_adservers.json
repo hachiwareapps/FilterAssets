@@ -1,0 +1,3990 @@
+{
+  "outputFileNames" : [
+    "easylist_adult_adult_adservers.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 1,
+        "source" : "||18naked.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 2,
+        "source" : "||4link.it^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 3,
+        "source" : "||777-partner.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 4,
+        "source" : "||777-partner.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 5,
+        "source" : "||777-partners.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 6,
+        "source" : "||777-partners.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 7,
+        "source" : "||777partner.com^$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 8,
+        "source" : "||777partner.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 9,
+        "source" : "||777partners.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 10,
+        "source" : "||acmexxx.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 11,
+        "source" : "||adcell.de^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "||adextrem.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 13,
+        "source" : "||ads-adv.top^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "||adsarcade.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "||adsession.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "||adshnk.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "||adspector.io^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "||adsturn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "||adult3dcomics.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "||adultforce.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "||adultsense.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "||aemediatraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "||affiliaxe.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "||affiligay.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "||aipmedia.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "||allosponsor.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "||amateurhub.cam^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "||asiafriendfinder.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "||avfay.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "||awempire.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 31,
+        "source" : "||bcash4you.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "||blackpics.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 33,
+        "source" : "||blossoms.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "||bookofsex.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "||brothersincash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "||bumskontakte.ch^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "||caltat.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 38,
+        "source" : "||cam-lolita.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "||cam4flat.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "||camcrush.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 41,
+        "source" : "||camdough.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "||camduty.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 43,
+        "source" : "||campartner.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "||camsense.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 45,
+        "source" : "||camsoda1.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "||cashthat.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 47,
+        "source" : "||cbmiocw.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "||chatinator.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 49,
+        "source" : "||cherrytv.media^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "||clickaine.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 51,
+        "source" : "||cross-system.com^$script,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "||cwchmb.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 53,
+        "source" : "||cybernetentertainment.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "||datingamateurs.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "||debitcrebit669.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 56,
+        "source" : "||deecash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "||demanier.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "||digitaldesire.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 59,
+        "source" : "||digreality.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "||directadvert.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 61,
+        "source" : "||direction-x.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "||dphunters.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 63,
+        "source" : "||dreamserve.dev^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "||dtiserv2.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "||easyflirt.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 66,
+        "source" : "||eroadvertising.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "||erotikdating.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 68,
+        "source" : "||euro4ads.de^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "||exchangecash.de^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "||exclusivepussy.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "||exoticads.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "||faceporn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 73,
+        "source" : "||facetz.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : "||fapality.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "||festaporno.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "||filexan.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 77,
+        "source" : "||flashadtools.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "||fleshcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 79,
+        "source" : "||fleshlightgirls.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "||flirt4e.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 81,
+        "source" : "||flirt4free.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "||flirtingsms.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "||fncash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "||fncnet1.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : "||freakads.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "||freeadultcomix.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 87,
+        "source" : "||freewebfonts.org^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "||frestacero.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 89,
+        "source" : "||frivol-ads.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : "||frtyh.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 91,
+        "source" : "||frutrun.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 92,
+        "source" : "||fuckbook.cm^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 93,
+        "source" : "||fuckbookdating.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 94,
+        "source" : "||fuckedbyme.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 95,
+        "source" : "||fuckyoucash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "||fuelbuck.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 97,
+        "source" : "||g--o.info^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "||gayxperience.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 99,
+        "source" : "||geofamily.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 100,
+        "source" : "||getiton.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "||ggwcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 102,
+        "source" : "||golderotica.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 103,
+        "source" : "||hookupbucks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "source" : "||hornymatches.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "||hornyspots.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "||hostave2.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "||hotsocials.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "||hubtraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "||icebns.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "||idolbucks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "||ifrwam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : "||iheartbucks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "||ilovecheating.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 114,
+        "source" : "||imglnka.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "||imglnkb.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 116,
+        "source" : "||imglnkc.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 117,
+        "source" : "||imlive.com^$script,third-party,domain=~imnude.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 118,
+        "source" : "||impressionmonster.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "source" : "||in3x.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "||inheart.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "source" : "||internebula.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "||intrapromotion.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 123,
+        "source" : "||itmcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "source" : "||itrxx.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "source" : "||itslive.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "source" : "||itspsmup.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "source" : "||itsup.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "||itw.me^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 129,
+        "source" : "||iwanttodeliver.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "||ixspublic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "||javbucks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : "||javhd-trk.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "||joyourself.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "||kadam.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "||kaplay.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 136,
+        "source" : "||kcolbda.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 137,
+        "source" : "||kinkadservercdn.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "||kugo.cc^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 139,
+        "source" : "||leche69.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "||lickbylick.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 141,
+        "source" : "||lifepromo.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "||livecam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 143,
+        "source" : "||livejasmin.tv^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : "||liveprivates.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 145,
+        "source" : "||livepromotools.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "||livexxx.me^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 147,
+        "source" : "||lovecam.com.br^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "||lovercash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "||lsawards.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 150,
+        "source" : "||lucidcommerce.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 151,
+        "source" : "||mallcom.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "||marisappear.pro^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 153,
+        "source" : "||markswebcams.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "||masterwanker.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "||matrimoniale3x.ro^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "||matrix-cash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "||maxiadv.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "||mc-nudes.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "||mcprofits.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "||media-click.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "||mediad2.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "||mediumpimpin.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 163,
+        "source" : "||meineserver.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "||meta4-group.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "||methodcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "||mileporn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "||mmaaxx.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "||mobalives.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 169,
+        "source" : "||mobilerevenu.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "||mobtop.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 171,
+        "source" : "||modelsgonebad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "||morehitserver.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 173,
+        "source" : "||mrporngeek.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "||mrskincash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 175,
+        "source" : "||mtree.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "||mxpopad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : "||myadultimpressions.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "||myprecisionads.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : "||mywebclick.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "||naiadexports.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 181,
+        "source" : "||nastydollars.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "||newads.bangbros.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 183,
+        "source" : "||newagerevenue.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "||newnudecash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "||nexxxt.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "||ngbn.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 187,
+        "source" : "||ningme.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "||nscash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "||nudedworld.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "||oconner.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "||offaces-butional.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "||omynews.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "||onhercam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "||onlineporno.fun^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 195,
+        "source" : "||otaserve.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "||otherprofit.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "||outster.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "||oxcluster.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 199,
+        "source" : "||ozelmedikal.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "||partnercash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "||partnercash.de^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "||pc20160522.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "||pecash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "||pennynetwork.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "||pepipo.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "||pictureturn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "||pkeeper3.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "||plugrush.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 209,
+        "source" : "||popander.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "||popupclick.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 211,
+        "source" : "||porn300.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "||porn99.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 213,
+        "source" : "||pornattitude.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "source" : "||pornconversions.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 215,
+        "source" : "||porndroids.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "||pornearn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "||pornglee.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "||porngray.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 219,
+        "source" : "||pornkings.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 220,
+        "source" : "||pornleep.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "||porntrack.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 222,
+        "source" : "||porntry.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "||pourmajeurs.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 224,
+        "source" : "||ppc-direct.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 225,
+        "source" : "||premiumhdv.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "||privacyprotector.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "||private4.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "||privateseiten.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "||privatewebseiten.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "||program3.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "||promo4partners.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "||promocionesweb.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "||promokrot.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "||promotools.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "||promowebstar.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "||propbn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 237,
+        "source" : "||protect-x.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "||protizer.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "||prscripts.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 240,
+        "source" : "||psma01.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 241,
+        "source" : "||psma03.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "||ptclassic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "||ptwebcams.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "||pussy-pics.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "||pussyeatingclub.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 246,
+        "source" : "||quantumws.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "||qwerty24.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "||rack-media.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 249,
+        "source" : "||ragazzeinvendita.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "||rareru.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "||rdiul.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "||realitycash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "||realitytraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "||red-bees.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "||redlightcenter.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 256,
+        "source" : "||redpineapplemedia.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 257,
+        "source" : "||reliablebanners.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "||rivcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "||royal-cash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "||rubanners.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "||runetki.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "||russianlovematch.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "||safelinktracker.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "||sancdn.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 265,
+        "source" : "||searchpeack.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 266,
+        "source" : "||secretbehindporn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 267,
+        "source" : "||seekbang.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "||sehiba.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "||seitentipp.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "||sexad.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "||sexdatecash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "||sexiba.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "||sexlist.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "||sexplaycam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "||sexsearch.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 276,
+        "source" : "||sextadate.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "||sextracker.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "||sexuhot.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "||sexvertise.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "||sexy-ch.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 281,
+        "source" : "||showmeyouradsnow.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "||siccash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 283,
+        "source" : "||sixsigmatraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "||smartbn.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 285,
+        "source" : "||smartclick.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "||smopy.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 287,
+        "source" : "||socialsexnetwork.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "||solutionsadultes.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 289,
+        "source" : "||souvlatraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "||spacash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "||spankmasters.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 292,
+        "source" : "||spunkycash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "||startwebpromo.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 294,
+        "source" : "||statserv.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "source" : "||steamtraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "||streamateaccess.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 297,
+        "source" : "||stripsaver.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 298,
+        "source" : "||sultrytraffic.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "||supuv3.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 300,
+        "source" : "||sv2.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 301,
+        "source" : "||sweetmedia.org^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "||sweetstudents.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 303,
+        "source" : "||tantoporno.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 304,
+        "source" : "||targetingnow.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "||teasernet.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 306,
+        "source" : "||test1productions.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "||the-adult-company.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : "||thesocialsexnetwork.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 309,
+        "source" : "||tm-core.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 310,
+        "source" : "||tmserver-1.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 311,
+        "source" : "||tmserver-2.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 312,
+        "source" : "||tophosting101.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 313,
+        "source" : "||topsexcams.club^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 314,
+        "source" : "||tossoffads.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 315,
+        "source" : "||traffbiz.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 316,
+        "source" : "||traffic.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 317,
+        "source" : "||trafficholder.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "||trafficmagnates.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 319,
+        "source" : "||trafficman.io^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 320,
+        "source" : "||trafficpimps.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 321,
+        "source" : "||trafficstars.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 322,
+        "source" : "||trafficundercontrol.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "||trfpump.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 324,
+        "source" : "||trickyseduction.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 325,
+        "source" : "||trunblock.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 326,
+        "source" : "||trw12.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "||tubeadnetwork.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 328,
+        "source" : "||tubeadv.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "||tubecorporate.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 330,
+        "source" : "||twistyscash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 331,
+        "source" : "||verticalaffiliation.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "||vfgta.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 333,
+        "source" : "||vghd.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 334,
+        "source" : "||vid123.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "||vidsrev.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 336,
+        "source" : "||viensvoircesite.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 337,
+        "source" : "||virtuagirlhd.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 338,
+        "source" : "||vividcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "||vlexokrako.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 340,
+        "source" : "||vlogexpert.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : "||vod-cash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 342,
+        "source" : "||vogozae.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : "||voyeurhit.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : "||vrstage.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 345,
+        "source" : "||vsexshop.ru^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 346,
+        "source" : "||w4vecl1cks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 347,
+        "source" : "||wamcash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "||wantatop.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : "||watchmygf.to^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 350,
+        "source" : "||wct.click^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 351,
+        "source" : "||wifelovers.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 352,
+        "source" : "||worldsbestcams.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "||xgogi.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 354,
+        "source" : "||xhamstercams.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 355,
+        "source" : "||xlovecam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 356,
+        "source" : "||xogogowebcams.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 357,
+        "source" : "||xxxblackbook.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 358,
+        "source" : "||xxxmatch.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 359,
+        "source" : "||yourdatelink.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "||yurivideo.com^$third-party"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 360,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 360,
+      "parsedRules" : 360,
+      "skippedLines" : 1,
+      "totalLines" : 361,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "adult_adservers.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}

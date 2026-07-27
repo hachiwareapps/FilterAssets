@@ -1,0 +1,283 @@
+{
+  "outputFileNames" : [
+    "easylist_easylist_allowlist_dimensions.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 1,
+        "source" : "@@||2chmatome2.jp\/images\/sp\/320x250.png$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 2,
+        "source" : "@@||47news.jp\/static\/special\/*\/300x250_640x480.webp$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 3,
+        "source" : "@@||anitasrecipes.com\/Content\/Images\/Recipes\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 4,
+        "source" : "@@||arnhemland-safaris.com\/images\/made\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 5,
+        "source" : "@@||banner-hiroba.com\/wp-content\/uploads\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 6,
+        "source" : "@@||cloud.mail.ru^$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 7,
+        "source" : "@@||crystalmark.info\/wp-content\/uploads\/*-300x250.$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 8,
+        "source" : "@@||crystalmark.info\/wp-content\/uploads\/sites\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 9,
+        "source" : "@@||esko.cloud^*_300x600_$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 10,
+        "source" : "@@||government-and-constitution.org\/images\/presidential-seal-300-250.gif$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 11,
+        "source" : "@@||hiveworkscomics.com\/frontboxes\/300x250_$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "@@||img.tile.expert\/*\/*_300x600_$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 13,
+        "source" : "@@||keibana.com\/wp-content\/uploads\/*\/300x250_$~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "@@||leerolymp.com\/_nuxt\/300-250.$script,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "@@||leffatykki.com\/media\/banners\/tykkibanneri-728x90.png$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "@@||nc-myus.com\/images\/pub\/www\/uploads\/merchant-logos\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "@@||nihasi.ru\/upload\/resize_cache\/*\/300_250_$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "@@||przegladpiaseczynski.pl\/wp-content\/uploads\/*-300x250-$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "@@||radiosun.fi\/wp-content\/uploads\/*300x250$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "@@||redditinc.com\/assets\/images\/site\/*_300x250.$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "@@||taipit-mebel.ru\/upload\/resize_cache\/$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "@@||wavepc.pl\/wp-content\/*-500x100.png$image,~third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "@@||yimg.jp\/images\/news-web\/all\/images\/jsonld_image_300x250.png$domain=news.yahoo.co.jp"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 23,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 23,
+      "parsedRules" : 23,
+      "skippedLines" : 1,
+      "totalLines" : 24,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "easylist_allowlist_dimensions.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}

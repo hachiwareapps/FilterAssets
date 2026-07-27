@@ -1,0 +1,31 @@
+{
+  "outputFileNames" : [
+
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 0,
+      "generatedContentRuleListChunkCount" : 0,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 0,
+      "parsedRules" : 0,
+      "skippedLines" : 1,
+      "totalLines" : 1,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "adult_allowlist_popup.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
