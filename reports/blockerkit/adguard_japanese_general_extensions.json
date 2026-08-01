@@ -1,0 +1,2912 @@
+{
+  "outputFileNames" : [
+    "adguard_japanese_general_extensions.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 13,
+        "source" : "daily.co.jp#%#\/\/scriptlet('trusted-replace-argument', 'Document.prototype.getElementById', '0', 'dspc-bottomRecommend', 'dspc-inread')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "daily.co.jp#%#(()=>{window.addEventListener(\"load\",(()=>{const t=document.querySelector(\"#openwebSection\"),e=document.querySelector(\"div[data-spot-id]\");if(!e||!t)return;const d=e.getAttribute(\"data-spot-id\");if(!d)return;var o;((t,e,d)=>{const o=document.createElement(\"div\");o.setAttribute(\"data-spotim-module\",\"conversation\"),o.setAttribute(\"data-spot-id\",t),o.dataset.postId=e,d.appendChild(o)})(d,Math.abs((o=document.title,[...o].reduce(((t,e)=>Math.imul(31,t)+e.charCodeAt(0)|0),0))),t);const a=document.createElement(\"script\");a.setAttribute(\"src\",`https:\/\/launcher.spot.im\/spot\/${d}`),a.setAttribute(\"async\",\"\"),document.head.appendChild(a)}));})();"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "daily.co.jp#%#\/\/scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{window.addEventListener(\"load\",(()=>{const t=document.querySelector(\"#openwebSection\"),e=document.querySelector(\"div[data-spot-id]\");if(!e||!t)return;const d=e.getAttribute(\"data-spot-id\");if(!d)return;var o;((t,e,d)=>{const o=document.createElement(\"div\");o.setAttribute(\"data-spotim-module\",\"conversation\"),o.setAttribute(\"data-spot-id\",t),o.dataset.postId=e,d.appendChild(o)})(d,Math.abs((o=document.title,[...o].reduce(((t,e)=>Math.imul(31,t)+e.charCodeAt(0)|0),0))),t);const a=document.createElement(\"script\");a.setAttribute(\"src\",`https:\/\/launcher.spot.im\/spot\/${d}`),a.setAttribute(\"async\",\"\"),document.head.appendChild(a)}));})();')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "sports.tv.rakuten.co.jp#%#\/\/scriptlet('json-prune', 'ads')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "sports.tv.rakuten.co.jp#%#\/\/scriptlet('json-prune', 'result.ad_info')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "sports.tv.rakuten.co.jp#%#\/\/scriptlet('json-prune', 'result.paths.[].ad_info')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "akibablog.blog.jp#%#\/\/scriptlet('abort-current-inline-script', 'document.write', 'sitejack')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "kasegeru.blog.jp#%#\/\/scriptlet('remove-node-text', '#text', '\/スポンサードリンク：?|楽天広告：\/')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "blog.livedoor.jp#%#\/\/scriptlet('remove-node-text', 'script', 'selectRandomProduct')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "erommd-street.com#%#\/\/scriptlet('abort-current-inline-script', 'document.createElement', 'overview')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 31,
+        "source" : "twivideo.net#%#\/\/scriptlet('abort-current-inline-script', 'document.getElementById', 'imageUrls')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "twivideo.net#%#\/\/scriptlet('prevent-addEventListener', 'load', 'videoInstArea')"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 33,
+        "source" : "twivideo.net$$script:contains(\/videoInstArea|randomImageUrl\/)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "ac-illust.com,photo-ac.com#%#\/\/scriptlet('abort-current-inline-script', '$', 'google_ads_iframe_')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "twidouga.net#%#\/\/scriptlet('prevent-addEventListener', '', 'setTrigger')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "pictab.art,onagazou.info#%#\/\/scriptlet('set-constant', 'pum_vars', 'undefined')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "shindanmaker.com#%#\/\/scriptlet('adjust-setInterval', 'reward_countdown')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "betweenjpandkr.blog#%#\/\/scriptlet('remove-node-text', '#text', 'PR:')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "fashionpost.jp#%#\/\/scriptlet('set-constant', 'ads_data', 'emptyObj')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "dvdrev.com#%#\/\/scriptlet('remove-node-text', '#text', '関連動画')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "portal.game.sycasualgames.com#%#\/\/scriptlet('adjust-setInterval', 'timerId', '1000')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "fm.sekkaku.net#%#\/\/scriptlet('remove-node-text', '#text', '【広告】')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "lifematome.blog#%#\/\/scriptlet('remove-node-text', '#text', '\/\\[vkExUnit_ad area=(after|before)\\]\/')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "lifematome.blog#%#\/\/scriptlet('remove-attr', 'href', '.cps-post-main a[href^=\"https:\/\/www.amazon.co.jp\"]', 'stay')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "yaraon-blog.com#%#\/\/scriptlet('prevent-setInterval', 'q2w3_sidebar(q2w3_sidebar_options')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 59,
+        "source" : "nan-net.com#%#\/\/scriptlet('prevent-setTimeout', 'movie_cnt', '300')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 61,
+        "source" : "chibanippo.co.jp,engineweb.jp,kenshonavi.com,maidonanews.jp,nkreport.jp,riajo.com,searchkoreanews.jp,trafficnews.jp,yougakumap.com,encount.press,realsound.jp,h1g.jp#%#\/\/scriptlet('abort-current-inline-script', 'document.referrer', 'gmo_bb')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 63,
+        "source" : "uraaka-joshi.com#%#\/\/scriptlet('prevent-window-open')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "jav380.com#%#\/\/scriptlet('set-constant', 'document.write', 'noopFunc')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "anacap.doorblog.jp#%#\/\/scriptlet('prevent-addEventListener', 'scroll', 'b.type')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "anianierosuki.work#%#\/\/scriptlet('prevent-addEventListener', 'click', 'event')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "signalskey.signal-st.com,empire.miyaco.moe,stormskey.works,m.eskey.click,labo.wovs.tk,nukers-misskey.hpc-densi.f5.si,msk.kitamiss.com,uneune.one,posskey.com,redfuku.com,misskey.secinet.jp,msk.ilnk.info,uttaeruyo.com,ikaskey.bktsk.com,live-theater.net,misskey.resonite.love,misskeytsf.love,misskirara.net,p1.a9z.dev,takusuki.com,trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.*#%#\/\/scriptlet('json-prune', 'ads.[].imageUrl')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 73,
+        "source" : "agora-web.jp#%#\/\/scriptlet('abort-current-inline-script', 'document.currentScript', 'insertAdjacentHTML')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "video.laxd.com#%#\/\/scriptlet('remove-class', 'with-ad', 'section.main')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 77,
+        "source" : "shico.xyz#%#\/\/scriptlet('abort-on-property-read', 'fanza_link')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "trendynailwraps.com#%#\/\/scriptlet('prevent-window-open')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "nwknews.jp,nandemo-uketori.com,2chblog.jp,yugioh-starlight.com,kijomatomelog.com,gundamlog.com,doorblog.jp,digital-thread.com,livedoor.blog,blog.jp,blog.livedoor.jp#%#\/\/scriptlet('abort-current-inline-script', 'jQuery', 'floatingAd')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "uraaka-joshi.com#%#\/\/scriptlet('prevent-addEventListener', 'playing', 'VAST_TARGET')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "collepic.net#%#\/\/scriptlet('adjust-setInterval', '.run()}', '1000')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "javcup.com#%#\/\/scriptlet(\"prevent-setTimeout\", \"getAdCookie\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 91,
+        "source" : "negisoku.com,arty-matome.com,aidoly.net,aikru.com,ranky-ranking.net,kabegami.jpn.org,ideal2ch.livedoor.biz,seikeidouga.blog.jp,tcg-bloglife.com,ch-review.net,gametohkenranbu.sakuraweb.com,rank1-media.com,resizer.myct.jp#%#\/\/scriptlet('remove-node-text', '#text', '\/スポンサード?リンク\/')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 93,
+        "source" : "phileweb.com#%#\/\/scriptlet(\"remove-class\", \"has-topbanner\", \"body > header.has-topbanner\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 95,
+        "source" : "majikichi.com#%#\/\/scriptlet('abort-current-inline-script', 'tag', 'Math.random')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "46matome.net,openworldnews.net,animesoku.com,vipnews.jp,ldblog.jp,livedoor.blog,2chblog.jp,oumaga-times.com,all-nationz.com,ebitsu.net,fiveslot777.com,jisaka.com,kijyomatome.com,konoyubitomare.jp,livedoor.biz,momoclonews.com,norisoku.com,pachinkopachisro.com,vtubernews.jp,blog.jp,giants-news.com,blog.livedoor.jp,doorblog.jp#%#\/\/scriptlet(\"prevent-setTimeout\", \"floatingAd\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "xn--gmq92kd2rm1kx34a.com,javmix.*#%#\/\/scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 103,
+        "source" : "simplegame.jp#%#\/\/scriptlet('adjust-setTimeout', 'simplegameAdCountDown', '1000', '0.02')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "tokyomotion.net#%#\/\/scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window[')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "blog.livedoor.jp#%#\/\/scriptlet('abort-current-inline-script', 'jmp', 'Math')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "ero-video.net#%#\/\/scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showPopUpBanner')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "ov53i9il.blog.fc2.com,mjoato3uion.ky-3.net,qaacacthlive.omaww.net#%#\/\/scriptlet('prevent-eval-if', 'hoihoi')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "momoiroadult.com#%#\/\/scriptlet('abort-current-inline-script', 'document.getElementById', 'lists')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "sonae.sankei.co.jp#%#\/\/scriptlet('set-constant', 'geoAvailable', 'true')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 117,
+        "source" : "blog.livedoor.jp#%#\/\/scriptlet('abort-current-inline-script', 'document.write', 'sitejack')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "source" : "wav.tv#%#\/\/scriptlet('set-constant', '$.popunder', 'noopFunc')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "wav.tv#%#\/\/scriptlet('prevent-window-open')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "source" : "wav.tv#%#\/\/scriptlet('remove-attr', 'data-popup-url')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 123,
+        "source" : "minigame.aeriagames.jp#%#\/\/scriptlet('adjust-setTimeout', 'aeriaGamesAdCountDown', '', '0.02')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "source" : "asg.to#%#\/\/scriptlet('prevent-window-open')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "source" : "380cc.cc#%#\/\/scriptlet('remove-attr', 'onclick', 'span > a[onclick]')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 129,
+        "source" : "dl.520cc.cc#%#\/\/scriptlet('prevent-window-open')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('adjust-setTimeout', 'visibility', '4000')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('adjust-setTimeout', '[native code]', '2000', '0.3')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('adjust-setTimeout', '[native code]', '3000', '0.25')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('adjust-setTimeout', '[native code]', '4000', '0.2')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('set-constant', 'FIRST_DELAY', '0')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 136,
+        "source" : "ponta.abstractpainting.work#%#\/\/scriptlet('set-constant', 'NEXT_DELAY', '0')"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "dotti2.jp,pochitto2.jp#%#\/\/scriptlet(\"set-constant\", \"sec\", \"0\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "gotouchi.jp#%#\/\/scriptlet(\"set-constant\", \"sec\", \"0\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "cmnw.jp#%#\/\/scriptlet(\"set-constant\", \"sec\", \"0\")"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "itest.bbspink.com#$#.footer-with-ad { padding-bottom: 10px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 151,
+        "source" : "nlab.itmedia.co.jp#$##globalHeader { min-height: 0 !important; margin: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 153,
+        "source" : "eromovie-s.com#$#.movie-watch { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "eroanime-movie.com#$#@media (min-width: 835px) { .top-section { grid-template-columns: minmax(180px, 1fr) 0 !important; } }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "telling.asahi.com#$#.p-header-billboard { min-height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "erologz.com#$##sidebar-small[style^=\"height:\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 163,
+        "source" : "ge-soku.com#$##custom_html-48 { margin-top: 0px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "hitoikigame.com#$#.plugin-freearea td[bgcolor] > div[style] { width: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "afsgames.com#$#.ad970x250 { visibility: hidden !important; height: 0 !important; margin-bottom: 45px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 169,
+        "source" : "wpb.shueisha.co.jp#$?#ul.mod-grid2 > li.block-list-a-a__list__item:has(> div.block-banner-b-a) { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "wpb.shueisha.co.jp#$?#ul.mod-grid2 > li.block-list-a-a__list__item:has(> div[class$=\"_InRecommend\"]) { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 171,
+        "source" : "wpb.shueisha.co.jp#$?#ul.mod-grid2:has(> li.block-list-a-a__list__item > div.block-banner-b-a) { width: 50% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "wpb.shueisha.co.jp#$?#ul.mod-grid2:has(> li.block-list-a-a__list__item > div[class$=\"_InRecommend\"]) { width: 50% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "minkch.com#$#.lsidebar[style^=\"min-height\"] { min-height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "soredoko.jp#$##srdk-index-native-pc { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : "soredoko.jp#$##srdk-index-native-pc ~ li.rank-7 { margin-left: 20px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "soredoko.jp#$##srdk-index-native-pc ~ li.rank-8 { margin-left: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "allabout.co.jp#$#.aa_footer { padding-bottom: unset !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "telling.asahi.com#$#.u-mb64 .p-new__row { margin-top: 100px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "ryukyushimpo.jp#$?#main > .homepage:not(:matches-css(max-width: 1150px)) { margin-top: 0px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "vip-front.video.g.fc2.com,video.fc2.com#$#.main_ad_head_wide { padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 187,
+        "source" : "video.fc2.com#$#.c-ad-103 { height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "map.yahoo.co.jp#$#.App__contentsMap[style=\"height: calc(100% - 50px);\"] { height: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "umaroidblog.com#$##sidebar[style^=\"height:\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "maonline.jp#$#.media_article .articlegroups .d-block:not(:first-of-type) { border-top: none !important; padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "peko-step.com#$##cgrig_base_pic { grid-auto-rows: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "peko-step.com#$##cgrig_cont { grid-row-start: auto !important; grid-row-end: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "peko-step.com#$##cgrig_left { grid-row-start: 3 !important; grid-row-end: 7 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "oricon.co.jp#$#.block-sub-recommend[style=\"margin-top:30px;\"] { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 195,
+        "source" : "oricon.co.jp#$#.block-sub-ad + .block-sub { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "mapfan.com#$#.side-ad-area.half-margin { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "mapfan.com#$#.nav-menu-width.margin.no-side-margin { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "shirotomaster.com#$#div[style=\"margin: auto; width: 930px; height: 265px; text-align: center;\"] { height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 199,
+        "source" : "dengekionline.com#$#.gPr.u-mtbM  { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "dengekionline.com#$#.gPr_title.u-ttl01  { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "dengekionline.com#$#.p-dol .gNews_title.u-ttl01 { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "jikayosha.jp#$#@media (min-width: 641px) { .wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-bottom { bottom: 0 !important; } }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "friday.kodansha.co.jp#$#div[class^=\"detail_photo_\"] { height: 100% !important; max-height: calc(100vh - 70px - 20px) !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "friday.kodansha.co.jp#$#img[class^=\"detail_mainImage\"] { max-height: calc(100vh - 70px - 20px) !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "ekr.chosunonline.com,life.chosunonline.com#$#.csh_main { padding-top: 30px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "www.chosunonline.com#$#.top_banner_area { height: 44px !important }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "mangalove.me#$#.viewer, .viewer .imgWrap, .viewer .lastPage.slick-slide, .viewer .slick-list, .viewer .slick-track, .viewerBody { height: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "gameranbu.jp#$##sub-col-wrap_top280 { padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 209,
+        "source" : "kakijun.jp#$##hidari { top: unset !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "gdm.or.jp#$##asideRight .box.bottom { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 211,
+        "source" : "barks.jp#$#.c167:nth-child(2) { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "barks.jp#$#.c213:nth-child(2) { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 213,
+        "source" : "barks.jp#$#.c422:nth-child(2) { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 215,
+        "source" : "hostlove.com#$#body:not(.tp) > div#container > #main.template1 { padding-top: 20px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "bunshun.jp#$#div[class=\"block recommend\"] { min-height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 219,
+        "source" : "anime.eiga.com#$##subProgram { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "dailynewsonline.jp#$#body[style*=\"position\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "azby.fmworld.net#$#.side_box { padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 224,
+        "source" : "ameblo.jp#$#._2pnTOjTu { width: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "ff8clear.net,ff10-hd.com,sheepplus.com,winningpost8.com#$##entry[class^=\"e\"] { padding-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "ff8clear.net,ff10-hd.com,sheepplus.com,winningpost8.com#$##new { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "ff8clear.net,ff10-hd.com,sheepplus.com,winningpost8.com#$##side[class^=\"s\"] { padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "ff8clear.net,winningpost8.com#$#div#wrapper.on { padding-top: 450px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "ff8clear.net,winningpost8.com#$#div.on nav#path { top: 330px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "ff8clear.net,winningpost8.com#$#div.on h1 { top: 386px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "dqclear.com#$##right { padding-top: 25px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "sheepplus.com#$##main { margin-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "sheepplus.com#$##side[class^=\"ad\"] { border-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "sheepplus.com#$#.adh { border-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 237,
+        "source" : "e-nenpi.com#$#.gadget_topics > div.cont.last-child { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "wazap.com#$#.sub > div.section > span.heading { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 241,
+        "source" : "estate.nikkan.co.jp#$#.center_column { min-height: 1500px!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "twpf.jp#$##signin-with-twitter { margin-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "h-pon.doorblog.jp#$#.right-container[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "4gamer.net#$#.medipartner { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "matometanews.com#$##leftbody > div.plugin-memo:first-child { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "matometanews.com#$##leftbody > div.plugin-memo:last-of-type { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "matometanews.com#$##left { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "jumpmatome2ch.biz#$##body-in > div[class^=\"d-contents\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 256,
+        "source" : "video.tv-tokyo.co.jp#$##tx7player[style*=\"opacity: 0.\"] { opacity: 1 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "gizmodo.jp#$#main > div.l-generalContent-secondary { position: sticky !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "colordic.org#$#footer { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "games.yahoo.co.jp#$#.isJack { margin-top: 0!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "lesson.golfdigest.co.jp,score.golfdigest.co.jp#$##wholeHeaderPane { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "dq-dai.com#$##lower section.character ul.character_list li.standby { opacity: 1 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "tver.jp#$?#.vjs-text-track-display > div:matches-css(background-color: rgb(0, 0, 0)) { background: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "eguchi-hd.co.jp#$#.hustle-popup { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "eguchi-hd.co.jp#$#.hustle-no-scroll { overflow: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 276,
+        "source" : "uranaitv.jp#$#.fortune-submit { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "t-mall.kantangame.com#$#body[style=\"padding: 0px 0px 154px;\"] { padding-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "auctions.yahoo.co.jp#$#div[class^=\"LayoutContentInner-sc\"] > div[class^=\"Promotion-sc\"] { grid-template-columns: 1fr 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "avfuuzoku.com#$##top #head { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "news.jorudan.co.jp#$#.ad_common_1_970x250 { min-height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "itest.5ch.io#$#.bbsmenu-with-ad { padding-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "itest.5ch.io#$##js-forms { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "weather.yahoo.co.jp#$##ydn-bot { visibility: hidden !important; height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "supercweather.com#$##adds { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "supercweather.com#$##content { display: block !important; width: 100% !important; height: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "applica.info#$#.l-contentsSub[style^=\"height\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "source" : "twivideo.net#$#.__isboostReturnAd { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "twivideo.net#$##is_w_area { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 297,
+        "source" : "twivideo.net#$#.inv_scroll_cancel { overflow: auto !important; height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "kabegamikan.com#$#td[width=\"340\"] { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 300,
+        "source" : "kabegamikan.com#$#div[style=\"width:730px;font-size:11pt;\"] > table[width=\"730\"] { width: 380px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "news-postseven.com#$#.su-modal { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 303,
+        "source" : "news-postseven.com#$#body[style^=\"overflow:\"] { overflow: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "minkabu.jp#$#.ly_content_wrapper { margin-bottom: 0!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "naitter.hippy.jp,pictab.art,my-nikki.net,ero-gazou.jp#$#.pum-overlay { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : "naitter.hippy.jp,pictab.art,my-nikki.net,ero-gazou.jp#$#.pum-open { overflow: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 310,
+        "source" : "mapion.co.jp#$##map_yads { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 311,
+        "source" : "mapion.co.jp#$##result_nav { bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 313,
+        "source" : "teny.co.jp#$#.s-ad { height: 1px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 315,
+        "source" : "roote.ekispert.net#$##bottom_area { height: 1px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 317,
+        "source" : "ovninavi.com#$##cb-container { padding-top: 110px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "ovninavi.com#$#.ovni-header { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 319,
+        "source" : "medibang.com#$##content { padding-bottom: 354px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 320,
+        "source" : "piapro.jp#$##footer { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 321,
+        "source" : "piapro.jp#$##main[style=\"padding-bottom:300px;\"] { padding-bottom: 170px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "minpo.jp#$#.ads970 { height: 0 !important; min-height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 325,
+        "source" : "young-machine.com#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed { bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "bbs4.mozakin.com#$#.thread_txad { border: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 328,
+        "source" : "bbs4.mozakin.com#$#.adsepa { height: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "bbs4.mozakin.com#$#.reply_txad { border: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 330,
+        "source" : "mozakin.com#$##wrap01 { height: 2205px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 331,
+        "source" : "mozakin.com#$#.tabpain[style=\"left: -260px; top: 280px;\"] { top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "mozakin.com#$#.tabpain[style=\"top: 550px; left: 0px;\"] { top: -1120px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 334,
+        "source" : "okwave.jp#$#.following_buttons_upper { bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 336,
+        "source" : "blog.livedoor.jp#$?#.plugin-memo > div.side > div.gad-fixed:upward(2) { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "hrs-game.main.jp,main-hrs-game.ssl-lolipop.jp#$#.ads_native { visibility: hidden !important;margin: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : "firecross.jp#$##stage { max-height: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : "novel.prcm.jp#$##gn_interstitial_area { display: none!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : "novel.prcm.jp#$#body.app-scroll-lock { position: relative!important;overflow-y: unset !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 346,
+        "source" : "blog.livedoor.jp#$?#.plugin-memo > div.side > div.ad-center:upward(2) { visibility: hidden!important;height: 0 !important;}"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "gizmodo.jp#$#.s-body-ad-wrapper { display: none!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : "gizmodo.jp#$#.l-generalContent-secondary[style=\"position: unset;\"] { position: sticky !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 351,
+        "source" : "security-next.com#$#.header { height: 50px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "gigafile.nu#$##wrap_contents_box { min-height: 676px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 355,
+        "source" : "freesoft-100.com#$##bglink { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 356,
+        "source" : "freesoft-100.com#$#body { background: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 358,
+        "source" : "sunri2525.blog.jp#$#._fukugan_grid { height: auto!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "hiraganakeyaki.blog.jp#$#.right-column-inner > div.plugin-memo:first-child { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 361,
+        "source" : "hiraganakeyaki.blog.jp#$#.right-column-inner > div.plugin-memo:last-of-type { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "hiraganakeyaki.blog.jp#$#.right-container[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 364,
+        "source" : "blog.fc2.com#$##main-container { padding: 0px 60px 80px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 366,
+        "source" : "duellinks.doorblog.jp#$#.l-sidebar-b[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "duellinks.doorblog.jp#$#.l-sidebar-b > div.plugin-memo { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 369,
+        "source" : "news.2chblog.jp#$##sub > div.column-inner > div.column-inner-2 > div.plugin-memo:nth-child(-n+2) { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 370,
+        "source" : "news.2chblog.jp#$##sub > div.column-inner > div.column-inner-2 > div.plugin-memo:last-of-type { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 371,
+        "source" : "news.2chblog.jp#$##side-r { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 373,
+        "source" : "shikaku2ch.doorblog.jp#$##adnone { height: 724px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 374,
+        "source" : "shikaku2ch.doorblog.jp#$##extra > div.column-inner > div.column-inner-2 > div.plugin-memo:first-child { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 375,
+        "source" : "shikaku2ch.doorblog.jp#$##extra > div.column-inner > div.column-inner-2 > div.plugin-memo:last-of-type { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 377,
+        "source" : "otajo.jp#$##writerprofile + aside.adsense { height: 90px !important; width: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 378,
+        "source" : "togetter.com#$#.clearfix.contents { min-height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 380,
+        "source" : "gendai.media#$#.sideContents.ie-sticky[style$=\"min-height: 1500px;\"] { min-height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 381,
+        "source" : "gendai.media#$#.blockContainer[style$=\"-60px auto;\"] > div[style=\"min-height: 90px;\"] { min-height: 1px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "battlecats-db.com#$#.adsbygoogle { position: absolute!important;left: -4000px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 385,
+        "source" : "cosp.jp#$#.latestnewstable2014[height^=\"1\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 387,
+        "source" : "otonanswer.jp#$#.side[style^=\"height\"] { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 389,
+        "source" : "ameblo.jp#$##subAInner[style] { position: static !important;margin-top: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 391,
+        "source" : "figgy.jp#$#.adBillBoardPC { min-height: 0 !important }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 392,
+        "source" : "gamer.ne.jp,onlinegamer.jp#$#.adBillboard_pc { height: 0 !important; min-height: 0 !important; margin-bottom: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 394,
+        "source" : "yamareco.com#$##ad01 { display: none!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 395,
+        "source" : "yamareco.com#$#.modal-backdrop { display: none!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 396,
+        "source" : "yamareco.com#$#body.header_bg_ad.modal-open { padding-right: 0 !important; overflow: auto!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 398,
+        "source" : "minigame.aeriagames.jp#$##aeriaGamesCenterAd { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 400,
+        "source" : "pokemon-matome.net#$##header_rtranking { top: 120px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 401,
+        "source" : "pokemon-matome.net#$#div[id^=\"container_in\"] { margin-top: 240px !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 403,
+        "source" : "asahi.com#$#.vjs-modal-dialog.vjs-error-display { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 404,
+        "source" : "asahi.com#$#.vjs-controls-disabled.vjs-error .vjs-control-bar { display: block !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 406,
+        "source" : "automaton-media.com#$#body { background: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 409,
+        "source" : "vip-front.video.g.fc2.com,ideo.laxd.com,video.fc2.com#$#.app-container[aria-expanded=\"false\"] section.with-ad { width: calc(100% - 20px) !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 410,
+        "source" : "vip-front.video.g.fc2.com,video.fc2.com#$#.with-ad[data-layout=\"list\"] .main-header { width: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 411,
+        "source" : "vip-front.video.g.fc2.com,video.fc2.com#$#.with-ad[data-layout=\"list\"][data-section-type=\"new-video\"] .content-wrap:nth-child(-n+2) { width: 100% !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 413,
+        "source" : "mail.yahoo.co.jp#$#body.withsky div#shellcontent[style] { right: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 415,
+        "source" : "news.mynavi.jp#$#.articleList-attention[style^=\"min-height\"] { min-height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 417,
+        "source" : "sp.jp.wazap.com#$#.gmoam_outer_wrapper { display: none !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 418,
+        "source" : "sp.jp.wazap.com#$#body[style=\"position: fixed;\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 420,
+        "source" : "tv-asahi.co.jp#$##common-header > div[class^=\"common-header-pc-\"] { padding-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 422,
+        "source" : "buhidoh.net#$##center-left { height: auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 425,
+        "source" : "nwknews.jp#$##extra { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 426,
+        "source" : "gadget2ch.com#$##sidebar { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 427,
+        "source" : "nandemo-uketori.com,watarukiti.com,saikyo-jump.com#$#.right-container { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 428,
+        "source" : "kosoch.com#$##plugin2[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 430,
+        "source" : "anige-sokuhouvip.com#$##scroll.fixed { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 431,
+        "source" : "itaishinja.com,digital-thread.com,kyousoku.net,oryouri.2chblog.jp#$##sub { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 432,
+        "source" : "gahalog.2chblog.jp#$##sidebar[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 433,
+        "source" : "itainews.com#$##left[style^=\"position: fixed\"] { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 434,
+        "source" : "takenokosokuhou.com#$#.fix_box-m { position: static !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 435,
+        "source" : "nicovideo.jp#$#.BottomContainer.InView { min-height:auto !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 437,
+        "source" : "otakomu.jp,blog.esuteru.com#$#.jackFix + div.siteContent { margin-top: 0 !important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 438,
+        "source" : "otakomu.jp,blog.esuteru.com#$#.siteRanking-main { margin-left: 0!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 440,
+        "source" : "otakomu.jp#$#.siteRanking-main { margin-left: 0!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 442,
+        "source" : "hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 445,
+        "source" : "jikayosha.jp##.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-bottom:matches-media((min-width: 641px)):style(bottom: 0 !important;)"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 454,
+        "source" : "wav.tv$$div[class=\"adv-popup\"]"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 456,
+        "source" : "kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history=\"photo_extra\"]"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 3,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 3,
+      "parsedRules" : 262,
+      "skippedLines" : 195,
+      "totalLines" : 457,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 259
+    }
+  },
+  "sourceFileName" : "general_extensions.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
