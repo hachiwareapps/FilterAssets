@@ -1,0 +1,520 @@
+{
+  "generatedAt" : "2026-08-03T06:13:02Z",
+  "generator" : {
+    "compilerBinaryArtifactChecksum" : "b3312ef0ff4b4499f382be64c0e83eb841ae6f78e78d8e16d95ea177fecff355",
+    "compilerSDK" : {
+      "branch" : null,
+      "identity" : "blockerkitsdk",
+      "location" : "https:\/\/github.com\/hachiwareapps\/BlockerKitSDK.git",
+      "revision" : "74cdf750bf77fcb76c3d37a272f8732458ef1e93",
+      "version" : "0.15.0"
+    },
+    "contentRuleListTarget" : "iOS17",
+    "executionCommand" : ".\/Scripts\/reproduce.sh",
+    "name" : "FilterAssetsReproducer",
+    "publicCompiler" : {
+      "name" : "BlockerKitSDK",
+      "repository" : "https:\/\/github.com\/hachiwareapps\/BlockerKitSDK",
+      "revision" : "74cdf750bf77fcb76c3d37a272f8732458ef1e93",
+      "version" : "0.15.0"
+    },
+    "reproducerRevision" : "369a4d4366d0ec48bac5bfa78fafd8ce2abd5dd44fe8f94b3ac7a37fdcebe54c"
+  },
+  "output" : {
+    "files" : [
+      {
+        "byteCount" : 4716156,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScript-all-default.js",
+        "sha256" : "9736f2ff396aecb528048c19b17f25af058675a560b939c438d995de0e9184b5"
+      },
+      {
+        "byteCount" : 419,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScriptManifest.json",
+        "sha256" : "b9e15245ff9d9081a3deb34a700efa18c1444443f4a8e5b0a878d5308ca3a660"
+      },
+      {
+        "byteCount" : 7100755,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_adservers.json",
+        "sha256" : "3b039c4b2bad291131369385b150f6aae983e5fd86bcb2d3953473ffefe903db"
+      },
+      {
+        "byteCount" : 6748472,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_adservers_firstparty.json",
+        "sha256" : "14ef2f53fd9f64cb271f463d080be2e3a54bc90d339289cbead0ee7c9a1c34b4"
+      },
+      {
+        "byteCount" : 7354008,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_allowlist.json",
+        "sha256" : "c5ac26a52126b6974f16de7154637468b4242a73f5bcf9514216cfbe07026607"
+      },
+      {
+        "byteCount" : 11091,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_allowlist_stealth.json",
+        "sha256" : "7b2ff73dc6d3a221dae8b8a0a7ea70da36090128bbac099c2dc0e9d7eab25338"
+      },
+      {
+        "byteCount" : 7822773,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_antiadblock.json",
+        "sha256" : "969d58c92b159a6e18c30efbe0969ef84cad966a323d0f990995eaf8a074508d"
+      },
+      {
+        "byteCount" : 2244743,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_content_blocker.json",
+        "sha256" : "6744e68cf8fb07fed4bb3799f9330112db2122fed28ab1938f5d10d2f00f311e"
+      },
+      {
+        "byteCount" : 1606816,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_cryptominers.json",
+        "sha256" : "8af7d3524fe389b496ed2a9730a67ba88d5e58dd12f513d688d3eb0853859fa0"
+      },
+      {
+        "byteCount" : 3964725,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_foreign_chunk_001.json",
+        "sha256" : "6d23a4429fee2186163bc34664c36824de5c3051faf5f44b960b431f659be570"
+      },
+      {
+        "byteCount" : 3869035,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_foreign_chunk_002.json",
+        "sha256" : "77f55c7bbd4cbd699c977accbbaead02fd9cfc4b1f150083bb437922b6941825"
+      },
+      {
+        "byteCount" : 3522412,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_foreign_chunk_003.json",
+        "sha256" : "4ef456d3d26cee5c2418f7c3fb42db059b9bc6dd9cafc7560e8365ced4fca52d"
+      },
+      {
+        "byteCount" : 2089692,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_general_extensions.json",
+        "sha256" : "a1b42ea5ecda348c4e9999494a48bbd26e0088c88120787eec1d3e38616757cc"
+      },
+      {
+        "byteCount" : 1104657,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_general_url.json",
+        "sha256" : "781cc7b7f114261a5af45759b55f3693d9da0a98cd288c55859aa7e4d009211a"
+      },
+      {
+        "byteCount" : 819604,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_replace.json",
+        "sha256" : "b3a7b0eaf4d24795f554381c367224bfc8575c4a50380ffe193eb3075fcc15dd"
+      },
+      {
+        "byteCount" : 8101781,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_001.json",
+        "sha256" : "74f6d11d2ce981da2db1b8768524ff4e6bc9a34e8fa76f372ebb803e94f8c1b4"
+      },
+      {
+        "byteCount" : 2243688,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_002.json",
+        "sha256" : "f62bcae22c37ddedae884635ecd9f2374a0dd0c20e7e902207b44de15cab7e4d"
+      },
+      {
+        "byteCount" : 2820396,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_003.json",
+        "sha256" : "7a68755046de70c070f98a5cf863049bf074243eb7da60db6222f4e438b4e07e"
+      },
+      {
+        "byteCount" : 3029090,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_004.json",
+        "sha256" : "123ab9ee5ae6b134bc6eda0fed18852d0e34c0fa57902b55fb506fa11adb0d45"
+      },
+      {
+        "byteCount" : 2290472,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_005.json",
+        "sha256" : "316259388a5688404db0758482632ec9943c7ed34d40a4a91680ef1a6ac94529"
+      },
+      {
+        "byteCount" : 2238618,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_006.json",
+        "sha256" : "2f205b4eb374c0723654929516f5c7ab3ab1a09d5504686857f3df0906328169"
+      },
+      {
+        "byteCount" : 1712113,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_base_specific_chunk_007.json",
+        "sha256" : "edd2a82b4149c71d56e9d10f42a6454702d1a2790e73eb806c2377c7093aec4d"
+      },
+      {
+        "byteCount" : 602875,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_adservers.json",
+        "sha256" : "e6819dae472f45f3dfee6315a44d18b2d2f38fdd92d7edf72ea5ccf1fa7fc7d6"
+      },
+      {
+        "byteCount" : 422353,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_adservers_firstparty.json",
+        "sha256" : "c0937c8dcb7425b2586be387402f1bb1edcd8d3f5c6545745f0c340faefbc55f"
+      },
+      {
+        "byteCount" : 411292,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_allowlist.json",
+        "sha256" : "cbb844e7eba49b362bd9ae51fe2cf9c703cc44100a79e813acece53792b187da"
+      },
+      {
+        "byteCount" : 215334,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_antiadblock.json",
+        "sha256" : "9e20d6d38f9338d87a0703504536303ccdc9a3bb696ee4ddbd0e639e4fe305d7"
+      },
+      {
+        "byteCount" : 60664,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_general_elemhide.json",
+        "sha256" : "d30ed1992314775eb8f3f56ed6fbb974a02331d051ecad729912060770ede1a3"
+      },
+      {
+        "byteCount" : 61896,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_general_extensions.json",
+        "sha256" : "9b9df05a76183f0f19fefcf44b1e438e583199912765af7eef31cfd210ea6d4c"
+      },
+      {
+        "byteCount" : 518538,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_general_url.json",
+        "sha256" : "ba52591d9e970f47b4c4e8848b93b04133612383308b4da7ba4fb4888a700035"
+      },
+      {
+        "byteCount" : 2845617,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_specific_chunk_001.json",
+        "sha256" : "8a6395fdbae6295291727e12821c17213a55662e639515a2d794c7978e8a9029"
+      },
+      {
+        "byteCount" : 2951844,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_specific_chunk_002.json",
+        "sha256" : "aba1e26d20e8d1dbd67074f9066b4c3f855b4c00be0436f4b86aba66bbaa79ee"
+      },
+      {
+        "byteCount" : 2460432,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_specific_chunk_003.json",
+        "sha256" : "7ffd879b4e12e1236c0193475a3da67cc8f8c99d407fdffaab93970d34085ebe"
+      },
+      {
+        "byteCount" : 148560,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-adguard_japanese_specific_chunk_004.json",
+        "sha256" : "9a56469a2f4e377d6f2fbb46d8c0d2ecc1d266d2dbb0c7cb14dfc3804c8b186e"
+      },
+      {
+        "byteCount" : 167973,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_adservers.json",
+        "sha256" : "58ef281098b9217692746d9d2e3f563adae99cf46d32ef0a810b6cc72ec57960"
+      },
+      {
+        "byteCount" : 59404,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_adservers_popup.json",
+        "sha256" : "bbf81b29a2099144a96f3a5759fd163d9ef0d5d848efea6aa1618eb4ff077f68"
+      },
+      {
+        "byteCount" : 17429,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_allowlist.json",
+        "sha256" : "caa22e8330c509e230c479ffb71f25028ad5d56a4418d616d0e48d85d3ae1f90"
+      },
+      {
+        "byteCount" : 548335,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_specific_block.json",
+        "sha256" : "b03b36c411fc8ae6463c2b077a77d4637dc453c80a6d56b3afd0244d9f3fd3a0"
+      },
+      {
+        "byteCount" : 20404,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_specific_block_popup.json",
+        "sha256" : "7d9064da24478a31dc66445cb9433bfc9cfebd6c7ece0e11dd8ef54fde25fd8f"
+      },
+      {
+        "byteCount" : 788319,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_specific_hide.json",
+        "sha256" : "fa492315cb8f7e61c06320b19adf856dfd089547cb9aa0e58caaa62bcbea8781"
+      },
+      {
+        "byteCount" : 269557,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_thirdparty.json",
+        "sha256" : "2a132158fd0a969a14430b00713af915019693944308080b7f882a505342683d"
+      },
+      {
+        "byteCount" : 27541,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_adult_adult_thirdparty_popup.json",
+        "sha256" : "db1507d9eb2370f197ae91acef7b6e02c642594ea8c3d8080889f41edc2113fa"
+      },
+      {
+        "byteCount" : 1988124,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_001.json",
+        "sha256" : "4cb9cfac0a60187ea7817fbba00688b32ad1faa3be329f6bef7239752cb1ae2a"
+      },
+      {
+        "byteCount" : 1947586,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_002.json",
+        "sha256" : "2a919287f6a03485239604e33cf70f0e797479f9ffe2932680a5e4ad01c942e8"
+      },
+      {
+        "byteCount" : 1998561,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_003.json",
+        "sha256" : "f6f825d132c8f4e430651e47c1727e395a39ef9799257d6d72a1bb8bea2c0032"
+      },
+      {
+        "byteCount" : 2039083,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_004.json",
+        "sha256" : "cc68586f731bd3a37ffc164e49282d00b98f056b9756726ff404f98fd72f495f"
+      },
+      {
+        "byteCount" : 1977690,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_005.json",
+        "sha256" : "1cea6f903f55b7270e4469c90a4b9c4b2306b335dcd6473f3aaca52c6b81f846"
+      },
+      {
+        "byteCount" : 2034043,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_006.json",
+        "sha256" : "7cc5d4abbad0359ef9154145b34d0d882955edc626cd165bedaf086eb75a53a5"
+      },
+      {
+        "byteCount" : 2018860,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_007.json",
+        "sha256" : "d18d018ade9c0ea7e19103701362df3845a442fdd69a164fa7eaa608b95c20a2"
+      },
+      {
+        "byteCount" : 2015360,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_008.json",
+        "sha256" : "5768d4729f15e4885d9f0add04b558c12c5e28c6e04cdb57035979b833228b5a"
+      },
+      {
+        "byteCount" : 2088059,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_009.json",
+        "sha256" : "0fabc4f4fee8a7093993ab8568f6a38828232b98b084665b74bf317d66448d81"
+      },
+      {
+        "byteCount" : 2077253,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_010.json",
+        "sha256" : "ae904eea0d97055754781c83d43c080179ed2e324bd67580449398a8cb130105"
+      },
+      {
+        "byteCount" : 2010259,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_011.json",
+        "sha256" : "abe90e2997392f5e3e515678a0cfd563d69291decc23466ef89f51701ca9e523"
+      },
+      {
+        "byteCount" : 2034420,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_012.json",
+        "sha256" : "58fedd68b2d54df73a6ce97e059c59e58b0ac026b4d039744f5a005a27069842"
+      },
+      {
+        "byteCount" : 2044306,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_013.json",
+        "sha256" : "d9600e83bb3e573b08fe709506b7054f43f672d404d3b71ac6fd9fe8e4f730cb"
+      },
+      {
+        "byteCount" : 1993250,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_014.json",
+        "sha256" : "e1f01ef215ad97f1554874ae14afa6815e8dd297bb147e6b260a17f89833e5e9"
+      },
+      {
+        "byteCount" : 2028658,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_015.json",
+        "sha256" : "27b332d2d6196d1135d236dd6d809f47aa7d5339c0d409250119301880c8059b"
+      },
+      {
+        "byteCount" : 1978771,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_016.json",
+        "sha256" : "68e490455cceff68046ca55061d733ca69bc44e77e8ba4368c498204a1bc96d0"
+      },
+      {
+        "byteCount" : 2001421,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_017.json",
+        "sha256" : "1bc487ce6db332d9b2f19d4b28683b86b95baccea1edf72855176c4b7d0182f9"
+      },
+      {
+        "byteCount" : 2020049,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_018.json",
+        "sha256" : "c7d5bf4cc7a152830ddc6c673ca079cf1f827a18fde6abf2c0eb42d9ae45af54"
+      },
+      {
+        "byteCount" : 2025713,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_019.json",
+        "sha256" : "b706d7e31746ea7de645a61eee1ff356aa02a1f8087a2100fb529cc8eeb9ecbd"
+      },
+      {
+        "byteCount" : 2064467,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_020.json",
+        "sha256" : "97b8210952114aba28fe7a693fa4ce552012e4b89a58f663e06a34dbb24695b2"
+      },
+      {
+        "byteCount" : 1983785,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_021.json",
+        "sha256" : "97a373793adc5334b53a9da9660591ca072204af1197d8f26c76379a56b2f406"
+      },
+      {
+        "byteCount" : 1111106,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_chunk_022.json",
+        "sha256" : "46798fe54d3a4a730687d3acce7d57f0868029f6d264543a793fce2da820e28a"
+      },
+      {
+        "byteCount" : 1844730,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_popup_chunk_001.json",
+        "sha256" : "0950c1548c76370a20c4e2c27299c7104fe203f1fc5eb2660492843248f09ce7"
+      },
+      {
+        "byteCount" : 925707,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_adservers_popup_chunk_002.json",
+        "sha256" : "d180a6d76b872de0fc1ba572cd652b7c9daf93bbea1f10ecd97948abef07319c"
+      },
+      {
+        "byteCount" : 745378,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_allowlist.json",
+        "sha256" : "834bcfb9138918831a46358378116dbbd2986ce469735005beeb2034fe765081"
+      },
+      {
+        "byteCount" : 23887,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_allowlist_dimensions.json",
+        "sha256" : "c26fe9d1c89c68e639c71b7616f83313c56ff9503d1959ca55b776c072eb7cb6"
+      },
+      {
+        "byteCount" : 46025,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_allowlist_popup.json",
+        "sha256" : "02c427733074309741e51095be5144afae0f659abe947cd03d6630d663fe64a3"
+      },
+      {
+        "byteCount" : 566821,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_general_block.json",
+        "sha256" : "b4ece7c2a4e2eac2b953337db6d9c2b09e10f690ea9f8d9067540cfde7f9d566"
+      },
+      {
+        "byteCount" : 32305,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_general_block_dimensions.json",
+        "sha256" : "cae54a68ab14a20b406e4583d3c0af75dfbb84cbbf426771235876c6a2003206"
+      },
+      {
+        "byteCount" : 31614,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_general_block_popup.json",
+        "sha256" : "82b2b7f8a03c0adbec608bcbc027abfaaeadf445ccd6f653bed488f3eb04de3a"
+      },
+      {
+        "byteCount" : 880678,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_block.json",
+        "sha256" : "edbbc6c89072b7e5e8d41f462f84ff6b273425bb76c73c3ad8fe2a304e2a6cde"
+      },
+      {
+        "byteCount" : 101181,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_block_popup.json",
+        "sha256" : "534b7dfc18188ad9e0551673e28f37ee0831b7105a7f9e15a4a9c27bfc96082d"
+      },
+      {
+        "byteCount" : 6469,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_hide_abp.json",
+        "sha256" : "4cd902a51189dd941d544a4a53530afd178ef6ad268a7017b90da1b3ada63bcc"
+      },
+      {
+        "byteCount" : 2593213,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_hide_chunk_001.json",
+        "sha256" : "b82ac0550718df4b3af6bd57711d7dfdd29ce1cefec487e8758f28dd2016b4ba"
+      },
+      {
+        "byteCount" : 2410572,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_hide_chunk_002.json",
+        "sha256" : "a74f5f78ce8e5886dfab2fbc6efc53c43b46f5f18e561b06244e290d589f9ce1"
+      },
+      {
+        "byteCount" : 2001227,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_specific_hide_chunk_003.json",
+        "sha256" : "510dba044e50275fe7a2ae7f159af48c24462be530b366835e2c0caf4b846a72"
+      },
+      {
+        "byteCount" : 1170857,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_thirdparty.json",
+        "sha256" : "478c4e05b7a54745ba4bc022b1165491fbfd0547f8ac17b2891fc90046010e0f"
+      },
+      {
+        "byteCount" : 69777,
+        "path" : "Sources\/FilterAssets\/Resources\/AdBlock\/ContentRuleList-easylist_easylist_thirdparty_popup.json",
+        "sha256" : "b0b8be99176de7ff2875152659b3fd8183912ceb5965ba07ca96d514345809d5"
+      }
+    ],
+    "resourcesDirectory" : "Sources\/FilterAssets\/Resources\/AdBlock"
+  },
+  "package" : {
+    "name" : "FilterAssets",
+    "resourceCount" : 79
+  },
+  "reports" : {
+    "conversionReport" : "reports\/conversion-report.json",
+    "detailedReportsDirectory" : "reports\/blockerkit",
+    "droppedRulesLog" : "reports\/dropped-rules.json",
+    "inputReportCount" : 47,
+    "runtimeProfiles" : [
+      {
+        "artifact" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScript-all-default.js",
+        "artifactManifest" : "Sources\/FilterAssets\/Resources\/AdBlock\/BlockerKitUserScriptManifest.json",
+        "byteCount" : 4716156,
+        "inputConfigFiles" : [
+          "adguard_base_adservers.runtime-config.json",
+          "adguard_base_adservers_firstparty.runtime-config.json",
+          "adguard_base_allowlist.runtime-config.json",
+          "adguard_base_allowlist_stealth.runtime-config.json",
+          "adguard_base_antiadblock.runtime-config.json",
+          "adguard_base_banner_sizes.runtime-config.json",
+          "adguard_base_content_blocker.runtime-config.json",
+          "adguard_base_cryptominers.runtime-config.json",
+          "adguard_base_foreign.runtime-config.json",
+          "adguard_base_general_elemhide.runtime-config.json",
+          "adguard_base_general_extensions.runtime-config.json",
+          "adguard_base_general_url.runtime-config.json",
+          "adguard_base_replace.runtime-config.json",
+          "adguard_base_specific.runtime-config.json",
+          "adguard_japanese_adservers.runtime-config.json",
+          "adguard_japanese_adservers_firstparty.runtime-config.json",
+          "adguard_japanese_allowlist.runtime-config.json",
+          "adguard_japanese_antiadblock.runtime-config.json",
+          "adguard_japanese_general_elemhide.runtime-config.json",
+          "adguard_japanese_general_extensions.runtime-config.json",
+          "adguard_japanese_general_url.runtime-config.json",
+          "adguard_japanese_specific.runtime-config.json",
+          "easylist_adult_adult_adservers.runtime-config.json",
+          "easylist_adult_adult_adservers_popup.runtime-config.json",
+          "easylist_adult_adult_allowlist.runtime-config.json",
+          "easylist_adult_adult_allowlist_popup.runtime-config.json",
+          "easylist_adult_adult_specific_block.runtime-config.json",
+          "easylist_adult_adult_specific_block_popup.runtime-config.json",
+          "easylist_adult_adult_specific_hide.runtime-config.json",
+          "easylist_adult_adult_thirdparty.runtime-config.json",
+          "easylist_adult_adult_thirdparty_popup.runtime-config.json",
+          "easylist_easylist_adservers.runtime-config.json",
+          "easylist_easylist_adservers_popup.runtime-config.json",
+          "easylist_easylist_allowlist.runtime-config.json",
+          "easylist_easylist_allowlist_dimensions.runtime-config.json",
+          "easylist_easylist_allowlist_general_hide.runtime-config.json",
+          "easylist_easylist_allowlist_popup.runtime-config.json",
+          "easylist_easylist_general_block.runtime-config.json",
+          "easylist_easylist_general_block_dimensions.runtime-config.json",
+          "easylist_easylist_general_block_popup.runtime-config.json",
+          "easylist_easylist_general_hide.runtime-config.json",
+          "easylist_easylist_specific_block.runtime-config.json",
+          "easylist_easylist_specific_block_popup.runtime-config.json",
+          "easylist_easylist_specific_hide.runtime-config.json",
+          "easylist_easylist_specific_hide_abp.runtime-config.json",
+          "easylist_easylist_thirdparty.runtime-config.json",
+          "easylist_easylist_thirdparty_popup.runtime-config.json"
+        ],
+        "profileID" : "all-default",
+        "report" : "reports\/runtime\/all-default.json",
+        "ruleCounts" : {
+          "cosmetic" : 21995,
+          "cssInjection" : 2487,
+          "network" : 621,
+          "scriptlet" : 5587,
+          "total" : 30690
+        },
+        "sha256" : "9736f2ff396aecb528048c19b17f25af058675a560b939c438d995de0e9184b5"
+      }
+    ],
+    "runtimeReportsDirectory" : "reports\/runtime",
+    "unsupportedRulesLog" : "reports\/unsupported-rules.json"
+  },
+  "schemaVersion" : 1,
+  "sourceCommits" : [
+    {
+      "commit" : "6926d1956cbcd69e39a63351d88053b373af2f33",
+      "id" : "adguard_filters",
+      "name" : "AdGuard Filters",
+      "ref" : "refs\/heads\/master",
+      "retrievedAt" : "2026-08-03T06:11:33Z",
+      "upstreamURL" : "https:\/\/github.com\/AdguardTeam\/AdguardFilters"
+    },
+    {
+      "commit" : "96dee3244aa4781a8c16f0e4a7e88d9d548c0add",
+      "id" : "easylist",
+      "name" : "EasyList",
+      "ref" : "refs\/heads\/master",
+      "retrievedAt" : "2026-08-03T06:11:33Z",
+      "upstreamURL" : "https:\/\/github.com\/easylist\/easylist"
+    }
+  ]
+}

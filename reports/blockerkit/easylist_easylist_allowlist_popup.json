@@ -1,0 +1,481 @@
+{
+  "outputFileNames" : [
+    "easylist_easylist_allowlist_popup.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 1,
+        "source" : "@@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 2,
+        "source" : "@@|data:text^$popup,domain=box.com|clker.com|labcorp.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 3,
+        "source" : "@@||accounts.google.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 4,
+        "source" : "@@||ad.doubleclick.net\/clk*&destinationURL=$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 5,
+        "source" : "@@||ad.doubleclick.net\/ddm\/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|finder.com|finder.com.au|findershopping.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 6,
+        "source" : "@@||ad.doubleclick.net\/ddm\/clk\/*http$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 7,
+        "source" : "@@||ad.doubleclick.net\/ddm\/trackclk\/*http$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 8,
+        "source" : "@@||ads.atmosphere.copernicus.eu^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 9,
+        "source" : "@@||ads.doordash.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 10,
+        "source" : "@@||ads.elevateplatform.co.uk^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 11,
+        "source" : "@@||ads.emarketer.com\/redirect.spark?$popup,domain=emarketer.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "@@||ads.finance^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 13,
+        "source" : "@@||ads.google.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "@@||ads.listonic.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 15,
+        "source" : "@@||ads.microsoft.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "@@||ads.midwayusa.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "@@||ads.openai.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "@@||ads.pinterest.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "@@||ads.shopee.*\/$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "@@||ads.snapchat.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "@@||ads.spotify.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "@@||ads.taboola.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "@@||ads.temu.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "@@||ads.tiktok.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "@@||ads.twitter.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "@@||ads.vk.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "@@||ads.vk.ru^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "@@||ads.x.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "@@||adv.asahi.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "@@||adv.gg^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 31,
+        "source" : "@@||adv.welaika.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "@@||biz.yelp.com\/ads?$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 33,
+        "source" : "@@||dashboard.mgid.com^$popup"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "@@||doubleclick.net\/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "@@||g.doubleclick.net\/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "@@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "@@||lulustream.com^$popup,domain=luluvdo.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 38,
+        "source" : "@@||streamtape.com^$popup,domain=streamtape.to"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "@@||vk.com\/ads?$popup,domain=vk.com"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "@@||www.google.*\/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 41,
+        "source" : "@@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 41,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 41,
+      "parsedRules" : 41,
+      "skippedLines" : 1,
+      "totalLines" : 42,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "easylist_allowlist_popup.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
