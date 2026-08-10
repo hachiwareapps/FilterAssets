@@ -1,0 +1,15 @@
+{
+  "profiles" : [
+    {
+      "byteCount" : 4720660,
+      "contentWorld" : "page",
+      "fileName" : "BlockerKitUserScript-all-default.js",
+      "forMainFrameOnly" : false,
+      "id" : "all-default",
+      "injectionTime" : "documentStart",
+      "report" : "reports\/runtime\/all-default.json",
+      "sha256" : "0c3decc4281e711a666fa08b72b0f8b95c587fd7bfbe113bc221d5c86811128a"
+    }
+  ],
+  "schemaVersion" : 1
+}
