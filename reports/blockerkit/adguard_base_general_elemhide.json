@@ -1,0 +1,3308 @@
+{
+  "outputFileNames" : [
+
+  ],
+  "report" : {
+    "diagnostics" : [
+
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 10,
+        "source" : "##.ad-pos-top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 12,
+        "source" : "##.pm-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "##.adthrive-placeholder-content"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "##.addbanner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "###inlinead"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "##.ad-content-rectangle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "##.exco-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "##.banner-advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "##.ad_large"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "##[href^=\"https:\/\/www.mypatriotsupply.com\/\"] > img"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "##.inline-advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "###footer_adv"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "##.ads-narrow"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "##.vf-promo-wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 38,
+        "source" : "##.interstitial-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "##.ads970"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "###top_google_ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "##.adace-slideup-slot-wrap"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "##.in_article_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "##.entry_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "###ad-top-right-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "##.headad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "##.adun"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 56,
+        "source" : "##.zergnet-widget"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "##.ad--wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "##.ad--topmobile"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "##.story__top__ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "##.amazon-auto-links"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 66,
+        "source" : "###ad1-placeholder"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 68,
+        "source" : "##.c-adSkyBox"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "###splashy-ad-container-top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "###middle_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : "##.GRVVideo"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "##.div_pop"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "###ad_middle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "##.ads-cont"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "##.adsense_block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "##.banner-player"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "##.view-ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "###wp_adbn_root"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : "##.AdPlaceholder"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 92,
+        "source" : "##.button-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 94,
+        "source" : "##.adWrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "##.center-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "###div-leader-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 100,
+        "source" : "##.ads_place_top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 102,
+        "source" : "###ad-large-header"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "source" : "###ad_large"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "##.wc-adblock-wrap"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "##.ads-wrapper-top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "##.top-site-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : "##.js_midbanner_ad_slot"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 114,
+        "source" : "##.ad-slot-wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 116,
+        "source" : "##.adverts_header_advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 118,
+        "source" : "##.adverts_side_advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "##.adverts_footer_advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "##.adverts_footer_scrolling_advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "source" : "##.bordered-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "source" : "##.zox-post-ad-wrap"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "##.post__article-top-ad-wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "##.zox-post-bot-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : "##.ads-two"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "##AD-SLOT"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 136,
+        "source" : "##.ad-horizontal-top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "##.dfpAdspot"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "##.amp-adv-wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "##.storyAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : "##.fixadheightbottom"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "##.adHolder"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "##.connatix-wysiwyg-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 150,
+        "source" : "##.parade-ad-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "##.pb-slot-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "##.mrec-scrollable-cont"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "##.ad-dog__cnx-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "##.adwrap-mrec"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "##.ATF_wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "##.c-ad--header"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "##.mobile-ad-negative-space"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "##.mrf-adv__wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "###advert-banner-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "##.legion_primiswrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "##.inarticlead"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "##.videos-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "##.google-ad-manager"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "##.js_movable_ad_slot"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "###fixed-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "##.movv-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "##.van_vid_carousel"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "##.van_taboola"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "###mobile-swipe-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "##.header-advert-wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "##.ads_inline_640"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "##.AdCenter"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "##.adCenter"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "##.adCenterAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "##.adCentertile"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "##.adcenter"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "##.rectangle_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "##.top-ads-amp"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "##.aniview-inline-player"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "###advertisementTop"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "##.adv_top"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "source" : "##.vertbars"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "##.view-video-advertisements"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "##.footer-advertisements"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 220,
+        "source" : "##.instream_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 222,
+        "source" : "##section[data-e2e=\"advertisement\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 224,
+        "source" : "##.belowMastheadWrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "##.first_post_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "##iframe[src^=\"\/\/ad.a-ads.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "##.ad_sidebar_bigbox"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "##amp-fx-flying-carpet"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "##.leaderboard-ad-component"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "##.top-ads-mobile"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "##.boxAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 240,
+        "source" : "##.amp-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "##.ad-bottom-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "##.amazon_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 246,
+        "source" : "##.headerads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "##.story-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "##.lates-adlabel"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "##.Ad-adhesive"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "##.ggads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 256,
+        "source" : "##.top250Ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "##.dfp_ATF_wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "##.home-ad-region-1"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "##.sidebar-big-box-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "###ad-after"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 266,
+        "source" : "###ad-p3"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "##.topAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "##.article-advert-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "##body[data-publication] div[data-tmdatatrack-type=\"commercial\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "##body[data-publication] aside[class^=\"RHRBlock_right-aside-wrapper\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "##body[data-publication] div.commercial-label-style"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "##body[data-publication] div[data-testid^=\"ncu-within-group-\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "##div[style=\"margin: 10px 0; position: relative;\"] > div[id=\"overlay\"][style=\"position: absolute; width: 100%; height: 100%; z-index: 99999;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "##div[style=\"text-align:center;margin:0 0 8px 0;\"] > div[class^=\"ad-\"][class$=\"-wrapper\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "##.mvic-btn > a.btn-successful"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 283,
+        "source" : "##.outbrain"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "##.czlll-rlselse"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "##body[onbeforeunload=\"return myFunction()\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "###awe-customiframe-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "##.kt-player ~ div.spot-box"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "##.gallery-bns-bl"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "##.articleads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "##.b-advertising__down-menu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "##.ad-cls"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : "##.tncls_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 310,
+        "source" : "##.tncls_ad_250"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 312,
+        "source" : "##.tncls_ad_300"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 315,
+        "source" : "##.stky-ad-footer"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "##.bodyads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 321,
+        "source" : "##.Ad__Wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 324,
+        "source" : "##.ad-disclaimer-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 326,
+        "source" : "##iframe[src^=\"\/\/tempest.services.disqus.com\/ads-iframe\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "###content_ad_container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "###interads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "##.ad-container--leaderboard"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 338,
+        "source" : "###videopageadblock"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 340,
+        "source" : "###floatingAdContainer"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : "##.ad_w300i"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 345,
+        "source" : "##ins.adsbygoogle[data-ad-slot]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "##.ad-300"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 351,
+        "source" : "##.mobile-instream-ad-holder-single"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 354,
+        "source" : "###ad_wp_base"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 357,
+        "source" : "###adxtop"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "###ad_728h"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "###ad_336_singlebt"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 365,
+        "source" : "##.tjads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "##topadblock"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 370,
+        "source" : "###ad-fullbanner2-billboard-outer"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 373,
+        "source" : "##.loop_google_ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 376,
+        "source" : "##.amp_ad_wrapper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 380,
+        "source" : "##.ad-engage"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "###gads_middle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 386,
+        "source" : "##.add_300x250"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 390,
+        "source" : "##.ContentAd"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 393,
+        "source" : "###videojs ~ div[style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 395,
+        "source" : "##.full-bns-block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 396,
+        "source" : "##.video-brs"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 397,
+        "source" : "##.brs-block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 401,
+        "source" : "##div[data-target=\"ad\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 404,
+        "source" : "###inPlayerGGzone"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 407,
+        "source" : "##iframe[style=\"position: absolute; top: -1000px; left: -1000px; visibility: hidden; border: medium none; background-color: transparent;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 410,
+        "source" : "##.video-info > div.video-link:has(> b > a[href][target=\"_blank\"][rel=\"sponsored\"])"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 411,
+        "source" : "##.player-holder > div.vcover2"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 412,
+        "source" : "##.wrapper-player div.before-player"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 415,
+        "source" : "##body ~ div[style^=\"z-index: 2147483647 !important; position: fixed !important; width:\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 416,
+        "source" : "##body ~ iframe[id][style^=\"width: 100% !important; height:\"][style*=\"inset:\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 419,
+        "source" : "##body > div[style=\"position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 422,
+        "source" : "##body > div[style^=\"position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 425,
+        "source" : "##body > div[style^=\"position: fixed; inset: 0px; z-index: 2147483647; background-color: transparent; pointer-events: auto; cursor: auto; margin: 0px; padding: 0px;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 430,
+        "source" : "##body > div[style^=\"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01\"][style*=\";cursor:pointer\"]:empty"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 431,
+        "source" : "##body > div[style^=\"position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01\"][style*=\";cursor:pointer\"]:empty"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 434,
+        "source" : "##html[data-lt-installed=\"true\"] > body[style=\"\"] img[style=\"width: 100%;max-width: 728px;\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 436,
+        "source" : "##.full-ave-pl"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 437,
+        "source" : "##.wps-player__happy-inside"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 439,
+        "source" : "##.ad970"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 441,
+        "source" : "##.div-gpt-ad:not([style^=\"width: 1px; height: 1px;\"])"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 442,
+        "source" : "##[class^=\"div-gpt-ad\"]:not([style^=\"width: 1px; height: 1px;\"], .div-gpt-ad_adblock_test)"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 444,
+        "source" : "##button[data-openuri=\"|BTN_URL|\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 447,
+        "source" : "##aside[data-aqa=\"widget-breaking-banner\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 449,
+        "source" : "##.arcad_feature"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 451,
+        "source" : "##.gliaplayer-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 453,
+        "source" : "###\\31-rightrail_pos4_ddb_0"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 454,
+        "source" : "###premium_mid_ddb_0"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 455,
+        "source" : "##div[class^=\"DisplayAdvert\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 456,
+        "source" : "##div[class^=\"index-module_openwebAd_\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 457,
+        "source" : "##div[class^=\"TaboolaHomepageFeed_taboolaWrapper\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 460,
+        "source" : "###fallbackTerms.fallback-term-holder"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 462,
+        "source" : "##.tbl-floating-unit"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 463,
+        "source" : "##.adbg"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 464,
+        "source" : "###tdsAdContainer"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 465,
+        "source" : "##.wp-block-gamurs-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 466,
+        "source" : "##a[href^=\"https:\/\/z.cdn.secured-ad.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 467,
+        "source" : "##div[data-type=\"_mgwidget\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 468,
+        "source" : "##iframe[src^=\"https:\/\/creative.\"][src*=\"\/widgets\/v4\/Universal?\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 469,
+        "source" : "###floating-ad-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 470,
+        "source" : "##.kt-player > div.spot"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 471,
+        "source" : "##div[data-clickadilla-banner]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 472,
+        "source" : "##.player-section__ad-b"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 473,
+        "source" : "##.video.ad-w"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 474,
+        "source" : "##.advMasthead"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 475,
+        "source" : "##iframe[src^=\"https:\/\/mmmdn.net\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 476,
+        "source" : "##body .top-advert"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 477,
+        "source" : "##iframe[src^=\"\/\/tsyndicate.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 478,
+        "source" : "##iframe[src^=\"https:\/\/tsyndicate.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 479,
+        "source" : "##.roxot-dynamic"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 480,
+        "source" : "##body > div#fixedban"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 481,
+        "source" : "###close-fixedban"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 482,
+        "source" : "###soldakayan"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 483,
+        "source" : "###sagdakayan"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 484,
+        "source" : "##.top-header-ads-mobile"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 485,
+        "source" : "##.happy-footer"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 486,
+        "source" : "##.gmr-bannerpopup"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 487,
+        "source" : "##.idmuvi-topbanner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 488,
+        "source" : "##.idmuvi-topbanner-aftermenu"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 489,
+        "source" : "##iframe[src^=\"https:\/\/vidsservices.space\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 490,
+        "source" : "##iframe[src^=\"https:\/\/av.ageverify.co\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 491,
+        "source" : "##.remove-spots"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 492,
+        "source" : "##.breakout-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 493,
+        "source" : "##.ae-player__itv"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 494,
+        "source" : "##a[href^=\"mailto:support@netu.tv\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 495,
+        "source" : "##a[onclick*=\"openAuc();\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 496,
+        "source" : "##a[href^=\"https:\/\/l.tapdb.net\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 497,
+        "source" : "##a[href^=\"https:\/\/ad.22betpartners.com\/redirect.aspx?\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 498,
+        "source" : "##.happy-player-beside"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 499,
+        "source" : "##.happy-inside-player"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 500,
+        "source" : "##.gads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 501,
+        "source" : "##.full-bns-block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 502,
+        "source" : "##.video-brs"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 503,
+        "source" : "##a[href^=\"http:\/\/click.dtiserv2.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 504,
+        "source" : "##div[data-e2e=\"advertisement\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 505,
+        "source" : "##.puFloatLine > #puFloatDiv"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 506,
+        "source" : "##a[href*=\".ufinkln.com\/\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 507,
+        "source" : "##.stripper > a[href*=\"istripper\"] > img"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 508,
+        "source" : "##a[href*=\"\/fdh\/wth.php?\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 509,
+        "source" : "##.BetterJsPopOverlay"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 510,
+        "source" : "##.videojs-hero-overlay"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 511,
+        "source" : "##div[id^=\"M\"][id*=\"Composite\"]"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 512,
+        "source" : "##.wpcnt > .wpa"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 513,
+        "source" : "###BannerBox"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 514,
+        "source" : "###ad-topper"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 515,
+        "source" : "###ad_300X250"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 516,
+        "source" : "###ad_google"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 517,
+        "source" : "###advertRightTopPosition"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 518,
+        "source" : "###banner-top-right"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 519,
+        "source" : "###bb_banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 520,
+        "source" : "###blox-top-promo"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 521,
+        "source" : "###bp_banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 522,
+        "source" : "###campaign-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 523,
+        "source" : "###extensible-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 524,
+        "source" : "###fb_300x250"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 525,
+        "source" : "###footer-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 526,
+        "source" : "###scorecard-ad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 527,
+        "source" : "###topBanners"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 528,
+        "source" : "###total_banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 529,
+        "source" : "##.SC_TBlock"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 530,
+        "source" : "##.ad_register_prompt"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 531,
+        "source" : "##.ad_showthread_firstpost_start_placeholder"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 532,
+        "source" : "##.b-header-banner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 533,
+        "source" : "##.baners_block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 534,
+        "source" : "##.banner_header"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 535,
+        "source" : "##.banners-middle"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 536,
+        "source" : "##.banners_block"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 537,
+        "source" : "##.main_promo_image_container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 538,
+        "source" : "##.menu-ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 539,
+        "source" : "##.reclamTable"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 540,
+        "source" : "##.sidebar-ads-container"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 541,
+        "source" : "##.special-ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 542,
+        "source" : "##.sponsor-div"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 543,
+        "source" : "##.sponsored-home-page-inner"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 544,
+        "source" : "##.sponsored-items"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 545,
+        "source" : "##.top-adv-app"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 546,
+        "source" : "##.top-banners"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 547,
+        "source" : "##.top-r-ads"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 548,
+        "source" : "##.topbannerad"
+      },
+      {
+        "destinations" : [
+          "userScript"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 549,
+        "source" : "##.widget-sidebar-right-banner"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 0,
+      "generatedContentRuleListChunkCount" : 0,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 0,
+      "parsedRules" : 298,
+      "skippedLines" : 252,
+      "totalLines" : 550,
+      "unsupportedRuleCount" : 0,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 298
+    }
+  },
+  "sourceFileName" : "general_elemhide.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
