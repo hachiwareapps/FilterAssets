@@ -1,0 +1,4041 @@
+{
+  "outputFileNames" : [
+    "adguard_japanese_adservers.json"
+  ],
+  "report" : {
+    "diagnostics" : [
+      {
+        "code" : "unsupported-network-condition",
+        "lineNumber" : 386,
+        "message" : "Unsupported network condition modifiers: network.",
+        "severity" : "unsupported",
+        "source" : "94.130.167.163$network"
+      }
+    ],
+    "rules" : [
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 14,
+        "source" : "||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp|~rakuten.ne.jp"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 16,
+        "source" : "||tomonavi.xyz^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 17,
+        "source" : "||adwell.app^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 18,
+        "source" : "||scrollpop.online^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 19,
+        "source" : "||insiad.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 20,
+        "source" : "||dailyrumor-jp.co.in^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 21,
+        "source" : "||yariman.online^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 22,
+        "source" : "||mmeegc.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 23,
+        "source" : "||enhance.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 24,
+        "source" : "||ad-virtua.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 25,
+        "source" : "||indiegogo.jp^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 26,
+        "source" : "||js.miyuki-web.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 27,
+        "source" : "||girls-escort.tokyo^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 28,
+        "source" : "||ad.zetacx.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 29,
+        "source" : "||widget-api.dmm.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 30,
+        "source" : "||widget-api.dmm.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 31,
+        "source" : "||pic-stash.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 32,
+        "source" : "||zzlles.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 33,
+        "source" : "||im.c.yimg.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 34,
+        "source" : "||ademon.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 35,
+        "source" : "||api.ada-cloud.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 36,
+        "source" : "||erogazopple.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 37,
+        "source" : "||paradise1972.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 38,
+        "source" : "||gamegadget.jp^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 39,
+        "source" : "||welte.jp^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 40,
+        "source" : "||lifeedly.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 41,
+        "source" : "||hyadain.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 42,
+        "source" : "||linoee.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 43,
+        "source" : "||line-e.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 44,
+        "source" : "||ads-lite2.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 45,
+        "source" : "||mid-round.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 46,
+        "source" : "||ploud-crew.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 47,
+        "source" : "||prime-ever.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 48,
+        "source" : "||adandhub.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 49,
+        "source" : "||getallmedia.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 50,
+        "source" : "||ssdsp.smt.docomo.ne.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 51,
+        "source" : "||araklet.mediagene.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 52,
+        "source" : "||hatoltd.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 53,
+        "source" : "||amawidget.yutbr.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 54,
+        "source" : "||adreq.eagle-insight.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 55,
+        "source" : "||ranmaotome.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 56,
+        "source" : "||asp.m-live.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 57,
+        "source" : "||sb-hip-happy.ourservice.jp^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 58,
+        "source" : "||carrier202205.tokyo^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 59,
+        "source" : "||axesslove.mixh.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 60,
+        "source" : "||kaomanko.axesslove.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 61,
+        "source" : "||jp1media.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 62,
+        "source" : "||bra.almado.jp^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 63,
+        "source" : "||adsby.2bet.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 64,
+        "source" : "||indexad.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 65,
+        "source" : "||recruitbox.media.iid.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 66,
+        "source" : "||creative-klepon-3f0ecb.netlify.app^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 67,
+        "source" : "||effulgent-stroopwafel-efb9ce.netlify.app^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 68,
+        "source" : "||adma.xsrv.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 69,
+        "source" : "||ranklet.come.cc^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 70,
+        "source" : "||js.click-plus.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 71,
+        "source" : "||ad.douga-kan.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 72,
+        "source" : "||adleap.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 73,
+        "source" : "||ad.unique1static.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 74,
+        "source" : "||appdraft.link^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 75,
+        "source" : "||ad.adpon-affi.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 76,
+        "source" : "||lmadps.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 77,
+        "source" : "||bibincom.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 78,
+        "source" : "||smart-below.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 79,
+        "source" : "||ad1.girls-affiliate.com^$document"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 80,
+        "source" : "||af.atsoho.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 81,
+        "source" : "||flux-cdn.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 82,
+        "source" : "||js.mediams.mb.softbank.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 83,
+        "source" : "||compass-fit.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 84,
+        "source" : "||gs-ad.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 85,
+        "source" : "||afi-thor.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 86,
+        "source" : "||afbhub.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 87,
+        "source" : "||advortex.cloud^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 88,
+        "source" : "||mobadme.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 89,
+        "source" : "||ad-drop.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 90,
+        "source" : "||unddeliv.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 91,
+        "source" : "||ad.886644.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 92,
+        "source" : "||ad.mdmd.info^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 93,
+        "source" : "||track2.cross-system.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 94,
+        "source" : "||a-c-engine.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 95,
+        "source" : "||d830x8j3o1b2k.cloudfront.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 96,
+        "source" : "||d-markets.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 97,
+        "source" : "||assistads.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 98,
+        "source" : "||cnt.affiliate.fc2.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 99,
+        "source" : "||link-medias.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 100,
+        "source" : "||monetize-ssp.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 101,
+        "source" : "||media.ad-lps.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 102,
+        "source" : "||ad.moo-mam-tai.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 103,
+        "source" : "||smart-c.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 104,
+        "source" : "||ads.mediams.mb.softbank.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 105,
+        "source" : "||ad.owlair.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 106,
+        "source" : "||js.medi-8.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 107,
+        "source" : "||presco.ai^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 108,
+        "source" : "||affiliate.casino-wonder.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 109,
+        "source" : "||samuraiclick.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 110,
+        "source" : "||sexpixbox.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 111,
+        "source" : "||ads.contents.fc2.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 112,
+        "source" : "||thepsusiwho.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 113,
+        "source" : "||d2swpuhpwp3khd.cloudfront.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 114,
+        "source" : "||afflaze.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 115,
+        "source" : "||adstuber.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 116,
+        "source" : "||ad.orange-park.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 117,
+        "source" : "||d-064.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 118,
+        "source" : "||expdirclk.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 119,
+        "source" : "||pompass.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 120,
+        "source" : "||v2st.shinobi.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 121,
+        "source" : "||yads.c.yimg.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 122,
+        "source" : "||moro-douga.link^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 123,
+        "source" : "||gusion.space^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 124,
+        "source" : "||js.kabutocho-dsp.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 125,
+        "source" : "||enmusubimail000.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 126,
+        "source" : "||infohimatalk77.net^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 127,
+        "source" : "||askfollow.us^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 128,
+        "source" : "||freeadd.me^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 129,
+        "source" : "||twitob.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 130,
+        "source" : "||twitterfollowers.site^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 131,
+        "source" : "||more-followers.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 132,
+        "source" : "||trigraff.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 133,
+        "source" : "||threeate.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 134,
+        "source" : "||adplushome.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 135,
+        "source" : "||affiliateone.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 136,
+        "source" : "||performancefirst.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 137,
+        "source" : "||af-a.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 138,
+        "source" : "||bizmotion.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 139,
+        "source" : "||impactify.media^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 140,
+        "source" : "||promolayer.io^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 141,
+        "source" : "||boost-next.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 142,
+        "source" : "||googleailesi.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 143,
+        "source" : "||js.glossom.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 144,
+        "source" : "||ratel-ad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 145,
+        "source" : "||ad.xrea.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 146,
+        "source" : "||advision-adnw.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 147,
+        "source" : "||ad-spire.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 148,
+        "source" : "||geotg.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 149,
+        "source" : "||link-ag.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 150,
+        "source" : "||js.mulan.cloud^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 151,
+        "source" : "||abh.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 152,
+        "source" : "||av-mov.com^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 153,
+        "source" : "||click-count.info^$all"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 154,
+        "source" : "||astrsk.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 155,
+        "source" : "||cross-a.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 156,
+        "source" : "||tracer.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 157,
+        "source" : "||addlv.smt.docomo.ne.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 158,
+        "source" : "||trigs-sockets.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 159,
+        "source" : "||af.tosho-trading.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 160,
+        "source" : "||d1yt8zt4633tzi.cloudfront.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 161,
+        "source" : "||affiliate.konibet.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 162,
+        "source" : "||hananokai.tv^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 163,
+        "source" : "||ad.presco.asia^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 164,
+        "source" : "||m-live.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 165,
+        "source" : "||ad-track.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 166,
+        "source" : "||tag.surpha.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 167,
+        "source" : "||adtest.pages.dev^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 168,
+        "source" : "||connead.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 169,
+        "source" : "||goldenssp.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 170,
+        "source" : "||new-adtest.pages.dev^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 171,
+        "source" : "||adsozai.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 172,
+        "source" : "||cdj-dap.s3-ap-northeast-1.amazonaws.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 173,
+        "source" : "||ad.xdomain.ne.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 174,
+        "source" : "||pr-agent.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 175,
+        "source" : "||js.passaro-de-fogo.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 176,
+        "source" : "||trading-ad.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 177,
+        "source" : "||adcent.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 178,
+        "source" : "||pokoran.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 179,
+        "source" : "||world-ad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 180,
+        "source" : "||waqool.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 181,
+        "source" : "||devo.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 182,
+        "source" : "||ad.ddo.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 183,
+        "source" : "||ad-nex.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 184,
+        "source" : "||candy-network.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 185,
+        "source" : "||flux-g.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 186,
+        "source" : "||nkis.nikkei.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 187,
+        "source" : "||x5.jougennotuki.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 188,
+        "source" : "||ad.atown.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 189,
+        "source" : "||ads.pipaffiliates.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 190,
+        "source" : "||traffic-exchange.tv^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 191,
+        "source" : "||atype.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 192,
+        "source" : "||blogparts.dgpot.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 193,
+        "source" : "||af-110.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 194,
+        "source" : "||advack.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 195,
+        "source" : "||ad-generation.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 196,
+        "source" : "||adflare.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 197,
+        "source" : "||taggyad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 198,
+        "source" : "||deliver.ads2.iid.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 199,
+        "source" : "||sokmil-ad.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 200,
+        "source" : "||ads-connect.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 201,
+        "source" : "||affiliate.sonicsense.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 202,
+        "source" : "||ads.museum.or.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 203,
+        "source" : "||cdn.lodeo.io^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 204,
+        "source" : "||seogreat.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 205,
+        "source" : "||roselip-fetish.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 206,
+        "source" : "||mincure-ad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 207,
+        "source" : "||ad.rarure.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 208,
+        "source" : "||sda.seesaa.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 209,
+        "source" : "||moshimo.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 210,
+        "source" : "||affiliate-script-pr.firebaseapp.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 211,
+        "source" : "||asia-northeast1-affiliate-pr.cloudfunctions.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 212,
+        "source" : "||aztool.org^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 213,
+        "source" : "||divscripty.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 214,
+        "source" : "||zxcvbnmasdfghjklqwertyuiop.work^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 215,
+        "source" : "||smv.to^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 216,
+        "source" : "||geniee.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 217,
+        "source" : "||ad.angel-live.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 218,
+        "source" : "||reajyu.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 219,
+        "source" : "||gsspcln.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 220,
+        "source" : "||ads-lite.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 221,
+        "source" : "||blogparts.gcolle.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 222,
+        "source" : "||eisys-bcs.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 223,
+        "source" : "||congrab.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 224,
+        "source" : "||ad-fam.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 225,
+        "source" : "||affiliates.expaus.in^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 226,
+        "source" : "||dep.tc^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 227,
+        "source" : "||i2ad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 228,
+        "source" : "||r-ad.linkshare.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 229,
+        "source" : "||townlife-aff.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 230,
+        "source" : "||polymorphicads.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 231,
+        "source" : "||lamp-shade.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 232,
+        "source" : "||neofield.click^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 233,
+        "source" : "||tm.r-ad.ne.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 234,
+        "source" : "||spreadlink.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 235,
+        "source" : "||seedapp-creative.s3.amazonaws.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 236,
+        "source" : "||admane.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 237,
+        "source" : "||smaad.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 238,
+        "source" : "||app.monetrack.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 239,
+        "source" : "||bn.dxlive.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 240,
+        "source" : "||mobee2.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 241,
+        "source" : "||mttag.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 242,
+        "source" : "||preaf.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 243,
+        "source" : "||relaido.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 244,
+        "source" : "||6ms.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 245,
+        "source" : "||ad-arrow.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 246,
+        "source" : "||aff.jskyservices.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 247,
+        "source" : "||smac-ad.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 248,
+        "source" : "||a-i-ad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 249,
+        "source" : "||managedweb.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 250,
+        "source" : "||adtechjp.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 251,
+        "source" : "||koukoku.red^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 252,
+        "source" : "||afi-b.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 253,
+        "source" : "||amaprop.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 254,
+        "source" : "||gyro-n.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 255,
+        "source" : "||amoad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 256,
+        "source" : "||caprofitx.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 257,
+        "source" : "||x-value.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 258,
+        "source" : "||mhub.work^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 259,
+        "source" : "||adpicker.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 260,
+        "source" : "||adapf.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 261,
+        "source" : "||infotop.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 262,
+        "source" : "||tcs-asp.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 263,
+        "source" : "||partner.become.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 264,
+        "source" : "||ladsp.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 265,
+        "source" : "||d2-apps.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 266,
+        "source" : "||a-affiliate.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 267,
+        "source" : "||nend.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 268,
+        "source" : "||ala.durasite.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 269,
+        "source" : "||p.permalink-system.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 270,
+        "source" : "||adp.homes.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 271,
+        "source" : "||fam-8.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 272,
+        "source" : "||genieedmp.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 273,
+        "source" : "||gmossp-sp.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 274,
+        "source" : "||okbp.xyz^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 275,
+        "source" : "||primead.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 276,
+        "source" : "||xxxxxxxx.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 277,
+        "source" : "||hogei.info^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 278,
+        "source" : "||ad.netowl.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 279,
+        "source" : "||focas.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 280,
+        "source" : "||speee-ad.akamaized.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 281,
+        "source" : "||ad.adpon.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 282,
+        "source" : "||sdqoi2d.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 283,
+        "source" : "||fam-ad.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 284,
+        "source" : "||ap.ad-feed.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 285,
+        "source" : "||nakanohito.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 286,
+        "source" : "||blog.livelog.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 287,
+        "source" : "||appollo.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 288,
+        "source" : "||ad-tag.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 289,
+        "source" : "||ad-seek.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 290,
+        "source" : "||ad-count.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 291,
+        "source" : "||ad-optima.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 292,
+        "source" : "||addeluxe.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 293,
+        "source" : "||adfurikun.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 294,
+        "source" : "||adingo.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 295,
+        "source" : "||doubleclick.ne.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 296,
+        "source" : "||fout.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 297,
+        "source" : "||genieesspv.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 298,
+        "source" : "||i-mobile.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 299,
+        "source" : "||j-a-net.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 300,
+        "source" : "||liveads.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 301,
+        "source" : "||maio.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 302,
+        "source" : "||media-rep.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 303,
+        "source" : "||mediad.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 304,
+        "source" : "||mediba.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 305,
+        "source" : "||static.mopo.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 306,
+        "source" : "||myiads.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 307,
+        "source" : "||octopuspop.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 308,
+        "source" : "||redirectvoluum.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 309,
+        "source" : "||textad.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 310,
+        "source" : "||trafficstars.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 311,
+        "source" : "||valueclick.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 312,
+        "source" : "||yicha.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 313,
+        "source" : "||ad.api.yyapi.net^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 314,
+        "source" : "||zucks.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 315,
+        "source" : "||zucks.net.zimg.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 316,
+        "source" : "||ad-move.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 317,
+        "source" : "||a8.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 318,
+        "source" : "||accesstrade.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 319,
+        "source" : "||agilemedia.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 320,
+        "source" : "||ad.duga.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 321,
+        "source" : "||ad.land.to^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 322,
+        "source" : "||ad.net-tool.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 323,
+        "source" : "||ads.metropolis.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 324,
+        "source" : "||assoc-amazon.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 325,
+        "source" : "||ax.xrea.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 326,
+        "source" : "||b-click.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 327,
+        "source" : "||colossal.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 328,
+        "source" : "||cpro.baidu.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 329,
+        "source" : "||deqwas.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 330,
+        "source" : "||download.jword.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 331,
+        "source" : "||fivecdm.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 332,
+        "source" : "||fxprime-popular.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 333,
+        "source" : "||hitgraph.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 334,
+        "source" : "||i2i.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 335,
+        "source" : "||i2idata.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 336,
+        "source" : "||i2iserv.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 337,
+        "source" : "||image-rentracks.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 338,
+        "source" : "||link-trade.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 339,
+        "source" : "||microad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 340,
+        "source" : "||rcm-jp.amazon.co.jp\/e\/cm?$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 341,
+        "source" : "||recommender.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 342,
+        "source" : "||rentracks.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 343,
+        "source" : "*ad.durasite.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 344,
+        "source" : "||scadnet.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 345,
+        "source" : "||search.jword.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 346,
+        "source" : "||seoparts.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 347,
+        "source" : "||seoparts.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 348,
+        "source" : "||trackword.biz^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 349,
+        "source" : "||srv2.trafficgate.net^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 350,
+        "source" : "||tumabeni.com^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 351,
+        "source" : "||webantenna.info^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 352,
+        "source" : "||widget-view.dmm.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 353,
+        "source" : "||widget-view.dmm.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 354,
+        "source" : "||widget.zenback.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 355,
+        "source" : "||w.zenback.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 356,
+        "source" : "||asumi.shinobi.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 357,
+        "source" : "||adcdn.goo.ne.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 358,
+        "source" : "||ad.gunosy.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 359,
+        "source" : "||adf.shinobi.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 360,
+        "source" : "||adingo.jp.eimg.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 361,
+        "source" : "||adm.shinobi.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 362,
+        "source" : "||static.affiliate.rakuten.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 363,
+        "source" : "||xml.affiliate.rakuten.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 364,
+        "source" : "||aimg.fc2.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 365,
+        "source" : "||bar*.shinobi.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 366,
+        "source" : "||hb.afl.rakuten.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 367,
+        "source" : "||hbb.afl.rakuten.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 368,
+        "source" : "||media5.fc2.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 369,
+        "source" : "||ov.yahoo.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 370,
+        "source" : "||rd.rakuten.co.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 371,
+        "source" : "||socdm.com^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 372,
+        "source" : "||yads.yahoo.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 373,
+        "source" : "||yads.yjtag.yahoo.co.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 376,
+        "source" : "||bance.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 379,
+        "source" : "||js.ssp.bance.jp^"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 382,
+        "source" : "||ak.impact-ad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "nativeContentRuleList"
+        ],
+        "diagnosticCodes" : [
+
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 383,
+        "source" : "||one.impact-ad.jp^$third-party"
+      },
+      {
+        "destinations" : [
+          "unsupported"
+        ],
+        "diagnosticCodes" : [
+          "unsupported-network-condition"
+        ],
+        "isApproximate" : false,
+        "lineNumber" : 386,
+        "severity" : "unsupported",
+        "source" : "94.130.167.163$network"
+      }
+    ],
+    "statistics" : {
+      "approximateRuleCount" : 0,
+      "generatedContentRuleCount" : 363,
+      "generatedContentRuleListChunkCount" : 1,
+      "generatedUserScriptCount" : 0,
+      "nativeRuleCount" : 363,
+      "parsedRules" : 364,
+      "skippedLines" : 23,
+      "totalLines" : 387,
+      "unsupportedRuleCount" : 1,
+      "urlSchemeHandlerRuleCount" : 0,
+      "userScriptRuleCount" : 0
+    }
+  },
+  "sourceFileName" : "adservers.txt",
+  "webKitValidationSkippedRuleCount" : 0,
+  "webKitValidationSkippedRules" : [
+
+  ]
+}
