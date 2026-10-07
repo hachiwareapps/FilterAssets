@@ -1,0 +1,444 @@
+{
+  "algorithm" : "lzfse",
+  "entries" : [
+    {
+      "byteCount" : 7314355,
+      "compressedFileName" : "ContentRuleList-adguard_base_adservers.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_adservers.json",
+      "sha256" : "1a055c143965e29ace8cd0c8826e2d479139e91e060d5fc6de33a42c4db3234c"
+    },
+    {
+      "byteCount" : 6873936,
+      "compressedFileName" : "ContentRuleList-adguard_base_adservers_firstparty.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_adservers_firstparty.json",
+      "sha256" : "3f817a6ff3dc649f5f1e216c5a7835b653aa29585c0fc70297386f73c549e484"
+    },
+    {
+      "byteCount" : 7375370,
+      "compressedFileName" : "ContentRuleList-adguard_base_allowlist.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_allowlist.json",
+      "sha256" : "407eba1ff422ef8350f305ed057190204750f0cb62e582b5a243359e5996e2e1"
+    },
+    {
+      "byteCount" : 13659,
+      "compressedFileName" : "ContentRuleList-adguard_base_allowlist_stealth.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_allowlist_stealth.json",
+      "sha256" : "8224ed81373ecd36d21701eac1c36b8e6e7f32e584d14cf30293bee55de1f539"
+    },
+    {
+      "byteCount" : 6248076,
+      "compressedFileName" : "ContentRuleList-adguard_base_antiadblock.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_antiadblock.json",
+      "sha256" : "510cb3457dd037e5293d5ef17cf7ec8b9aa9c56cb8aea17f2e52c586662bacd6"
+    },
+    {
+      "byteCount" : 2298096,
+      "compressedFileName" : "ContentRuleList-adguard_base_content_blocker.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_content_blocker.json",
+      "sha256" : "b69dd28b846bb0944c122823c122047f1831220009a69eaa9ac16f70fa32f01e"
+    },
+    {
+      "byteCount" : 1660630,
+      "compressedFileName" : "ContentRuleList-adguard_base_cryptominers.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_cryptominers.json",
+      "sha256" : "c4ecbc7c817154e1ad1bb9dcb636ee79babbb5346499f7837dfc5487d6555ab5"
+    },
+    {
+      "byteCount" : 3998520,
+      "compressedFileName" : "ContentRuleList-adguard_base_foreign_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_foreign_chunk_001.json",
+      "sha256" : "2b078fbc288e0d687307de55e281ca253fb8339e2d6cc9c03d16d81e06f88861"
+    },
+    {
+      "byteCount" : 2810315,
+      "compressedFileName" : "ContentRuleList-adguard_base_foreign_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_foreign_chunk_002.json",
+      "sha256" : "552be3db4ee57983a37fff40ae03457a20d0f282692da4926efcdaadab1f7355"
+    },
+    {
+      "byteCount" : 3659659,
+      "compressedFileName" : "ContentRuleList-adguard_base_foreign_chunk_003.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_foreign_chunk_003.json",
+      "sha256" : "f4bc589e00f0e3a2875ab2db4b0b5636403441b6692507b272939f8f808dd24a"
+    },
+    {
+      "byteCount" : 856645,
+      "compressedFileName" : "ContentRuleList-adguard_base_general_extensions.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_general_extensions.json",
+      "sha256" : "8dbb1060293903018eea2bc4557420cf80f26e7bb1dceb8ec48b58988033f162"
+    },
+    {
+      "byteCount" : 1181090,
+      "compressedFileName" : "ContentRuleList-adguard_base_general_url.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_general_url.json",
+      "sha256" : "9dc1493dd50d25c6cadf4a2ce6a64593303c1700622e67ef1f8d17df6c0924b5"
+    },
+    {
+      "byteCount" : 869119,
+      "compressedFileName" : "ContentRuleList-adguard_base_replace.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_replace.json",
+      "sha256" : "029454654ffc642083492dbf6a166551dc697ce9bf4463349d96502342aef3b8"
+    },
+    {
+      "byteCount" : 4751960,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_001.json",
+      "sha256" : "9cf8c9b35ef4f3218f9b348a523fd2485a1d1b9875dd31844fbc5e5271501476"
+    },
+    {
+      "byteCount" : 2199196,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_002.json",
+      "sha256" : "dbc69be9270422555df94fc74537bfac5c2458f5ab277c666de8df21c53f6444"
+    },
+    {
+      "byteCount" : 2797153,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_003.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_003.json",
+      "sha256" : "f4117dced7eab14b1cf0dde14acd2f2c4562b4661ee8b7442ef391491149a2d7"
+    },
+    {
+      "byteCount" : 3019478,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_004.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_004.json",
+      "sha256" : "26432fa4ab5a83535f7ff6cf689cee74267fea562168b894d09683301e7d0db5"
+    },
+    {
+      "byteCount" : 2352984,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_005.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_005.json",
+      "sha256" : "2b53f2178af7b32906f8327cee8e749125d31e24921fb201efdc8f0fe78aa780"
+    },
+    {
+      "byteCount" : 2170287,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_006.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_006.json",
+      "sha256" : "a1b1fe95dd1842a18790eaa8624e41c42e7053b45e75d49b2418f8c0480f3e5c"
+    },
+    {
+      "byteCount" : 2177327,
+      "compressedFileName" : "ContentRuleList-adguard_base_specific_chunk_007.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_base_specific_chunk_007.json",
+      "sha256" : "f2df2d28dbced2e194fc642ea6588677e910c89b4b331e3650cd5f7b3f08f963"
+    },
+    {
+      "byteCount" : 620719,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_adservers.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_adservers.json",
+      "sha256" : "8c65ab40c8398ec2242612fa020e1e845830f52df72535dec2ddf3d86f1d424f"
+    },
+    {
+      "byteCount" : 444487,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_adservers_firstparty.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_adservers_firstparty.json",
+      "sha256" : "31d128d355240b5d4b02df6669de90662c483a7c82baed4dbf641e6f7f8aef1c"
+    },
+    {
+      "byteCount" : 433179,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_allowlist.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_allowlist.json",
+      "sha256" : "9e23cede047ef5b1f32522cbc71db630cd9b88cb12cf41ea130a751340a7e88f"
+    },
+    {
+      "byteCount" : 227086,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_antiadblock.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_antiadblock.json",
+      "sha256" : "71e48a9355b63443e61654c9b83e3ebcfed8a90357e9a97152e5befdc6621297"
+    },
+    {
+      "byteCount" : 65804,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_general_elemhide.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_general_elemhide.json",
+      "sha256" : "1e4d228f6c2772b586e00a6a8aa8ee35d2147a5991c066e0c0e6630a29b2b68b"
+    },
+    {
+      "byteCount" : 548691,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_general_url.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_general_url.json",
+      "sha256" : "7f5f77ce578ad3a7b38d9c296b0496426f9bbec8787e98fc5611121eb989436f"
+    },
+    {
+      "byteCount" : 2840073,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_specific_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_specific_chunk_001.json",
+      "sha256" : "73c02e807796f2e450d2d8df00baaf34bb1a3be9827cf2cfbe0af92e73631305"
+    },
+    {
+      "byteCount" : 2823202,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_specific_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_specific_chunk_002.json",
+      "sha256" : "463bb77996e0ec9c43960bba77f4122cd0cb88b45f1ef046903a1312f9154efe"
+    },
+    {
+      "byteCount" : 2574007,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_specific_chunk_003.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_specific_chunk_003.json",
+      "sha256" : "cfaf4945559a9ea1dc551688aaab70a05dad2fa0537337add75c398a97f91cd7"
+    },
+    {
+      "byteCount" : 277973,
+      "compressedFileName" : "ContentRuleList-adguard_japanese_specific_chunk_004.json.lzfse",
+      "fileName" : "ContentRuleList-adguard_japanese_specific_chunk_004.json",
+      "sha256" : "927626249821735e42596ad159bf489bc14c64dc0f85f7b832547d8acb3bf473"
+    },
+    {
+      "byteCount" : 165865,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_adservers.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_adservers.json",
+      "sha256" : "6fb3da72ad80b849a4c3ab023b24eadb29d2895d3721e6e1a609d0092d0b4915"
+    },
+    {
+      "byteCount" : 57327,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_adservers_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_adservers_popup.json",
+      "sha256" : "154d4c21a519b7b43ab62963a01f2dea841efe802faa3a2717d52133592c15b0"
+    },
+    {
+      "byteCount" : 17429,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_allowlist.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_allowlist.json",
+      "sha256" : "caa22e8330c509e230c479ffb71f25028ad5d56a4418d616d0e48d85d3ae1f90"
+    },
+    {
+      "byteCount" : 552370,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_specific_block.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_specific_block.json",
+      "sha256" : "522fb5cc4ece9f777a6d213c302731965cf0c90e956fb6d4e34339a1de23b317"
+    },
+    {
+      "byteCount" : 21095,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_specific_block_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_specific_block_popup.json",
+      "sha256" : "45dcc4fd6c43ed1402f7267967ed40cb05aa348b0fbfc2dc59bffa7f454b25a9"
+    },
+    {
+      "byteCount" : 807697,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_specific_hide.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_specific_hide.json",
+      "sha256" : "fbba403cd488584f562ea865cca94ef758082c7f9bfad60aafe69933880ef4d9"
+    },
+    {
+      "byteCount" : 272486,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_thirdparty.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_thirdparty.json",
+      "sha256" : "774aa516f72dc9d045a60b3ead6998876e57140d28fa89db39ad96bc25f55cd9"
+    },
+    {
+      "byteCount" : 27541,
+      "compressedFileName" : "ContentRuleList-easylist_adult_adult_thirdparty_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_adult_adult_thirdparty_popup.json",
+      "sha256" : "db1507d9eb2370f197ae91acef7b6e02c642594ea8c3d8080889f41edc2113fa"
+    },
+    {
+      "byteCount" : 1873348,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_001.json",
+      "sha256" : "c58ede427174f2fc75dfd0d0558df61f754c33fc8855c8da61cee993239630e0"
+    },
+    {
+      "byteCount" : 1958309,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_002.json",
+      "sha256" : "843afb9df0feed76dfabf3f2c9e5303186510dcb71fb48ffb0507adaa3b8b478"
+    },
+    {
+      "byteCount" : 1986529,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_003.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_003.json",
+      "sha256" : "e4fa131e7a5441df0191ed534a88498274f07bf55ef1c833652a114603db9ddf"
+    },
+    {
+      "byteCount" : 2024544,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_004.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_004.json",
+      "sha256" : "c2391956723bc8bcc7617b11dea614d727910ce6791faedd92ce393d81da80ae"
+    },
+    {
+      "byteCount" : 1941288,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_005.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_005.json",
+      "sha256" : "ad21e8359eb9f7189c7af29ba9296697959701feb3b875791a64ffe162710193"
+    },
+    {
+      "byteCount" : 2006044,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_006.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_006.json",
+      "sha256" : "865eec6f914bfb735ad34465467e647cac74a5d35bd2c7b3473155e208c1ebed"
+    },
+    {
+      "byteCount" : 1986584,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_007.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_007.json",
+      "sha256" : "789ce8ae49d233ef98d7b44f6a4ca8744bee1fc95100fdec263fee006aaee74d"
+    },
+    {
+      "byteCount" : 2053346,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_008.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_008.json",
+      "sha256" : "6de193d22f2e0ae430abf7a51956413d580ba16f5435b34ea1ae22faca2a00dd"
+    },
+    {
+      "byteCount" : 2034120,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_009.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_009.json",
+      "sha256" : "42b5a9fdc56a25e67f929b6033a0301581df316bb82e6d0978ba3ed26950a797"
+    },
+    {
+      "byteCount" : 1989970,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_010.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_010.json",
+      "sha256" : "66aecd72c0e4e39bbd2acb16d718811e315f34b650cfa8c3ce751a54705e012d"
+    },
+    {
+      "byteCount" : 2012905,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_011.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_011.json",
+      "sha256" : "26197966a9ded1fc55ee00baebbb1d623b8072e4aadf3c8ba23bebdb9050d2c2"
+    },
+    {
+      "byteCount" : 1976441,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_012.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_012.json",
+      "sha256" : "bc271bd19ec465e8a1a57c6bb1c76b7b3d823cac2eae5bdb5d8b997985cb72a9"
+    },
+    {
+      "byteCount" : 2008746,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_013.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_013.json",
+      "sha256" : "d18e63594f47aacbb3f275872b0a33427cfcecf94c4b55f2a04d3aa737fd4ed7"
+    },
+    {
+      "byteCount" : 1965214,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_014.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_014.json",
+      "sha256" : "4f0bf6f88c363098a74caa0f407be828b2cf5c35bae0e6c94a4312937706c379"
+    },
+    {
+      "byteCount" : 1985200,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_015.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_015.json",
+      "sha256" : "3783dc78684aa1c8ebf913f2143fde3756195d2b68c8351a3c3c1961535ba5ed"
+    },
+    {
+      "byteCount" : 1999184,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_016.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_016.json",
+      "sha256" : "22598a62d33e5c947617c1bf3504b6138582203eb228dfaf7d27c48166d14bba"
+    },
+    {
+      "byteCount" : 1989479,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_017.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_017.json",
+      "sha256" : "645b8f3b8ce7b457c6d8190aac4031b73833147aa3c2614ddb39a27906dce781"
+    },
+    {
+      "byteCount" : 2045372,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_018.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_018.json",
+      "sha256" : "682cb835b409d2d7812bfe2c605c921d06b241ed75a7b6c9150625b0311f4f30"
+    },
+    {
+      "byteCount" : 1833173,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_chunk_019.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_chunk_019.json",
+      "sha256" : "a8cb98330d15046856a846f12888ab09261acff34e75c5dc13d6ae9309f1a1bf"
+    },
+    {
+      "byteCount" : 1826449,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_popup_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_popup_chunk_001.json",
+      "sha256" : "e4f72d07bc3b0aaa83ae8ccdcad3de253e9344c143a5344288caa8f9228b77c4"
+    },
+    {
+      "byteCount" : 874042,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_adservers_popup_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_adservers_popup_chunk_002.json",
+      "sha256" : "a814c0cc9ce3541f95db9fec9e7058b987756730dd8131f277763c98db7f2abe"
+    },
+    {
+      "byteCount" : 726664,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_allowlist.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_allowlist.json",
+      "sha256" : "258a5e4fbd06b5974ca86839adf3ba064c3753620ef07a30699564002056badb"
+    },
+    {
+      "byteCount" : 25623,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_allowlist_dimensions.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_allowlist_dimensions.json",
+      "sha256" : "f07fab680daf2efbc6ae1705f94dd7d05219208f3dcf1a1542cba898d935ba08"
+    },
+    {
+      "byteCount" : 46855,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_allowlist_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_allowlist_popup.json",
+      "sha256" : "483e638d2386b4a3294d6c6c6f7879561af87b72f8209b9c068e64b32478a36e"
+    },
+    {
+      "byteCount" : 570145,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_general_block.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_general_block.json",
+      "sha256" : "61cd39ef27cc47efa53e0dc51b9a52de758810cbcff25263b54dcd2805e34d01"
+    },
+    {
+      "byteCount" : 32305,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_general_block_dimensions.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_general_block_dimensions.json",
+      "sha256" : "cae54a68ab14a20b406e4583d3c0af75dfbb84cbbf426771235876c6a2003206"
+    },
+    {
+      "byteCount" : 31614,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_general_block_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_general_block_popup.json",
+      "sha256" : "82b2b7f8a03c0adbec608bcbc027abfaaeadf445ccd6f653bed488f3eb04de3a"
+    },
+    {
+      "byteCount" : 891453,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_block.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_block.json",
+      "sha256" : "3cd68a62739b8fef0a732053afbb2fa4d7b9536dfc78e36784021db84bcb3a89"
+    },
+    {
+      "byteCount" : 101181,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_block_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_block_popup.json",
+      "sha256" : "534b7dfc18188ad9e0551673e28f37ee0831b7105a7f9e15a4a9c27bfc96082d"
+    },
+    {
+      "byteCount" : 6469,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_hide_abp.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_hide_abp.json",
+      "sha256" : "4cd902a51189dd941d544a4a53530afd178ef6ad268a7017b90da1b3ada63bcc"
+    },
+    {
+      "byteCount" : 2591306,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_001.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_001.json",
+      "sha256" : "cd28368b6691ec66e4a220e2b2381f1e474a738cde0f508904253d1688788eb7"
+    },
+    {
+      "byteCount" : 2408397,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_002.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_002.json",
+      "sha256" : "e2cd71e76db76474d671a9ff1e6974c75c8ec9e3752c9a83e72c7ff11a6f9557"
+    },
+    {
+      "byteCount" : 2118578,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_003.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_specific_hide_chunk_003.json",
+      "sha256" : "15d7f9ca67b50135833bea391ace2dc13b9bf177c2f23c01e8dc9d95df9f4035"
+    },
+    {
+      "byteCount" : 1180857,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_thirdparty.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_thirdparty.json",
+      "sha256" : "1b9a6d8263b8afed858f4b35d85fb11d75306c4f70583d6580c3e01cf58e46d0"
+    },
+    {
+      "byteCount" : 70592,
+      "compressedFileName" : "ContentRuleList-easylist_easylist_thirdparty_popup.json.lzfse",
+      "fileName" : "ContentRuleList-easylist_easylist_thirdparty_popup.json",
+      "sha256" : "5124e07ad835a53fb0bad107d6d14afe37c41e1d74c5e5787d58450d5648c843"
+    }
+  ],
+  "schemaVersion" : 1
+}
