@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "blockerkitsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hachiwareapps/BlockerKitSDK.git",
+      "state" : {
+        "revision" : "8b1f0c368b044b769795aa6fd4dbb54b6c3ede11",
+        "version" : "0.30.0"
+      }
+    }
+  ],
+  "version" : 2
+}
